@@ -20,30 +20,40 @@
 *.opensdf
 *.sdf
 /*.xcodeproj
-/Makefile
-/CMakeLists.txt
+Claudia/*.sln
+Claudia*.suo
+Claudia*.opensdf
+Claudia*.sdf
+Claudia/*.xcodeproj
+Claudia/*.sln
+Claudia/*.suo
+Claudia/*.opensdf
+Claudia/*.sdf
+Claudia/*.xcodeproj
+Claudia/Makefile
+Claudia/CMakeLists.txt
 
 # Derived data cache is never checked in
-/DerivedDataCache/**
+Claudia/DerivedDataCache/**
 
 # Engine intermediates
-/Intermediate/**
-/Plugins/**/Intermediate/**
+Claudia/Intermediate/**
+Claudia/Plugins/**/Intermediate/**
 
 # Ignore binary files...
-/Binaries/**
+Claudia/Binaries/**
 /Plugins/**/Binaries/**
 
 # ...but Mac Mono binaries will stay, for now.
-!/Binaries
-!/Binaries/ThirdParty
-!/Binaries/ThirdParty/Mono
-!/Binaries/ThirdParty/Mono/Mac
-!/Binaries/ThirdParty/Mono/Mac/bin
-!/Binaries/ThirdParty/Mono/Mac/bin/**
+!Claudia/Binaries
+!Claudia/Binaries/ThirdParty
+!Claudia/Binaries/ThirdParty/Mono
+!Claudia/Binaries/ThirdParty/Mono/Mac
+!Claudia/Binaries/ThirdParty/Mono/Mac/bin
+!Claudia/Binaries/ThirdParty/Mono/Mac/bin/**
 
 
 # Ignore any saved local files
-/Saved/**
+Claudia/Saved/**
 
-!/Saved/Config/**
+!Claudia/Saved/Config/**
