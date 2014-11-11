@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 Log file open, 11/11/14 14:48:33
+=======
+Log file open, 11/11/14 13:51:56
+>>>>>>> f0beaf5802d96848a194e3dc77dd3f10fceef179
 LogInit:Display: Running engine for game: Claudia
 LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
 LogInit: API Version: 2255576
 LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
-LogInit: Build Configuration: Development
+LogInit: Build Configuration: DebugGame
 LogInit: Branch Name: ++depot+UE4-Releases+4.4
+<<<<<<< HEAD
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
 LogInit: Rocket: 1
@@ -231,3 +236,197 @@ LogInit: Rocket: 1
 [2014.11.11-03.52.16:766][831]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (143)
 [2014.11.11-03.52.16:793][831]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (142)
 [2014.11.11-03.52.16:7
+=======
+LogInit: Command line:  -debug
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.11-02.51.56:492][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.11-02.51.56:522][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.11-02.51.57:008][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.11-02.51.57:016][  0]LogInit: Object subsystem initialized
+[2014.11.11-02.51.57:019][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.11-02.51.57:020][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.11-02.51.57:087][  0]LogInit: Computer: SAE-SYD80503W
+[2014.11.11-02.51.57:088][  0]LogInit: User: eroberts6
+[2014.11.11-02.51.57:089][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.11-02.51.57:089][  0]LogInit: High frequency timer resolution =3.312812 MHz
+[2014.11.11-02.51.57:090][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2014.11.11-02.51.57:090][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.11-02.51.57:091][  0]LogMemory: Process Physical Memory: 61.30 MB used, 61.30 MB peak
+[2014.11.11-02.51.57:091][  0]LogMemory: Process Virtual Memory: 36.36 MB used, 36.36 MB peak
+[2014.11.11-02.51.57:091][  0]LogMemory: Physical Memory: 2768.56 MB used, 4071.74 MB total
+[2014.11.11-02.51.57:092][  0]LogMemory: Virtual Memory: 258.34 MB used, 8388608.00 MB total
+[2014.11.11-02.52.00:095][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6970M (Feature Level 11_0)
+[2014.11.11-02.52.00:095][  0]LogD3D11RHI: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
+[2014.11.11-02.52.00:096][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.11-02.52.00:100][  0]LogRHI: Texture pool is 708 MB (70% of 1012 MB)
+[2014.11.11-02.52.00:120][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.11.11-02.52.03:243][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.11-02.52.10:456][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-02.52.11:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-02.52.11:574][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.11-02.52.12:119][  0]LogDerivedDataCache: Loaded boot cache 0.55s 39MB C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.11-02.52.12:120][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.11-02.52.12:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.11-02.52.12:121][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.11-02.52.12:181][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.11-02.52.12:194][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.11-02.52.17:895][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.11-02.52.17:896][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.11-02.52.19:537][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.11-02.52.24:006][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1f14_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_20f0_0///////STATCAT_Advanced////
+[2014.11.11-02.52.24:006][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.11-02.52.24:224][  0]SourceControl: Info Source control is disabled
+[2014.11.11-02.52.24:224][  0]SourceControl: Info Source control is disabled
+[2014.11.11-02.52.24:230][  0]SourceControl: Info Source control is disabled
+[2014.11.11-02.52.25:437][  0]BlueprintLog: New page: Editor Load
+[2014.11.11-02.52.25:584][  0]LogObj: 21442 objects as part of root set at end of initial load.
+[2014.11.11-02.52.25:585][  0]LogUObjectAllocator: 4220208 out of 0 bytes used by permanent object pool.
+[2014.11.11-02.52.29:227][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 3.60s
+[2014.11.11-02.52.29:247][  0]LogEngine: Initializing Engine...
+[2014.11.11-02.52.29:835][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2014.11.11-02.52.30:178][  0]LogInit: FAudioDevice initialized.
+[2014.11.11-02.52.30:262][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.11-02.52.30:282][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.11-02.52.30:289][  0]LogInit: Texture streaming: Enabled
+[2014.11.11-02.52.30:369][  0]LogInit: Transaction tracking system initialized
+[2014.11.11-02.52.30:513][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2014.11.11-02.52.31:319][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-02.52.31:775][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-02.52.31:973][  0]LogConsoleResponse:Display: 
+[2014.11.11-02.52.34:003][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_22c4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_20f0_0///////STATCAT_Advanced////
+[2014.11.11-02.52.34:003][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1f10_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_20f0_0///////STATCAT_Advanced////
+[2014.11.11-02.52.34:004][  0]SourceControl: Info Source control is disabled
+[2014.11.11-02.52.34:004][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.11-02.52.34:005][  0]LightingResults: New page: Lighting Build
+[2014.11.11-02.52.34:013][  0]MapCheck: New page: Map Check
+[2014.11.11-02.52.34:014][  0]LightingResults: New page: Lighting Build
+[2014.11.11-02.52.34:025][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000135D0360
+[2014.11.11-02.52.34:196][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/2DLift.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:277][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:430][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Flipbooks/Claudia_Character/ClaudiaGrappleFlipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:431][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Flipbooks/Claudia_Character/ClaudiaIdleFlipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:545][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Sprites/Platform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:546][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Textures/2DBackgroundBlockAtlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.36:030][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.11-02.52.36:062][  0]LogAIModule: Creating AISystem for world greybox
+[2014.11.11-02.52.36:075][  0]Cmd: MAP CHECKDEP
+[2014.11.11-02.52.36:075][  0]MapCheck: New page: greybox - 12 Nov 2014 12:52:36 am
+[2014.11.11-02.52.36:133][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [58.056ms] ==========
+[2014.11.11-02.52.36:134][  0]LogFileHelpers: Loading map 'greybox' took 2.130
+[2014.11.11-02.52.36:409][  0]LogCollectionManager: Loaded 0 collections in 0.000881 seconds
+[2014.11.11-02.52.36:964][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.11-02.52.37:581][  0]LogLoad: Full Startup: 50.56 seconds (BP compile: 0.10 seconds)
+[2014.11.11-02.52.37:612][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.11-02.52.38:067][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.11-02.52.38:510][  0]LogRenderer:Warning: Reallocating scene render targets to support 1568x1256.
+[2014.11.11-02.52.38:804][  1]LogAssetRegistry: Asset discovery search completed in 8.3017 seconds
+[2014.11.11-02.55.09:008][662]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.11-02.55.19:660][241]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.11-02.55.19:661][241]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.11-02.55.31:222][227]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.11.11-02.55.36:450][849]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.11.11-02.55.37:610][988]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
+[2014.11.11-02.55.40:358][317]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2014.11.11-02.55.40:651][352]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2014.11.11-02.55.45:518][925]LogEnum:Warning: Enum Text AnimationState::NewEnumerator4 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.55.45:549][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.11-02.55.48:951][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.11-02.55.50:895][558]LogEnum:Warning: Enum Text AnimationState::NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.55.50:928][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.11-02.56.00:386][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:387][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:387][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:388][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:388][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:389][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:389][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:390][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:390][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:390][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:391][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:391][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:392][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:392][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:393][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:393][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:394][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:394][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:394][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:395][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:395][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:396][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:396][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:397][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:397][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:398][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:398][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:399][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:399][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:399][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:423][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.11-02.56.04:774][214]LogEnum:Warning: Enum Text AnimationState::NewEnumerator6 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.04:806][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.11-02.56.10:012][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.11-02.56.10:056][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AnimationState" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset" SILENT=true
+[2014.11.11-02.56.10:095][838]LogSavePackage: Save=9.180117ms
+[2014.11.11-02.56.10:096][838]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/AnimationState11CD6F834536A93E16D57EB368AA28BD.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset'
+[2014.11.11-02.56.17:662][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AnimationState" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset" SILENT=true
+[2014.11.11-02.56.17:694][740]LogSavePackage: Save=5.404774ms
+[2014.11.11-02.56.17:695][740]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/AnimationStateDB944CB845986CAA19745FBA0E59A435.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset'
+[2014.11.11-02.56.22:370][287]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.56.22:515][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.11-02.56.22:571][287]BlueprintEditorCompileResults: Info [0275.43] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
+[2014.11.11-02.56.32:738][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.11-02.56.43:965][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:966][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:966][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:967][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:967][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:967][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:968][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:968][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:969][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:969][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:970][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:970][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:971][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:971][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:972][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:972][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:973][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:973][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.59:808][440]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.56.59:957][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.11-02.57.00:010][440]BlueprintEditorCompileResults: Info [0312.88] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
+[2014.11.11-02.57.00:558][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
+[2014.11.11-02.57.00:840][466]LogSavePackage: Save=251.159744ms
+[2014.11.11-02.57.00:841][466]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/ClaudiaCharacterBlueprint49882E4F44731F1E2274BAA958DCF867.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
+[2014.11.11-02.57.21:422][456]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.57.21:553][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.11-02.57.21:601][456]BlueprintEditorCompileResults: Info [0334.48] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
+[2014.11.11-02.57.22:182][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
+[2014.11.11-02.57.22:461][485]LogSavePackage: Save=250.803848ms
+[2014.11.11-02.57.22:461][485]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/ClaudiaCharacterBlueprintD3C8EC724F22D0E6E91B30866731C9A5.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
+[2014.11.11-02.58.20:333][857]LogEditorTransaction: Undo Move Node
+[2014.11.11-02.58.20:387][857]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.11-02.58.32:174][952]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.58.32:302][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.11-02.58.32:352][952]BlueprintEditorCompileResults: Info [0405.23] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
+[2014.11.11-02.58.32:999][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
+[2014.11.11-02.58.33:296][988]LogSavePackage: Save=253.071411ms
+[2014.11.11-02.58.33:296][988]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/ClaudiaCharacterBlueprint989258264F332E01BC7FA38E32AC7756.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
+[2014.11.11-02.59.41:988][192]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.59.42:122][192]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.11-02.59.42:172][192]BlueprintEditorCompileResults: Info [0475.05] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
+[2014.11.11-02.59.42:737][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
+[2014.11.11-02.59.43:014][220]LogSavePackage: Save=249.173203ms
+[2014.11.11-02.59.43:015][220]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/ClaudiaCharacterBlueprint67B69BB142A358A4EF4DC8A29E0AAABF.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
+[2014.11.11-03.09.55:634][575]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.11-03.09.57:244][674]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia'
+[2014.11.11-03.10.00:731][ 70]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.11-03.10.03:933][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.11-03.10.03:934][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.11-03.10.06:579][749]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Kick'
+[2014.11.11-03.10.25:048][964]LogContentBrowser:Verbose: T
+>>>>>>> f0beaf5802d96848a194e3dc77dd3f10fceef179
