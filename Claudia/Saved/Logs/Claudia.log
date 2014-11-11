@@ -1,544 +1,199 @@
-Log file open, 11/11/14 13:38:35
+Log file open, 11/11/14 13:51:56
 LogInit:Display: Running engine for game: Claudia
 LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
 LogInit: API Version: 2255576
 LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
-LogInit: Build Configuration: Development
+LogInit: Build Configuration: DebugGame
 LogInit: Branch Name: ++depot+UE4-Releases+4.4
-LogInit: Command line:  
+LogInit: Command line:  -debug
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.11.11-02.38.35:269][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.11.11-02.38.35:305][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.11.11-02.38.35:573][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.11.11-02.38.35:581][  0]LogInit: Object subsystem initialized
-[2014.11.11-02.38.35:583][  0]LogInit: Selected Device Profile: [Windows]
-[2014.11.11-02.38.35:583][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.11.11-02.38.35:662][  0]LogInit: Computer: VAIOTANI
-[2014.11.11-02.38.35:662][  0]LogInit: User: tawnknee
-[2014.11.11-02.38.35:663][  0]LogInit: CPU Page size=4096, Cores=2
-[2014.11.11-02.38.35:663][  0]LogInit: High frequency timer resolution =2.435884 MHz
-[2014.11.11-02.38.35:663][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=131072.0GB
-[2014.11.11-02.38.35:663][  0]LogMemory: Platform Memory Stats for Windows
-[2014.11.11-02.38.35:663][  0]LogMemory: Process Physical Memory: 60.20 MB used, 60.20 MB peak
-[2014.11.11-02.38.35:663][  0]LogMemory: Process Virtual Memory: 36.16 MB used, 36.16 MB peak
-[2014.11.11-02.38.35:663][  0]LogMemory: Physical Memory: 2361.21 MB used, 3974.80 MB total
-[2014.11.11-02.38.35:663][  0]LogMemory: Virtual Memory: 269.34 MB used, 134217728.00 MB total
-[2014.11.11-02.38.36:201][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2014.11.11-02.38.36:201][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
-[2014.11.11-02.38.36:220][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M (Feature Level 11_0)
-[2014.11.11-02.38.36:220][  0]LogD3D11RHI: Adapter has 950MB of dedicated video memory, 0MB of dedicated system memory, and 1987MB of shared system memory, 0 output[s]
-[2014.11.11-02.38.36:223][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.11.11-02.38.36:223][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.11.11-02.38.36:223][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.11.11-02.38.36:248][  0]LogRHI: Texture pool is 1361 MB (70% of 1944 MB)
-[2014.11.11-02.38.36:268][  0]LogD3D11RHI: Async texture creation enabled
-[2014.11.11-02.38.37:520][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.11.11-02.38.46:129][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-02.38.47:548][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-02.38.47:739][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.11.11-02.38.48:384][  0]LogDerivedDataCache: Loaded boot cache 0.52s 39MB C:/Users/tawnknee/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.11.11-02.38.48:384][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tawnknee/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
-[2014.11.11-02.38.48:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GIT/404/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.11-02.38.48:384][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.11.11-02.38.48:513][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.11.11-02.38.48:533][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tawnknee/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
-[2014.11.11-02.39.01:323][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.11.11-02.39.01:323][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.11.11-02.39.06:569][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.11.11-02.39.46:982][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_a2c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2364_0///////STATCAT_Advanced////
-[2014.11.11-02.39.46:982][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.11.11-02.39.47:150][  0]SourceControl: Info Source control is disabled
-[2014.11.11-02.39.47:150][  0]SourceControl: Info Source control is disabled
-[2014.11.11-02.39.47:159][  0]SourceControl: Info Source control is disabled
-[2014.11.11-02.39.48:612][  0]BlueprintLog: New page: Editor Load
-[2014.11.11-02.39.48:998][  0]LogObj: 21452 objects as part of root set at end of initial load.
-[2014.11.11-02.39.48:998][  0]LogUObjectAllocator: 4228536 out of 0 bytes used by permanent object pool.
-[2014.11.11-02.39.49:686][  0]LogEngine: Initializing Engine...
-[2014.11.11-02.39.51:039][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2014.11.11-02.39.51:173][  0]LogInit: FAudioDevice initialized.
-[2014.11.11-02.39.51:201][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.11.11-02.39.51:237][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/tawnknee/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.11.11-02.39.51:242][  0]LogInit: Texture streaming: Enabled
-[2014.11.11-02.39.51:313][  0]LogInit: Transaction tracking system initialized
-[2014.11.11-02.39.51:430][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2014.11.11-02.39.52:816][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-02.39.53:258][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-02.39.53:397][  0]LogConsoleResponse:Display: 
-[2014.11.11-02.40.01:709][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1674_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2364_0///////STATCAT_Advanced////
-[2014.11.11-02.40.01:709][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2270_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2364_0///////STATCAT_Advanced////
-[2014.11.11-02.40.01:709][  0]SourceControl: Info Source control is disabled
-[2014.11.11-02.40.01:709][  0]Cmd: MAP LOAD FILE="../../../../../../GIT/404/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.11.11-02.40.01:741][  0]LightingResults: New page: Lighting Build
-[2014.11.11-02.40.01:751][  0]MapCheck: New page: Map Check
-[2014.11.11-02.40.01:751][  0]LightingResults: New page: Lighting Build
-[2014.11.11-02.40.01:768][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B548C220
-[2014.11.11-02.40.01:837][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Blueprints/2DLift.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.40.02:145][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Data/AnimationState.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.40.02:844][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Sprites/crosshair_Sprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.40.02:876][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Textures/crosshair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.40.03:292][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Sprites/Platform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.40.03:316][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Textures/2DBackgroundBlockAtlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.40.24:983][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.11-02.40.24:985][  0]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-02.40.24:985][  0]Cmd: MAP CHECKDEP
-[2014.11.11-02.40.24:986][  0]MapCheck: New page: greybox - 12 Nov 2014 12:40:24 am
-[2014.11.11-02.40.25:113][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [127.545ms] ==========
-[2014.11.11-02.40.25:114][  0]LogFileHelpers: Loading map 'greybox' took 23.404
-[2014.11.11-02.40.25:354][  0]LogCollectionManager: Loaded 0 collections in 0.000989 seconds
-[2014.11.11-02.40.28:475][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.11.11-02.40.28:582][  0]LogLoad: Full Startup: 124.77 seconds (BP compile: 0.13 seconds)
-[2014.11.11-02.40.28:608][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2014.11.11-02.40.29:296][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
-[2014.11.11-02.40.29:838][  0]LogRenderer:Warning: Reallocating scene render targets to support 608x584.
-[2014.11.11-02.40.54:737][231]LogAssetRegistry: Asset discovery search completed in 63.3182 seconds
-[2014.11.11-02.41.39:935][551]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2014.11.11-02.42.10:184][ 98]LogTexture:Display: Building textures: 2D_platform_background_1 (AutoDXT)
-[2014.11.11-02.42.11:469][ 98]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Textures/2DBackground.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.42.11:509][ 98]LogTexture:Display: Building textures: 2DBackground (AutoDXT)
-[2014.11.11-02.42.11:701][ 98]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Textures/2DBackgroundTile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.42.11:737][ 98]LogTexture:Display: Building textures: 2DBackgroundTile (AutoDXT)
-[2014.11.11-02.42.11:753][ 98]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Textures/Claudia2D_Atlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.42.11:968][ 98]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Textures/Claudia2D_Atlas_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.42.11:970][ 98]LogMaterial: Missing cached shader map for material Claudia2D_Atlas_Mat, compiling.
-[2014.11.11-02.42.11:970][ 98]LogMaterial:Warning: Failed to compile Material /Game/Textures/Claudia2D_Atlas_Mat.Claudia2D_Atlas_Mat for platform PCD3D_SM5, Default Material will be used in game.
-[2014.11.11-02.42.11:970][ 98]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
-[2014.11.11-02.42.12:014][ 98]LogTexture:Display: Building textures: Corrugated_Metal_1 (AutoDXT)
-[2014.11.11-02.42.12:481][ 98]LogTexture:Display: Building textures: Corrugated_Metal_2 (AutoDXT)
-[2014.11.11-02.42.12:849][ 98]LogTexture:Display: Building textures: Corrugated_Metal_3 (AutoDXT)
-[2014.11.11-02.42.13:401][ 98]LogTexture:Display: Building textures: Corrugated_Metal_4 (AutoDXT)
-[2014.11.11-02.42.13:881][ 98]LogTexture:Display: Building textures: Dripwall (AutoDXT)
-[2014.11.11-02.42.14:222][ 98]LogTexture:Display: Building textures: Ew_Metal (AutoDXT)
-[2014.11.11-02.42.14:639][ 98]LogTexture:Display: Building textures: Metal (AutoDXT)
-[2014.11.11-02.42.14:843][ 98]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Textures/PrototypeTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.42.14:922][ 98]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Sprites/2DBackgroundSprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.42.14:940][ 98]LogMaterial: Missing cached shader map for material Cursor, compiling.
-[2014.11.11-02.42.14:976][ 98]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Materials/LevelPrototype.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.42.15:070][ 98]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Sprites/PrototypingSprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-02.42.16:037][ 98]LogSavePackage: Save=284.387115ms
-[2014.11.11-02.42.16:037][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/2D_platform_background_152D885944BD542B652D270A37ECAB82F.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/2D_platform_background_1.uasset'
-[2014.11.11-02.42.16:076][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/2DBackground" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/2DBackground.uasset" SILENT=true
-[2014.11.11-02.42.16:151][ 98]LogSavePackage: Save=62.602325ms
-[2014.11.11-02.42.16:151][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/2DBackground45262EEF4DEC5C4BF6406DAD6F79F73A.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/2DBackground.uasset'
-[2014.11.11-02.42.16:247][ 98]LogSavePackage: Save=41.621849ms
-[2014.11.11-02.42.16:247][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/2DBackgroundBlockAtlasA891009F48D70CF1CEC829A5ABF3949A.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/2DBackgroundBlockAtlas.uasset'
-[2014.11.11-02.42.16:287][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/2DBackgroundTile" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/2DBackgroundTile.uasset" SILENT=true
-[2014.11.11-02.42.16:319][ 98]LogSavePackage: Save=20.093733ms
-[2014.11.11-02.42.16:319][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/2DBackgroundTile528629884548038D32CCED972D9D1748.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/2DBackgroundTile.uasset'
-[2014.11.11-02.42.16:357][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Claudia2D_Atlas" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Claudia2D_Atlas.uasset" SILENT=true
-[2014.11.11-02.42.16:489][ 98]LogSavePackage: Save=119.280312ms
-[2014.11.11-02.42.16:489][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia2D_AtlasB7A0252644DAF9956D3BA8B195655233.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Claudia2D_Atlas.uasset'
-[2014.11.11-02.42.16:638][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Claudia2D_Atlas_Mat" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Claudia2D_Atlas_Mat.uasset" SILENT=true
-[2014.11.11-02.42.17:122][ 98]LogSavePackage: Save=472.569702ms
-[2014.11.11-02.42.17:122][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia2D_Atlas_Mat5DBAE33F4D16AF2E29F4BD8936F5C7E5.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Claudia2D_Atlas_Mat.uasset'
-[2014.11.11-02.42.17:163][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Corrugated_Metal_1" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Corrugated_Metal_1.uasset" SILENT=true
-[2014.11.11-02.42.17:454][ 98]LogSavePackage: Save=278.491089ms
-[2014.11.11-02.42.17:454][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Corrugated_Metal_11C491C13422AAC964C1423A8A3653042.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Corrugated_Metal_1.uasset'
-[2014.11.11-02.42.17:498][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Corrugated_Metal_2" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Corrugated_Metal_2.uasset" SILENT=true
-[2014.11.11-02.42.17:871][ 98]LogSavePackage: Save=361.527893ms
-[2014.11.11-02.42.17:871][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Corrugated_Metal_2E6EE660D4CB3EC8305A6A9B1D2DBCD37.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Corrugated_Metal_2.uasset'
-[2014.11.11-02.42.17:915][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Corrugated_Metal_3" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Corrugated_Metal_3.uasset" SILENT=true
-[2014.11.11-02.42.18:444][ 98]LogSavePackage: Save=515.918274ms
-[2014.11.11-02.42.18:444][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Corrugated_Metal_314F7FB5A417BF89FAF5787952F2013BB.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Corrugated_Metal_3.uasset'
-[2014.11.11-02.42.18:478][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Corrugated_Metal_4" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Corrugated_Metal_4.uasset" SILENT=true
-[2014.11.11-02.42.18:890][ 98]LogSavePackage: Save=401.071655ms
-[2014.11.11-02.42.18:890][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Corrugated_Metal_4A5FE32354C33F261F4D940AAD42F3D4F.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Corrugated_Metal_4.uasset'
-[2014.11.11-02.42.18:924][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/crosshair" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/crosshair.uasset" SILENT=true
-[2014.11.11-02.42.18:977][ 98]LogSavePackage: Save=40.318424ms
-[2014.11.11-02.42.18:977][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/crosshair7CDA53BC406A88B2EC25AE9987DF066C.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/crosshair.uasset'
-[2014.11.11-02.42.19:017][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Dripwall" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Dripwall.uasset" SILENT=true
-[2014.11.11-02.42.19:457][ 98]LogSavePackage: Save=426.693542ms
-[2014.11.11-02.42.19:457][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Dripwall369E59D8486EA3E4E1D03B840C9EEAB0.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Dripwall.uasset'
-[2014.11.11-02.42.19:499][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Ew_Metal" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Ew_Metal.uasset" SILENT=true
-[2014.11.11-02.42.19:955][ 98]LogSavePackage: Save=445.171844ms
-[2014.11.11-02.42.19:955][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Ew_MetalADF6B4074A66B918F2D227B13DE0D28A.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Ew_Metal.uasset'
-[2014.11.11-02.42.20:028][ 98]LogSavePackage: Save=37.406132ms
-[2014.11.11-02.42.20:028][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/HalloweenHarryMovesSCALED9953714C465DC50EBDBD8C9C68315475.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/HalloweenHarryMovesSCALED.uasset'
-[2014.11.11-02.42.20:092][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/Metal" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Metal.uasset" SILENT=true
-[2014.11.11-02.42.20:498][ 98]LogSavePackage: Save=393.634918ms
-[2014.11.11-02.42.20:498][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Metal58DEEF014B7EC9D2FFF4BCAE00A515AF.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/Metal.uasset'
-[2014.11.11-02.42.20:547][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Environment_Textures/PrototypeTexture" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/PrototypeTexture.uasset" SILENT=true
-[2014.11.11-02.42.20:736][ 98]LogSavePackage: Save=176.085556ms
-[2014.11.11-02.42.20:736][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/PrototypeTexture46EF16D94D0891C7103C6DBE8F69705A.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Environment_Textures/PrototypeTexture.uasset'
-[2014.11.11-02.42.22:207][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/2DBackgroundSprite" FILE="../../../../../../GIT/404/Claudia/Content/Sprites/2DBackgroundSprite.uasset" SILENT=true
-[2014.11.11-02.42.22:311][ 98]LogSavePackage: Save=67.982712ms
-[2014.11.11-02.42.22:311][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/2DBackgroundSprite65035D274A1610A54DA216AFEB294799.tmp' to '../../../../../../GIT/404/Claudia/Content/Sprites/2DBackgroundSprite.uasset'
-[2014.11.11-02.42.22:345][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Platform" FILE="../../../../../../GIT/404/Claudia/Content/Sprites/Platform.uasset" SILENT=true
-[2014.11.11-02.42.22:427][ 98]LogSavePackage: Save=40.504803ms
-[2014.11.11-02.42.22:427][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Platform6F0743E94778F5888A872CBA7023C923.tmp' to '../../../../../../GIT/404/Claudia/Content/Sprites/Platform.uasset'
-[2014.11.11-02.42.24:546][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Cursor" FILE="../../../../../../GIT/404/Claudia/Content/Materials/Cursor.uasset" SILENT=true
-[2014.11.11-02.42.25:236][ 98]LogSavePackage: Save=575.260986ms
-[2014.11.11-02.42.25:236][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/CursorC31A76C2423D13601846A08B3994B270.tmp' to '../../../../../../GIT/404/Claudia/Content/Materials/Cursor.uasset'
-[2014.11.11-02.42.25:265][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/crosshair_Sprite" FILE="../../../../../../GIT/404/Claudia/Content/Sprites/crosshair_Sprite.uasset" SILENT=true
-[2014.11.11-02.42.25:355][ 98]LogSavePackage: Save=55.318317ms
-[2014.11.11-02.42.25:355][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/crosshair_Sprite5B7B02F14B6A10BF646D02B8FF63526D.tmp' to '../../../../../../GIT/404/Claudia/Content/Sprites/crosshair_Sprite.uasset'
-[2014.11.11-02.42.25:427][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LevelPrototype" FILE="../../../../../../GIT/404/Claudia/Content/Materials/LevelPrototype.uasset" SILENT=true
-[2014.11.11-02.42.25:722][ 98]LogSavePackage: Save=260.570709ms
-[2014.11.11-02.42.25:722][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/LevelPrototypeDCAB08F44B17406B0094BEB04CCFE6C3.tmp' to '../../../../../../GIT/404/Claudia/Content/Materials/LevelPrototype.uasset'
-[2014.11.11-02.42.25:751][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/PrototypingSprite" FILE="../../../../../../GIT/404/Claudia/Content/Sprites/PrototypingSprite.uasset" SILENT=true
-[2014.11.11-02.42.25:943][ 98]LogSavePackage: Save=156.872406ms
-[2014.11.11-02.42.25:943][ 98]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/PrototypingSprite0E11B85A4DF10DD9971C4CB6B18C6A5D.tmp' to '../../../../../../GIT/404/Claudia/Content/Sprites/PrototypingSprite.uasset'
-[2014.11.11-02.42.28:860][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia'
-[2014.11.11-02.42.30:214][335]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-02.42.30:839][372]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia'
-[2014.11.11-02.42.35:892][656]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.11-02.42.36:594][685]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-02.42.38:133][775]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Jump'
-[2014.11.11-02.42.39:371][848]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Kick'
-[2014.11.11-02.42.40:312][903]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Run'
-[2014.11.11-02.42.41:456][968]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/WallJump'
-[2014.11.11-02.43.21:697][214]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2014.11.11-02.43.22:048][235]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.43.38:824][385]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tawnknee/Desktop/Claudia/Claudia_Grapple.png)
-[2014.11.11-02.43.42:115][385]Error: Texture import failed
-[2014.11.11-02.43.43:059][385]LogAssetTools:Warning: Failed to import '../../../../../../Users/tawnknee/Desktop/Claudia/Claudia_Grapple.png'. Failed to create asset '/Game/Textures/Claudia_Character/Claudia_Grapple'
-[2014.11.11-02.48.23:975][241]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tawnknee/Desktop/Claudia/Claudia_Grapple_1.png)
-[2014.11.11-02.48.24:052][241]0.000034 seconds to analyze Texture2D /Game/Textures/Claudia_Character/Claudia_Grapple_1.Claudia_Grapple_1
-
-[2014.11.11-02.48.24:078][241]LogTexture:Display: Building textures: Claudia_Grapple_1 (AutoDXT)
-[2014.11.11-02.48.24:582][241]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tawnknee/Desktop/Claudia/Claudia_Grapple_2.png)
-[2014.11.11-02.48.24:600][241]0.000034 seconds to analyze Texture2D /Game/Textures/Claudia_Character/Claudia_Grapple_2.Claudia_Grapple_2
-
-[2014.11.11-02.48.24:649][241]LogTexture:Display: Building textures: Claudia_Grapple_2 (AutoDXT)
-[2014.11.11-02.48.25:160][241]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.11-02.48.25:160][241]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.48.25:160][241]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.48.38:769][786]LogTexture:Display: Building textures: Claudia_Grapple_1 (AutoDXT)
-[2014.11.11-02.48.41:409][859]LogTexture:Display: Building textures: Claudia_Grapple_1 (AutoDXT)
-[2014.11.11-02.48.44:429][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Grapple_1" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1.uasset" SILENT=true
-[2014.11.11-02.48.44:664][949]LogSavePackage: Save=224.202789ms
-[2014.11.11-02.48.44:664][949]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_1369901044CE212EC04678088FD942663.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1.uasset'
-[2014.11.11-02.48.53:440][308]LogTexture:Display: Building textures: Claudia_Grapple_2 (AutoDXT)
-[2014.11.11-02.48.59:266][520]LogTexture:Display: Building textures: Claudia_Grapple_2 (AutoDXT)
-[2014.11.11-02.49.00:890][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Grapple_2" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_2.uasset" SILENT=true
-[2014.11.11-02.49.01:087][556]LogSavePackage: Save=187.706802ms
-[2014.11.11-02.49.01:087][556]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_2D09F0A544E8D837F3AAE4292DD71441F.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_2.uasset'
-[2014.11.11-02.49.08:722][923]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.49.15:920][344]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Jump'
-[2014.11.11-02.49.18:907][522]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-02.49.19:542][560]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.49.44:368][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Grapple_1" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1.uasset" SILENT=true
-[2014.11.11-02.49.44:461][477]LogSavePackage: Save=57.643551ms
-[2014.11.11-02.49.44:461][477]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_162FA1C3D446DC1A39A0CD0BEAEEB0C34.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1.uasset'
-[2014.11.11-02.49.49:627][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.11.11-02.49.49:733][647]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B25EFEC0
-[2014.11.11-02.49.57:016][846]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.50.07:295][216]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.50.29:006][262]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 0.018
-[2014.11.11-02.50.29:078][262]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Claudia_Character/Claudia_Grapple_2_Sprite] ([1] browsable assets)...
-[2014.11.11-02.50.29:113][262]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Textures/Claudia_Character/Claudia_Grapple_2_Sprite.Claudia_Grapple_2_Sprite]
-[2014.11.11-02.50.29:114][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Claudia_Character/Claudia_Grapple_2_Sprite]
-[2014.11.11-02.50.29:208][262]LogSavePackage: Save=56.948936ms
-[2014.11.11-02.50.29:208][262]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_2_Sprite_Auto10A9D942B4A8F889C176F32A35BDE1E3A.tmp' to '../../../../../../GIT/404/Claudia/Saved/Autosaves/Game/Textures/Claudia_Character/Claudia_Grapple_2_Sprite_Auto1.uasset'
-[2014.11.11-02.50.29:242][262]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Claudia_Character/Claudia_Grapple_1_Sprite] ([1] browsable assets)...
-[2014.11.11-02.50.29:278][262]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Textures/Claudia_Character/Claudia_Grapple_1_Sprite.Claudia_Grapple_1_Sprite]
-[2014.11.11-02.50.29:278][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Claudia_Character/Claudia_Grapple_1_Sprite]
-[2014.11.11-02.50.29:376][262]LogSavePackage: Save=58.222805ms
-[2014.11.11-02.50.29:376][262]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_1_Sprite_Auto13527E41A45F6CABA37CC719D336B4E62.tmp' to '../../../../../../GIT/404/Claudia/Saved/Autosaves/Game/Textures/Claudia_Character/Claudia_Grapple_1_Sprite_Auto1.uasset'
-[2014.11.11-02.50.29:402][262]LogFileHelpers: Auto-saving content packages took 0.351
-[2014.11.11-02.50.34:005][495]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-02.50.35:940][593]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-02.50.39:768][822]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Grapple'
-[2014.11.11-02.50.40:620][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.50.47:356][182]LogSavePackage: Save=43.174469ms
-[2014.11.11-02.50.47:356][182]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_1_SpriteEED5B12E49806E57B8F4C4BB85028194.tmp' to '../../../../../../GIT/404/Claudia/Content/Sprites/Claudia_Character/Grapple/Claudia_Grapple_1_Sprite.uasset'
-[2014.11.11-02.50.47:438][182]LogSavePackage: Save=42.755730ms
-[2014.11.11-02.50.47:438][182]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_2_SpriteB5976D824D0E0EFCEA2B29B82E6E05FC.tmp' to '../../../../../../GIT/404/Claudia/Content/Sprites/Claudia_Character/Grapple/Claudia_Grapple_2_Sprite.uasset'
-[2014.11.11-02.50.48:816][240]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
-[2014.11.11-02.50.49:131][255]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia'
-[2014.11.11-02.50.51:141][342]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
-[2014.11.11-02.50.58:808][709]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
-[2014.11.11-02.51.13:836][257]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Grapple'
-[2014.11.11-02.51.33:815][878]LogRenderer:Warning: Reallocating scene render targets to support 992x584.
-[2014.11.11-02.52.39:927][162]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
-[2014.11.11-02.52.45:634][364]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Jump'
-[2014.11.11-02.52.46:192][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Grapple'
-[2014.11.11-02.54.51:122][511]LogSavePackage: Save=42.011852ms
-[2014.11.11-02.54.51:122][511]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_FlipbookE304748141B9CB42F93141B4DBBEA0BB.tmp' to '../../../../../../GIT/404/Claudia/Content/Flipbooks/Claudia_Character/Claudia_Grapple_Flipbook.uasset'
-[2014.11.11-02.54.56:075][705]LogSavePackage: Save=16.058235ms
-[2014.11.11-02.54.56:075][705]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_FlipbookD37D9A3D4C3480ADD671F5A6E557B25F.tmp' to '../../../../../../GIT/404/Claudia/Content/Flipbooks/Claudia_Character/Claudia_Grapple_Flipbook.uasset'
-[2014.11.11-02.55.04:695][173]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-02.55.06:646][273]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-02.55.09:977][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Environment_Textures'
-[2014.11.11-02.55.11:264][534]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.55.15:726][601]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tawnknee/Desktop/Claudia/Claudia_Idle.png)
-[2014.11.11-02.55.15:739][601]0.000024 seconds to analyze Texture2D /Game/Textures/Claudia_Character/Claudia_Idle.Claudia_Idle
-
-[2014.11.11-02.55.15:753][601]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.55.16:194][601]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.11-02.55.16:194][601]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.55.19:953][752]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.55.23:595][880]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.55.40:007][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Idle" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Idle.uasset" SILENT=true
-[2014.11.11-02.55.40:151][484]LogSavePackage: Save=133.636902ms
-[2014.11.11-02.55.40:151][484]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Idle8A50D16D4FA28B6D8483599A9863EEDA.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Idle.uasset'
-[2014.11.11-02.55.43:834][639]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.56.21:142][765]LogSavePackage: Save=39.341366ms
-[2014.11.11-02.56.21:142][765]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Idle_SpriteBAD25EBF4CF0A65B36B8C9B47C8FA6D8.tmp' to '../../../../../../GIT/404/Claudia/Content/Sprites/Claudia_Character/Idle/Claudia_Idle_Sprite.uasset'
-[2014.11.11-02.56.21:217][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B663A0C0
-[2014.11.11-02.56.21:217][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B18F7240
-[2014.11.11-02.56.21:218][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B62F1C60
-[2014.11.11-02.56.21:218][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B62F1DA0
-[2014.11.11-02.56.22:608][845]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Idle'
-[2014.11.11-02.56.24:678][962]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
-[2014.11.11-02.56.30:079][250]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
-[2014.11.11-02.56.46:602][ 20]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Idle'
-[2014.11.11-02.57.00:410][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Claudia_Character/Claudia_Idle_Flipbook" FILE="../../../../../../GIT/404/Claudia/Content/Flipbooks/Claudia_Character/Claudia_Idle_Flipbook.uasset" SILENT=true
-[2014.11.11-02.57.00:463][541]LogSavePackage: Save=40.550781ms
-[2014.11.11-02.57.00:463][541]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Idle_Flipbook7F379551478752DDB2D81BB3560CD8EF.tmp' to '../../../../../../GIT/404/Claudia/Content/Flipbooks/Claudia_Character/Claudia_Idle_Flipbook.uasset'
-[2014.11.11-02.57.17:797][459]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Jump'
-[2014.11.11-02.57.18:863][523]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Kick'
-[2014.11.11-02.57.19:298][549]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Run'
-[2014.11.11-02.57.20:746][634]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/WallJump'
-[2014.11.11-02.57.21:331][669]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Grapple'
-[2014.11.11-02.57.21:747][694]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Idle'
-[2014.11.11-02.57.26:132][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
-[2014.11.11-02.57.26:567][983]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia'
-[2014.11.11-02.57.34:335][443]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Grapple'
-[2014.11.11-02.57.34:701][465]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Idle'
-[2014.11.11-02.57.35:070][487]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Grapple'
-[2014.11.11-02.57.35:369][505]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Idle'
-[2014.11.11-02.57.38:716][650]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Grapple'
-[2014.11.11-02.57.42:853][817]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Idle'
-[2014.11.11-02.57.43:623][863]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Jump'
-[2014.11.11-02.57.48:073][ 60]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Run'
-[2014.11.11-02.58.03:183][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Run" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Run.uasset" SILENT=true
-[2014.11.11-02.58.03:441][558]LogSavePackage: Save=160.336456ms
-[2014.11.11-02.58.03:441][558]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Run5A01429D4B927A3B6E10E394FD8EAE0C.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Run.uasset'
-[2014.11.11-02.58.17:764][ 68]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Environment_Textures'
-[2014.11.11-02.58.18:458][102]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-02.58.31:287][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_WallJump" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_WallJump.uasset" SILENT=true
-[2014.11.11-02.58.31:391][612]LogSavePackage: Save=68.908455ms
-[2014.11.11-02.58.31:391][612]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_WallJump67A6646C4E57BA8B275D9A8009FCEDB9.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_WallJump.uasset'
-[2014.11.11-02.58.34:586][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_WallJump" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_WallJump.uasset" SILENT=true
-[2014.11.11-02.58.34:633][737]LogSavePackage: Save=21.281391ms
-[2014.11.11-02.58.34:633][737]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_WallJump5E6725DC45F5D35FFB24A994306C782D.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_WallJump.uasset'
-[2014.11.11-02.58.38:028][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Run" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Run.uasset" SILENT=true
-[2014.11.11-02.58.38:125][866]LogSavePackage: Save=72.085533ms
-[2014.11.11-02.58.38:125][866]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Run415859444B324AA992BAC0ADE459CB78.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Run.uasset'
-[2014.11.11-02.58.42:166][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Kick" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Kick.uasset" SILENT=true
-[2014.11.11-02.58.42:265][ 20]LogSavePackage: Save=64.995293ms
-[2014.11.11-02.58.42:265][ 20]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Kick1A1C336E4A36FCED168143AD8F4CFBBC.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Kick.uasset'
-[2014.11.11-02.58.45:339][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Jump" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Jump.uasset" SILENT=true
-[2014.11.11-02.58.45:437][135]LogSavePackage: Save=63.096191ms
-[2014.11.11-02.58.45:437][135]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Jump8047544644E6812A2C4DDA92D3F6A29D.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Jump.uasset'
-[2014.11.11-02.58.53:424][437]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.59.10:498][ 51]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.59.16:272][257]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.59.22:249][453]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.59.25:984][579]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.59.28:964][668]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.11-02.59.32:261][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Idle" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Idle.uasset" SILENT=true
-[2014.11.11-02.59.32:352][767]LogSavePackage: Save=52.255772ms
-[2014.11.11-02.59.32:352][767]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Idle3FB33AC044B53EA80303E5AB3AEFAF98.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Idle.uasset'
-[2014.11.11-02.59.37:438][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_HalfKick" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_HalfKick.uasset" SILENT=true
-[2014.11.11-02.59.37:540][961]LogSavePackage: Save=63.234947ms
-[2014.11.11-02.59.37:540][961]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_HalfKick716A357140663B3BE8672693212EBC68.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_HalfKick.uasset'
-[2014.11.11-02.59.42:791][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Grapple_2" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_2.uasset" SILENT=true
-[2014.11.11-02.59.42:851][162]LogSavePackage: Save=23.261370ms
-[2014.11.11-02.59.42:851][162]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_2D0FC39EB4E16A7FA4FE20EA8FE8F0574.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_2.uasset'
-[2014.11.11-02.59.44:679][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Grapple_1" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1.uasset" SILENT=true
-[2014.11.11-02.59.44:735][229]LogSavePackage: Save=21.783878ms
-[2014.11.11-02.59.44:735][229]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_15A1D49B8417A4BB3D2F663A1A6AB660B.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1.uasset'
-[2014.11.11-02.59.46:850][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Grapple_1" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1.uasset" SILENT=true
-[2014.11.11-02.59.46:897][310]LogSavePackage: Save=19.868351ms
-[2014.11.11-02.59.46:897][310]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_1379490B4482985F678879687C87973FF.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1.uasset'
-[2014.11.11-03.00.02:460][195]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Environment_Textures'
-[2014.11.11-03.00.02:955][220]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Paper2D'
-[2014.11.11-03.00.05:381][293]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Environment_Textures'
-[2014.11.11-03.00.07:001][374]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.11-03.00.08:633][459]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2014.11.11-03.00.09:907][492]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2014.11.11-03.00.10:981][554]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
-[2014.11.11-03.00.11:532][586]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia'
-[2014.11.11-03.00.12:573][648]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.11-03.00.12:989][669]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
-[2014.11.11-03.00.13:490][699]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.11.11-03.00.20:880][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.11.11-03.00.20:900][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B18F4220
-[2014.11.11-03.00.20:900][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8BABEE660
-[2014.11.11-03.00.20:900][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B0BEFD80
-[2014.11.11-03.00.20:901][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B0BED580
-[2014.11.11-03.00.20:901][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B7E03380
-[2014.11.11-03.00.20:901][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B7E00FE0
-[2014.11.11-03.00.20:944][ 53]LogSavePackage: Save=11.652443ms
-[2014.11.11-03.00.20:944][ 53]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_2_Sprite0CFAA3A74C0B09DE1538AF8AC1687B1C.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_2_Sprite.uasset'
-[2014.11.11-03.00.20:982][ 53]LogSavePackage: Save=11.743581ms
-[2014.11.11-03.00.20:982][ 53]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Grapple_1_Sprite57244E644C66370375EED6AAFC936394.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Grapple_1_Sprite.uasset'
-[2014.11.11-03.00.20:999][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Claudia_Character/Claudia_Idle_Sprite" FILE="../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Idle_Sprite.uasset" SILENT=true
-[2014.11.11-03.00.21:019][ 53]LogSavePackage: Save=11.744812ms
-[2014.11.11-03.00.21:019][ 53]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Claudia_Idle_Sprite656088E143FEE6AC97765CA16454A512.tmp' to '../../../../../../GIT/404/Claudia/Content/Textures/Claudia_Character/Claudia_Idle_Sprite.uasset'
-[2014.11.11-03.00.25:648][309]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.11.11-03.00.45:843][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2014.11.11-03.00.52:947][473]Cmd: QUIT_EDITOR
-[2014.11.11-03.00.53:199][473]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.11.11-03.00.53:285][473]LogExit: Preparing to exit.
-[2014.11.11-03.00.54:691][473]LogExit: Editor shut down
-[2014.11.11-03.00.54:691][473]LogExit: Transaction tracking system shut down
-[2014.11.11-03.00.54:692][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B2B7BEC0
-[2014.11.11-03.00.54:693][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B1F776A0
-[2014.11.11-03.00.57:305][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B8B0BEC5E0
-[2014.11.11-03.00.57:305][473]LogExit: Object subsystem successfully closed.
-[2014.11.11-03.00.59:640][473]LogModuleManager: Shutting down and abandoning module TextureEditor (163)
-[2014.11.11-03.00.59:652][473]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
-[2014.11.11-03.00.59:652][473]LogModuleManager: Shutting down and abandoning module HTTP (161)
-[2014.11.11-03.00.59:652][473]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
-[2014.11.11-03.00.59:652][473]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
-[2014.11.11-03.00.59:665][473]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
-[2014.11.11-03.00.59:665][473]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
-[2014.11.11-03.00.59:665][473]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
-[2014.11.11-03.00.59:665][473]LogModuleManager: Shutting down and abandoning module StatsViewer (155)
-[2014.11.11-03.00.59:681][473]LogModuleManager: Shutting down and abandoning module FoliageEdit (154)
-[2014.11.11-03.00.59:681][473]LogModuleManager: Shutting down and abandoning module LandscapeEditor (153)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module MeshPaint (152)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module ActorPickerMode (151)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module GeometryMode (150)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module TextureAlignMode (149)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module BspMode (148)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module PlacementMode (147)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module AutomationWorker (146)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (145)
-[2014.11.11-03.00.59:706][473]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (144)
-[2014.11.11-03.00.59:746][473]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (143)
-[2014.11.11-03.00.59:746][473]LogModuleManager: Shutting down and abandoning module UndoHistory (142)
-[2014.11.11-03.00.59:746][473]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (141)
-[2014.11.11-03.00.59:746][473]LogModuleManager: Shutting down and abandoning module UserFeedback (140)
-[2014.11.11-03.00.59:746][473]LogModuleManager: Shutting down and abandoning module XmlParser (139)
-[2014.11.11-03.00.59:758][473]LogModuleManager: Shutting down and abandoning module Blutility (138)
-[2014.11.11-03.00.59:775][473]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (137)
-[2014.11.11-03.00.59:775][473]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (136)
-[2014.11.11-03.00.59:775][473]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (135)
-[2014.11.11-03.00.59:775][473]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (134)
-[2014.11.11-03.00.59:775][473]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (133)
-[2014.11.11-03.00.59:790][473]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (132)
-[2014.11.11-03.00.59:790][473]LogModuleManager: Shutting down and abandoning module InputBindingEditor (131)
-[2014.11.11-03.00.59:817][473]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (130)
-[2014.11.11-03.00.59:817][473]LogModuleManager: Shutting down and abandoning module SettingsEditor (129)
-[2014.11.11-03.00.59:856][473]LogModuleManager: Shutting down and abandoning module SessionLauncher (128)
-[2014.11.11-03.00.59:866][473]LogModuleManager: Shutting down and abandoning module SessionFrontend (127)
-[2014.11.11-03.00.59:886][473]LogModuleManager: Shutting down and abandoning module ProfilerClient (126)
-[2014.11.11-03.00.59:897][473]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (125)
-[2014.11.11-03.00.59:905][473]LogModuleManager: Shutting down and abandoning module DeviceManager (124)
-[2014.11.11-03.00.59:918][473]LogModuleManager: Shutting down and abandoning module AutomationController (123)
-[2014.11.11-03.00.59:934][473]LogModuleManager: Shutting down and abandoning module AutomationWindow (122)
-[2014.11.11-03.00.59:979][473]LogModuleManager: Shutting down and abandoning module Layers (121)
-[2014.11.11-03.01.00:004][473]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (120)
-[2014.11.11-03.01.00:004][473]LogModuleManager: Shutting down and abandoning module DetailCustomizations (119)
-[2014.11.11-03.01.00:023][473]LogModuleManager: Shutting down and abandoning module PackagesDialog (118)
-[2014.11.11-03.01.00:042][473]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (117)
-[2014.11.11-03.01.00:043][473]LogModuleManager: Shutting down and abandoning module AssetRegistry (116)
-[2014.11.11-03.01.00:091][473]LogModuleManager: Shutting down and abandoning module Persona (115)
-[2014.11.11-03.01.00:169][473]LogModuleManager: Shutting down and abandoning module GraphEditor (114)
-[2014.11.11-03.01.00:213][473]LogModuleManager: Shutting down and abandoning module ClassViewer (113)
-[2014.11.11-03.01.00:228][473]LogModuleManager: Shutting down and abandoning module Toolbox (112)
-[2014.11.11-03.01.00:228][473]LogModuleManager: Shutting down and abandoning module ModuleUI (111)
-[2014.11.11-03.01.00:240][473]LogModuleManager: Shutting down and abandoning module Sequencer (110)
-[2014.11.11-03.01.00:285][473]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
-[2014.11.11-03.01.00:299][473]LogModuleManager: Shutting down and abandoning module OutputLog (108)
-[2014.11.11-03.01.00:299][473]LogModuleManager: Shutting down and abandoning module GammaUI (107)
-[2014.11.11-03.01.00:342][473]LogModuleManager: Shutting down and abandoning module Documentation (106)
-[2014.11.11-03.01.00:342][473]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (105)
-[2014.11.11-03.01.00:342][473]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2014.11.11-03.01.00:456][473]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
-[2014.11.11-03.01.00:472][473]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
-[2014.11.11-03.01.00:472][473]LogModuleManager: Shutting down and abandoning module Analytics (101)
-[2014.11.11-03.01.00:472][473]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
-[2014.11.11-03.01.00:472][473]LogModuleManager: Shutting down and abandoning module AIModule (99)
-[2014.11.11-03.01.00:489][473]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
-[2014.11.11-03.01.00:639][473]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
-[2014.11.11-03.01.00:654][473]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
-[2014.11.11-03.01.00:654][473]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
-[2014.11.11-03.01.00:654][473]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
-[2014.11.11-03.01.00:654][473]LogModuleManager: Shutting down and abandoning module CableComponent (93)
-[2014.11.11-03.01.00:654][473]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
-[2014.11.11-03.01.00:694][473]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
-[2014.11.11-03.01.00:694][473]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
-[2014.11.11-03.01.00:694][473]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
-[2014.11.11-03.01.00:694][473]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
-[2014.11.11-03.01.00:694][473]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
-[2014.11.11-03.01.00:694][473]LogModuleManager: Shutting down and abandoning module Matinee (86)
-[2014.11.11-03.01.00:743][473]LogModuleManager: Shutting down and abandoning module Kismet (85)
-[2014.11.11-03.01.00:777][473]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
-[2014.11.11-03.01.00:800][473]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2014.11.11-03.01.00:828][473]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
-[2014.11.11-03.01.00:849][473]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
-[2014.11.11-03.01.00:849][473]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
-[2014.11.11-03.01.00:849][473]LogModuleManager: Shutting down and abandoning module AssetTools (79)
-[2014.11.11-03.01.00:890][473]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2014.11.11-03.01.00:890][473]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (77)
-[2014.11.11-03.01.00:890][473]LogModuleManager: Shutting down and abandoning module PluginsEditor (76)
-[2014.11.11-03.01.00:905][473]LogModuleManager: Shutting down and abandoning module MainFrame (75)
-[2014.11.11-03.01.00:905][473]LogModuleManager: Shutting down and abandoning module EpicSurvey (74)
-[2014.11.11-03.01.00:928][473]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (73)
-[2014.11.11-03.01.01:058][473]LogModuleManager: Shutting down and abandoning module UObjectPlugin (72)
-[2014.11.11-03.01.01:058][473]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (71)
-[2014.11.11-03.01.01:081][473]LogModuleManager: Shutting down and abandoning module SourceControl (70)
-[2014.11.11-03.01.01:081][473]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (69)
-[2014.11.11-03.01.01:095][473]LogModuleManager: Shutting down and abandoning module BlankPlugin (68)
-[2014.11.11-03.01.01:095][473]LogModuleManager: Shutting down and abandoning module Claudia (67)
-[2014.11.11-03.01.01:095][473]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
-[2014.11.11-03.01.01:127][473]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
-[2014.11.11-03.01.01:228][473]LogModuleManager: Shutting down and abandoning module Paper2D (64)
-[2014.11.11-03.01.01:228][473]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
-[2014.11.11-03.01.01:283][473]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
-[2014.11.11-03.01.01:283][473]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
-[2014.11.11-03.01.01:283][473]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
-[2014.11.11-03.01.01:309][473]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
-[2014.11.11-03.01.01:348][473]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
-[2014.11.11-03.01.01:348][473]LogModuleManager: Shutting down and abandoning module MessageLog (57)
-[2014.11.11-03.01.01:348][473]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
-[2014.11.11-03.01.01:399][473]LogModuleManager: Shutting down and abandoning module UMG (55)
-[2014.11.11-03.01.01:419][473]LogModuleManager: Shutting down and abandoning module Slate (54)
-[2014.11.11-03.01.01:419][473]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module SessionServices (52)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module Networking (47)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module Core (46)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
-[2014.11.11-03.01.01:420][473]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
-[2014.11.11-03.01.01:443][473]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
-[2014.11.11-03.01.01:532][473]LogDerivedDataCache: Shutdown
-[2014.11.11-03.01.01:532][473]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
-[2014.11.11-03.01.01:549][473]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
-[2014.11.11-03.01.01:559][473]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
-[2014.11.11-03.01.01:576][473]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
-[2014.11.11-03.01.01:576][473]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
-[2014.11.11-03.01.01:576][473]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
-[2014.11.11-03.01.01:576][473]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
-[2014.11.11-03.01.01:576][473]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module Messaging (31)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module InputCore (18)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module Settings (17)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2014.11.11-03.01.01:590][473]LogModuleManager: Shutting down and abandoning module OculusRift (13)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.11.11-03.01.01:597][473]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.11.11-03.01.01:719][473]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.11.11-03.01.01:736][473]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.11.11-03.01.01:759][473]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.11.11-03.01.01:922][473]LogExit: Exiting.
-[2014.11.11-03.01.01:953][473]Log file closed, 11/11/14 14:01:01
+[2014.11.11-02.51.56:492][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.11-02.51.56:522][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.11-02.51.57:008][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.11-02.51.57:016][  0]LogInit: Object subsystem initialized
+[2014.11.11-02.51.57:019][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.11-02.51.57:020][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.11-02.51.57:087][  0]LogInit: Computer: SAE-SYD80503W
+[2014.11.11-02.51.57:088][  0]LogInit: User: eroberts6
+[2014.11.11-02.51.57:089][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.11-02.51.57:089][  0]LogInit: High frequency timer resolution =3.312812 MHz
+[2014.11.11-02.51.57:090][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2014.11.11-02.51.57:090][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.11-02.51.57:091][  0]LogMemory: Process Physical Memory: 61.30 MB used, 61.30 MB peak
+[2014.11.11-02.51.57:091][  0]LogMemory: Process Virtual Memory: 36.36 MB used, 36.36 MB peak
+[2014.11.11-02.51.57:091][  0]LogMemory: Physical Memory: 2768.56 MB used, 4071.74 MB total
+[2014.11.11-02.51.57:092][  0]LogMemory: Virtual Memory: 258.34 MB used, 8388608.00 MB total
+[2014.11.11-02.52.00:095][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6970M (Feature Level 11_0)
+[2014.11.11-02.52.00:095][  0]LogD3D11RHI: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
+[2014.11.11-02.52.00:096][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.11-02.52.00:100][  0]LogRHI: Texture pool is 708 MB (70% of 1012 MB)
+[2014.11.11-02.52.00:120][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.11.11-02.52.03:243][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.11-02.52.10:456][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-02.52.11:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-02.52.11:574][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.11-02.52.12:119][  0]LogDerivedDataCache: Loaded boot cache 0.55s 39MB C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.11-02.52.12:120][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.11-02.52.12:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.11-02.52.12:121][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.11-02.52.12:181][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.11-02.52.12:194][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.11-02.52.17:895][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.11-02.52.17:896][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.11-02.52.19:537][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.11-02.52.24:006][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1f14_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_20f0_0///////STATCAT_Advanced////
+[2014.11.11-02.52.24:006][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.11-02.52.24:224][  0]SourceControl: Info Source control is disabled
+[2014.11.11-02.52.24:224][  0]SourceControl: Info Source control is disabled
+[2014.11.11-02.52.24:230][  0]SourceControl: Info Source control is disabled
+[2014.11.11-02.52.25:437][  0]BlueprintLog: New page: Editor Load
+[2014.11.11-02.52.25:584][  0]LogObj: 21442 objects as part of root set at end of initial load.
+[2014.11.11-02.52.25:585][  0]LogUObjectAllocator: 4220208 out of 0 bytes used by permanent object pool.
+[2014.11.11-02.52.29:227][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 3.60s
+[2014.11.11-02.52.29:247][  0]LogEngine: Initializing Engine...
+[2014.11.11-02.52.29:835][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2014.11.11-02.52.30:178][  0]LogInit: FAudioDevice initialized.
+[2014.11.11-02.52.30:262][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.11-02.52.30:282][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.11-02.52.30:289][  0]LogInit: Texture streaming: Enabled
+[2014.11.11-02.52.30:369][  0]LogInit: Transaction tracking system initialized
+[2014.11.11-02.52.30:513][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2014.11.11-02.52.31:319][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-02.52.31:775][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-02.52.31:973][  0]LogConsoleResponse:Display: 
+[2014.11.11-02.52.34:003][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_22c4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_20f0_0///////STATCAT_Advanced////
+[2014.11.11-02.52.34:003][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1f10_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_20f0_0///////STATCAT_Advanced////
+[2014.11.11-02.52.34:004][  0]SourceControl: Info Source control is disabled
+[2014.11.11-02.52.34:004][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.11-02.52.34:005][  0]LightingResults: New page: Lighting Build
+[2014.11.11-02.52.34:013][  0]MapCheck: New page: Map Check
+[2014.11.11-02.52.34:014][  0]LightingResults: New page: Lighting Build
+[2014.11.11-02.52.34:025][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000135D0360
+[2014.11.11-02.52.34:196][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/2DLift.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:277][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:430][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Flipbooks/Claudia_Character/ClaudiaGrappleFlipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:431][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Flipbooks/Claudia_Character/ClaudiaIdleFlipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:545][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Sprites/Platform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.34:546][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Textures/2DBackgroundBlockAtlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-02.52.36:030][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.11-02.52.36:062][  0]LogAIModule: Creating AISystem for world greybox
+[2014.11.11-02.52.36:075][  0]Cmd: MAP CHECKDEP
+[2014.11.11-02.52.36:075][  0]MapCheck: New page: greybox - 12 Nov 2014 12:52:36 am
+[2014.11.11-02.52.36:133][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [58.056ms] ==========
+[2014.11.11-02.52.36:134][  0]LogFileHelpers: Loading map 'greybox' took 2.130
+[2014.11.11-02.52.36:409][  0]LogCollectionManager: Loaded 0 collections in 0.000881 seconds
+[2014.11.11-02.52.36:964][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.11-02.52.37:581][  0]LogLoad: Full Startup: 50.56 seconds (BP compile: 0.10 seconds)
+[2014.11.11-02.52.37:612][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.11-02.52.38:067][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.11-02.52.38:510][  0]LogRenderer:Warning: Reallocating scene render targets to support 1568x1256.
+[2014.11.11-02.52.38:804][  1]LogAssetRegistry: Asset discovery search completed in 8.3017 seconds
+[2014.11.11-02.55.09:008][662]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.11-02.55.19:660][241]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.11-02.55.19:661][241]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.11-02.55.31:222][227]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.11.11-02.55.36:450][849]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.11.11-02.55.37:610][988]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
+[2014.11.11-02.55.40:358][317]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2014.11.11-02.55.40:651][352]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2014.11.11-02.55.45:518][925]LogEnum:Warning: Enum Text AnimationState::NewEnumerator4 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.55.45:549][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.11-02.55.48:951][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.11-02.55.50:895][558]LogEnum:Warning: Enum Text AnimationState::NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.55.50:928][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.11-02.56.00:386][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:387][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:387][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:388][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:388][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:389][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:389][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:390][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:390][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:390][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:391][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:391][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:392][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:392][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:393][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:393][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:394][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:394][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:394][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:395][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:395][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:396][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:396][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:397][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:397][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:398][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:398][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:399][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:399][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:399][692]LogEnum:Warning: Enum Text NewEnumerator5 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.00:423][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.11-02.56.04:774][214]LogEnum:Warning: Enum Text AnimationState::NewEnumerator6 for Enum AnimationState failed to resolve to any value
+[2014.11.11-02.56.04:806][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.11-02.56.10:012][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.11-02.56.10:056][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AnimationState" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset" SILENT=true
+[2014.11.11-02.56.10:095][838]LogSavePackage: Save=9.180117ms
+[2014.11.11-02.56.10:096][838]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/AnimationState11CD6F834536A93E16D57EB368AA28BD.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset'
+[2014.11.11-02.56.17:662][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AnimationState" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset" SILENT=true
+[2014.11.11-02.56.17:694][740]LogSavePackage: Save=5.404774ms
+[2014.11.11-02.56.17:695][740]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/AnimationStateDB944CB845986CAA19745FBA0E59A435.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Data/AnimationState.uasset'
+[2014.11.11-02.56.22:370][287]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.56.22:515][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.11-02.56.22:571][287]BlueprintEditorCompileResults: Info [0275.43] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
+[2014.11.11-02.56.32:738][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.11-02.56.43:965][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:966][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:966][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:967][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:967][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:967][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:968][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:968][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:969][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:969][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:970][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:970][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:971][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:971][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:972][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:972][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:973][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.43:973][ 42]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.11-02.56.59:808][440]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.56.59:957][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.11-02.57.00:010][440]BlueprintEditorCompileResults: Info [0312.88] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
+[2014.11.11-02.57.00:558][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
+[2014.11.11-02.57.00:840][466]LogSavePackage: Save=251.159744ms
+[2014.11.11-02.57.00:841][466]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/ClaudiaCharacterBlueprint49882E4F44731F1E2274BAA958DCF867.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
+[2014.11.11-02.57.21:422][456]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.57.21:553][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.11-02.57.21:601][456]BlueprintEditorCompileResults: Info [0334.48] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
+[2014.11.11-02.57.22:182][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
+[2014.11.11-02.57.22:461][485]LogSavePackage: Save=250.803848ms
+[2014.11.11-02.57.22:461][485]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/ClaudiaCharacterBlueprintD3C8EC724F22D0E6E91B30866731C9A5.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
+[2014.11.11-02.58.20:333][857]LogEditorTransaction: Undo Move Node
+[2014.11.11-02.58.20:387][857]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.11-02.58.32:174][952]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.58.32:302][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.11-02.58.32:352][952]BlueprintEditorCompileResults: Info [0405.23] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
+[2014.11.11-02.58.32:999][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
+[2014.11.11-02.58.33:296][988]LogSavePackage: Save=253.071411ms
+[2014.11.11-02.58.33:296][988]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/ClaudiaCharacterBlueprint989258264F332E01BC7FA38E32AC7756.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
+[2014.11.11-02.59.41:988][192]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
+[2014.11.11-02.59.42:122][192]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.11-02.59.42:172][192]BlueprintEditorCompileResults: Info [0475.05] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
+[2014.11.11-02.59.42:737][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
+[2014.11.11-02.59.43:014][220]LogSavePackage: Save=249.173203ms
+[2014.11.11-02.59.43:015][220]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Saved/ClaudiaCharacterBlueprint67B69BB142A358A4EF4DC8A29E0AAABF.tmp' to '../../../../../../Users/eroberts6/Desktop/Claudia/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
+[2014.11.11-03.09.55:634][575]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.11-03.09.57:244][674]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia'
+[2014.11.11-03.10.00:731][ 70]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.11-03.10.03:933][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.11-03.10.03:934][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.11-03.10.06:579][749]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Kick'
+[2014.11.11-03.10.25:048][964]LogContentBrowser:Verbose: T
