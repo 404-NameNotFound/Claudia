@@ -1,1211 +1,474 @@
-<<<<<<< HEAD
-Log file open, 11/11/14 15:29:01
-=======
-Log file open, 11/11/14 15:06:41
->>>>>>> 53e9428783c63396023f8520c38cdd6ac53f7854
+Log file open, 11/11/14 16:17:02
 LogInit:Display: Running engine for game: Claudia
 LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
 LogInit: API Version: 2255576
 LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.4
-<<<<<<< HEAD
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.11.11-04.29.01:538][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.11.11-04.29.01:569][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.11.11-04.29.02:167][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.11.11-04.29.02:179][  0]LogInit: Object subsystem initialized
-[2014.11.11-04.29.02:183][  0]LogInit: Selected Device Profile: [Windows]
-[2014.11.11-04.29.02:183][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.11.11-04.29.02:342][  0]LogInit: Computer: SAE-SYD80512W
-[2014.11.11-04.29.02:343][  0]LogInit: User: jsacdalan
-[2014.11.11-04.29.02:344][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.11.11-04.29.02:344][  0]LogInit: High frequency timer resolution =3.020517 MHz
-[2014.11.11-04.29.02:344][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
-[2014.11.11-04.29.02:344][  0]LogMemory: Platform Memory Stats for Windows
-[2014.11.11-04.29.02:344][  0]LogMemory: Process Physical Memory: 62.57 MB used, 62.57 MB peak
-[2014.11.11-04.29.02:344][  0]LogMemory: Process Virtual Memory: 38.11 MB used, 38.11 MB peak
-[2014.11.11-04.29.02:344][  0]LogMemory: Physical Memory: 2532.76 MB used, 4071.74 MB total
-[2014.11.11-04.29.02:344][  0]LogMemory: Virtual Memory: 262.34 MB used, 8388608.00 MB total
-[2014.11.11-04.29.05:020][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6970M (Feature Level 11_0)
-[2014.11.11-04.29.05:020][  0]LogD3D11RHI: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
-[2014.11.11-04.29.05:020][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.11.11-04.29.05:035][  0]LogRHI: Texture pool is 708 MB (70% of 1012 MB)
-[2014.11.11-04.29.05:047][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.11.11-04.29.06:508][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.11.11-04.29.19:817][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-04.29.20:788][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-04.29.20:843][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.11.11-04.29.21:533][  0]LogDerivedDataCache: Loaded boot cache 0.69s 39MB C:/Users/jsacdalan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.11.11-04.29.21:533][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jsacdalan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
-[2014.11.11-04.29.21:533][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jsacdalan/Documents/Claudia/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.11-04.29.21:533][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.11.11-04.29.21:578][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.11.11-04.29.21:590][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jsacdalan/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
-[2014.11.11-04.29.24:203][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.11.11-04.29.24:203][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.11.11-04.29.24:755][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.11.11-04.29.28:537][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1fd4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_658_0///////STATCAT_Advanced////
-[2014.11.11-04.29.28:537][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.11.11-04.29.28:777][  0]SourceControl: Info Source control is disabled
-[2014.11.11-04.29.28:777][  0]SourceControl: Info Source control is disabled
-[2014.11.11-04.29.28:787][  0]SourceControl: Info Source control is disabled
-[2014.11.11-04.29.29:396][  0]BlueprintLog: New page: Editor Load
-[2014.11.11-04.29.29:644][  0]LogObj: 21452 objects as part of root set at end of initial load.
-[2014.11.11-04.29.29:644][  0]LogUObjectAllocator: 4228544 out of 0 bytes used by permanent object pool.
-[2014.11.11-04.29.29:958][  0]LogEngine: Initializing Engine...
-[2014.11.11-04.29.30:131][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2014.11.11-04.29.30:303][  0]LogInit: FAudioDevice initialized.
-[2014.11.11-04.29.30:330][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.11.11-04.29.30:379][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/jsacdalan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.11.11-04.29.30:385][  0]LogInit: Texture streaming: Enabled
-[2014.11.11-04.29.30:463][  0]LogInit: Transaction tracking system initialized
-[2014.11.11-04.29.30:724][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
-[2014.11.11-04.29.31:792][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-04.29.32:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-04.29.32:560][  0]LogConsoleResponse:Display: 
-[2014.11.11-04.29.32:991][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_11f4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_658_0///////STATCAT_Advanced////
-[2014.11.11-04.29.32:991][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_142c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_658_0///////STATCAT_Advanced////
-[2014.11.11-04.29.32:991][  0]SourceControl: Info Source control is disabled
-[2014.11.11-04.29.32:991][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jsacdalan/Documents/Claudia/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.11.11-04.29.33:012][  0]LightingResults: New page: Lighting Build
-[2014.11.11-04.29.33:018][  0]MapCheck: New page: Map Check
-[2014.11.11-04.29.33:018][  0]LightingResults: New page: Lighting Build
-[2014.11.11-04.29.33:030][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000126B0360
-[2014.11.11-04.29.33:058][  0]LogLinker:Warning: Asset '../../../../../../Users/jsacdalan/Documents/Claudia/Claudia/Content/Blueprints/2DLift.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.29.33:202][  0]LogLinker:Warning: Asset '../../../../../../Users/jsacdalan/Documents/Claudia/Claudia/Content/Sprites/Platform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.29.33:203][  0]LogLinker:Warning: Asset '../../../../../../Users/jsacdalan/Documents/Claudia/Claudia/Content/Textures/2DBackgroundBlockAtlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.29.34:677][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.11-04.29.34:677][  0]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.29.34:678][  0]Cmd: MAP CHECKDEP
-[2014.11.11-04.29.34:678][  0]MapCheck: New page: greybox - 12 Nov 2014 2:29:34 am
-[2014.11.11-04.29.34:739][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [61.34ms] ==========
-[2014.11.11-04.29.34:739][  0]LogFileHelpers: Loading map 'greybox' took 1.748
-[2014.11.11-04.29.34:926][  0]LogCollectionManager: Loaded 0 collections in 0.001592 seconds
-[2014.11.11-04.29.35:697][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.11.11-04.29.35:799][  0]LogLoad: Full Startup: 50.00 seconds (BP compile: 0.10 seconds)
-[2014.11.11-04.29.35:816][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Environment_Textures'
-[2014.11.11-04.29.36:000][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
-[2014.11.11-04.29.36:071][  0]LogRenderer:Warning: Reallocating scene render targets to support 1568x1256.
-[2014.11.11-04.29.36:266][  1]LogAssetRegistry: Asset discovery search completed in 5.5527 seconds
-[2014.11.11-04.51.09:489][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.11.11-04.51.09:489][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.11.11-04.51.09:730][  9]Cmd: QUIT_EDITOR
-[2014.11.11-04.51.09:864][  9]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.11.11-04.51.09:865][  9]LogExit: Preparing to exit.
-[2014.11.11-04.51.10:670][  9]LogExit: Editor shut down
-[2014.11.11-04.51.10:670][  9]LogExit: Transaction tracking system shut down
-[2014.11.11-04.51.10:671][  9]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001288F100
-[2014.11.11-04.51.10:690][  9]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DCB1080
-[2014.11.11-04.51.10:690][  9]LogExit: Object subsystem successfully closed.
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module HTTP (161)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module StatsViewer (155)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module FoliageEdit (154)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module LandscapeEditor (153)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module MeshPaint (152)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module ActorPickerMode (151)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module GeometryMode (150)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module TextureAlignMode (149)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module BspMode (148)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module PlacementMode (147)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module DesktopPlatform (146)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module AutomationWorker (145)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (144)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (143)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (142)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module UndoHistory (141)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (140)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module UserFeedback (139)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module XmlParser (138)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module Blutility (137)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (136)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (135)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (134)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (133)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (132)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (131)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module InputBindingEditor (130)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (129)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module SettingsEditor (128)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module SessionLauncher (127)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module SessionFrontend (126)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module ProfilerClient (125)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (124)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module DeviceManager (123)
-[2014.11.11-04.51.10:717][  9]LogModuleManager: Shutting down and abandoning module AutomationController (122)
-[2014.11.11-04.51.10:718][  9]LogModuleManager: Shutting down and abandoning module AutomationWindow (121)
-[2014.11.11-04.51.10:718][  9]LogModuleManager: Shutting down and abandoning module Layers (120)
-[2014.11.11-04.51.10:718][  9]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (119)
-[2014.11.11-04.51.10:718][  9]LogModuleManager: Shutting down and abandoning module DetailCustomizations (118)
-[2014.11.11-04.51.10:718][  9]LogModuleManager: Shutting down and abandoning module PackagesDialog (117)
-[2014.11.11-04.51.10:718][  9]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
-[2014.11.11-04.51.10:718][  9]LogModuleManager: Shutting down and abandoning module AssetRegistry (115)
-[2014.11.11-04.51.10:759][  9]LogModuleManager: Shutting down and abandoning module Persona (114)
-[2014.11.11-04.51.10:759][  9]LogModuleManager: Shutting down and abandoning module GraphEditor (113)
-[2014.11.11-04.51.10:759][  9]LogModuleManager: Shutting down and abandoning module ClassViewer (112)
-[2014.11.11-04.51.10:759][  9]LogModuleManager: Shutting down and abandoning module Toolbox (111)
-[2014.11.11-04.51.10:759][  9]LogModuleManager: Shutting down and abandoning module ModuleUI (110)
-[2014.11.11-04.51.10:759][  9]LogModuleManager: Shutting down and abandoning module Sequencer (109)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module OutputLog (107)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module GammaUI (106)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module Documentation (105)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module Analytics (101)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module AIModule (99)
-[2014.11.11-04.51.10:760][  9]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module CableComponent (93)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module Matinee (86)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module Kismet (85)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
-[2014.11.11-04.51.11:007][  9]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2014.11.11-04.51.11:009][  9]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
-[2014.11.11-04.51.11:009][  9]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
-[2014.11.11-04.51.11:009][  9]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
-[2014.11.11-04.51.11:009][  9]LogModuleManager: Shutting down and abandoning module AssetTools (79)
-[2014.11.11-04.51.11:009][  9]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (77)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module PluginsEditor (76)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module MainFrame (75)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module EpicSurvey (74)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (73)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module UObjectPlugin (72)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (71)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module SourceControl (70)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (69)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module BlankPlugin (68)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module Claudia (67)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
-[2014.11.11-04.51.11:044][  9]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
-[2014.11.11-04.51.11:144][  9]LogModuleManager: Shutting down and abandoning module Paper2D (64)
-[2014.11.11-04.51.11:144][  9]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module MessageLog (57)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module UMG (55)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module Slate (54)
-[2014.11.11-04.51.11:149][  9]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
-[2014.11.11-04.51.11:151][  9]LogModuleManager: Shutting down and abandoning module SessionServices (52)
-[2014.11.11-04.51.11:151][  9]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
-[2014.11.11-04.51.11:151][  9]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
-[2014.11.11-04.51.11:151][  9]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
-[2014.11.11-04.51.11:151][  9]LogModuleManager: Shutting down and abandoning module Networking (47)
-[2014.11.11-04.51.11:151][  9]LogModuleManager: Shutting down and abandoning module Core (46)
-[2014.11.11-04.51.11:152][  9]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
-[2014.11.11-04.51.11:152][  9]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
-[2014.11.11-04.51.11:152][  9]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
-[2014.11.11-04.51.11:152][  9]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
-[2014.11.11-04.51.11:243][  9]LogDerivedDataCache: Shutdown
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Messaging (31)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module InputCore (18)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Settings (17)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module OculusRift (13)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.11.11-04.51.11:243][  9]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.11.11-04.51.11:244][  9]LogExit: Exiting.
-[2014.11.11-04.51.11:247][  9]Log file closed, 11/11/14 15:51:11
-=======
-LogInit: Command line: 
-LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
-LogInit: Rocket: 1
-[2014.11.11-04.06.41:225][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.11.11-04.06.41:255][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.11.11-04.06.41:383][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.11.11-04.06.41:389][  0]LogInit: Object subsystem initialized
-[2014.11.11-04.06.41:391][  0]LogInit: Selected Device Profile: [Windows]
-[2014.11.11-04.06.41:392][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.11.11-04.06.41:415][  0]LogInit: Computer: SAE-SYD80503W
-[2014.11.11-04.06.41:415][  0]LogInit: User: eroberts6
-[2014.11.11-04.06.41:416][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.11.11-04.06.41:417][  0]LogInit: High frequency timer resolution =3.312812 MHz
-[2014.11.11-04.06.41:417][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
-[2014.11.11-04.06.41:418][  0]LogMemory: Platform Memory Stats for Windows
-[2014.11.11-04.06.41:418][  0]LogMemory: Process Physical Memory: 61.35 MB used, 61.35 MB peak
-[2014.11.11-04.06.41:419][  0]LogMemory: Process Virtual Memory: 36.41 MB used, 36.41 MB peak
-[2014.11.11-04.06.41:419][  0]LogMemory: Physical Memory: 2375.44 MB used, 4071.74 MB total
-[2014.11.11-04.06.41:420][  0]LogMemory: Virtual Memory: 258.34 MB used, 8388608.00 MB total
-[2014.11.11-04.06.41:729][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6970M (Feature Level 11_0)
-[2014.11.11-04.06.41:729][  0]LogD3D11RHI: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
-[2014.11.11-04.06.41:730][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.11.11-04.06.41:734][  0]LogRHI: Texture pool is 708 MB (70% of 1012 MB)
-[2014.11.11-04.06.41:760][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.11.11-04.06.42:348][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.11.11-04.06.45:292][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-04.06.46:244][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-04.06.46:307][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.11.11-04.06.46:875][  0]LogDerivedDataCache: Loaded boot cache 0.57s 39MB C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.11.11-04.06.46:876][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
-[2014.11.11-04.06.46:876][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eroberts6/Desktop/404/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.11-04.06.46:876][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.11.11-04.06.46:928][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.11.11-04.06.46:941][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
-[2014.11.11-04.06.51:582][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.11.11-04.06.51:582][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.11.11-04.06.51:971][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.11.11-04.06.54:681][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1bc0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1cf4_0///////STATCAT_Advanced////
-[2014.11.11-04.06.54:681][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.11.11-04.06.54:836][  0]SourceControl: Info Source control is disabled
-[2014.11.11-04.06.54:837][  0]SourceControl: Info Source control is disabled
-[2014.11.11-04.06.54:842][  0]SourceControl: Info Source control is disabled
-[2014.11.11-04.06.55:213][  0]BlueprintLog: New page: Editor Load
-[2014.11.11-04.06.55:346][  0]LogObj: 21452 objects as part of root set at end of initial load.
-[2014.11.11-04.06.55:346][  0]LogUObjectAllocator: 4228544 out of 0 bytes used by permanent object pool.
-[2014.11.11-04.06.55:581][  0]LogEngine: Initializing Engine...
-[2014.11.11-04.06.55:723][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2014.11.11-04.06.56:155][  0]LogInit: FAudioDevice initialized.
-[2014.11.11-04.06.56:171][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.11.11-04.06.56:192][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/eroberts6/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.11.11-04.06.56:199][  0]LogInit: Texture streaming: Enabled
-[2014.11.11-04.06.56:236][  0]LogInit: Transaction tracking system initialized
-[2014.11.11-04.06.56:339][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2014.11.11-04.06.56:914][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-04.06.57:377][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.11-04.06.57:490][  0]LogConsoleResponse:Display: 
-[2014.11.11-04.06.57:794][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_17b0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1cf4_0///////STATCAT_Advanced////
-[2014.11.11-04.06.57:795][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2088_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1cf4_0///////STATCAT_Advanced////
-[2014.11.11-04.06.57:795][  0]SourceControl: Info Source control is disabled
-[2014.11.11-04.06.57:796][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.11.11-04.06.57:796][  0]LightingResults: New page: Lighting Build
-[2014.11.11-04.06.57:804][  0]MapCheck: New page: Map Check
-[2014.11.11-04.06.57:804][  0]LightingResults: New page: Lighting Build
-[2014.11.11-04.06.57:816][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000131651C0
-[2014.11.11-04.06.57:881][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/2DLift.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.06.58:061][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Sprites/Platform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.06.58:062][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Textures/2DBackgroundBlockAtlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.06.58:463][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.11-04.06.58:464][  0]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.06.58:465][  0]Cmd: MAP CHECKDEP
-[2014.11.11-04.06.58:466][  0]MapCheck: New page: greybox - 12 Nov 2014 2:06:58 am
-[2014.11.11-04.06.58:529][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [63.206ms] ==========
-[2014.11.11-04.06.58:530][  0]LogFileHelpers: Loading map 'greybox' took 0.734
-[2014.11.11-04.06.58:770][  0]LogCollectionManager: Loaded 0 collections in 0.000884 seconds
-[2014.11.11-04.06.59:062][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.11.11-04.06.59:191][  0]LogLoad: Full Startup: 21.18 seconds (BP compile: 0.09 seconds)
-[2014.11.11-04.06.59:203][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2014.11.11-04.06.59:468][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
-[2014.11.11-04.06.59:598][  0]LogRenderer:Warning: Reallocating scene render targets to support 1568x1256.
-[2014.11.11-04.06.59:787][  1]LogAssetRegistry: Asset discovery search completed in 3.4592 seconds
-[2014.11.11-04.07.38:317][325]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Environment_Textures'
-[2014.11.11-04.07.46:823][340]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2014.11.11-04.07.48:664][556]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia'
-[2014.11.11-04.07.50:486][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.11-04.07.51:340][872]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Claudia_Character'
-[2014.11.11-04.07.52:864][ 53]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2014.11.11-04.08.01:152][ 37]LogTexture:Display: Building textures: 2D_platform_background_1 (AutoDXT)
-[2014.11.11-04.08.01:660][ 37]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Textures/2DBackground.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.08.01:797][ 37]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Textures/2DBackgroundTile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.08.01:799][ 37]LogTexture:Display: Building textures: 2DBackgroundTile (AutoDXT)
-[2014.11.11-04.08.01:808][ 37]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Textures/Claudia2D_Atlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.08.01:848][ 37]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Textures/Claudia2D_Atlas_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.08.01:863][ 37]LogMaterial: Missing cached shader map for material Claudia2D_Atlas_Mat, compiling.
-[2014.11.11-04.08.01:878][ 37]LogMaterial:Warning: Failed to compile Material /Game/Textures/Claudia2D_Atlas_Mat.Claudia2D_Atlas_Mat for platform PCD3D_SM5, Default Material will be used in game.
-[2014.11.11-04.08.01:879][ 37]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
-[2014.11.11-04.08.01:888][ 37]LogTexture:Display: Building textures: Corrugated_Metal_1 (AutoDXT)
-[2014.11.11-04.08.02:288][ 37]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Textures/crosshair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.08.02:388][ 37]LogTexture:Display: Building textures: Dripwall (AutoDXT)
-[2014.11.11-04.08.02:647][ 37]LogTexture:Display: Building textures: Ew_Metal (AutoDXT)
-[2014.11.11-04.08.02:876][ 37]LogTexture:Display: Building textures: Metal (AutoDXT)
-[2014.11.11-04.08.02:975][ 37]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Textures/PrototypeTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.08.03:038][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.11.11-04.08.03:039][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.11.11-04.08.12:654][111]LogEditorViewport: Clicking Background
-[2014.11.11-04.08.13:630][226]LogEditorViewport: Clicking Background
-[2014.11.11-04.08.32:456][483]LogEditorViewport: Clicking Background
-[2014.11.11-04.09.38:014][  2]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2014.11.11-04.10.39:865][652]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2014.11.11-04.10.41:620][861]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-04.10.44:225][173]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Run'
-[2014.11.11-04.10.47:550][569]LogEditorViewport: Clicking Background
-[2014.11.11-04.10.47:926][612]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.11-04.13.43:114][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:131][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:209][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:209][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:210][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:210][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:211][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:211][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:212][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:212][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:212][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:213][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:213][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:214][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:214][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:215][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:215][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:216][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:216][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:217][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:217][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:218][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:218][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:218][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.13.43:219][129]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.14.00:453][ 39]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.14.00:577][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2014.11.11-04.14.00:577][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2014.11.11-04.14.00:631][ 39]BlueprintEditorCompileResults: Info [0442.52] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.14.01:309][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.14.01:470][ 59]LogSavePackage: Save=113.749588ms
-[2014.11.11-04.14.01:471][ 59]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint00D6FACA47C3EBA73D79A9853231ED62.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.14.04:541][283]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.14.04:542][283]PIE: New page: PIE session: greybox (12 Nov 2014 2:14:04 am)
-[2014.11.11-04.14.04:617][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075329s)
-[2014.11.11-04.14.04:619][283]LogPlayLevel: PIE: World Init took: (0.000630s)
-[2014.11.11-04.14.04:619][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077118s)
-[2014.11.11-04.14.04:711][283]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaGameModeBlueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.14.04:731][283]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.14.04:734][283]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.14.04:743][283]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.14.04
-[2014.11.11-04.14.04:749][283]LogWorld: Bringing up level for play took: 0.014400
-[2014.11.11-04.14.04:750][283]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.14.04:751][283]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.332
-[2014.11.11-04.14.04:856][284]LogRenderer:Warning: Reallocating scene render targets to support 1568x1264.
-[2014.11.11-04.14.09:790][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2014.11.11-04.14.09:811][834]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002449C540
-[2014.11.11-04.15.20:886][557]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.15.20:984][557]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2014.11.11-04.15.21:053][557]BlueprintEditorCompileResults: Info [0522.94] Compile of ClaudiaCharacterBlueprint successful! [in 29 ms]
-[2014.11.11-04.15.21:710][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.15.21:867][574]LogSavePackage: Save=112.099327ms
-[2014.11.11-04.15.21:868][574]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprintF66389124154E6DBC087F7B0C9EBA9BC.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.16.02:364][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.16.02:446][785]LogSavePackage: Save=53.720222ms
-[2014.11.11-04.16.02:447][785]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint49B1ED5B47EE44C2DE7E05BFE90DF693.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.16.03:232][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.16.03:233][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.16.03:234][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.16.03:234][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.16.56:746][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.16.56:851][279]LogSavePackage: Save=60.016987ms
-[2014.11.11-04.16.56:852][279]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint6861F0C2499DD32960875CB5AE8A8C57.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.17.00:865][558]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.17.00:866][558]PIE: New page: PIE session: greybox (12 Nov 2014 2:17:00 am)
-[2014.11.11-04.17.00:945][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078228s)
-[2014.11.11-04.17.00:946][558]LogPlayLevel: PIE: World Init took: (0.000660s)
-[2014.11.11-04.17.00:946][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.079882s)
-[2014.11.11-04.17.00:975][558]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.17.00:977][558]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.17.00:986][558]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.17.00
-[2014.11.11-04.17.00:992][558]LogWorld: Bringing up level for play took: 0.014368
-[2014.11.11-04.17.00:993][558]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.17.00:994][558]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.091
-[2014.11.11-04.17.01:509][559]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095733 > MaxSimulationTimeStep (0.050) for 'ClaudiaCharacterBlueprint_C_0'
-[2014.11.11-04.17.12:965][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2014.11.11-04.17.12:987][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024687100
-[2014.11.11-04.17.31:911][  3]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.17.32:032][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2014.11.11-04.17.32:079][  3]BlueprintEditorCompileResults: Info [0653.98] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.17.32:773][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.17.32:915][ 23]LogSavePackage: Save=112.124084ms
-[2014.11.11-04.17.32:916][ 23]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint8D60047141FC3F150FCFCDA4ADA31E37.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.17.35:439][242]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.17.35:440][242]PIE: New page: PIE session: greybox (12 Nov 2014 2:17:35 am)
-[2014.11.11-04.17.35:516][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075304s)
-[2014.11.11-04.17.35:517][242]LogPlayLevel: PIE: World Init took: (0.000574s)
-[2014.11.11-04.17.35:517][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.076956s)
-[2014.11.11-04.17.35:546][242]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.17.35:548][242]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.17.35:557][242]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.17.35
-[2014.11.11-04.17.35:563][242]LogWorld: Bringing up level for play took: 0.014226
-[2014.11.11-04.17.35:563][242]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.17.35:565][242]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.48
-[2014.11.11-04.17.36:175][243]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095715 > MaxSimulationTimeStep (0.050) for 'ClaudiaCharacterBlueprint_C_0'
-[2014.11.11-04.17.42:739][ 22]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2014.11.11-04.17.42:760][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B3625C0
-[2014.11.11-04.17.48:475][401]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.17.48:589][401]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2014.11.11-04.17.48:636][401]BlueprintEditorCompileResults: Info [0670.54] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.17.49:303][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.17.49:445][420]LogSavePackage: Save=112.948761ms
-[2014.11.11-04.17.49:446][420]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint58FBA29A4F09156B88A8EBBB26E72775.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.18.13:468][697]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.18.34:603][841]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.18.34:710][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
-[2014.11.11-04.18.34:761][841]BlueprintEditorCompileResults: Info [0716.66] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.18.35:443][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.18.35:586][861]LogSavePackage: Save=113.647255ms
-[2014.11.11-04.18.35:587][861]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint52FD15004D67970DA34541B0C3D8772F.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.19.43:039][375]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.19.43:184][375]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
-[2014.11.11-04.19.43:235][375]BlueprintEditorCompileResults: Info [0785.13] Compile of ClaudiaCharacterBlueprint successful! [in 47 ms]
-[2014.11.11-04.19.43:918][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.19.44:061][394]LogSavePackage: Save=112.589241ms
-[2014.11.11-04.19.44:062][394]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprintFD9A9D3B4C3BA00566651FAC2806E089.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.19.49:717][781]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.19.49:718][781]PIE: New page: PIE session: greybox (12 Nov 2014 2:19:49 am)
-[2014.11.11-04.19.49:794][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075629s)
-[2014.11.11-04.19.49:795][781]LogPlayLevel: PIE: World Init took: (0.000735s)
-[2014.11.11-04.19.49:796][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077707s)
-[2014.11.11-04.19.49:827][781]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.19.49:829][781]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.19.49:839][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.19.49
-[2014.11.11-04.19.49:844][781]LogWorld: Bringing up level for play took: 0.014424
-[2014.11.11-04.19.49:845][781]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.19.49:847][781]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.761
-[2014.11.11-04.20.02:268][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
-[2014.11.11-04.20.02:288][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026EEE200
-[2014.11.11-04.20.03:109][325]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.20.03:109][325]PIE: New page: PIE session: greybox (12 Nov 2014 2:20:03 am)
-[2014.11.11-04.20.03:184][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074528s)
-[2014.11.11-04.20.03:186][325]LogPlayLevel: PIE: World Init took: (0.000709s)
-[2014.11.11-04.20.03:186][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.076441s)
-[2014.11.11-04.20.03:214][325]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.20.03:216][325]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.20.03:226][325]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.20.03
-[2014.11.11-04.20.03:231][325]LogWorld: Bringing up level for play took: 0.014208
-[2014.11.11-04.20.03:232][325]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.20.03:233][325]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.148
-[2014.11.11-04.20.15:617][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026EEE200
-[2014.11.11-04.20.20:268][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.20.20:352][139]LogSavePackage: Save=53.568691ms
-[2014.11.11-04.20.20:352][139]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprintF505011C4D75F374B4FC938283C37502.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.23.36:893][ 27]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.23.36:894][ 27]PIE: New page: PIE session: greybox (12 Nov 2014 2:23:36 am)
-[2014.11.11-04.23.36:970][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076132s)
-[2014.11.11-04.23.36:971][ 27]LogPlayLevel: PIE: World Init took: (0.000663s)
-[2014.11.11-04.23.36:972][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.078014s)
-[2014.11.11-04.23.36:999][ 27]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.23.37:001][ 27]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.23.37:011][ 27]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.23.37
-[2014.11.11-04.23.37:016][ 27]LogWorld: Bringing up level for play took: 0.014459
-[2014.11.11-04.23.37:017][ 27]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.23.37:019][ 27]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.069
-[2014.11.11-04.25.05:626][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B88F240
-[2014.11.11-04.25.06:257][ 46]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.25.06:258][ 46]PIE: New page: PIE session: greybox (12 Nov 2014 2:25:06 am)
-[2014.11.11-04.25.06:334][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075587s)
-[2014.11.11-04.25.06:335][ 46]LogPlayLevel: PIE: World Init took: (0.000600s)
-[2014.11.11-04.25.06:336][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077410s)
-[2014.11.11-04.25.06:368][ 46]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.25.06:370][ 46]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.25.06:380][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.25.06
-[2014.11.11-04.25.06:385][ 46]LogWorld: Bringing up level for play took: 0.014475
-[2014.11.11-04.25.06:386][ 46]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.25.06:387][ 46]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.701
-[2014.11.11-04.25.18:676][504]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B88CEA0
-[2014.11.11-04.27.14:804][109]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.27.14:906][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
-[2014.11.11-04.27.14:954][109]BlueprintEditorCompileResults: Info [1236.85] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.27.15:640][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.27.15:809][129]LogSavePackage: Save=122.875069ms
-[2014.11.11-04.27.15:809][129]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint6EECD0634D4A03AC00506390C9854B8F.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.27.17:597][278]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.27.17:598][278]PIE: New page: SIE session: greybox (12 Nov 2014 2:27:17 am)
-[2014.11.11-04.27.17:672][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073830s)
-[2014.11.11-04.27.17:673][278]LogPlayLevel: PIE: World Init took: (0.000635s)
-[2014.11.11-04.27.17:674][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.075708s)
-[2014.11.11-04.27.17:675][278]LogSelection:Warning: PIE object was selected: "PlayerStart /Game/Maps/UEDPIE_0_greybox.greybox:PersistentLevel.PlayerStart"
-[2014.11.11-04.27.17:714][278]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.27.17:716][278]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.27.17:725][278]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.27.17
-[2014.11.11-04.27.17:731][278]LogWorld: Bringing up level for play took: 0.014817
-[2014.11.11-04.27.17:732][278]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.27.17:733][278]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.644
-[2014.11.11-04.27.17:776][278]LogSelection:Warning: PIE object was selected: "PlayerStart /Game/Maps/UEDPIE_0_greybox.greybox:PersistentLevel.PlayerStart"
-[2014.11.11-04.27.20:407][378]LogEditorViewport: Clicking Background
-[2014.11.11-04.27.21:086][408]LogEditorViewport: Clicking Background
-[2014.11.11-04.27.22:232][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
-[2014.11.11-04.27.22:253][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B3E19E0
-[2014.11.11-04.27.23:589][615]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.27.23:590][615]PIE: New page: PIE session: greybox (12 Nov 2014 2:27:23 am)
-[2014.11.11-04.27.23:669][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076843s)
-[2014.11.11-04.27.23:670][615]LogPlayLevel: PIE: World Init took: (0.000568s)
-[2014.11.11-04.27.23:670][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.078665s)
-[2014.11.11-04.27.23:702][615]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.27.23:704][615]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.27.23:713][615]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.27.23
-[2014.11.11-04.27.23:719][615]LogWorld: Bringing up level for play took: 0.014400
-[2014.11.11-04.27.23:720][615]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.27.23:721][615]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.632
-[2014.11.11-04.27.37:090][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028108540
-[2014.11.11-04.28.45:680][869]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.28.45:800][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
-[2014.11.11-04.28.45:849][869]BlueprintEditorCompileResults: Info [1327.75] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.28.46:485][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.28.46:644][886]LogSavePackage: Save=113.522591ms
-[2014.11.11-04.28.46:644][886]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint494810ED4719F23EDC6911BE43475136.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.28.51:360][234]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-04.28.53:558][497]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2014.11.11-04.28.54:655][627]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2014.11.11-04.29.03:060][547]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2014.11.11-04.29.05:801][861]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Sprites/PrototypingSprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.29.05:817][861]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Materials/LevelPrototype.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.29.08:287][ 59]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Sprites/2DBackgroundSprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.11-04.29.30:065][126]LogEditorViewport: Clicking Background
-[2014.11.11-04.29.31:629][227]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackgroundSprite)
-[2014.11.11-04.29.32:904][298]LogEditorViewport: Clicking Background
-[2014.11.11-04.29.34:074][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.11-04.29.34:103][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
-[2014.11.11-04.29.34:104][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
-[2014.11.11-04.29.34:574][369]LogSavePackage: Save=404.870239ms
-[2014.11.11-04.29.34:575][369]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/greybox7F18A6534BE6ACB4A3221E969E39C8A9.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap'
-[2014.11.11-04.29.42:162][273]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackgroundSprite)
-[2014.11.11-04.29.59:163][703]LogEditorViewport: Clicking Background
-[2014.11.11-04.30.00:206][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.11-04.30.00:602][775]LogSavePackage: Save=348.913849ms
-[2014.11.11-04.30.00:602][775]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/greyboxB2D109484AFA36054904F9B343F3AAF2.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap'
-[2014.11.11-04.30.00:646][775]LogFileHelpers: Saving map 'greybox' took 0.531
-[2014.11.11-04.30.01:327][848]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.30.01:328][848]PIE: New page: PIE session: greybox (12 Nov 2014 2:30:01 am)
-[2014.11.11-04.30.01:401][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072377s)
-[2014.11.11-04.30.01:402][848]LogPlayLevel: PIE: World Init took: (0.000616s)
-[2014.11.11-04.30.01:403][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.074363s)
-[2014.11.11-04.30.01:435][848]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.30.01:437][848]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.30.01:446][848]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.30.01
-[2014.11.11-04.30.01:452][848]LogWorld: Bringing up level for play took: 0.014340
-[2014.11.11-04.30.01:453][848]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.30.01:454][848]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.363
-[2014.11.11-04.30.13:428][239]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000326D9800
-[2014.11.11-04.30.29:048][133]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.30.29:175][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
-[2014.11.11-04.30.29:227][133]BlueprintEditorCompileResults: Info [1431.12] Compile of ClaudiaCharacterBlueprint successful! [in 31 ms]
-[2014.11.11-04.30.32:064][342]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.30.32:065][342]PIE: New page: PIE session: greybox (12 Nov 2014 2:30:32 am)
-[2014.11.11-04.30.32:147][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081527s)
-[2014.11.11-04.30.32:148][342]LogPlayLevel: PIE: World Init took: (0.000663s)
-[2014.11.11-04.30.32:149][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.083458s)
-[2014.11.11-04.30.32:178][342]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.30.32:180][342]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.30.32:189][342]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.30.32
-[2014.11.11-04.30.32:198][342]LogWorld: Bringing up level for play took: 0.017758
-[2014.11.11-04.30.32:199][342]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.30.32:201][342]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 1.111
-[2014.11.11-04.31.32:042][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
-[2014.11.11-04.32.06:485][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002394ED40
-[2014.11.11-04.32.43:230][158]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.32.43:390][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
-[2014.11.11-04.32.43:391][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
-[2014.11.11-04.32.43:443][158]BlueprintEditorCompileResults: Info [1565.29] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.32.43:906][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.32.44:064][178]LogSavePackage: Save=111.437653ms
-[2014.11.11-04.32.44:065][178]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint5F734E1E46C639D2B193CCA0B58E92FE.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.32.46:129][280]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.32.46:130][280]PIE: New page: PIE session: greybox (12 Nov 2014 2:32:46 am)
-[2014.11.11-04.32.46:204][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073421s)
-[2014.11.11-04.32.46:205][280]LogPlayLevel: PIE: World Init took: (0.000682s)
-[2014.11.11-04.32.46:205][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.075329s)
-[2014.11.11-04.32.46:232][280]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.32.46:234][280]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.32.46:244][280]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.32.46
-[2014.11.11-04.32.46:249][280]LogWorld: Bringing up level for play took: 0.014518
-[2014.11.11-04.32.46:250][280]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.32.46:251][280]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.84
-[2014.11.11-04.32.46:525][281]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096954 > MaxSimulationTimeStep (0.050) for 'ClaudiaCharacterBlueprint_C_9'
-[2014.11.11-04.33.35:406][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
-[2014.11.11-04.33.35:425][131]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F405B20
-[2014.11.11-04.33.53:314][972]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.33.53:315][972]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.11-04.34.03:825][567]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.34.04:027][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
-[2014.11.11-04.34.04:095][567]BlueprintEditorCompileResults: Info [1645.96] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.34.04:875][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.34.05:036][592]LogSavePackage: Save=115.333435ms
-[2014.11.11-04.34.05:037][592]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint5DA2C7114F44220A3501B7B6E21913D9.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.34.13:289][ 74]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.34.13:290][ 74]PIE: New page: PIE session: greybox (12 Nov 2014 2:34:13 am)
-[2014.11.11-04.34.13:368][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077776s)
-[2014.11.11-04.34.13:369][ 74]LogPlayLevel: PIE: World Init took: (0.000657s)
-[2014.11.11-04.34.13:370][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.079564s)
-[2014.11.11-04.34.13:399][ 74]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.34.13:401][ 74]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.34.13:411][ 74]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.34.13
-[2014.11.11-04.34.13:416][ 74]LogWorld: Bringing up level for play took: 0.014253
-[2014.11.11-04.34.13:417][ 74]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.34.13:421][ 74]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.329
-[2014.11.11-04.34.13:686][ 75]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095715 > MaxSimulationTimeStep (0.050) for 'ClaudiaCharacterBlueprint_C_6'
-[2014.11.11-04.35.13:279][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
-[2014.11.11-04.35.50:999][682]LogEditorViewport: Clicking on Actor (LMB): ClaudiaCharacterBlueprint_C (ClaudiaCharacterBlueprint_C6)
-[2014.11.11-04.35.51:001][682]LogSelection:Warning: PIE object was selected: "ClaudiaCharacterBlueprint_C /Game/Maps/UEDPIE_0_greybox.greybox:PersistentLevel.ClaudiaCharacterBlueprint_C_6"
-[2014.11.11-04.35.51:831][683]LogEditorViewport: Clicking on Actor (LMB): ClaudiaCharacterBlueprint_C (ClaudiaCharacterBlueprint_C6)
-[2014.11.11-04.35.51:831][683]LogSelection:Warning: PIE object was selected: "ClaudiaCharacterBlueprint_C /Game/Maps/UEDPIE_0_greybox.greybox:PersistentLevel.ClaudiaCharacterBlueprint_C_6"
-[2014.11.11-04.35.52:576][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038A872E0
-[2014.11.11-04.35.55:493][ 23]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia'
-[2014.11.11-04.35.56:956][195]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
-[2014.11.11-04.35.58:149][338]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia'
-[2014.11.11-04.35.58:574][389]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2014.11.11-04.36.00:372][604]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character'
-[2014.11.11-04.36.01:958][794]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Idle'
-[2014.11.11-04.36.03:079][883]LogRenderer:Warning: Reallocating scene render targets to support 1592x1264.
-[2014.11.11-04.36.41:473][192]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
-[2014.11.11-04.36.42:132][195]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2014.11.11-04.36.46:070][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
-[2014.11.11-04.36.46:964][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
-[2014.11.11-04.36.52:548][646]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.36.52:692][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
-[2014.11.11-04.36.52:736][646]BlueprintEditorCompileResults: Info [1814.63] Compile of ClaudiaCharacterBlueprint successful! [in 46 ms]
-[2014.11.11-04.36.53:590][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.36.53:749][710]LogSavePackage: Save=113.612846ms
-[2014.11.11-04.36.53:750][710]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint13C2B7D74612E7A8AA4D959E05DF0DFD.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.36.55:843][879]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.36.55:844][879]PIE: New page: PIE session: greybox (12 Nov 2014 2:36:55 am)
-[2014.11.11-04.36.55:916][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071916s)
-[2014.11.11-04.36.55:917][879]LogPlayLevel: PIE: World Init took: (0.000594s)
-[2014.11.11-04.36.55:918][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.073804s)
-[2014.11.11-04.36.55:969][879]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.36.55:971][879]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.36.55:981][879]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.36.55
-[2014.11.11-04.36.55:986][879]LogWorld: Bringing up level for play took: 0.014439
-[2014.11.11-04.36.55:987][879]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.36.55:988][879]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.895
-[2014.11.11-04.37.04:197][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
-[2014.11.11-04.37.04:215][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031C439C0
-[2014.11.11-04.37.19:755][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
-[2014.11.11-04.37.19:756][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
-[2014.11.11-04.37.21:879][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
-[2014.11.11-04.37.26:967][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
-[2014.11.11-04.37.28:776][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
-[2014.11.11-04.37.30:593][960]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.37.30:732][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
-[2014.11.11-04.37.30:776][960]BlueprintEditorCompileResults: Info [1852.67] Compile of ClaudiaCharacterBlueprint successful! [in 44 ms]
-[2014.11.11-04.37.31:288][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.37.31:431][996]LogSavePackage: Save=113.306160ms
-[2014.11.11-04.37.31:432][996]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint520D094E4FB45165A621B3A86E55AE41.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.37.34:100][233]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.37.34:101][233]PIE: New page: PIE session: greybox (12 Nov 2014 2:37:34 am)
-[2014.11.11-04.37.34:176][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074638s)
-[2014.11.11-04.37.34:177][233]LogPlayLevel: PIE: World Init took: (0.000574s)
-[2014.11.11-04.37.34:178][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.076580s)
-[2014.11.11-04.37.34:204][233]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.37.34:207][233]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.37.34:216][233]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.37.34
-[2014.11.11-04.37.34:222][233]LogWorld: Bringing up level for play took: 0.014639
-[2014.11.11-04.37.34:222][233]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.37.34:224][233]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.869
-[2014.11.11-04.37.39:211][782]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
-[2014.11.11-04.37.39:229][782]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038E09A80
-[2014.11.11-04.37.41:160][878]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.11-04.37.42:537][984]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.11.11-04.37.45:171][267]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2014.11.11-04.37.59:657][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
-[2014.11.11-04.37.59:658][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
-[2014.11.11-04.38.04:275][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
-[2014.11.11-04.38.07:385][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
-[2014.11.11-04.38.07:477][207]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.38.07:615][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
-[2014.11.11-04.38.07:637][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038A85080
-[2014.11.11-04.38.07:669][207]BlueprintEditorCompileResults: Info [1889.54] Compile of ClaudiaCharacterBlueprint successful! [in 49 ms]
-[2014.11.11-04.38.08:420][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.38.08:566][279]LogSavePackage: Save=112.999474ms
-[2014.11.11-04.38.08:567][279]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint632041C44BED8F5A05C15C9029F6436E.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.38.10:654][508]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.38.10:654][508]PIE: New page: PIE session: greybox (12 Nov 2014 2:38:10 am)
-[2014.11.11-04.38.10:728][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072752s)
-[2014.11.11-04.38.10:729][508]LogPlayLevel: PIE: World Init took: (0.000589s)
-[2014.11.11-04.38.10:730][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.074678s)
-[2014.11.11-04.38.10:760][508]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.38.10:763][508]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.38.10:799][508]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.38.10
-[2014.11.11-04.38.10:804][508]LogWorld: Bringing up level for play took: 0.040996
-[2014.11.11-04.38.10:805][508]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.38.10:807][508]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.288
-[2014.11.11-04.38.13:113][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
-[2014.11.11-04.38.13:133][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B425940
-[2014.11.11-04.38.15:395][903]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackgroundSprite)
-[2014.11.11-04.38.16:159][940]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackgroundSprite)
-[2014.11.11-04.38.17:878][ 44]LogEditorViewport: Clicking Background
-[2014.11.11-04.38.18:573][124]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.38.18:574][124]PIE: New page: PIE session: greybox (12 Nov 2014 2:38:18 am)
-[2014.11.11-04.38.18:650][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076489s)
-[2014.11.11-04.38.18:652][124]LogPlayLevel: PIE: World Init took: (0.000622s)
-[2014.11.11-04.38.18:652][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.078390s)
-[2014.11.11-04.38.18:683][124]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.38.18:685][124]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.38.18:695][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.38.18
-[2014.11.11-04.38.18:700][124]LogWorld: Bringing up level for play took: 0.014408
-[2014.11.11-04.38.18:701][124]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.38.18:702][124]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.392
-[2014.11.11-04.38.26:003][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A23D260
-[2014.11.11-04.38.27:975][211]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.38.27:975][211]PIE: New page: PIE session: greybox (12 Nov 2014 2:38:27 am)
-[2014.11.11-04.38.28:055][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078604s)
-[2014.11.11-04.38.28:057][211]LogPlayLevel: PIE: World Init took: (0.000636s)
-[2014.11.11-04.38.28:057][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.080478s)
-[2014.11.11-04.38.28:089][211]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.38.28:091][211]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.38.28:100][211]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.38.28
-[2014.11.11-04.38.28:106][211]LogWorld: Bringing up level for play took: 0.014415
-[2014.11.11-04.38.28:107][211]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.38.28:108][211]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 1.014
-[2014.11.11-04.38.32:372][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026478EA0
-[2014.11.11-04.38.44:614][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
-[2014.11.11-04.38.48:124][237]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
-[2014.11.11-04.38.50:582][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
-[2014.11.11-04.38.55:575][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
-[2014.11.11-04.38.57:758][368]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.38.57:882][368]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
-[2014.11.11-04.38.57:928][368]BlueprintEditorCompileResults: Info [1939.82] Compile of ClaudiaCharacterBlueprint successful! [in 43 ms]
-[2014.11.11-04.38.58:448][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.38.58:593][420]LogSavePackage: Save=113.633980ms
-[2014.11.11-04.38.58:593][420]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint4657A6F641AE5EDDB844799E55D3C7E3.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.39.01:013][704]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.39.01:014][704]PIE: New page: PIE session: greybox (12 Nov 2014 2:39:01 am)
-[2014.11.11-04.39.01:090][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075545s)
-[2014.11.11-04.39.01:091][704]LogPlayLevel: PIE: World Init took: (0.000590s)
-[2014.11.11-04.39.01:091][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077334s)
-[2014.11.11-04.39.01:119][704]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.39.01:121][704]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.39.01:130][704]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.39.01
-[2014.11.11-04.39.01:136][704]LogWorld: Bringing up level for play took: 0.014358
-[2014.11.11-04.39.01:137][704]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.39.01:138][704]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.044
-[2014.11.11-04.39.27:060][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
-[2014.11.11-04.39.27:079][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003ACA5A80
-[2014.11.11-04.39.28:213][919]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.39.28:214][919]PIE: New page: PIE session: greybox (12 Nov 2014 2:39:28 am)
-[2014.11.11-04.39.28:290][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075387s)
-[2014.11.11-04.39.28:291][919]LogPlayLevel: PIE: World Init took: (0.000612s)
-[2014.11.11-04.39.28:291][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077062s)
-[2014.11.11-04.39.28:321][919]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.39.28:323][919]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.39.28:333][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.39.28
-[2014.11.11-04.39.28:338][919]LogWorld: Bringing up level for play took: 0.014339
-[2014.11.11-04.39.28:339][919]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.39.28:340][919]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.755
-[2014.11.11-04.39.37:460][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C76CA40
-[2014.11.11-04.39.49:217][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.11-04.39.49:630][730]LogSavePackage: Save=356.519470ms
-[2014.11.11-04.39.49:630][730]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/greybox41E017D24710694BA48DEE9D9B306749.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap'
-[2014.11.11-04.39.49:652][730]LogFileHelpers: Saving map 'greybox' took 0.496
-[2014.11.11-04.39.49:673][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Thug_Blueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/Thug_Blueprint.uasset" SILENT=true
-[2014.11.11-04.39.49:930][730]LogSavePackage: Save=207.293381ms
-[2014.11.11-04.39.49:931][730]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/Thug_BlueprintBFF54BFB4BDC1C19E6D2EA891A6C47C5.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/Thug_Blueprint.uasset'
-[2014.11.11-04.40.05:725][875]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.40.05:863][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
-[2014.11.11-04.40.05:864][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
-[2014.11.11-04.40.05:916][875]BlueprintEditorCompileResults: Info [2007.79] Compile of ClaudiaCharacterBlueprint successful! [in 31 ms]
-[2014.11.11-04.40.06:554][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.40.06:700][894]LogSavePackage: Save=114.867065ms
-[2014.11.11-04.40.06:700][894]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprintBA00439D4D11544EC143FC9D100AE013.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.40.08:794][ 67]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.40.08:795][ 67]PIE: New page: PIE session: greybox (12 Nov 2014 2:40:08 am)
-[2014.11.11-04.40.08:869][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073027s)
-[2014.11.11-04.40.08:870][ 67]LogPlayLevel: PIE: World Init took: (0.000642s)
-[2014.11.11-04.40.08:870][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.074953s)
-[2014.11.11-04.40.08:901][ 67]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.40.08:903][ 67]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.40.08:912][ 67]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.40.08
-[2014.11.11-04.40.08:918][ 67]LogWorld: Bringing up level for play took: 0.014484
-[2014.11.11-04.40.08:922][ 67]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.40.08:943][ 67]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.151
-[2014.11.11-04.40.15:901][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
-[2014.11.11-04.40.15:922][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038A7D9E0
-[2014.11.11-04.40.24:368][369]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.40.24:479][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
-[2014.11.11-04.40.24:528][369]BlueprintEditorCompileResults: Info [2026.41] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.40.25:186][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.40.25:332][389]LogSavePackage: Save=114.680214ms
-[2014.11.11-04.40.25:333][389]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprintF1D532A445229F827E0845B8F3215AF3.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.40.58:221][909]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.40.58:341][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
-[2014.11.11-04.40.58:395][909]BlueprintEditorCompileResults: Info [2060.27] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.40.59:216][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.40.59:363][937]LogSavePackage: Save=116.247162ms
-[2014.11.11-04.40.59:363][937]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprintB7C82586434553D0C29A71A00E3BAF78.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.41.10:496][539]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.41.10:629][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
-[2014.11.11-04.41.10:681][539]BlueprintEditorCompileResults: Info [2072.56] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.41.11:111][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.41.11:271][545]LogSavePackage: Save=115.043953ms
-[2014.11.11-04.41.11:272][545]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint6DAB674B479AE365911BDE8BBEE97F4B.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.41.11:763][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.41.11:848][569]LogSavePackage: Save=55.592049ms
-[2014.11.11-04.41.11:849][569]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprintB494B4984FA338B2C08319835EF38D56.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.41.13:842][720]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.41.13:843][720]PIE: New page: PIE session: greybox (12 Nov 2014 2:41:13 am)
-[2014.11.11-04.41.13:924][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080820s)
-[2014.11.11-04.41.13:925][720]LogPlayLevel: PIE: World Init took: (0.000631s)
-[2014.11.11-04.41.13:926][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.082535s)
-[2014.11.11-04.41.13:951][720]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.41.13:953][720]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.41.13:963][720]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.41.13
-[2014.11.11-04.41.13:968][720]LogWorld: Bringing up level for play took: 0.014351
-[2014.11.11-04.41.13:969][720]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.41.13:971][720]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.876
-[2014.11.11-04.41.21:622][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
-[2014.11.11-04.41.21:644][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F52BD80
-[2014.11.11-04.41.27:457][ 19]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.41.27:568][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
-[2014.11.11-04.41.27:618][ 19]BlueprintEditorCompileResults: Info [2089.50] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.41.28:258][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.41.28:405][ 38]LogSavePackage: Save=115.584587ms
-[2014.11.11-04.41.28:405][ 38]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint5E7C2D1848E8AFCCF08B768B7855998B.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.41.30:363][205]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.41.30:363][205]PIE: New page: PIE session: greybox (12 Nov 2014 2:41:30 am)
-[2014.11.11-04.41.30:437][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073384s)
-[2014.11.11-04.41.30:438][205]LogPlayLevel: PIE: World Init took: (0.000563s)
-[2014.11.11-04.41.30:439][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.075287s)
-[2014.11.11-04.41.30:468][205]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.41.30:471][205]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.41.30:480][205]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.41.30
-[2014.11.11-04.41.30:485][205]LogWorld: Bringing up level for play took: 0.014172
-[2014.11.11-04.41.30:486][205]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.41.30:487][205]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.608
-[2014.11.11-04.41.46:742][134]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
-[2014.11.11-04.41.46:763][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B741620
-[2014.11.11-04.42.01:569][ 30]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.42.01:703][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
-[2014.11.11-04.42.01:754][ 30]BlueprintEditorCompileResults: Info [2123.63] Compile of ClaudiaCharacterBlueprint successful! [in 31 ms]
-[2014.11.11-04.42.02:587][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.42.02:734][ 58]LogSavePackage: Save=116.225731ms
-[2014.11.11-04.42.02:735][ 58]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint8915628A4E9C831D0D3BE0A81A94A958.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.42.10:433][569]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.42.10:434][569]PIE: New page: PIE session: greybox (12 Nov 2014 2:42:10 am)
-[2014.11.11-04.42.10:510][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075482s)
-[2014.11.11-04.42.10:511][569]LogPlayLevel: PIE: World Init took: (0.000585s)
-[2014.11.11-04.42.10:512][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077325s)
-[2014.11.11-04.42.10:539][569]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.42.10:541][569]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.42.10:550][569]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.42.10
-[2014.11.11-04.42.10:555][569]LogWorld: Bringing up level for play took: 0.014253
-[2014.11.11-04.42.10:556][569]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.42.10:557][569]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.538
-[2014.11.11-04.42.31:471][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
-[2014.11.11-04.42.31:493][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000415D05E0
-[2014.11.11-04.42.33:125][158]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackgroundSprite)
-[2014.11.11-04.42.47:977][ 93]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackgroundSprite)
-[2014.11.11-04.42.55:627][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.11-04.42.55:965][673]LogSavePackage: Save=255.844879ms
-[2014.11.11-04.42.55:966][673]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/greybox2331515E4F683BB325D3218280A5D0DB.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap'
-[2014.11.11-04.42.56:711][747]MapCheck: New page: Map Check
-[2014.11.11-04.42.56:734][747]Cmd: MAP REBUILD ALLVISIBLE
-[2014.11.11-04.42.56:743][747]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2014.11.11-04.42.59:244][747]LightingResults: New page: Lighting Build - 12 Nov 2014 2:42:59 am
-[2014.11.11-04.43.24:103][747]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
-[2014.11.11-04.43.24:192][747]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.11.11-04.43.24:192][747]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.11.11-04.43.24:193][747]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.11.11-04.43.24:193][747]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.11.11-04.43.24:194][747]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.11.11-04.43.24:567][747]LogEditorBuildUtils: Build time 0:00:27
-[2014.11.11-04.43.33:587][577]Job is a success!
-[2014.11.11-04.43.34:790][578]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2014.11.11-04.43.35:311][578]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.11.11-04.43.35:397][578]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.11.11-04.43.35:587][578]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2014.11.11-04.43.53:916][578]Lightmass on SAE-SYD80503W: 8.68 sec total, 249 ms importing, 7 ms setup, 542 ms photons, 4.74 sec processing, 0 ms extra exporting [771/771 mappings]. Threads: 42.3 sec total, 3.95 sec processing.
-[2014.11.11-04.43.55:889][578]LogStaticLightingSystem:Warning: Illumination: 56.6 sec (1.26 sec encoding lightmaps)
-[2014.11.11-04.43.55:890][578]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 4 textures
-[2014.11.11-04.43.55:891][578]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2014.11.11-04.43.56:078][579]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.11.11-04.43.56:083][579]MapCheck: New page: greybox - 12 Nov 2014 2:43:56 am
-[2014.11.11-04.43.56:195][579]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [116.249ms] ==========
-[2014.11.11-04.44.26:415][ 57]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.44.26:416][ 57]PIE: New page: PIE session: greybox (12 Nov 2014 2:44:26 am)
-[2014.11.11-04.44.26:492][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075404s)
-[2014.11.11-04.44.26:493][ 57]LogPlayLevel: PIE: World Init took: (0.000667s)
-[2014.11.11-04.44.26:494][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077384s)
-[2014.11.11-04.44.26:524][ 57]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.44.26:526][ 57]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.44.26:536][ 57]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.44.26
-[2014.11.11-04.44.26:541][ 57]LogWorld: Bringing up level for play took: 0.014841
-[2014.11.11-04.44.26:542][ 57]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.44.26:543][ 57]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.553
-[2014.11.11-04.44.44:666][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000440DFC40
-[2014.11.11-04.44.45:536][305]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.44.45:537][305]PIE: New page: PIE session: greybox (12 Nov 2014 2:44:45 am)
-[2014.11.11-04.44.45:613][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075548s)
-[2014.11.11-04.44.45:614][305]LogPlayLevel: PIE: World Init took: (0.000590s)
-[2014.11.11-04.44.45:615][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077383s)
-[2014.11.11-04.44.45:645][305]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.44.45:647][305]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.44.45:657][305]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.44.45
-[2014.11.11-04.44.45:662][305]LogWorld: Bringing up level for play took: 0.014692
-[2014.11.11-04.44.45:663][305]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.44.45:665][305]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.568
-[2014.11.11-04.44.53:752][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000045B0860
-[2014.11.11-04.45.19:851][178]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.45.19:852][178]PIE: New page: PIE session: greybox (12 Nov 2014 2:45:19 am)
-[2014.11.11-04.45.19:928][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075922s)
-[2014.11.11-04.45.19:929][178]LogPlayLevel: PIE: World Init took: (0.000583s)
-[2014.11.11-04.45.19:930][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.077767s)
-[2014.11.11-04.45.19:959][178]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.45.19:961][178]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.45.19:971][178]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.45.19
-[2014.11.11-04.45.19:976][178]LogWorld: Bringing up level for play took: 0.014927
-[2014.11.11-04.45.19:977][178]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.45.19:979][178]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.882
-[2014.11.11-04.45.21:451][326]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F210220
-[2014.11.11-04.45.33:623][ 28]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.45.33:741][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
-[2014.11.11-04.45.33:796][ 28]BlueprintEditorCompileResults: Info [2335.66] Compile of ClaudiaCharacterBlueprint successful! [in 30 ms]
-[2014.11.11-04.45.34:421][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.45.34:564][ 44]LogSavePackage: Save=109.835091ms
-[2014.11.11-04.45.34:565][ 44]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint159520934264FD95A64DA6B479970231.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.45.37:432][251]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.45.37:433][251]PIE: New page: PIE session: greybox (12 Nov 2014 2:45:37 am)
-[2014.11.11-04.45.37:508][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074955s)
-[2014.11.11-04.45.37:509][251]LogPlayLevel: PIE: World Init took: (0.000563s)
-[2014.11.11-04.45.37:510][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.076584s)
-[2014.11.11-04.45.37:535][251]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.45.37:537][251]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.45.37:546][251]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.45.37
-[2014.11.11-04.45.37:552][251]LogWorld: Bringing up level for play took: 0.014373
-[2014.11.11-04.45.37:553][251]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.45.37:554][251]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.457
-[2014.11.11-04.45.39:149][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
-[2014.11.11-04.45.39:171][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000438C0EA0
-[2014.11.11-04.45.45:164][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.45.45:306][800]LogSavePackage: Save=111.035576ms
-[2014.11.11-04.45.45:307][800]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprint9671ABD147337392622FF088D5E83357.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.45.45:979][834]BlueprintLog: New page: Compile ClaudiaCharacterBlueprint
-[2014.11.11-04.45.46:093][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
-[2014.11.11-04.45.46:146][834]BlueprintEditorCompileResults: Info [2348.02] Compile of ClaudiaCharacterBlueprint successful! [in 31 ms]
-[2014.11.11-04.45.46:797][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ClaudiaCharacterBlueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset" SILENT=true
-[2014.11.11-04.45.46:937][851]LogSavePackage: Save=108.787643ms
-[2014.11.11-04.45.46:938][851]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/ClaudiaCharacterBlueprintE8BF6ABD40C6446675A914833C8D11A2.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/ClaudiaCharacterBlueprint.uasset'
-[2014.11.11-04.45.49:055][ 24]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.11-04.45.49:056][ 24]PIE: New page: PIE session: greybox (12 Nov 2014 2:45:49 am)
-[2014.11.11-04.45.49:131][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074911s)
-[2014.11.11-04.45.49:132][ 24]LogPlayLevel: PIE: World Init took: (0.000592s)
-[2014.11.11-04.45.49:133][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.076684s)
-[2014.11.11-04.45.49:159][ 24]LogWorld: Game class is 'ClaudiaGameModeBlueprint_C'
-[2014.11.11-04.45.49:161][ 24]LogAIModule: Creating AISystem for world greybox
-[2014.11.11-04.45.49:170][ 24]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.11-15.45.49
-[2014.11.11-04.45.49:175][ 24]LogWorld: Bringing up level for play took: 0.014167
-[2014.11.11-04.45.49:176][ 24]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2014.11.11-04.45.49:177][ 24]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.08
-[2014.11.11-04.46.30:613][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
-[2014.11.11-04.46.30:635][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041E90860
-[2014.11.11-04.46.31:514][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.11-04.46.31:961][ 69]LogSavePackage: Save=372.475098ms
-[2014.11.11-04.46.31:962][ 69]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/greyboxB5BEF1C2469B813D168B529B681D4ADC.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Maps/greybox.umap'
-[2014.11.11-04.46.31:985][ 69]LogFileHelpers: Saving map 'greybox' took 0.532
-[2014.11.11-04.46.31:988][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Thug_Blueprint" FILE="../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/Thug_Blueprint.uasset" SILENT=true
-[2014.11.11-04.46.32:039][ 69]LogSavePackage: Save=17.790928ms
-[2014.11.11-04.46.32:039][ 69]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/404/Claudia/Saved/Thug_Blueprint8B1A072E4E446221243A82A50457559A.tmp' to '../../../../../../Users/eroberts6/Desktop/404/Claudia/Content/Blueprints/Thug_Blueprint.uasset'
-[2014.11.11-04.46.34:950][411]LogEditorViewport: Clicking Background
-[2014.11.11-04.47.44:003][374]Cmd: QUIT_EDITOR
-[2014.11.11-04.47.44:630][374]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.11.11-04.47.44:718][374]LogExit: Preparing to exit.
-[2014.11.11-04.47.45:080][374]LogExit: Editor shut down
-[2014.11.11-04.47.45:081][374]LogExit: Transaction tracking system shut down
-[2014.11.11-04.47.45:082][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B17A8E0
-[2014.11.11-04.47.45:083][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013223D80
-[2014.11.11-04.47.45:084][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DC08B80
-[2014.11.11-04.47.45:084][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A696340
-[2014.11.11-04.47.45:085][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000236BF380
-[2014.11.11-04.47.45:694][374]LogExit: Object subsystem successfully closed.
-[2014.11.11-04.47.46:181][374]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
-[2014.11.11-04.47.46:194][374]LogModuleManager: Shutting down and abandoning module HTTP (161)
-[2014.11.11-04.47.46:210][374]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
-[2014.11.11-04.47.46:211][374]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
-[2014.11.11-04.47.46:228][374]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
-[2014.11.11-04.47.46:229][374]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
-[2014.11.11-04.47.46:229][374]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
-[2014.11.11-04.47.46:245][374]LogModuleManager: Shutting down and abandoning module StatsViewer (155)
-[2014.11.11-04.47.46:266][374]LogModuleManager: Shutting down and abandoning module FoliageEdit (154)
-[2014.11.11-04.47.46:267][374]LogModuleManager: Shutting down and abandoning module LandscapeEditor (153)
-[2014.11.11-04.47.46:286][374]LogModuleManager: Shutting down and abandoning module MeshPaint (152)
-[2014.11.11-04.47.46:286][374]LogModuleManager: Shutting down and abandoning module ActorPickerMode (151)
-[2014.11.11-04.47.46:287][374]LogModuleManager: Shutting down and abandoning module GeometryMode (150)
-[2014.11.11-04.47.46:287][374]LogModuleManager: Shutting down and abandoning module TextureAlignMode (149)
-[2014.11.11-04.47.46:288][374]LogModuleManager: Shutting down and abandoning module BspMode (148)
-[2014.11.11-04.47.46:288][374]LogModuleManager: Shutting down and abandoning module PlacementMode (147)
-[2014.11.11-04.47.46:289][374]LogModuleManager: Shutting down and abandoning module DesktopPlatform (146)
-[2014.11.11-04.47.46:311][374]LogModuleManager: Shutting down and abandoning module AutomationWorker (145)
-[2014.11.11-04.47.46:311][374]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (144)
-[2014.11.11-04.47.46:314][374]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (143)
-[2014.11.11-04.47.46:342][374]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (142)
-[2014.11.11-04.47.46:343][374]LogModuleManager: Shutting down and abandoning module UndoHistory (141)
-[2014.11.11-04.47.46:343][374]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (140)
-[2014.11.11-04.47.46:344][374]LogModuleManager: Shutting down and abandoning module UserFeedback (139)
-[2014.11.11-04.47.46:344][374]LogModuleManager: Shutting down and abandoning module XmlParser (138)
-[2014.11.11-04.47.46:360][374]LogModuleManager: Shutting down and abandoning module Blutility (137)
-[2014.11.11-04.47.46:372][374]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (136)
-[2014.11.11-04.47.46:373][374]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (135)
-[2014.11.11-04.47.46:373][374]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (134)
-[2014.11.11-04.47.46:374][374]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (133)
-[2014.11.11-04.47.46:374][374]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (132)
-[2014.11.11-04.47.46:374][374]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (131)
-[2014.11.11-04.47.46:375][374]LogModuleManager: Shutting down and abandoning module InputBindingEditor (130)
-[2014.11.11-04.47.46:397][374]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (129)
-[2014.11.11-04.47.46:398][374]LogModuleManager: Shutting down and abandoning module SettingsEditor (128)
-[2014.11.11-04.47.46:416][374]LogModuleManager: Shutting down and abandoning module SessionLauncher (127)
-[2014.11.11-04.47.46:434][374]LogModuleManager: Shutting down and abandoning module SessionFrontend (126)
-[2014.11.11-04.47.46:443][374]LogModuleManager: Shutting down and abandoning module ProfilerClient (125)
-[2014.11.11-04.47.46:456][374]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (124)
-[2014.11.11-04.47.46:457][374]LogModuleManager: Shutting down and abandoning module DeviceManager (123)
-[2014.11.11-04.47.46:474][374]LogModuleManager: Shutting down and abandoning module AutomationController (122)
-[2014.11.11-04.47.46:488][374]LogModuleManager: Shutting down and abandoning module AutomationWindow (121)
-[2014.11.11-04.47.46:500][374]LogModuleManager: Shutting down and abandoning module Layers (120)
-[2014.11.11-04.47.46:500][374]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (119)
-[2014.11.11-04.47.46:501][374]LogModuleManager: Shutting down and abandoning module DetailCustomizations (118)
-[2014.11.11-04.47.46:515][374]LogModuleManager: Shutting down and abandoning module PackagesDialog (117)
-[2014.11.11-04.47.46:532][374]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
-[2014.11.11-04.47.46:533][374]LogModuleManager: Shutting down and abandoning module AssetRegistry (115)
-[2014.11.11-04.47.46:638][374]LogModuleManager: Shutting down and abandoning module Persona (114)
-[2014.11.11-04.47.46:756][374]LogModuleManager: Shutting down and abandoning module GraphEditor (113)
-[2014.11.11-04.47.46:757][374]LogModuleManager: Shutting down and abandoning module ClassViewer (112)
-[2014.11.11-04.47.46:757][374]LogModuleManager: Shutting down and abandoning module Toolbox (111)
-[2014.11.11-04.47.46:758][374]LogModuleManager: Shutting down and abandoning module ModuleUI (110)
-[2014.11.11-04.47.46:791][374]LogModuleManager: Shutting down and abandoning module Sequencer (109)
-[2014.11.11-04.47.46:799][374]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
-[2014.11.11-04.47.46:826][374]LogModuleManager: Shutting down and abandoning module OutputLog (107)
-[2014.11.11-04.47.46:826][374]LogModuleManager: Shutting down and abandoning module GammaUI (106)
-[2014.11.11-04.47.46:843][374]LogModuleManager: Shutting down and abandoning module Documentation (105)
-[2014.11.11-04.47.46:844][374]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
-[2014.11.11-04.47.46:844][374]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
-[2014.11.11-04.47.46:845][374]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
-[2014.11.11-04.47.46:845][374]LogModuleManager: Shutting down and abandoning module Analytics (101)
-[2014.11.11-04.47.46:845][374]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
-[2014.11.11-04.47.46:846][374]LogModuleManager: Shutting down and abandoning module AIModule (99)
-[2014.11.11-04.47.46:846][374]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
-[2014.11.11-04.47.47:016][374]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
-[2014.11.11-04.47.47:038][374]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
-[2014.11.11-04.47.47:039][374]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
-[2014.11.11-04.47.47:039][374]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
-[2014.11.11-04.47.47:040][374]LogModuleManager: Shutting down and abandoning module CableComponent (93)
-[2014.11.11-04.47.47:040][374]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
-[2014.11.11-04.47.47:145][374]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
-[2014.11.11-04.47.47:145][374]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
-[2014.11.11-04.47.47:146][374]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
-[2014.11.11-04.47.47:146][374]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
-[2014.11.11-04.47.47:146][374]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
-[2014.11.11-04.47.47:147][374]LogModuleManager: Shutting down and abandoning module Matinee (86)
-[2014.11.11-04.47.47:163][374]LogModuleManager: Shutting down and abandoning module Kismet (85)
-[2014.11.11-04.47.47:168][374]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
-[2014.11.11-04.47.47:187][374]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2014.11.11-04.47.47:209][374]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
-[2014.11.11-04.47.47:217][374]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
-[2014.11.11-04.47.47:217][374]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
-[2014.11.11-04.47.47:225][374]LogModuleManager: Shutting down and abandoning module AssetTools (79)
-[2014.11.11-04.47.47:262][374]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2014.11.11-04.47.47:262][374]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (77)
-[2014.11.11-04.47.47:263][374]LogModuleManager: Shutting down and abandoning module PluginsEditor (76)
-[2014.11.11-04.47.47:283][374]LogModuleManager: Shutting down and abandoning module MainFrame (75)
-[2014.11.11-04.47.47:284][374]LogModuleManager: Shutting down and abandoning module EpicSurvey (74)
-[2014.11.11-04.47.47:294][374]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (73)
-[2014.11.11-04.47.47:309][374]LogModuleManager: Shutting down and abandoning module UObjectPlugin (72)
-[2014.11.11-04.47.47:309][374]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (71)
-[2014.11.11-04.47.47:325][374]LogModuleManager: Shutting down and abandoning module SourceControl (70)
-[2014.11.11-04.47.47:340][374]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (69)
-[2014.11.11-04.47.47:351][374]LogModuleManager: Shutting down and abandoning module BlankPlugin (68)
-[2014.11.11-04.47.47:352][374]LogModuleManager: Shutting down and abandoning module Claudia (67)
-[2014.11.11-04.47.47:352][374]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
-[2014.11.11-04.47.47:366][374]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
-[2014.11.11-04.47.47:466][374]LogModuleManager: Shutting down and abandoning module Paper2D (64)
-[2014.11.11-04.47.47:466][374]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
-[2014.11.11-04.47.47:524][374]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
-[2014.11.11-04.47.47:525][374]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
-[2014.11.11-04.47.47:526][374]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
-[2014.11.11-04.47.47:550][374]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
-[2014.11.11-04.47.47:558][374]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
-[2014.11.11-04.47.47:558][374]LogModuleManager: Shutting down and abandoning module MessageLog (57)
-[2014.11.11-04.47.47:559][374]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
-[2014.11.11-04.47.47:586][374]LogModuleManager: Shutting down and abandoning module UMG (55)
-[2014.11.11-04.47.47:596][374]LogModuleManager: Shutting down and abandoning module Slate (54)
-[2014.11.11-04.47.47:596][374]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
-[2014.11.11-04.47.47:598][374]LogModuleManager: Shutting down and abandoning module SessionServices (52)
-[2014.11.11-04.47.47:599][374]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
-[2014.11.11-04.47.47:599][374]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
-[2014.11.11-04.47.47:600][374]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
-[2014.11.11-04.47.47:600][374]LogModuleManager: Shutting down and abandoning module Networking (47)
-[2014.11.11-04.47.47:600][374]LogModuleManager: Shutting down and abandoning module Core (46)
-[2014.11.11-04.47.47:601][374]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
-[2014.11.11-04.47.47:601][374]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
-[2014.11.11-04.47.47:602][374]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
-[2014.11.11-04.47.47:619][374]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
-[2014.11.11-04.47.47:704][374]LogDerivedDataCache: Shutdown
-[2014.11.11-04.47.47:704][374]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
-[2014.11.11-04.47.47:714][374]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
-[2014.11.11-04.47.47:719][374]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
-[2014.11.11-04.47.47:727][374]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
-[2014.11.11-04.47.47:728][374]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
-[2014.11.11-04.47.47:728][374]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
-[2014.11.11-04.47.47:728][374]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
-[2014.11.11-04.47.47:729][374]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
-[2014.11.11-04.47.47:740][374]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
-[2014.11.11-04.47.47:741][374]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
-[2014.11.11-04.47.47:741][374]LogModuleManager: Shutting down and abandoning module Messaging (31)
-[2014.11.11-04.47.47:742][374]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
-[2014.11.11-04.47.47:742][374]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
-[2014.11.11-04.47.47:743][374]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
-[2014.11.11-04.47.47:743][374]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
-[2014.11.11-04.47.47:743][374]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
-[2014.11.11-04.47.47:744][374]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
-[2014.11.11-04.47.47:744][374]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
-[2014.11.11-04.47.47:745][374]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
-[2014.11.11-04.47.47:745][374]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
-[2014.11.11-04.47.47:745][374]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
-[2014.11.11-04.47.47:746][374]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
-[2014.11.11-04.47.47:746][374]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
-[2014.11.11-04.47.47:747][374]LogModuleManager: Shutting down and abandoning module InputCore (18)
-[2014.11.11-04.47.47:747][374]LogModuleManager: Shutting down and abandoning module Settings (17)
-[2014.11.11-04.47.47:747][374]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2014.11.11-04.47.47:748][374]LogModuleManager: Shutting down and abandoning module OculusRift (13)
-[2014.11.11-04.47.47:764][374]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
-[2014.11.11-04.47.47:764][374]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
-[2014.11.11-04.47.47:765][374]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2014.11.11-04.47.47:765][374]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2014.11.11-04.47.47:766][374]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
-[2014.11.11-04.47.47:766][374]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.11.11-04.47.47:767][374]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.11.11-04.47.47:767][374]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.11.11-04.47.47:767][374]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.11.11-04.47.47:785][374]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.11.11-04.47.47:789][374]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.11.11-04.47.47:795][374]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.11.11-04.47.47:801][374]LogExit: Exiting.
-[2014.11.11-04.47.47:813][374]Log file closed, 11/11/14 15:47:47
->>>>>>> 53e9428783c63396023f8520c38cdd6ac53f7854
+[2014.11.11-05.17.02:322][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.11-05.17.02:350][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.11-05.17.02:360][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.11-05.17.02:368][  0]LogInit: Object subsystem initialized
+[2014.11.11-05.17.02:370][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.11-05.17.02:370][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.11-05.17.02:376][  0]LogInit: Computer: HAL9000
+[2014.11.11-05.17.02:376][  0]LogInit: User: Andrew
+[2014.11.11-05.17.02:378][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.11-05.17.02:378][  0]LogInit: High frequency timer resolution =1.948730 MHz
+[2014.11.11-05.17.02:378][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2014.11.11-05.17.02:378][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.11-05.17.02:378][  0]LogMemory: Process Physical Memory: 63.33 MB used, 63.33 MB peak
+[2014.11.11-05.17.02:378][  0]LogMemory: Process Virtual Memory: 39.31 MB used, 39.31 MB peak
+[2014.11.11-05.17.02:378][  0]LogMemory: Physical Memory: 5396.60 MB used, 8139.86 MB total
+[2014.11.11-05.17.02:378][  0]LogMemory: Virtual Memory: 274.21 MB used, 8388608.00 MB total
+[2014.11.11-05.17.02:412][  0]LogD3D11RHI: Found D3D11 adapter 0: Radeon (TM) HD 6770M (Feature Level 11_0)
+[2014.11.11-05.17.02:412][  0]LogD3D11RHI: Adapter has 1008MB of dedicated video memory, 0MB of dedicated system memory, and 3813MB of shared system memory, 1 output[s]
+[2014.11.11-05.17.02:412][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.11-05.17.02:419][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
+[2014.11.11-05.17.02:430][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.11.11-05.17.02:576][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.11-05.17.04:327][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-05.17.04:780][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-05.17.04:819][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.11-05.17.04:869][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Andrew/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.11-05.17.04:869][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Andrew/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.11-05.17.04:870][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Andrew/Documents/Claudia/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.11-05.17.04:870][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.11-05.17.04:892][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.11-05.17.04:903][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andrew/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.11-05.17.05:127][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.11-05.17.05:127][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.11-05.17.05:520][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.11-05.17.06:692][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2184_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1930_0///////STATCAT_Advanced////
+[2014.11.11-05.17.06:692][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.11-05.17.06:798][  0]SourceControl: Info Source control is disabled
+[2014.11.11-05.17.06:798][  0]SourceControl: Info Source control is disabled
+[2014.11.11-05.17.06:803][  0]SourceControl: Info Source control is disabled
+[2014.11.11-05.17.07:011][  0]BlueprintLog: New page: Editor Load
+[2014.11.11-05.17.07:103][  0]LogObj: 21452 objects as part of root set at end of initial load.
+[2014.11.11-05.17.07:103][  0]LogUObjectAllocator: 4228536 out of 0 bytes used by permanent object pool.
+[2014.11.11-05.17.07:286][  0]LogEngine: Initializing Engine...
+[2014.11.11-05.17.07:412][  0]LogInit: XAudio2 using 'Speakers and Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.11-05.17.07:444][  0]LogInit: FAudioDevice initialized.
+[2014.11.11-05.17.07:459][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.11-05.17.07:484][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Andrew/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.11-05.17.07:489][  0]LogInit: Texture streaming: Enabled
+[2014.11.11-05.17.07:531][  0]LogInit: Transaction tracking system initialized
+[2014.11.11-05.17.07:626][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.11.11-05.17.08:077][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-05.17.08:587][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.11-05.17.08:699][  0]LogConsoleResponse:Display: 
+[2014.11.11-05.17.08:873][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_189c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1930_0///////STATCAT_Advanced////
+[2014.11.11-05.17.08:873][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2180_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1930_0///////STATCAT_Advanced////
+[2014.11.11-05.17.08:873][  0]SourceControl: Info Source control is disabled
+[2014.11.11-05.17.08:873][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.11-05.17.08:873][  0]LightingResults: New page: Lighting Build
+[2014.11.11-05.17.08:881][  0]MapCheck: New page: Map Check
+[2014.11.11-05.17.08:881][  0]LightingResults: New page: Lighting Build
+[2014.11.11-05.17.08:896][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001381D300
+[2014.11.11-05.17.09:100][  0]LogLinker:Warning: Asset '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Blueprints/2DLift.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-05.17.09:448][  0]LogLinker:Warning: Asset '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Sprites/Platform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-05.17.09:448][  0]LogLinker:Warning: Asset '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/2DBackgroundBlockAtlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-05.17.09:502][  0]LogLinker:Warning: Asset '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Sprites/2DBackgroundSprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-05.17.09:503][  0]LogLinker:Warning: Asset '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/2DBackground.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.11-05.17.09:923][  0]LogTexture:Display: Building textures: Claudia_Kick (AutoDXT)
+[2014.11.11-05.17.10:701][  0]LogTexture:Display: Building textures: Claudia_Grapple_1 (AutoDXT)
+[2014.11.11-05.17.11:030][  0]LogTexture:Display: Building textures: Claudia_Grapple_2 (AutoDXT)
+[2014.11.11-05.17.11:380][  0]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
+[2014.11.11-05.17.11:765][  0]LogTexture:Display: Building textures: Claudia_HalfKick (AutoDXT)
+[2014.11.11-05.17.12:100][  0]LogTexture:Display: Building textures: Claudia_WallJump (AutoDXT)
+[2014.11.11-05.17.22:036][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.11-05.17.22:385][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.11-05.17.22:679][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.11-05.17.22:778][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.11-05.17.23:025][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.11-05.17.23:025][  0]LogAIModule: Creating AISystem for world greybox
+[2014.11.11-05.17.23:026][  0]Cmd: MAP CHECKDEP
+[2014.11.11-05.17.23:026][  0]MapCheck: New page: greybox - Nov 12, 2014, 3:17:23 AM
+[2014.11.11-05.17.23:093][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [66.51ms] ==========
+[2014.11.11-05.17.23:093][  0]LogFileHelpers: Loading map 'greybox' took 14.219
+[2014.11.11-05.17.23:212][  0]LogCollectionManager: Loaded 0 collections in 0.001098 seconds
+[2014.11.11-05.17.23:342][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.11-05.17.23:394][  0]LogLoad: Full Startup: 23.11 seconds (BP compile: 0.13 seconds)
+[2014.11.11-05.17.23:419][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Claudia_Character/Idle'
+[2014.11.11-05.17.23:654][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.11-05.17.23:693][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x600.
+[2014.11.11-05.17.23:870][  1]LogAssetRegistry: Asset discovery search completed in 16.2546 seconds
+[2014.11.11-05.17.33:849][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.11.11-05.17.38:399][860]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.11-05.17.42:147][ 81]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Environment_Textures'
+[2014.11.11-05.17.53:365][753]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.11-05.18.01:550][227]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/NewFolder'
+[2014.11.11-05.18.10:193][732]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.33:918][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\SideLeft.png)
+[2014.11.11-05.18.33:998][146]0.000033 seconds to analyze Texture2D /Game/Textures/Art/SideLeft.SideLeft
+
+[2014.11.11-05.18.34:030][146]LogTexture:Display: Building textures: SideLeft (AutoDXT)
+[2014.11.11-05.18.35:088][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\SideRight.png)
+[2014.11.11-05.18.35:147][146]0.000041 seconds to analyze Texture2D /Game/Textures/Art/SideRight.SideRight
+
+[2014.11.11-05.18.35:182][146]LogTexture:Display: Building textures: SideRight (AutoDXT)
+[2014.11.11-05.18.36:096][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\StoneCorner.png)
+[2014.11.11-05.18.36:144][146]0.000033 seconds to analyze Texture2D /Game/Textures/Art/StoneCorner.StoneCorner
+
+[2014.11.11-05.18.36:195][146]LogTexture:Display: Building textures: StoneCorner (AutoDXT)
+[2014.11.11-05.18.36:839][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\StoneCorner2.png)
+[2014.11.11-05.18.36:896][146]0.000033 seconds to analyze Texture2D /Game/Textures/Art/StoneCorner2.StoneCorner2
+
+[2014.11.11-05.18.36:898][146]LogTexture:Display: Building textures: StoneCorner2 (AutoDXT)
+[2014.11.11-05.18.37:472][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\Tiling Stone.png)
+[2014.11.11-05.18.37:526][146]0.000036 seconds to analyze Texture2D /Game/Textures/Art/Tiling_Stone.Tiling_Stone
+
+[2014.11.11-05.18.37:528][146]LogTexture:Display: Building textures: Tiling_Stone (AutoDXT)
+[2014.11.11-05.18.37:826][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\Wheel.png)
+[2014.11.11-05.18.41:583][146]0.000014 seconds to analyze Texture2D /Game/Textures/Art/Wheel.Wheel
+
+[2014.11.11-05.18.41:584][146]LogTexture:Display: Building textures: Wheel (BGRA8)
+[2014.11.11-05.18.41:590][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\window.png)
+[2014.11.11-05.18.41:699][146]0.000059 seconds to analyze Texture2D /Game/Textures/Art/window.Window
+
+[2014.11.11-05.18.41:758][146]LogTexture:Display: Building textures: Window (AutoDXT)
+[2014.11.11-05.18.42:057][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\WindowOff.png)
+[2014.11.11-05.18.42:222][146]0.000035 seconds to analyze Texture2D /Game/Textures/Art/WindowOff.WindowOff
+
+[2014.11.11-05.18.42:258][146]LogTexture:Display: Building textures: WindowOff (AutoDXT)
+[2014.11.11-05.18.42:467][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\Fan.png)
+[2014.11.11-05.18.42:511][146]0.000031 seconds to analyze Texture2D /Game/Textures/Art/Fan.Fan
+
+[2014.11.11-05.18.42:583][146]LogTexture:Display: Building textures: Fan (AutoDXT)
+[2014.11.11-05.18.42:760][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\Gauge.png)
+[2014.11.11-05.18.42:762][146]0.000017 seconds to analyze Texture2D /Game/Textures/Art/Gauge.Gauge
+
+[2014.11.11-05.18.42:884][146]LogTexture:Display: Building textures: Gauge (BGRA8)
+[2014.11.11-05.18.42:890][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\PipeCurve.png)
+[2014.11.11-05.18.42:892][146]0.000016 seconds to analyze Texture2D /Game/Textures/Art/PipeCurve.PipeCurve
+
+[2014.11.11-05.18.42:906][146]LogTexture:Display: Building textures: PipeCurve (AutoDXT)
+[2014.11.11-05.18.42:962][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\PipeEnd.png)
+[2014.11.11-05.18.42:963][146]0.000017 seconds to analyze Texture2D /Game/Textures/Art/PipeEnd.PipeEnd
+
+[2014.11.11-05.18.43:015][146]LogTexture:Display: Building textures: PipeEnd (BGRA8)
+[2014.11.11-05.18.43:018][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\PipeLong.png)
+[2014.11.11-05.18.43:072][146]0.000017 seconds to analyze Texture2D /Game/Textures/Art/PipeLong.PipeLong
+
+[2014.11.11-05.18.43:117][146]LogTexture:Display: Building textures: PipeLong (BGRA8)
+[2014.11.11-05.18.43:127][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\PipeT.png)
+[2014.11.11-05.18.43:156][146]0.000016 seconds to analyze Texture2D /Game/Textures/Art/PipeT.PipeT
+
+[2014.11.11-05.18.43:157][146]LogTexture:Display: Building textures: PipeT (BGRA8)
+[2014.11.11-05.18.43:171][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\Rail.png)
+[2014.11.11-05.18.43:234][146]0.000040 seconds to analyze Texture2D /Game/Textures/Art/Rail.Rail
+
+[2014.11.11-05.18.43:267][146]LogTexture:Display: Building textures: Rail (AutoDXT)
+[2014.11.11-05.18.44:118][146]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Andrew\Documents\ClaudiaArt\Scaffolding.png)
+[2014.11.11-05.18.44:249][146]0.000030 seconds to analyze Texture2D /Game/Textures/Art/Scaffolding.Scaffolding
+
+[2014.11.11-05.18.44:270][146]LogTexture:Display: Building textures: Scaffolding (AutoDXT)
+[2014.11.11-05.18.44:700][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.11-05.18.44:700][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:701][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:701][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:701][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:701][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:701][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:701][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:702][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:702][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:702][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:702][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:702][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:703][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:703][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:703][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.44:703][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:666][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.11-05.18.54:666][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:667][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:667][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:667][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:667][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:667][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:668][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:668][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:668][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:668][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:668][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:669][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:669][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:669][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:669][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.54:669][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.11-05.18.59:660][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Fan" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Fan.uasset" SILENT=true
+[2014.11.11-05.19.00:129][999]LogSavePackage: Save=465.866486ms
+[2014.11.11-05.19.00:129][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Fan39248EF44BAF9686404102B89BCFAD55.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Fan.uasset'
+[2014.11.11-05.19.00:147][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Fan_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Fan_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.00:202][999]LogSavePackage: Save=53.544102ms
+[2014.11.11-05.19.00:202][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Fan_Sprite445067D440680DE1F42D59938BDEBEC8.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Fan_Sprite.uasset'
+[2014.11.11-05.19.00:214][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Gauge" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Gauge.uasset" SILENT=true
+[2014.11.11-05.19.00:326][999]LogSavePackage: Save=110.251808ms
+[2014.11.11-05.19.00:326][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/GaugeFF31AF624DA509FCC684638B9225D9BF.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Gauge.uasset'
+[2014.11.11-05.19.00:346][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Gauge_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Gauge_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.00:445][999]LogSavePackage: Save=96.556221ms
+[2014.11.11-05.19.00:445][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Gauge_Sprite43703409430F909CB168B4983D564F5D.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Gauge_Sprite.uasset'
+[2014.11.11-05.19.00:462][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/PipeCurve" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeCurve.uasset" SILENT=true
+[2014.11.11-05.19.00:714][999]LogSavePackage: Save=250.500580ms
+[2014.11.11-05.19.00:715][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/PipeCurveCCC8110349A5885ACA802EBEC926DE5A.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeCurve.uasset'
+[2014.11.11-05.19.00:733][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/PipeCurve_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeCurve_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.00:843][999]LogSavePackage: Save=108.300789ms
+[2014.11.11-05.19.00:843][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/PipeCurve_Sprite121D1DF54F4F17E4DAA936A98A06E043.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeCurve_Sprite.uasset'
+[2014.11.11-05.19.00:875][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/PipeEnd" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeEnd.uasset" SILENT=true
+[2014.11.11-05.19.01:030][999]LogSavePackage: Save=153.443527ms
+[2014.11.11-05.19.01:031][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/PipeEnd5EEE74D34CE598DDF9723491CD784BF8.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeEnd.uasset'
+[2014.11.11-05.19.01:048][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/PipeEnd_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeEnd_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.01:265][999]LogSavePackage: Save=215.339737ms
+[2014.11.11-05.19.01:266][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/PipeEnd_Sprite203744A44345B6047E1F97B5389BFAE2.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeEnd_Sprite.uasset'
+[2014.11.11-05.19.01:279][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/PipeLong" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeLong.uasset" SILENT=true
+[2014.11.11-05.19.01:851][999]LogSavePackage: Save=569.731079ms
+[2014.11.11-05.19.01:851][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/PipeLong8580695746A08245960635957F9022B0.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeLong.uasset'
+[2014.11.11-05.19.01:869][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/PipeLong_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeLong_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.01:955][999]LogSavePackage: Save=84.695671ms
+[2014.11.11-05.19.01:955][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/PipeLong_Sprite8283B74A4B82FE03ACA9228E352F584E.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeLong_Sprite.uasset'
+[2014.11.11-05.19.01:966][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/PipeT" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeT.uasset" SILENT=true
+[2014.11.11-05.19.02:624][999]LogSavePackage: Save=656.440369ms
+[2014.11.11-05.19.02:625][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/PipeT3AB04F1A411D210DEBA6D0AF8EDC459E.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeT.uasset'
+[2014.11.11-05.19.02:651][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/PipeT_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeT_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.02:736][999]LogSavePackage: Save=82.257675ms
+[2014.11.11-05.19.02:736][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/PipeT_SpriteA21476C142B9E2ED8A204EBC83594070.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/PipeT_Sprite.uasset'
+[2014.11.11-05.19.02:755][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Rail" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Rail.uasset" SILENT=true
+[2014.11.11-05.19.06:070][999]LogSavePackage: Save=3312.106934ms
+[2014.11.11-05.19.06:070][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/RailE6B78B284DD7913F9BB4DDB356693709.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Rail.uasset'
+[2014.11.11-05.19.06:089][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Rail_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Rail_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.06:153][999]LogSavePackage: Save=62.463245ms
+[2014.11.11-05.19.06:153][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Rail_SpriteD8C6B4ED4FB26087A14D47BF8A1B54A6.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Rail_Sprite.uasset'
+[2014.11.11-05.19.06:174][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Scaffolding" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Scaffolding.uasset" SILENT=true
+[2014.11.11-05.19.08:812][999]LogSavePackage: Save=2635.043945ms
+[2014.11.11-05.19.08:812][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Scaffolding30437B0646884AB355127EAA3EFA200E.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Scaffolding.uasset'
+[2014.11.11-05.19.08:830][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Scaffolding_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Scaffolding_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.08:865][999]LogSavePackage: Save=32.850113ms
+[2014.11.11-05.19.08:865][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Scaffolding_Sprite02B426A8439C3309B21A2199F2914E15.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Scaffolding_Sprite.uasset'
+[2014.11.11-05.19.08:883][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/SideLeft" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/SideLeft.uasset" SILENT=true
+[2014.11.11-05.19.15:030][999]LogSavePackage: Save=6144.667480ms
+[2014.11.11-05.19.15:030][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/SideLeftF9719925454B3E03885E5489E1FC6697.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/SideLeft.uasset'
+[2014.11.11-05.19.15:048][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/SideLeft_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/SideLeft_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.15:130][999]LogSavePackage: Save=38.497894ms
+[2014.11.11-05.19.15:130][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/SideLeft_Sprite203E9E0644ED88EE794D25AFB9AE1377.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/SideLeft_Sprite.uasset'
+[2014.11.11-05.19.15:150][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/SideRight" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/SideRight.uasset" SILENT=true
+[2014.11.11-05.19.21:308][999]LogSavePackage: Save=6155.423340ms
+[2014.11.11-05.19.21:308][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/SideRightA349B4BF4AC6BC49F2CEF0B6E460B87D.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/SideRight.uasset'
+[2014.11.11-05.19.21:329][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/SideRight_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/SideRight_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.21:370][999]LogSavePackage: Save=37.556255ms
+[2014.11.11-05.19.21:370][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/SideRight_SpriteC21F133E4111809C7C6CC29859849A9E.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/SideRight_Sprite.uasset'
+[2014.11.11-05.19.21:391][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/StoneCorner" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/StoneCorner.uasset" SILENT=true
+[2014.11.11-05.19.23:767][999]LogSavePackage: Save=2373.406250ms
+[2014.11.11-05.19.23:767][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/StoneCornerADA8FB4F4679E085FAF7B989C1AF4C01.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/StoneCorner.uasset'
+[2014.11.11-05.19.23:785][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/StoneCorner2" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/StoneCorner2.uasset" SILENT=true
+[2014.11.11-05.19.26:054][999]LogSavePackage: Save=2266.833740ms
+[2014.11.11-05.19.26:054][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/StoneCorner20353B91B40A85E56735E79B17B8A458D.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/StoneCorner2.uasset'
+[2014.11.11-05.19.26:074][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/StoneCorner2_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/StoneCorner2_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.26:169][999]LogSavePackage: Save=91.758736ms
+[2014.11.11-05.19.26:169][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/StoneCorner2_SpriteB61D13E54A3FF606B9100C973E52D4AD.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/StoneCorner2_Sprite.uasset'
+[2014.11.11-05.19.26:191][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/StoneCorner_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/StoneCorner_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.26:576][999]LogSavePackage: Save=383.389709ms
+[2014.11.11-05.19.26:577][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/StoneCorner_Sprite4295B60540FCE4254A5440B4613D2954.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/StoneCorner_Sprite.uasset'
+[2014.11.11-05.19.26:599][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Tiling_Stone" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Tiling_Stone.uasset" SILENT=true
+[2014.11.11-05.19.32:674][999]LogSavePackage: Save=6072.280273ms
+[2014.11.11-05.19.32:674][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Tiling_Stone3BD724E04C1F2F7D7A30608CC3A08EDF.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Tiling_Stone.uasset'
+[2014.11.11-05.19.32:695][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Tiling_Stone_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Tiling_Stone_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.32:853][999]LogSavePackage: Save=155.377090ms
+[2014.11.11-05.19.32:853][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Tiling_Stone_SpriteDA101A58444A4BC04688138E2C85E93E.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Tiling_Stone_Sprite.uasset'
+[2014.11.11-05.19.32:870][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Wheel" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Wheel.uasset" SILENT=true
+[2014.11.11-05.19.32:988][999]LogSavePackage: Save=115.429024ms
+[2014.11.11-05.19.32:988][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Wheel0E7AB3604D0F5C9AADAA97937D92FE05.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Wheel.uasset'
+[2014.11.11-05.19.33:008][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/Wheel_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Wheel_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.33:069][999]LogSavePackage: Save=57.715023ms
+[2014.11.11-05.19.33:069][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/Wheel_Sprite57A7EF0744CB81D4792E8DA1F5B5EEB1.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/Wheel_Sprite.uasset'
+[2014.11.11-05.19.33:090][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/window" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/window.uasset" SILENT=true
+[2014.11.11-05.19.42:040][999]LogSavePackage: Save=8948.259766ms
+[2014.11.11-05.19.42:040][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/window993CEC694FDEAD72B5D678991F93B9F3.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/window.uasset'
+[2014.11.11-05.19.42:062][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/window_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/window_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.42:222][999]LogSavePackage: Save=157.435349ms
+[2014.11.11-05.19.42:222][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/window_SpriteCDF4B9224D9E69669F53E081A8EB25A7.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/window_Sprite.uasset'
+[2014.11.11-05.19.42:245][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/WindowOff" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/WindowOff.uasset" SILENT=true
+[2014.11.11-05.19.44:328][999]LogSavePackage: Save=2080.219482ms
+[2014.11.11-05.19.44:328][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/WindowOff7208A3884EAD03E8F355E7ADE6161726.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/WindowOff.uasset'
+[2014.11.11-05.19.44:350][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Art/WindowOff_Sprite" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/WindowOff_Sprite.uasset" SILENT=true
+[2014.11.11-05.19.44:492][999]LogSavePackage: Save=128.563217ms
+[2014.11.11-05.19.44:493][999]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/WindowOff_Sprite7CDA66044B46FCCC44C3E6B8287D1432.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Textures/Art/WindowOff_Sprite.uasset'
+[2014.11.11-05.19.54:440][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.11-05.19.54:486][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.11-05.19.54:487][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.11-05.19.55:043][593]LogSavePackage: Save=502.346130ms
+[2014.11.11-05.19.55:043][593]LogSavePackage: Moving '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Saved/greybox6A24AEC4444F93E77D6B20B1061E5A11.tmp' to '../../../../../../Users/Andrew/Documents/Claudia/Claudia/Content/Maps/greybox.umap'
+[2014.11.11-05.20.00:373][890]Cmd: QUIT_EDITOR
+[2014.11.11-05.20.00:507][890]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.11-05.20.00:508][890]LogExit: Preparing to exit.
+[2014.11.11-05.20.00:881][890]LogExit: Editor shut down
+[2014.11.11-05.20.00:882][890]LogExit: Transaction tracking system shut down
+[2014.11.11-05.20.00:883][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E4CB880
+[2014.11.11-05.20.00:910][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000217805E0
+[2014.11.11-05.20.00:910][890]LogExit: Object subsystem successfully closed.
+[2014.11.11-05.20.00:940][890]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
+[2014.11.11-05.20.00:940][890]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module StatsViewer (155)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module FoliageEdit (154)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module LandscapeEditor (153)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module MeshPaint (152)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module ActorPickerMode (151)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module GeometryMode (150)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module TextureAlignMode (149)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module BspMode (148)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module PlacementMode (147)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module AutomationWorker (146)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (145)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (144)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (143)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module UndoHistory (142)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (141)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module UserFeedback (140)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module XmlParser (139)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module Blutility (138)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (137)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (136)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (135)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (134)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (133)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (132)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module InputBindingEditor (131)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (130)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module SettingsEditor (129)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module SessionLauncher (128)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module SessionFrontend (127)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module ProfilerClient (126)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (125)
+[2014.11.11-05.20.00:941][890]LogModuleManager: Shutting down and abandoning module DeviceManager (124)
+[2014.11.11-05.20.00:942][890]LogModuleManager: Shutting down and abandoning module AutomationController (123)
+[2014.11.11-05.20.00:942][890]LogModuleManager: Shutting down and abandoning module AutomationWindow (122)
+[2014.11.11-05.20.00:942][890]LogModuleManager: Shutting down and abandoning module Layers (121)
+[2014.11.11-05.20.00:942][890]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (120)
+[2014.11.11-05.20.00:942][890]LogModuleManager: Shutting down and abandoning module DetailCustomizations (119)
+[2014.11.11-05.20.00:942][890]LogModuleManager: Shutting down and abandoning module PackagesDialog (118)
+[2014.11.11-05.20.00:942][890]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (117)
+[2014.11.11-05.20.00:942][890]LogModuleManager: Shutting down and abandoning module AssetRegistry (116)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module Persona (115)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module GraphEditor (114)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module ClassViewer (113)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module Toolbox (112)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module ModuleUI (111)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module Sequencer (110)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (105)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module Analytics (101)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module AIModule (99)
+[2014.11.11-05.20.01:025][890]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module CableComponent (93)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module Matinee (86)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module Kismet (85)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
+[2014.11.11-05.20.01:143][890]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module AssetTools (79)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (77)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module PluginsEditor (76)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module MainFrame (75)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module EpicSurvey (74)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (73)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module UObjectPlugin (72)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (71)
+[2014.11.11-05.20.01:144][890]LogModuleManager: Shutting down and abandoning module SourceControl (70)
+[2014.11.11-05.20.01:145][890]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (69)
+[2014.11.11-05.20.01:145][890]LogModuleManager: Shutting down and abandoning module BlankPlugin (68)
+[2014.11.11-05.20.01:145][890]LogModuleManager: Shutting down and abandoning module Claudia (67)
+[2014.11.11-05.20.01:145][890]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.11.11-05.20.01:145][890]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.11.11-05.20.01:245][890]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.11.11-05.20.01:245][890]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.11.11-05.20.01:248][890]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.11.11-05.20.01:250][890]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.11.11-05.20.01:254][890]LogDerivedDataCache: Shutdown
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.11-05.20.01:254][890]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.11-05.20.01:255][890]LogExit: Exiting.
+[2014.11.11-05.20.01:270][890]Log file closed, 11/11/14 16:20:01
