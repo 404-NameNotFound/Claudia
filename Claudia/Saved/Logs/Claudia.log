@@ -5801,4 +5801,207 @@ LogInit: Rocket: 1
 [2014.11.17-05.12.29:189][131]LogPlayLevel: PIE: World Init took: (0.000597s)
 [2014.11.17-05.12.29:191][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.155021s)
 [2014.11.17-05.12.29:226][131]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-05.12.29:2
+[2014.11.17-05.12.29:228][131]LogAIModule: Creating AISystem for world greybox
+[2014.11.17-05.12.29:370][131]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-16.12.29
+[2014.11.17-05.12.29:420][131]LogWorld: Bringing up level for play took: 0.191501
+[2014.11.17-05.12.29:428][131]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.285
+[2014.11.17-05.12.46:686][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2014.11.17-05.12.46:730][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038080AE0
+[2014.11.17-05.12.52:550][171]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.17-05.12.58:039][785]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.11.17-05.13.01:046][113]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-05.14.34:106][245]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-05.14.34:106][245]PIE: New page: PIE session: greybox (18 Nov 2014 3:14:34 am)
+[2014.11.17-05.14.34:231][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124369s)
+[2014.11.17-05.14.34:233][245]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2014.11.17-05.14.34:234][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.127218s)
+[2014.11.17-05.14.34:265][245]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.17-05.14.34:267][245]LogAIModule: Creating AISystem for world greybox
+[2014.11.17-05.14.34:371][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-16.14.34
+[2014.11.17-05.14.34:402][245]LogWorld: Bringing up level for play took: 0.134550
+[2014.11.17-05.14.34:407][245]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 1.263
+[2014.11.17-05.14.56:757][536]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2014.11.17-05.14.56:758][536]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2014.11.17-05.14.56:798][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012395300
+[2014.11.17-05.15.46:122][391]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 0.027
+[2014.11.17-05.16.27:738][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.17-05.16.27:742][251]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2014.11.17-05.16.27:743][251]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2014.11.17-05.16.28:613][251]LogSavePackage: Save=830.354065ms
+[2014.11.17-05.16.28:614][251]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Saved/greyboxB42BBC6244CF8A4402478FA8DCB17614.tmp' to '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Maps/greybox.umap'
+[2014.11.17-05.23.17:328][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Claudia_Blueprint" FILE="../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Claudia_Blueprint.uasset" SILENT=true
+[2014.11.17-05.23.17:506][643]LogSavePackage: Save=65.927376ms
+[2014.11.17-05.23.17:507][643]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Saved/Claudia_Blueprint36B358D34EBD86A9D42773BE9CE1F074.tmp' to '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Claudia_Blueprint.uasset'
+[2014.11.17-05.23.26:233][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2014.11.17-05.23.26:234][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2014.11.17-05.23.26:260][504]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004418C680
+[2014.11.17-05.23.29:647][825]Cmd: QUIT_EDITOR
+[2014.11.17-05.23.29:859][825]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.17-05.23.29:935][825]LogExit: Preparing to exit.
+[2014.11.17-05.23.31:778][825]LogExit: Editor shut down
+[2014.11.17-05.23.31:779][825]LogExit: Transaction tracking system shut down
+[2014.11.17-05.23.31:785][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DD2B7E0
+[2014.11.17-05.23.31:789][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C7F0CC0
+[2014.11.17-05.23.32:529][825]LogExit: Object subsystem successfully closed.
+[2014.11.17-05.23.33:819][825]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
+[2014.11.17-05.23.33:871][825]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.11.17-05.23.33:940][825]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
+[2014.11.17-05.23.33:941][825]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
+[2014.11.17-05.23.33:992][825]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
+[2014.11.17-05.23.33:992][825]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
+[2014.11.17-05.23.33:993][825]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
+[2014.11.17-05.23.34:012][825]LogModuleManager: Shutting down and abandoning module StatsViewer (155)
+[2014.11.17-05.23.34:034][825]LogModuleManager: Shutting down and abandoning module FoliageEdit (154)
+[2014.11.17-05.23.34:034][825]LogModuleManager: Shutting down and abandoning module LandscapeEditor (153)
+[2014.11.17-05.23.34:053][825]LogModuleManager: Shutting down and abandoning module MeshPaint (152)
+[2014.11.17-05.23.34:053][825]LogModuleManager: Shutting down and abandoning module ActorPickerMode (151)
+[2014.11.17-05.23.34:054][825]LogModuleManager: Shutting down and abandoning module GeometryMode (150)
+[2014.11.17-05.23.34:054][825]LogModuleManager: Shutting down and abandoning module TextureAlignMode (149)
+[2014.11.17-05.23.34:054][825]LogModuleManager: Shutting down and abandoning module BspMode (148)
+[2014.11.17-05.23.34:055][825]LogModuleManager: Shutting down and abandoning module PlacementMode (147)
+[2014.11.17-05.23.34:055][825]LogModuleManager: Shutting down and abandoning module DesktopPlatform (146)
+[2014.11.17-05.23.34:081][825]LogModuleManager: Shutting down and abandoning module AutomationWorker (145)
+[2014.11.17-05.23.34:082][825]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (144)
+[2014.11.17-05.23.34:086][825]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (143)
+[2014.11.17-05.23.34:117][825]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (142)
+[2014.11.17-05.23.34:117][825]LogModuleManager: Shutting down and abandoning module UndoHistory (141)
+[2014.11.17-05.23.34:118][825]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (140)
+[2014.11.17-05.23.34:118][825]LogModuleManager: Shutting down and abandoning module UserFeedback (139)
+[2014.11.17-05.23.34:119][825]LogModuleManager: Shutting down and abandoning module XmlParser (138)
+[2014.11.17-05.23.34:140][825]LogModuleManager: Shutting down and abandoning module Blutility (137)
+[2014.11.17-05.23.34:155][825]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (136)
+[2014.11.17-05.23.34:156][825]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (135)
+[2014.11.17-05.23.34:156][825]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (134)
+[2014.11.17-05.23.34:157][825]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (133)
+[2014.11.17-05.23.34:157][825]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (132)
+[2014.11.17-05.23.34:157][825]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (131)
+[2014.11.17-05.23.34:158][825]LogModuleManager: Shutting down and abandoning module InputBindingEditor (130)
+[2014.11.17-05.23.34:436][825]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (129)
+[2014.11.17-05.23.34:437][825]LogModuleManager: Shutting down and abandoning module SettingsEditor (128)
+[2014.11.17-05.23.34:438][825]LogModuleManager: Shutting down and abandoning module SessionLauncher (127)
+[2014.11.17-05.23.34:588][825]LogModuleManager: Shutting down and abandoning module SessionFrontend (126)
+[2014.11.17-05.23.34:598][825]LogModuleManager: Shutting down and abandoning module ProfilerClient (125)
+[2014.11.17-05.23.34:661][825]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (124)
+[2014.11.17-05.23.34:695][825]LogModuleManager: Shutting down and abandoning module DeviceManager (123)
+[2014.11.17-05.23.34:737][825]LogModuleManager: Shutting down and abandoning module AutomationController (122)
+[2014.11.17-05.23.34:755][825]LogModuleManager: Shutting down and abandoning module AutomationWindow (121)
+[2014.11.17-05.23.34:796][825]LogModuleManager: Shutting down and abandoning module Layers (120)
+[2014.11.17-05.23.34:901][825]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (119)
+[2014.11.17-05.23.34:902][825]LogModuleManager: Shutting down and abandoning module DetailCustomizations (118)
+[2014.11.17-05.23.34:974][825]LogModuleManager: Shutting down and abandoning module PackagesDialog (117)
+[2014.11.17-05.23.35:004][825]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
+[2014.11.17-05.23.35:005][825]LogModuleManager: Shutting down and abandoning module AssetRegistry (115)
+[2014.11.17-05.23.35:099][825]LogModuleManager: Shutting down and abandoning module Persona (114)
+[2014.11.17-05.23.35:251][825]LogModuleManager: Shutting down and abandoning module GraphEditor (113)
+[2014.11.17-05.23.35:252][825]LogModuleManager: Shutting down and abandoning module ClassViewer (112)
+[2014.11.17-05.23.35:272][825]LogModuleManager: Shutting down and abandoning module Toolbox (111)
+[2014.11.17-05.23.35:272][825]LogModuleManager: Shutting down and abandoning module ModuleUI (110)
+[2014.11.17-05.23.35:337][825]LogModuleManager: Shutting down and abandoning module Sequencer (109)
+[2014.11.17-05.23.35:519][825]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
+[2014.11.17-05.23.35:638][825]LogModuleManager: Shutting down and abandoning module OutputLog (107)
+[2014.11.17-05.23.35:638][825]LogModuleManager: Shutting down and abandoning module GammaUI (106)
+[2014.11.17-05.23.35:671][825]LogModuleManager: Shutting down and abandoning module Documentation (105)
+[2014.11.17-05.23.35:672][825]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
+[2014.11.17-05.23.35:673][825]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
+[2014.11.17-05.23.35:704][825]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
+[2014.11.17-05.23.35:704][825]LogModuleManager: Shutting down and abandoning module Analytics (101)
+[2014.11.17-05.23.35:705][825]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
+[2014.11.17-05.23.35:705][825]LogModuleManager: Shutting down and abandoning module AIModule (99)
+[2014.11.17-05.23.35:738][825]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
+[2014.11.17-05.23.35:954][825]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
+[2014.11.17-05.23.35:975][825]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
+[2014.11.17-05.23.35:976][825]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
+[2014.11.17-05.23.35:976][825]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
+[2014.11.17-05.23.35:977][825]LogModuleManager: Shutting down and abandoning module CableComponent (93)
+[2014.11.17-05.23.35:977][825]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
+[2014.11.17-05.23.36:032][825]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
+[2014.11.17-05.23.36:033][825]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
+[2014.11.17-05.23.36:033][825]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
+[2014.11.17-05.23.36:034][825]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
+[2014.11.17-05.23.36:034][825]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
+[2014.11.17-05.23.36:035][825]LogModuleManager: Shutting down and abandoning module Matinee (86)
+[2014.11.17-05.23.36:058][825]LogModuleManager: Shutting down and abandoning module Kismet (85)
+[2014.11.17-05.23.36:069][825]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
+[2014.11.17-05.23.36:091][825]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2014.11.17-05.23.36:117][825]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
+[2014.11.17-05.23.36:131][825]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
+[2014.11.17-05.23.36:131][825]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2014.11.17-05.23.36:142][825]LogModuleManager: Shutting down and abandoning module AssetTools (79)
+[2014.11.17-05.23.36:270][825]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2014.11.17-05.23.36:286][825]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (77)
+[2014.11.17-05.23.36:286][825]LogModuleManager: Shutting down and abandoning module PluginsEditor (76)
+[2014.11.17-05.23.36:307][825]LogModuleManager: Shutting down and abandoning module MainFrame (75)
+[2014.11.17-05.23.36:307][825]LogModuleManager: Shutting down and abandoning module EpicSurvey (74)
+[2014.11.17-05.23.36:315][825]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (73)
+[2014.11.17-05.23.36:330][825]LogModuleManager: Shutting down and abandoning module UObjectPlugin (72)
+[2014.11.17-05.23.36:330][825]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (71)
+[2014.11.17-05.23.36:362][825]LogModuleManager: Shutting down and abandoning module SourceControl (70)
+[2014.11.17-05.23.36:385][825]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (69)
+[2014.11.17-05.23.36:396][825]LogModuleManager: Shutting down and abandoning module BlankPlugin (68)
+[2014.11.17-05.23.36:397][825]LogModuleManager: Shutting down and abandoning module Claudia (67)
+[2014.11.17-05.23.36:397][825]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.11.17-05.23.36:401][825]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.11.17-05.23.36:501][825]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.11.17-05.23.36:501][825]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.11.17-05.23.36:541][825]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.11.17-05.23.36:542][825]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.11.17-05.23.36:542][825]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.11.17-05.23.36:554][825]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.11.17-05.23.36:560][825]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.11.17-05.23.36:561][825]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.11.17-05.23.36:561][825]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.11.17-05.23.36:575][825]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.11.17-05.23.36:585][825]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.11.17-05.23.36:586][825]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.11.17-05.23.36:588][825]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.11.17-05.23.36:588][825]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.11.17-05.23.36:589][825]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.11.17-05.23.36:589][825]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.11.17-05.23.36:589][825]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.11.17-05.23.36:590][825]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.11.17-05.23.36:590][825]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.11.17-05.23.36:590][825]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.11.17-05.23.36:591][825]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.11.17-05.23.36:613][825]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.11.17-05.23.36:673][825]LogDerivedDataCache: Shutdown
+[2014.11.17-05.23.36:673][825]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.11.17-05.23.36:700][825]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.11.17-05.23.36:705][825]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.11.17-05.23.36:713][825]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.11.17-05.23.36:713][825]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.11.17-05.23.36:714][825]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.11.17-05.23.36:724][825]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.11.17-05.23.36:725][825]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.11.17-05.23.36:735][825]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.11.17-05.23.36:735][825]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.11.17-05.23.36:736][825]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.11.17-05.23.36:736][825]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.11.17-05.23.36:736][825]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.11.17-05.23.36:737][825]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.11.17-05.23.36:737][825]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.11.17-05.23.36:737][825]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.11.17-05.23.36:738][825]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.11.17-05.23.36:738][825]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.11.17-05.23.36:738][825]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.17-05.23.36:739][825]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.17-05.23.36:739][825]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.17-05.23.36:739][825]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.17-05.23.36:740][825]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.17-05.23.36:740][825]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.17-05.23.36:741][825]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.17-05.23.36:741][825]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.17-05.23.36:741][825]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.17-05.23.36:762][825]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.17-05.23.36:778][825]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.17-05.23.36:779][825]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.17-05.23.36:779][825]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.17-05.23.36:779][825]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.17-05.23.36:780][825]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.17-05.23.36:780][825]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.17-05.23.36:780][825]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.17-05.23.36:780][825]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.17-05.23.36:787][825]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.17-05.23.36:791][825]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.17-05.23.36:797][825]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.17-05.23.36:803][825]LogExit: Exiting.
+[2014.11.17-05.23.36:826][825]Log file closed, 11/17/14 16:23:36
