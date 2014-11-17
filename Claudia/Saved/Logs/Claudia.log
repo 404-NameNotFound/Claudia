@@ -1,4 +1,4 @@
-Log file open, 11/17/14 11:31:34
+Log file open, 11/17/14 13:31:23
 LogInit:Display: Running engine for game: Claudia
 LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
 LogInit: API Version: 2255576
@@ -8,401 +8,828 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.4
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.11.17-00.31.34:857][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.11.17-00.31.34:883][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.11.17-00.31.34:889][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.11.17-00.31.34:895][  0]LogInit: Object subsystem initialized
-[2014.11.17-00.31.34:897][  0]LogInit: Selected Device Profile: [Windows]
-[2014.11.17-00.31.34:897][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.11.17-00.31.34:903][  0]LogInit: Computer: SAE-SYD80511W
-[2014.11.17-00.31.34:903][  0]LogInit: User: aharris35
-[2014.11.17-00.31.34:904][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.11.17-00.31.34:904][  0]LogInit: High frequency timer resolution =3.020527 MHz
-[2014.11.17-00.31.34:904][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
-[2014.11.17-00.31.34:904][  0]LogMemory: Platform Memory Stats for Windows
-[2014.11.17-00.31.34:904][  0]LogMemory: Process Physical Memory: 62.51 MB used, 62.51 MB peak
-[2014.11.17-00.31.34:904][  0]LogMemory: Process Virtual Memory: 38.02 MB used, 38.02 MB peak
-[2014.11.17-00.31.34:904][  0]LogMemory: Physical Memory: 1653.38 MB used, 4071.74 MB total
-[2014.11.17-00.31.34:904][  0]LogMemory: Virtual Memory: 262.34 MB used, 8388608.00 MB total
-[2014.11.17-00.31.34:923][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6970M (Feature Level 11_0)
-[2014.11.17-00.31.34:923][  0]LogD3D11RHI: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
-[2014.11.17-00.31.34:923][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.11.17-00.31.34:928][  0]LogRHI: Texture pool is 708 MB (70% of 1012 MB)
-[2014.11.17-00.31.34:933][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.11.17-00.31.35:039][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.11.17-00.31.36:547][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.17-00.31.37:072][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.17-00.31.37:103][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.11.17-00.31.37:188][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/aharris35/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.11.17-00.31.37:188][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aharris35/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
-[2014.11.17-00.31.37:188][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/aharris35/Documents/Claudia/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.17-00.31.37:188][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.11.17-00.31.37:206][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.11.17-00.31.37:218][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aharris35/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
-[2014.11.17-00.31.37:358][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.11.17-00.31.37:358][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.11.17-00.31.37:739][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.11.17-00.31.38:451][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_6c0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1118_0///////STATCAT_Advanced////
-[2014.11.17-00.31.38:451][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.11.17-00.31.38:547][  0]SourceControl: Info Source control is disabled
-[2014.11.17-00.31.38:547][  0]SourceControl: Info Source control is disabled
-[2014.11.17-00.31.38:551][  0]SourceControl: Info Source control is disabled
-[2014.11.17-00.31.38:678][  0]BlueprintLog: New page: Editor Load
-[2014.11.17-00.31.38:748][  0]LogObj: 21454 objects as part of root set at end of initial load.
-[2014.11.17-00.31.38:748][  0]LogUObjectAllocator: 4229808 out of 0 bytes used by permanent object pool.
-[2014.11.17-00.31.38:945][  0]LogEngine: Initializing Engine...
-[2014.11.17-00.31.39:050][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2014.11.17-00.31.39:083][  0]LogInit: FAudioDevice initialized.
-[2014.11.17-00.31.39:095][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.11.17-00.31.39:135][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/aharris35/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.11.17-00.31.39:141][  0]LogInit: Texture streaming: Enabled
-[2014.11.17-00.31.39:172][  0]LogInit: Transaction tracking system initialized
-[2014.11.17-00.31.39:252][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
-[2014.11.17-00.31.39:827][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.17-00.31.40:309][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.17-00.31.40:406][  0]LogConsoleResponse:Display: 
-[2014.11.17-00.31.40:542][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1264_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1118_0///////STATCAT_Advanced////
-[2014.11.17-00.31.40:542][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1578_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1118_0///////STATCAT_Advanced////
-[2014.11.17-00.31.40:542][  0]SourceControl: Info Source control is disabled
-[2014.11.17-00.31.40:542][  0]Cmd: MAP LOAD FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.11.17-00.31.40:543][  0]LightingResults: New page: Lighting Build
-[2014.11.17-00.31.40:549][  0]MapCheck: New page: Map Check
-[2014.11.17-00.31.40:549][  0]LightingResults: New page: Lighting Build
-[2014.11.17-00.31.40:561][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011F64220
-[2014.11.17-00.31.40:754][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Thug_Character/Idle/Thug_Idle_Sprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.17-00.31.40:786][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Blueprints/2DLift.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.17-00.31.40:789][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Platform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.17-00.31.40:789][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/2DBackgroundBlockAtlas.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.17-00.31.40:832][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Blueprints/GrappleWall_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.17-00.31.40:833][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/grapplewall_Sprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.17-00.31.40:833][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/Environment_Textures/grapplewall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.17-00.31.41:375][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.17-00.31.41:375][  0]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.31.41:377][  0]Cmd: MAP CHECKDEP
-[2014.11.17-00.31.41:377][  0]MapCheck: New page: greybox - 17 Nov 2014 10:31:41 pm
-[2014.11.17-00.31.41:456][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [78.989ms] ==========
-[2014.11.17-00.31.41:456][  0]LogFileHelpers: Loading map 'greybox' took 0.914
-[2014.11.17-00.31.41:640][  0]LogCollectionManager: Loaded 0 collections in 0.000775 seconds
-[2014.11.17-00.31.41:738][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.11.17-00.31.41:796][  0]LogLoad: Full Startup: 8.58 seconds (BP compile: 0.12 seconds)
-[2014.11.17-00.31.41:811][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2014.11.17-00.31.41:976][  0]LogRenderer:Warning: Reallocating scene render targets to support 1520x1256.
-[2014.11.17-00.31.42:742][  1]LogAssetRegistry: Asset discovery search completed in 3.4989 seconds
-[2014.11.17-00.31.55:612][748]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.17-00.31.55:612][748]PIE: New page: PIE session: greybox (17 Nov 2014 10:31:55 pm)
-[2014.11.17-00.31.55:762][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150303s)
-[2014.11.17-00.31.55:763][748]LogPlayLevel: PIE: World Init took: (0.000625s)
-[2014.11.17-00.31.55:764][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.152224s)
-[2014.11.17-00.31.55:837][748]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Blueprints/ClaudiaGameMode_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.17-00.31.55:839][748]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-00.31.55:841][748]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.31.55:973][748]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-11.31.55
-[2014.11.17-00.31.56:055][748]LogWorld: Bringing up level for play took: 0.213930
-[2014.11.17-00.31.56:060][748]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.373
-[2014.11.17-00.31.59:941][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000194D5300
-[2014.11.17-00.32.14:428][371]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.17-00.32.31:320][ 42]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.11.17-00.32.31:841][ 96]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.17-00.32.48:859][ 56]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.17-00.32.49:983][183]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.17-00.32.51:964][409]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.17-00.32.52:583][476]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.17-00.32.55:042][664]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.17-00.32.56:189][758]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.17-00.32.58:996][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.17-00.32.59:971][975]LogSavePackage: Save=924.839966ms
-[2014.11.17-00.32.59:971][975]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox9E56CB2A4C7425687087ACBC654971C3.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Maps/greybox.umap'
-[2014.11.17-00.33.01:410][135]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.17-00.33.01:411][135]PIE: New page: PIE session: greybox (17 Nov 2014 10:33:01 pm)
-[2014.11.17-00.33.01:544][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133845s)
-[2014.11.17-00.33.01:545][135]LogPlayLevel: PIE: World Init took: (0.000591s)
-[2014.11.17-00.33.01:546][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.135409s)
-[2014.11.17-00.33.01:575][135]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-00.33.01:577][135]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.33.01:686][135]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-11.33.01
-[2014.11.17-00.33.01:767][135]LogWorld: Bringing up level for play took: 0.190418
-[2014.11.17-00.33.01:771][135]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 1.337
-[2014.11.17-00.33.05:033][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016FDB100
-[2014.11.17-00.33.06:506][489]Cmd: SELECT NONE
-[2014.11.17-00.33.09:893][490]LogEditorViewport: Clicking Background
-[2014.11.17-00.33.14:955][715]Cmd: SELECT NONE
-[2014.11.17-00.33.23:037][102]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.17-00.33.35:361][406]LogEditorViewport: Clicking Background
-[2014.11.17-00.33.44:606][681]LogEditorViewport: Clicking on Actor (LMB): Thug_Blueprint_C (Thug_Blueprint)
-[2014.11.17-00.33.46:758][884]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (StoneTop_Sprite_3)
-[2014.11.17-00.33.48:467][ 60]LogEditorViewport: Clicking on Actor (LMB): Thug_Blueprint_C (Thug_Blueprint)
-[2014.11.17-00.33.54:072][460]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.17-00.33.56:014][651]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.17-00.33.56:014][651]PIE: New page: PIE session: greybox (17 Nov 2014 10:33:56 pm)
-[2014.11.17-00.33.56:146][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131321s)
-[2014.11.17-00.33.56:147][651]LogPlayLevel: PIE: World Init took: (0.000585s)
-[2014.11.17-00.33.56:147][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.132848s)
-[2014.11.17-00.33.56:172][651]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-00.33.56:174][651]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.33.56:293][651]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-11.33.56
-[2014.11.17-00.33.56:326][651]LogWorld: Bringing up level for play took: 0.152409
-[2014.11.17-00.33.56:331][651]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.105
-[2014.11.17-00.34.12:995][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E9BEA20
-[2014.11.17-00.34.39:042][779]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.17-00.34.39:042][779]PIE: New page: PIE session: greybox (17 Nov 2014 10:34:39 pm)
-[2014.11.17-00.34.39:195][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152982s)
-[2014.11.17-00.34.39:196][779]LogPlayLevel: PIE: World Init took: (0.000686s)
-[2014.11.17-00.34.39:196][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.154619s)
-[2014.11.17-00.34.39:221][779]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-00.34.39:223][779]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.34.39:340][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-11.34.39
-[2014.11.17-00.34.39:373][779]LogWorld: Bringing up level for play took: 0.150318
-[2014.11.17-00.34.39:377][779]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.941
-[2014.11.17-00.35.05:242][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000194D51C0
-[2014.11.17-00.35.43:655][709]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.17-00.35.43:655][709]PIE: New page: PIE session: greybox (17 Nov 2014 10:35:43 pm)
-[2014.11.17-00.35.43:831][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176107s)
-[2014.11.17-00.35.43:832][709]LogPlayLevel: PIE: World Init took: (0.000614s)
-[2014.11.17-00.35.43:833][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.177672s)
-[2014.11.17-00.35.43:861][709]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-00.35.43:862][709]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.35.43:973][709]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-11.35.43
-[2014.11.17-00.35.44:007][709]LogWorld: Bringing up level for play took: 0.144195
-[2014.11.17-00.35.44:011][709]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.426
-[2014.11.17-00.35.51:786][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011BB1580
-[2014.11.17-00.35.52:990][585]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.17-00.35.52:991][585]PIE: New page: PIE session: greybox (17 Nov 2014 10:35:52 pm)
-[2014.11.17-00.35.53:200][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.209107s)
-[2014.11.17-00.35.53:200][585]LogPlayLevel: PIE: World Init took: (0.000616s)
-[2014.11.17-00.35.53:201][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.210692s)
-[2014.11.17-00.35.53:229][585]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-00.35.53:231][585]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.35.53:356][585]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-11.35.53
-[2014.11.17-00.35.53:388][585]LogWorld: Bringing up level for play took: 0.157572
-[2014.11.17-00.35.53:393][585]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.955
-[2014.11.17-00.38.02:325][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011BB0AE0
-[2014.11.17-00.38.16:868][842]LogEditorViewport: Clicking on Actor (LMB): GrappleWall_Blueprint_C (GrappleWall_Blueprint_5)
-[2014.11.17-00.38.18:950][ 79]Cmd: DELETE
-[2014.11.17-00.38.18:950][ 79]Cmd: ACTOR DELETE
-[2014.11.17-00.38.18:960][ 79]LogEditorActor: Deleted Actor: GrappleWall_Blueprint_C
-[2014.11.17-00.38.18:986][ 79]LogEditorActor: Deleted 1 Actors (0.036 secs)
-[2014.11.17-00.38.25:210][438]LogEditorViewport: Clicking on Actor (LMB): GrappleWall_Blueprint_C (GrappleWall_Blueprint_2)
-[2014.11.17-00.38.26:210][550]Cmd: DELETE
-[2014.11.17-00.38.26:210][550]Cmd: ACTOR DELETE
-[2014.11.17-00.38.26:219][550]LogEditorActor: Deleted Actor: GrappleWall_Blueprint_C
-[2014.11.17-00.38.26:245][550]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2014.11.17-00.38.29:281][797]LogEditorViewport: Clicking on Actor (LMB): GrappleWall_Blueprint_C (GrappleWall_Blueprint)
-[2014.11.17-00.38.30:531][936]Cmd: DELETE
-[2014.11.17-00.38.30:531][936]Cmd: ACTOR DELETE
-[2014.11.17-00.38.30:541][936]LogEditorActor: Deleted Actor: GrappleWall_Blueprint_C
-[2014.11.17-00.38.30:566][936]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2014.11.17-00.38.37:413][385]LogEditorViewport: Clicking on Actor (LMB): 2DLift_C (2DLift_2)
-[2014.11.17-00.38.40:021][685]Cmd: DELETE
-[2014.11.17-00.38.40:021][685]Cmd: ACTOR DELETE
-[2014.11.17-00.38.40:031][685]LogEditorActor: Deleted Actor: 2DLift_C
-[2014.11.17-00.38.40:056][685]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2014.11.17-00.38.41:360][836]LogEditorViewport: Clicking on Actor (LMB): 2DLift_C (2DLift)
-[2014.11.17-00.38.42:282][942]Cmd: DELETE
-[2014.11.17-00.38.42:282][942]Cmd: ACTOR DELETE
-[2014.11.17-00.38.42:291][942]LogEditorActor: Deleted Actor: 2DLift_C
-[2014.11.17-00.38.42:317][942]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2014.11.17-00.38.44:377][180]LogEditorViewport: Clicking on Actor (LMB): Officer_Blueprint_C (Officer_Blueprint)
-[2014.11.17-00.38.46:752][459]Cmd: DELETE
-[2014.11.17-00.38.46:752][459]Cmd: ACTOR DELETE
-[2014.11.17-00.38.46:761][459]LogEditorActor: Deleted Actor: Officer_Blueprint_C
-[2014.11.17-00.38.46:787][459]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2014.11.17-00.39.33:861][337]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.17-00.39.33:861][337]PIE: New page: PIE session: greybox (17 Nov 2014 10:39:33 pm)
-[2014.11.17-00.39.34:013][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151686s)
-[2014.11.17-00.39.34:014][337]LogPlayLevel: PIE: World Init took: (0.000645s)
-[2014.11.17-00.39.34:015][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.153285s)
-[2014.11.17-00.39.34:043][337]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-00.39.34:045][337]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.39.34:154][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-11.39.34
-[2014.11.17-00.39.34:187][337]LogWorld: Bringing up level for play took: 0.142799
-[2014.11.17-00.39.34:192][337]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.249
-[2014.11.17-00.39.46:041][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E9BC5E0
-[2014.11.17-00.40.57:369][414]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.11.17-00.40.57:369][414]PIE: New page: PIE session: greybox (17 Nov 2014 10:40:57 pm)
-[2014.11.17-00.40.57:501][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132034s)
-[2014.11.17-00.40.57:502][414]LogPlayLevel: PIE: World Init took: (0.000667s)
-[2014.11.17-00.40.57:503][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.133695s)
-[2014.11.17-00.40.57:529][414]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.17-00.40.57:530][414]LogAIModule: Creating AISystem for world greybox
-[2014.11.17-00.40.57:639][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-11.40.57
-[2014.11.17-00.40.57:674][414]LogWorld: Bringing up level for play took: 0.143053
-[2014.11.17-00.40.57:678][414]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 1.237
-[2014.11.17-00.41.05:155][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000ED83420
-[2014.11.17-00.46.22:847][832]LogSavePackage: Save=916.404297ms
-[2014.11.17-00.46.22:847][832]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox_Auto134E79E5E43D19C3DC47B6DB5204D0655.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Maps/greybox_Auto1.umap'
-[2014.11.17-00.46.22:867][832]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 0.991
-[2014.11.17-00.46.22:867][832]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.991
-[2014.11.17-01.39.15:839][245]Cmd: SELECT NONE
-[2014.11.17-01.39.18:923][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.17-01.39.19:864][598]LogSavePackage: Save=882.442688ms
-[2014.11.17-01.39.19:864][598]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greyboxBE01C38646C8C2F5E6645A9AD8E86FF0.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Maps/greybox.umap'
-[2014.11.17-01.39.21:625][766]Cmd: QUIT_EDITOR
-[2014.11.17-01.39.21:740][766]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.11.17-01.39.21:741][766]LogExit: Preparing to exit.
-[2014.11.17-01.39.22:901][766]LogExit: Editor shut down
-[2014.11.17-01.39.22:902][766]LogExit: Transaction tracking system shut down
-[2014.11.17-01.39.22:908][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EE8CFE0
-[2014.11.17-01.39.22:935][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016FD87C0
-[2014.11.17-01.39.22:935][766]LogExit: Object subsystem successfully closed.
-[2014.11.17-01.39.22:959][766]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
-[2014.11.17-01.39.22:959][766]LogModuleManager: Shutting down and abandoning module HTTP (161)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module StatsViewer (155)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module FoliageEdit (154)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module LandscapeEditor (153)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module MeshPaint (152)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module ActorPickerMode (151)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module GeometryMode (150)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module TextureAlignMode (149)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module BspMode (148)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module PlacementMode (147)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module AutomationWorker (146)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (145)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (144)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (143)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module UndoHistory (142)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (141)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module UserFeedback (140)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module XmlParser (139)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module Blutility (138)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (137)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (136)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (135)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (134)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (133)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (132)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module InputBindingEditor (131)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (130)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module SettingsEditor (129)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module SessionLauncher (128)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module SessionFrontend (127)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module ProfilerClient (126)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (125)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module DeviceManager (124)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module AutomationController (123)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module AutomationWindow (122)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module Layers (121)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (120)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module DetailCustomizations (119)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module PackagesDialog (118)
-[2014.11.17-01.39.22:960][766]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (117)
-[2014.11.17-01.39.22:961][766]LogModuleManager: Shutting down and abandoning module AssetRegistry (116)
-[2014.11.17-01.39.23:060][766]LogModuleManager: Shutting down and abandoning module Persona (115)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module GraphEditor (114)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module ClassViewer (113)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module Toolbox (112)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module ModuleUI (111)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module Sequencer (110)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module OutputLog (108)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module GammaUI (107)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module Documentation (106)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (105)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module Analytics (101)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module AIModule (99)
-[2014.11.17-01.39.23:061][766]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module CableComponent (93)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module Matinee (86)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module Kismet (85)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
-[2014.11.17-01.39.23:270][766]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module AssetTools (79)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (77)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module PluginsEditor (76)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module MainFrame (75)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module EpicSurvey (74)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (73)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module UObjectPlugin (72)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (71)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module SourceControl (70)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (69)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module BlankPlugin (68)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module Claudia (67)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
-[2014.11.17-01.39.23:271][766]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
-[2014.11.17-01.39.23:371][766]LogModuleManager: Shutting down and abandoning module Paper2D (64)
-[2014.11.17-01.39.23:371][766]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
-[2014.11.17-01.39.23:373][766]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
-[2014.11.17-01.39.23:373][766]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
-[2014.11.17-01.39.23:373][766]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
-[2014.11.17-01.39.23:373][766]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
-[2014.11.17-01.39.23:373][766]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
-[2014.11.17-01.39.23:373][766]LogModuleManager: Shutting down and abandoning module MessageLog (57)
-[2014.11.17-01.39.23:374][766]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
-[2014.11.17-01.39.23:374][766]LogModuleManager: Shutting down and abandoning module UMG (55)
-[2014.11.17-01.39.23:374][766]LogModuleManager: Shutting down and abandoning module Slate (54)
-[2014.11.17-01.39.23:374][766]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module SessionServices (52)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module Networking (47)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module Core (46)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
-[2014.11.17-01.39.23:375][766]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
-[2014.11.17-01.39.23:473][766]LogDerivedDataCache: Shutdown
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Messaging (31)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module InputCore (18)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Settings (17)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module OculusRift (13)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.11.17-01.39.23:473][766]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.11.17-01.39.23:473][766]LogExit: Exiting.
-[2014.11.17-01.39.23:492][766]Log file closed, 11/17/14 12:39:23
+[2014.11.17-02.31.23:777][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.17-02.31.23:802][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.17-02.31.23:908][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.17-02.31.23:914][  0]LogInit: Object subsystem initialized
+[2014.11.17-02.31.23:916][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.17-02.31.23:916][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.17-02.31.23:923][  0]LogInit: Computer: SAE-SYD80511W
+[2014.11.17-02.31.23:923][  0]LogInit: User: aharris35
+[2014.11.17-02.31.23:924][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.17-02.31.23:924][  0]LogInit: High frequency timer resolution =3.020527 MHz
+[2014.11.17-02.31.23:924][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2014.11.17-02.31.23:924][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-02.31.23:924][  0]LogMemory: Process Physical Memory: 62.50 MB used, 62.50 MB peak
+[2014.11.17-02.31.23:924][  0]LogMemory: Process Virtual Memory: 38.01 MB used, 38.01 MB peak
+[2014.11.17-02.31.23:924][  0]LogMemory: Physical Memory: 1624.33 MB used, 4071.74 MB total
+[2014.11.17-02.31.23:924][  0]LogMemory: Virtual Memory: 262.34 MB used, 8388608.00 MB total
+[2014.11.17-02.31.24:189][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6970M (Feature Level 11_0)
+[2014.11.17-02.31.24:189][  0]LogD3D11RHI: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
+[2014.11.17-02.31.24:189][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.17-02.31.24:194][  0]LogRHI: Texture pool is 708 MB (70% of 1012 MB)
+[2014.11.17-02.31.24:199][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.11.17-02.31.25:085][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.17-02.31.27:619][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-02.31.28:529][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-02.31.28:608][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.17-02.31.29:111][  0]LogDerivedDataCache: Loaded boot cache 0.50s 39MB C:/Users/aharris35/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.17-02.31.29:111][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aharris35/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.17-02.31.29:112][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/aharris35/Documents/Claudia/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.17-02.31.29:112][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.17-02.31.29:164][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.17-02.31.29:176][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aharris35/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.17-02.31.34:211][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.17-02.31.34:211][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.17-02.31.34:590][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.17-02.31.35:372][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1b80_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1bdc_0///////STATCAT_Advanced////
+[2014.11.17-02.31.35:372][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.17-02.31.35:467][  0]SourceControl: Info Source control is disabled
+[2014.11.17-02.31.35:467][  0]SourceControl: Info Source control is disabled
+[2014.11.17-02.31.35:471][  0]SourceControl: Info Source control is disabled
+[2014.11.17-02.31.35:597][  0]BlueprintLog: New page: Editor Load
+[2014.11.17-02.31.35:665][  0]LogObj: 21454 objects as part of root set at end of initial load.
+[2014.11.17-02.31.35:665][  0]LogUObjectAllocator: 4229808 out of 0 bytes used by permanent object pool.
+[2014.11.17-02.31.35:858][  0]LogEngine: Initializing Engine...
+[2014.11.17-02.31.35:981][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2014.11.17-02.31.36:009][  0]LogInit: FAudioDevice initialized.
+[2014.11.17-02.31.36:021][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.17-02.31.36:042][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/aharris35/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.17-02.31.36:048][  0]LogInit: Texture streaming: Enabled
+[2014.11.17-02.31.36:109][  0]LogInit: Transaction tracking system initialized
+[2014.11.17-02.31.36:185][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2014.11.17-02.31.36:749][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-02.31.37:220][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-02.31.37:310][  0]LogConsoleResponse:Display: 
+[2014.11.17-02.31.37:429][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_ff8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1bdc_0///////STATCAT_Advanced////
+[2014.11.17-02.31.37:429][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_fac_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1bdc_0///////STATCAT_Advanced////
+[2014.11.17-02.31.37:429][  0]SourceControl: Info Source control is disabled
+[2014.11.17-02.31.37:429][  0]Cmd: MAP LOAD FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.17-02.31.37:429][  0]LightingResults: New page: Lighting Build
+[2014.11.17-02.31.37:435][  0]MapCheck: New page: Map Check
+[2014.11.17-02.31.37:435][  0]LightingResults: New page: Lighting Build
+[2014.11.17-02.31.37:448][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013118220
+[2014.11.17-02.31.37:646][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Blueprints/GrappleWall_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.17-02.31.37:646][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/grapplewall_Sprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.17-02.31.37:647][  0]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/Environment_Textures/grapplewall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.17-02.31.38:263][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.17-02.31.38:263][  0]LogAIModule: Creating AISystem for world greybox
+[2014.11.17-02.31.38:265][  0]Cmd: MAP CHECKDEP
+[2014.11.17-02.31.38:265][  0]MapCheck: New page: greybox - 18 Nov 2014 12:31:38 am
+[2014.11.17-02.31.38:341][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [76.136ms] ==========
+[2014.11.17-02.31.38:341][  0]LogFileHelpers: Loading map 'greybox' took 0.913
+[2014.11.17-02.31.38:699][  0]LogCollectionManager: Loaded 0 collections in 0.000740 seconds
+[2014.11.17-02.31.38:790][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.17-02.31.38:841][  0]LogLoad: Full Startup: 18.35 seconds (BP compile: 0.08 seconds)
+[2014.11.17-02.31.38:856][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.11.17-02.31.39:032][  0]LogRenderer:Warning: Reallocating scene render targets to support 1520x1256.
+[2014.11.17-02.31.39:160][  1]LogAssetRegistry: Asset discovery search completed in 2.9849 seconds
+[2014.11.17-02.32.37:115][543]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_216)
+[2014.11.17-02.32.37:921][617]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_136)
+[2014.11.17-02.32.38:533][677]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_217)
+[2014.11.17-02.32.39:488][776]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_137)
+[2014.11.17-02.32.40:193][838]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_218)
+[2014.11.17-02.32.41:073][924]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_138)
+[2014.11.17-02.33.19:596][656]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (StoneLeft_Sprite_240)
+[2014.11.17-02.33.20:336][722]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_160)
+[2014.11.17-02.33.20:886][768]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_241)
+[2014.11.17-02.33.21:504][819]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_161)
+[2014.11.17-02.33.47:779][944]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_237)
+[2014.11.17-02.33.48:379][981]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_157)
+[2014.11.17-02.33.49:129][ 60]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_238)
+[2014.11.17-02.33.49:848][130]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_158)
+[2014.11.17-02.33.50:370][184]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_159)
+[2014.11.17-02.33.50:976][242]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_239)
+[2014.11.17-02.33.51:982][350]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_162)
+[2014.11.17-02.33.52:707][420]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_242)
+[2014.11.17-02.33.53:347][482]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_161)
+[2014.11.17-02.33.54:757][627]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_241)
+[2014.11.17-02.33.55:874][752]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_242)
+[2014.11.17-02.33.56:540][821]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_160)
+[2014.11.17-02.33.57:320][900]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_240)
+[2014.11.17-02.34.05:682][820]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-02.34.05:682][820]PIE: New page: PIE session: greybox (18 Nov 2014 12:34:05 am)
+[2014.11.17-02.34.05:821][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138923s)
+[2014.11.17-02.34.05:822][820]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2014.11.17-02.34.05:823][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.140804s)
+[2014.11.17-02.34.05:863][820]LogLinker:Warning: Asset '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Blueprints/ClaudiaGameMode_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.17-02.34.05:865][820]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.17-02.34.05:867][820]LogAIModule: Creating AISystem for world greybox
+[2014.11.17-02.34.05:980][820]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-13.34.05
+[2014.11.17-02.34.06:012][820]LogWorld: Bringing up level for play took: 0.144289
+[2014.11.17-02.34.06:016][820]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.526
+[2014.11.17-02.34.18:483][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CD4D260
+[2014.11.17-02.34.20:214][272]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_for_Claudia_Sprite_2)
+[2014.11.17-02.34.22:867][273]LogEditorViewport: Clicking Background
+[2014.11.17-02.34.24:399][273]LogEditorViewport: Clicking Background
+[2014.11.17-02.34.25:652][273]LogEditorViewport: Clicking Background
+[2014.11.17-02.34.31:612][275]LogEditorViewport: Clicking Background
+[2014.11.17-02.34.43:090][899]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-02.34.43:090][899]PIE: New page: PIE session: greybox (18 Nov 2014 12:34:43 am)
+[2014.11.17-02.34.43:221][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131363s)
+[2014.11.17-02.34.43:222][899]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2014.11.17-02.34.43:223][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.132946s)
+[2014.11.17-02.34.43:263][899]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.17-02.34.43:265][899]LogAIModule: Creating AISystem for world greybox
+[2014.11.17-02.34.43:376][899]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-13.34.43
+[2014.11.17-02.34.43:408][899]LogWorld: Bringing up level for play took: 0.143243
+[2014.11.17-02.34.43:412][899]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.87
+[2014.11.17-02.39.14:196][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DC99E40
+[2014.11.17-02.39.40:240][267]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (ScaffoldingLeft_Sprite_6)
+[2014.11.17-02.39.43:213][597]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (ScaffoldingRight_Sprite_6)
+[2014.11.17-02.39.50:719][427]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (ScaffoldingLeft_Sprite_6)
+[2014.11.17-02.39.56:393][912]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tiling_Stone_Sprite_946)
+[2014.11.17-02.40.12:347][358]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (WindowOff_Sprite_42)
+[2014.11.17-02.40.21:011][234]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (window_Sprite_55)
+[2014.11.17-02.40.22:447][376]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (WindowOff_Sprite_42)
+[2014.11.17-02.41.09:663][532]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (window_Sprite_132)
+[2014.11.17-02.41.11:043][685]Cmd: DELETE
+[2014.11.17-02.41.11:043][685]Cmd: ACTOR DELETE
+[2014.11.17-02.41.11:053][685]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-02.41.11:080][685]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2014.11.17-02.41.11:583][735]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (WindowOff_Sprite_104)
+[2014.11.17-02.41.11:977][775]Cmd: DELETE
+[2014.11.17-02.41.11:977][775]Cmd: ACTOR DELETE
+[2014.11.17-02.41.11:987][775]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-02.41.12:013][775]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.11.17-02.41.12:546][834]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (WindowOff_Sprite_106)
+[2014.11.17-02.41.14:492][ 52]Cmd: DELETE
+[2014.11.17-02.41.14:492][ 52]Cmd: ACTOR DELETE
+[2014.11.17-02.41.14:501][ 52]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-02.41.14:527][ 52]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.11.17-02.41.14:972][ 98]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (window_Sprite_135)
+[2014.11.17-02.41.15:360][137]Cmd: DELETE
+[2014.11.17-02.41.15:360][137]Cmd: ACTOR DELETE
+[2014.11.17-02.41.15:370][137]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-02.41.15:396][137]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2014.11.17-02.41.16:188][224]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (WindowOff_Sprite_103)
+[2014.11.17-02.41.19:018][532]Cmd: DELETE
+[2014.11.17-02.41.19:018][532]Cmd: ACTOR DELETE
+[2014.11.17-02.41.19:027][532]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-02.41.19:053][532]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.11.17-02.41.19:532][578]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (window_Sprite_133)
+[2014.11.17-02.41.23:762][ 21]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tiling_Stone_Sprite_2022)
+[2014.11.17-02.41.46:725][155]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PipeLong_Sprite_17)
+[2014.11.17-02.41.47:427][225]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PipeT_Sprite_4)
+[2014.11.17-02.41.48:809][374]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Gauge_Sprite_3)
+[2014.11.17-02.41.49:613][454]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PipeCurve_Sprite_8)
+[2014.11.17-02.41.51:020][606]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PipeCurve_Sprite_9)
+[2014.11.17-02.41.51:811][687]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PipeT_Sprite_5)
+[2014.11.17-02.42.04:608][ 89]Cmd: TRANSACTION UNDO
+[2014.11.17-02.42.04:609][ 89]LogEditorTransaction: Undo Move Actors
+[2014.11.17-02.43.18:711][783]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fan_Sprite_14)
+[2014.11.17-02.43.19:580][875]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fan_Sprite_15)
+[2014.11.17-02.43.20:538][979]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fan_Sprite_16)
+[2014.11.17-02.43.21:521][ 81]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fan_Sprite_17)
+[2014.11.17-02.43.27:739][359]Cmd: TRANSACTION UNDO
+[2014.11.17-02.43.27:739][359]LogEditorTransaction: Undo Move Actors
+[2014.11.17-02.43.30:009][561]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fan_Sprite_14)
+[2014.11.17-02.43.31:128][656]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fan_Sprite_15)
+[2014.11.17-02.43.32:436][779]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fan_Sprite_16)
+[2014.11.17-02.43.33:595][872]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fan_Sprite_17)
+[2014.11.17-02.43.36:052][ 97]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fan_Sprite_16)
+[2014.11.17-02.43.52:395][954]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fan_Sprite_27)
+[2014.11.17-02.43.57:851][494]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fan_Sprite_26)
+[2014.11.17-02.44.20:706][  8]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-02.44.23:945][312]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2014.11.17-02.44.24:880][421]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2014.11.17-02.44.28:724][872]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
+[2014.11.17-02.44.29:367][942]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Officer_Character'
+[2014.11.17-02.44.30:116][ 26]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
+[2014.11.17-02.45.01:627][627]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Gear_Sprite_23)
+[2014.11.17-02.45.02:798][754]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Gear_Sprite_24)
+[2014.11.17-02.45.04:948][971]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Gear_Sprite_22)
+[2014.11.17-02.45.07:622][274]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Gear_Sprite_19)
+[2014.11.17-02.45.12:921][570]Cmd: TRANSACTION UNDO
+[2014.11.17-02.45.12:921][570]LogEditorTransaction: Undo Move Actors
+[2014.11.17-02.45.31:426][152]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tiling_Stone_Sprite_2323)
+[2014.11.17-02.46.17:254][482]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Scaffolding_Sprite125)
+[2014.11.17-02.46.28:551][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.17-02.46.28:551][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.17-02.46.29:566][183]LogSavePackage: Save=951.920654ms
+[2014.11.17-02.46.29:566][183]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox_Auto18713FA204ED798014BD3A88D89870FA9.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Maps/greybox_Auto1.umap'
+[2014.11.17-02.46.29:586][183]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 1.055
+[2014.11.17-02.46.29:586][183]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.055
+[2014.11.17-02.46.56:723][850]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Scaffolding_Sprite166)
+[2014.11.17-02.47.05:697][824]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Scaffolding_Sprite165)
+[2014.11.17-02.47.12:651][597]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Scaffolding_Sprite169)
+[2014.11.17-02.47.14:211][768]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Scaffolding_Sprite168)
+[2014.11.17-02.47.21:518][599]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Scaffolding_Sprite165)
+[2014.11.17-02.47.22:258][678]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Scaffolding_Sprite166)
+[2014.11.17-02.47.23:281][784]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Scaffolding_Sprite167)
+[2014.11.17-02.47.46:126][814]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-02.47.46:126][814]PIE: New page: PIE session: greybox (18 Nov 2014 12:47:46 am)
+[2014.11.17-02.47.46:261][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134804s)
+[2014.11.17-02.47.46:261][814]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2014.11.17-02.47.46:262][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.136625s)
+[2014.11.17-02.47.46:291][814]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.17-02.47.46:293][814]LogAIModule: Creating AISystem for world greybox
+[2014.11.17-02.47.46:407][814]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.17-13.47.46
+[2014.11.17-02.47.46:440][814]LogWorld: Bringing up level for play took: 0.146947
+[2014.11.17-02.47.46:444][814]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.11
+[2014.11.17-02.55.13:947][369]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CD4E8E0
+[2014.11.17-02.55.17:082][672]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-02.58.23:890][302]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.17-02.58.32:375][170]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.17-02.58.34:021][356]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.17-02.58.37:646][752]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Textures'
+[2014.11.17-02.58.44:897][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.17-02.58.57:913][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Chain" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Chain.uasset" SILENT=true
+[2014.11.17-02.58.57:985][545]LogSavePackage: Save=70.139084ms
+[2014.11.17-02.58.57:985][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/ChainBE5284DD4B60D0EF147E928CF0BDB28C.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Chain.uasset'
+[2014.11.17-02.58.58:001][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Fan" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Fan.uasset" SILENT=true
+[2014.11.17-02.58.58:097][545]LogSavePackage: Save=95.793549ms
+[2014.11.17-02.58.58:098][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Fan1D555FB54C8430568CC2789A85F2A4B1.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Fan.uasset'
+[2014.11.17-02.58.58:107][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Gauge" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Gauge.uasset" SILENT=true
+[2014.11.17-02.58.58:140][545]LogSavePackage: Save=31.586540ms
+[2014.11.17-02.58.58:140][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Gauge39AE6F544FD11750E0C14890E6C2ED78.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Gauge.uasset'
+[2014.11.17-02.58.58:156][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Gear" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Gear.uasset" SILENT=true
+[2014.11.17-02.58.58:250][545]LogSavePackage: Save=92.719910ms
+[2014.11.17-02.58.58:250][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/GearFA6DF16F4E691CA97BD7C1AFA5B245F8.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Gear.uasset'
+[2014.11.17-02.58.58:263][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/PipeCurve" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/PipeCurve.uasset" SILENT=true
+[2014.11.17-02.58.58:308][545]LogSavePackage: Save=44.450520ms
+[2014.11.17-02.58.58:308][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/PipeCurveDD31BCFE4EE52B17E026EF9AC8A243EA.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/PipeCurve.uasset'
+[2014.11.17-02.58.58:317][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/PipeEnd" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/PipeEnd.uasset" SILENT=true
+[2014.11.17-02.58.58:367][545]LogSavePackage: Save=48.949406ms
+[2014.11.17-02.58.58:367][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/PipeEndB4557E6646D948A20E2139A383231C64.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/PipeEnd.uasset'
+[2014.11.17-02.58.58:376][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/PipeLong" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/PipeLong.uasset" SILENT=true
+[2014.11.17-02.58.58:432][545]LogSavePackage: Save=54.712307ms
+[2014.11.17-02.58.58:432][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/PipeLongBC67209345348DE5EBB7739A38D1A109.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/PipeLong.uasset'
+[2014.11.17-02.58.58:441][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/PipeT" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/PipeT.uasset" SILENT=true
+[2014.11.17-02.58.58:501][545]LogSavePackage: Save=58.450726ms
+[2014.11.17-02.58.58:501][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/PipeT10D70FA34FDA7641A3AD04A4478AB462.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/PipeT.uasset'
+[2014.11.17-02.58.58:517][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Rail" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Rail.uasset" SILENT=true
+[2014.11.17-02.58.58:598][545]LogSavePackage: Save=79.510300ms
+[2014.11.17-02.58.58:598][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Rail39B6E6B44551B136414716BA7BC4BE45.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Rail.uasset'
+[2014.11.17-02.58.58:614][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/ScaffoldingLeft" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/ScaffoldingLeft.uasset" SILENT=true
+[2014.11.17-02.58.58:660][545]LogSavePackage: Save=44.812046ms
+[2014.11.17-02.58.58:660][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/ScaffoldingLeft0CDE8A3E4844BC4B5A63F7BC50AB473C.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/ScaffoldingLeft.uasset'
+[2014.11.17-02.58.58:676][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/ScaffoldingRight" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/ScaffoldingRight.uasset" SILENT=true
+[2014.11.17-02.58.58:723][545]LogSavePackage: Save=44.853432ms
+[2014.11.17-02.58.58:723][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/ScaffoldingRight6E81AE5B408C47F88DCC09A9C1944C0D.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/ScaffoldingRight.uasset'
+[2014.11.17-02.58.58:738][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/SideLeft" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/SideLeft.uasset" SILENT=true
+[2014.11.17-02.58.58:775][545]LogSavePackage: Save=35.034615ms
+[2014.11.17-02.58.58:775][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/SideLeft6CC7117445655695C490ECAEFAEA3869.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/SideLeft.uasset'
+[2014.11.17-02.58.58:790][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/SideRight" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/SideRight.uasset" SILENT=true
+[2014.11.17-02.58.58:827][545]LogSavePackage: Save=34.907154ms
+[2014.11.17-02.58.58:827][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/SideRight6B5E2B9543C945A8CD54569F68AE23DC.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/SideRight.uasset'
+[2014.11.17-02.58.58:842][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneBottom" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneBottom.uasset" SILENT=true
+[2014.11.17-02.58.59:116][545]LogSavePackage: Save=272.113770ms
+[2014.11.17-02.58.59:116][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneBottomEC7714074D1B0012B489AB807C977F99.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneBottom.uasset'
+[2014.11.17-02.58.59:132][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneCorner2" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneCorner2.uasset" SILENT=true
+[2014.11.17-02.58.59:199][545]LogSavePackage: Save=66.206993ms
+[2014.11.17-02.58.59:199][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneCorner2C3AF1D9C4B6A189F2D18778B4C16D590.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneCorner2.uasset'
+[2014.11.17-02.58.59:215][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneCorner" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneCorner.uasset" SILENT=true
+[2014.11.17-02.58.59:294][545]LogSavePackage: Save=77.327232ms
+[2014.11.17-02.58.59:294][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneCorner23CFBAD54F280CC7DB919DB030D977AF.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneCorner.uasset'
+[2014.11.17-02.58.59:311][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneLeft" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneLeft.uasset" SILENT=true
+[2014.11.17-02.58.59:576][545]LogSavePackage: Save=263.735107ms
+[2014.11.17-02.58.59:576][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneLeftB7F249E9447381CB00E72B9D0D0CA001.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneLeft.uasset'
+[2014.11.17-02.58.59:606][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneLeftBottom" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneLeftBottom.uasset" SILENT=true
+[2014.11.17-02.58.59:850][545]LogSavePackage: Save=242.685135ms
+[2014.11.17-02.58.59:850][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneLeftBottom26C956CB4AD1FFD8BE5978ABFB2B6319.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneLeftBottom.uasset'
+[2014.11.17-02.58.59:866][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneRight" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneRight.uasset" SILENT=true
+[2014.11.17-02.59.00:145][545]LogSavePackage: Save=277.615448ms
+[2014.11.17-02.59.00:145][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneRight38CF1C0646C20B769AC13DAD78A59419.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneRight.uasset'
+[2014.11.17-02.59.00:160][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneRightBottom" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneRightBottom.uasset" SILENT=true
+[2014.11.17-02.59.00:405][545]LogSavePackage: Save=243.439636ms
+[2014.11.17-02.59.00:405][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneRightBottomD830AF924610DE85B13F4898E60198CE.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneRightBottom.uasset'
+[2014.11.17-02.59.00:421][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneTop" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneTop.uasset" SILENT=true
+[2014.11.17-02.59.00:705][545]LogSavePackage: Save=282.841705ms
+[2014.11.17-02.59.00:705][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneTopC70CDBF74865E7BF5482218863486E3D.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneTop.uasset'
+[2014.11.17-02.59.00:723][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneTopLeft" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneTopLeft.uasset" SILENT=true
+[2014.11.17-02.59.00:981][545]LogSavePackage: Save=257.261078ms
+[2014.11.17-02.59.00:981][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneTopLeftE44B1B19476C3467BCDD43B5D383E2EE.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneTopLeft.uasset'
+[2014.11.17-02.59.00:997][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/StoneTopRight" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneTopRight.uasset" SILENT=true
+[2014.11.17-02.59.01:259][545]LogSavePackage: Save=261.009094ms
+[2014.11.17-02.59.01:259][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneTopRight3FE711984F5D50E130D4AA971F8855E1.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/StoneTopRight.uasset'
+[2014.11.17-02.59.01:275][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Tiling_Stone" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Tiling_Stone.uasset" SILENT=true
+[2014.11.17-02.59.01:395][545]LogSavePackage: Save=118.021790ms
+[2014.11.17-02.59.01:395][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Tiling_Stone5CEA51744B39DF73D7B08596248F9F1A.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Tiling_Stone.uasset'
+[2014.11.17-02.59.01:408][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Wheel" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Wheel.uasset" SILENT=true
+[2014.11.17-02.59.01:467][545]LogSavePackage: Save=57.781307ms
+[2014.11.17-02.59.01:467][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Wheel0AEE2F914305F94B7527A18E5D232319.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Wheel.uasset'
+[2014.11.17-02.59.01:485][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Window" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Window.uasset" SILENT=true
+[2014.11.17-02.59.01:648][545]LogSavePackage: Save=162.180634ms
+[2014.11.17-02.59.01:648][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Window0C9EEFC5493779413D5DD29A280754CA.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Window.uasset'
+[2014.11.17-02.59.01:665][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/WindowOff" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/WindowOff.uasset" SILENT=true
+[2014.11.17-02.59.01:796][545]LogSavePackage: Save=112.578697ms
+[2014.11.17-02.59.01:796][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/WindowOffE4C06D6C4BED9732D680D9A4BA60E789.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/WindowOff.uasset'
+[2014.11.17-02.59.01:812][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/GrappleSurface" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/GrappleSurface.uasset" SILENT=true
+[2014.11.17-02.59.01:822][545]LogSavePackage: Save=8.840841ms
+[2014.11.17-02.59.01:822][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/GrappleSurface6ED0B2BF4E933DD7ED4CA489E5852C7F.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/GrappleSurface.uasset'
+[2014.11.17-02.59.01:838][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/Scaffolding" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Scaffolding.uasset" SILENT=true
+[2014.11.17-02.59.01:865][545]LogSavePackage: Save=25.628641ms
+[2014.11.17-02.59.01:865][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Scaffolding4AE316EF4AE315D374064188CE85E08E.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Textures/World/Scaffolding.uasset'
+[2014.11.17-02.59.01:893][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.17-02.59.01:893][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.17-02.59.02:967][545]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A35DC60
+[2014.11.17-02.59.03:818][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/Chain_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Chain_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.03:952][545]LogSavePackage: Save=24.031898ms
+[2014.11.17-02.59.03:952][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Chain_Sprite807F6A044BEC671F842F3E97DE952964.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Chain_Sprite.uasset'
+[2014.11.17-02.59.03:968][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/Fan_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Fan_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:035][545]LogSavePackage: Save=41.059059ms
+[2014.11.17-02.59.04:035][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Fan_SpriteEE52E7CE4A9F3BBA0102D9816D3625AB.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Fan_Sprite.uasset'
+[2014.11.17-02.59.04:050][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/Gauge_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Gauge_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:138][545]LogSavePackage: Save=59.051949ms
+[2014.11.17-02.59.04:138][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Gauge_Sprite84AE755C4033DBCE1BFDA6829F39B868.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Gauge_Sprite.uasset'
+[2014.11.17-02.59.04:153][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/Gear_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Gear_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:215][545]LogSavePackage: Save=36.741932ms
+[2014.11.17-02.59.04:215][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Gear_Sprite952B740D4AA50FE52846758C38BABFB5.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Gear_Sprite.uasset'
+[2014.11.17-02.59.04:231][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/PipeCurve_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/PipeCurve_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:335][545]LogSavePackage: Save=86.244225ms
+[2014.11.17-02.59.04:335][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/PipeCurve_SpriteD3225410462350F2BCEC93B42F617E67.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/PipeCurve_Sprite.uasset'
+[2014.11.17-02.59.04:350][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/PipeEnd_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/PipeEnd_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:546][545]LogSavePackage: Save=173.722992ms
+[2014.11.17-02.59.04:546][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/PipeEnd_Sprite935780F14C0854001A53AC8AF440DE4D.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/PipeEnd_Sprite.uasset'
+[2014.11.17-02.59.04:561][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/PipeLong_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/PipeLong_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:657][545]LogSavePackage: Save=68.828056ms
+[2014.11.17-02.59.04:657][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/PipeLong_Sprite9ABAD5F5459B61F8B5B4EDB8B66A1D48.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/PipeLong_Sprite.uasset'
+[2014.11.17-02.59.04:672][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/PipeT_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/PipeT_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:746][545]LogSavePackage: Save=65.256493ms
+[2014.11.17-02.59.04:746][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/PipeT_Sprite8010A18C437D56132D7FD1AE79271A5C.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/PipeT_Sprite.uasset'
+[2014.11.17-02.59.04:761][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/Rail_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Rail_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:824][545]LogSavePackage: Save=50.920586ms
+[2014.11.17-02.59.04:824][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Rail_SpriteDDF3F07F42E02409E3C55EBFAB98B8AC.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Rail_Sprite.uasset'
+[2014.11.17-02.59.04:839][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/ScaffoldingLeft_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/ScaffoldingLeft_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:895][545]LogSavePackage: Save=31.343536ms
+[2014.11.17-02.59.04:895][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/ScaffoldingLeft_SpriteF5DCC4734337E7937B773A808B84C0CF.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/ScaffoldingLeft_Sprite.uasset'
+[2014.11.17-02.59.04:910][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/ScaffoldingRight_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/ScaffoldingRight_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.04:982][545]LogSavePackage: Save=33.681210ms
+[2014.11.17-02.59.04:982][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/ScaffoldingRight_Sprite6250C4284B1B3BFE043B0F9D8EB9D6D4.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/ScaffoldingRight_Sprite.uasset'
+[2014.11.17-02.59.04:997][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/SideLeft_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/SideLeft_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.05:052][545]LogSavePackage: Save=29.615030ms
+[2014.11.17-02.59.05:052][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/SideLeft_Sprite6FCDCD2E4A4BFF6EACA6A5BC95C76043.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/SideLeft_Sprite.uasset'
+[2014.11.17-02.59.05:068][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/SideRight_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/SideRight_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.05:120][545]LogSavePackage: Save=31.359097ms
+[2014.11.17-02.59.05:120][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/SideRight_Sprite16F0D78F487A0A6FA6EC768A2EEF9BCA.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/SideRight_Sprite.uasset'
+[2014.11.17-02.59.05:135][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneBottom_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneBottom_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.05:410][545]LogSavePackage: Save=247.860062ms
+[2014.11.17-02.59.05:410][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneBottom_Sprite2516A39545CB5426BDA403BA1DE767D2.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneBottom_Sprite.uasset'
+[2014.11.17-02.59.05:425][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneCorner2_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneCorner2_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.05:522][545]LogSavePackage: Save=60.986378ms
+[2014.11.17-02.59.05:522][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneCorner2_Sprite4A21D1B64425DEF0C7713FBF17F58783.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneCorner2_Sprite.uasset'
+[2014.11.17-02.59.05:537][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneCorner_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneCorner_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.05:622][545]LogSavePackage: Save=75.527214ms
+[2014.11.17-02.59.05:623][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneCorner_Sprite97373F624987EEA055FF7DA76F2AC3A8.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneCorner_Sprite.uasset'
+[2014.11.17-02.59.05:637][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneLeft_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneLeft_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.05:900][545]LogSavePackage: Save=253.495499ms
+[2014.11.17-02.59.05:900][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneLeft_Sprite26AADD6B4F9FF3C30E5096B68C3BE5AF.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneLeft_Sprite.uasset'
+[2014.11.17-02.59.05:925][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneLeftBottom_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneLeftBottom_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.06:176][545]LogSavePackage: Save=223.109085ms
+[2014.11.17-02.59.06:176][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneLeftBottom_Sprite15B81A4E4E1225B84A011D9F5411A39F.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneLeftBottom_Sprite.uasset'
+[2014.11.17-02.59.06:191][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneRight_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneRight_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.06:453][545]LogSavePackage: Save=252.419525ms
+[2014.11.17-02.59.06:454][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneRight_SpriteB8172893408E8F68C4B971AFFC405713.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneRight_Sprite.uasset'
+[2014.11.17-02.59.06:468][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneRightBottom_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneRightBottom_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.06:709][545]LogSavePackage: Save=230.617706ms
+[2014.11.17-02.59.06:709][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneRightBottom_Sprite4940B480435B437EC86FE4970B2C7D5C.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneRightBottom_Sprite.uasset'
+[2014.11.17-02.59.06:724][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneTop_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneTop_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.07:024][545]LogSavePackage: Save=268.999756ms
+[2014.11.17-02.59.07:024][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneTop_Sprite641CF68C4663D06D0FC95DA8C608486D.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneTop_Sprite.uasset'
+[2014.11.17-02.59.07:039][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneTopLeft_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneTopLeft_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.07:287][545]LogSavePackage: Save=237.623764ms
+[2014.11.17-02.59.07:287][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneTopLeft_SpriteBCE090D9400B4C7CFAAD9E8FD8767147.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneTopLeft_Sprite.uasset'
+[2014.11.17-02.59.07:303][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/StoneTopRight_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneTopRight_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.07:578][545]LogSavePackage: Save=244.221954ms
+[2014.11.17-02.59.07:579][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/StoneTopRight_SpriteA9F2B8C1491DEBB7BF102598A73B6A99.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/StoneTopRight_Sprite.uasset'
+[2014.11.17-02.59.07:593][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/Tiling_Stone_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Tiling_Stone_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.07:730][545]LogSavePackage: Save=126.398140ms
+[2014.11.17-02.59.07:730][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Tiling_Stone_Sprite7686949A4FCF30677CDAB9B00BE449E0.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Tiling_Stone_Sprite.uasset'
+[2014.11.17-02.59.07:745][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/Wheel_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Wheel_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.07:803][545]LogSavePackage: Save=48.005531ms
+[2014.11.17-02.59.07:803][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Wheel_SpriteE96C316C465F0CA1ADACA6AD23FB00DE.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Wheel_Sprite.uasset'
+[2014.11.17-02.59.07:822][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/window_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/window_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.08:023][545]LogSavePackage: Save=167.624725ms
+[2014.11.17-02.59.08:023][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/window_Sprite2F373A454AD4A65C04A17E93B05B404A.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/window_Sprite.uasset'
+[2014.11.17-02.59.08:038][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/WindowOff_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/WindowOff_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.08:178][545]LogSavePackage: Save=108.420151ms
+[2014.11.17-02.59.08:178][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/WindowOff_Sprite3BFA64AE47C33EB9E77F028DD24DCB66.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/WindowOff_Sprite.uasset'
+[2014.11.17-02.59.08:194][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/GrappleSurface_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/GrappleSurface_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.08:217][545]LogSavePackage: Save=12.597470ms
+[2014.11.17-02.59.08:217][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/GrappleSurface_SpriteC87F71C840921B5D5E022DAA38E28E57.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/GrappleSurface_Sprite.uasset'
+[2014.11.17-02.59.08:232][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Art/Scaffolding_Sprite" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Scaffolding_Sprite.uasset" SILENT=true
+[2014.11.17-02.59.08:267][545]LogSavePackage: Save=24.543730ms
+[2014.11.17-02.59.08:267][545]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Scaffolding_Sprite2698121C40B37879C37B80B747B5F648.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Sprites/Art/Scaffolding_Sprite.uasset'
+[2014.11.17-03.03.57:401][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.17-03.03.58:373][  8]LogSavePackage: Save=902.522278ms
+[2014.11.17-03.03.58:373][  8]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox_Auto267492AC4404854D405045AB1DB222D1A.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Maps/greybox_Auto2.umap'
+[2014.11.17-03.03.58:404][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 1.003
+[2014.11.17-03.03.58:404][  8]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.003
+[2014.11.17-03.03.58:414][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Claudia_Blueprint] ([1] browsable assets)...
+[2014.11.17-03.03.58:437][  8]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Claudia_Blueprint.Claudia_Blueprint]
+[2014.11.17-03.03.58:437][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Claudia_Blueprint]
+[2014.11.17-03.03.58:709][  8]LogSavePackage: Save=237.184769ms
+[2014.11.17-03.03.58:709][  8]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Claudia_Blueprint_Auto2E5B539934923F5445CBF69B88A0C837A.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Blueprints/Claudia_Blueprint_Auto2.uasset'
+[2014.11.17-03.03.58:716][  8]LogFileHelpers: Auto-saving content packages took 0.311
+[2014.11.17-03.15.13:149][915]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (StoneRight_Sprite_164)
+[2014.11.17-03.15.13:967][  1]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_243)
+[2014.11.17-03.15.14:839][ 89]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_244)
+[2014.11.17-03.15.15:673][172]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_163)
+[2014.11.17-03.15.22:998][758]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_240)
+[2014.11.17-03.15.23:750][803]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_160)
+[2014.11.17-03.15.24:268][847]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_241)
+[2014.11.17-03.15.24:698][878]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_161)
+[2014.11.17-03.15.25:621][964]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_242)
+[2014.11.17-03.15.26:491][ 39]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (StoneRight_Sprite_162)
+[2014.11.17-03.15.28:324][122]Cmd: TRANSACTION UNDO
+[2014.11.17-03.15.28:325][122]LogEditorTransaction: Undo Move Actors
+[2014.11.17-03.15.29:383][190]Cmd: TRANSACTION UNDO
+[2014.11.17-03.15.29:383][190]LogEditorTransaction: Undo Clicking on Actors
+[2014.11.17-03.15.32:333][375]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_162)
+[2014.11.17-03.15.33:101][442]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_157)
+[2014.11.17-03.15.33:650][490]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_237)
+[2014.11.17-03.15.34:274][546]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_158)
+[2014.11.17-03.15.34:986][611]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_238)
+[2014.11.17-03.15.35:291][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.17-03.15.36:307][629]LogSavePackage: Save=949.266113ms
+[2014.11.17-03.15.36:307][629]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox_Auto3F683F9B042A2C4EC5F500189ABE6F867.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Maps/greybox_Auto3.umap'
+[2014.11.17-03.15.36:329][629]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 1.039
+[2014.11.17-03.15.36:329][629]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.039
+[2014.11.17-03.15.36:786][676]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneRight_Sprite_159)
+[2014.11.17-03.15.37:433][736]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (StoneLeft_Sprite_239)
+[2014.11.17-03.15.38:438][839]Cmd: DELETE
+[2014.11.17-03.15.38:438][839]Cmd: ACTOR DELETE
+[2014.11.17-03.15.38:447][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:456][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:464][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:472][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:480][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:488][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:496][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:504][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:512][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:520][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:528][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:536][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:544][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:552][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:561][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:569][839]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.11.17-03.15.38:594][839]LogEditorActor: Deleted 16 Actors (0.156 secs)
+[2014.11.17-03.25.37:207][209]LogSavePackage: Save=905.267883ms
+[2014.11.17-03.25.37:207][209]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox_Auto4057922B747102FC45D6E9B85415483E2.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Maps/greybox_Auto4.umap'
+[2014.11.17-03.25.37:273][209]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 1.032
+[2014.11.17-03.25.37:273][209]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.032
+[2014.11.17-03.26.58:161][914]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tiling_Stone_Sprite_1666)
+[2014.11.17-03.26.58:752][951]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tiling_Stone_Sprite_50)
+[2014.11.17-03.27.06:328][664]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tiling_Stone_Sprite_1716)
+[2014.11.17-03.27.08:934][941]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-03.27.15:197][560]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Art'
+[2014.11.17-03.28.45:494][517]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.11.17-03.30.53:803][253]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.11.17-03.31.12:702][299]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Art'
+[2014.11.17-03.31.14:747][494]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.11.17-03.31.16:308][590]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.31.16:889][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.11.17-03.31.17:549][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.11.17-03.31.17:549][590]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.17-03.31.17:549][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.11.17-03.31.17:549][590]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.17-03.31.17:684][590]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.31.27:532][221]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.11.17-03.31.27:532][221]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.31.27:532][221]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.11.17-03.33.42:720][956]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.33.42:722][956]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.33.46:174][190]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.33.46:174][190]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.33.46:174][190]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.34.25:815][973]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.34.28:176][117]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.34.28:176][117]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.34.28:176][117]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.34.34:097][460]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.17-03.35.09:418][936]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.35.09:420][936]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.35.12:880][163]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.35.12:880][163]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.35.12:880][163]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.35.20:575][717]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.35.20:976][742]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.35.20:976][742]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.35.20:976][742]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.35.23:145][896]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.35.23:510][918]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.35.23:510][918]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.35.23:510][918]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.35.39:341][ 13]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.35.39:654][ 33]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.35.39:654][ 33]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.35.39:654][ 33]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.35.39:957][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.17-03.35.39:957][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.17-03.35.39:986][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 0.028
+[2014.11.17-03.35.39:995][ 46]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Level] ([1] browsable assets)...
+[2014.11.17-03.35.40:020][ 46]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Level.Level]
+[2014.11.17-03.35.40:020][ 46]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Level]
+[2014.11.17-03.35.40:024][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Level" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Materials/Level_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2014.11.17-03.35.40:313][ 46]LogSavePackage: Save=262.922668ms
+[2014.11.17-03.35.40:313][ 46]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Level_Auto518B9CC384A7BF2A0C2717F97D4D24D6B.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Materials/Level_Auto5.uasset'
+[2014.11.17-03.35.40:322][ 46]LogFileHelpers: Auto-saving content packages took 0.336
+[2014.11.17-03.35.41:371][107]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.35.41:486][107]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.35.41:611][112]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.35.41:611][112]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.35.41:611][112]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.36.00:769][471]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.36.00:771][471]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.36.00:959][483]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.36.00:959][483]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.36.00:959][483]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.36.56:273][347]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.36.58:653][499]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.36.58:653][499]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.36.58:653][499]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.02:673][777]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.02:905][789]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.02:905][789]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.02:905][789]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.04:494][895]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.04:739][908]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.04:739][908]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.04:739][908]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.06:774][ 45]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.06:978][ 56]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.06:978][ 56]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.06:978][ 56]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.10:794][319]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.10:995][331]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.10:995][331]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.10:995][331]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.28:006][513]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.28:225][526]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.28:225][526]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.28:225][526]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.33:539][887]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.33:763][900]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.33:763][900]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.33:763][900]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.35:612][ 21]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.35:857][ 35]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.35:857][ 35]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.35:857][ 35]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.39:660][288]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.39:838][299]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.39:838][299]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.39:838][299]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.37.59:104][580]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.37.59:106][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2014.11.17-03.37.59:510][602]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.37.59:510][602]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.37.59:510][602]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.38.29:115][536]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.38.29:177][536]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2014.11.17-03.38.30:390][601]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.38.30:425][601]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2014.11.17-03.38.31:383][659]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.11.17-03.38.31:383][659]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.38.31:383][659]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.11.17-03.38.34:560][853]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.38.34:620][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2014.11.17-03.38.34:791][861]MaterialEditorStats: Info Base pass shader without light map: 45 instructions
+[2014.11.17-03.38.34:791][861]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.38.34:792][861]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.11.17-03.38.56:594][285]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.38.57:677][353]MaterialEditorStats: Info Base pass shader without light map: 45 instructions
+[2014.11.17-03.38.57:677][353]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.38.57:677][353]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.11.17-03.39.05:662][900]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.39.05:664][900]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.39.05:722][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2014.11.17-03.39.06:055][919]MaterialEditorStats: Info Base pass shader without light map: 45 instructions
+[2014.11.17-03.39.06:055][919]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.39.06:055][919]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.11.17-03.39.11:634][281]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.39.11:850][294]MaterialEditorStats: Info Base pass shader without light map: 45 instructions
+[2014.11.17-03.39.11:850][294]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.17-03.39.11:850][294]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.11.17-03.39.14:383][453]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.39.14:640][468]MaterialEditorStats: Info Base pass shader without light map: 45 instructions
+[2014.11.17-03.39.14:640][468]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2014.11.17-03.39.14:640][468]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.11.17-03.40.06:925][872]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.40.07:995][936]MaterialEditorStats: Info Base pass shader without light map: 45 instructions
+[2014.11.17-03.40.07:995][936]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2014.11.17-03.40.07:995][936]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.11.17-03.40.13:682][296]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.40.13:712][296]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.40.14:673][350]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2014.11.17-03.40.14:673][350]MaterialEditorStats: Info Vertex shader: 69 instructions
+[2014.11.17-03.40.14:673][350]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.11.17-03.40.35:996][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.17-03.40.37:680][788]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Art'
+[2014.11.17-03.40.42:851][154]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/World'
+[2014.11.17-03.40.46:427][381]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.11.17-03.41.08:217][785]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.41.08:245][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2014.11.17-03.41.11:663][988]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2014.11.17-03.41.11:663][988]MaterialEditorStats: Info Vertex shader: 69 instructions
+[2014.11.17-03.41.11:663][988]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.11.17-03.41.14:223][149]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Paper2D'
+[2014.11.17-03.48.09:848][ 35]LogMaterialEditor: Saving and Compiling material Level
+[2014.11.17-03.48.12:198][ 35]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.48.12:280][ 35]LogMaterial: Missing cached shader map for material Level, compiling.
+[2014.11.17-03.48.12:282][ 35]LogMaterial: Missing cached shader map for material Level, compiling.
+[2014.11.17-03.48.12:375][ 35]LogMaterial: 0.090144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.17-03.48.20:112][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Level" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Materials/Level.uasset" SILENT=true
+[2014.11.17-03.48.20:187][ 35]LogSavePackage: Save=72.203293ms
+[2014.11.17-03.48.20:187][ 35]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Level232AE3C74AC384DA8CAE03A7EE48E843.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Materials/Level.uasset'
+[2014.11.17-03.48.21:408][ 36]LogSavePackage: Save=895.359985ms
+[2014.11.17-03.48.21:408][ 36]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox_Auto6147539A6406FB780DE4624B0B4B31E83.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Maps/greybox_Auto6.umap'
+[2014.11.17-03.48.21:490][ 36]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 1.131
+[2014.11.17-03.48.21:490][ 36]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.131
+[2014.11.17-03.48.27:532][424]LogMaterialEditor: Saving and Compiling material Level
+[2014.11.17-03.48.27:894][424]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.17-03.48.27:965][424]LogMaterial: Missing cached shader map for material Level, compiling.
+[2014.11.17-03.48.27:983][424]LogMaterial: Missing cached shader map for material Level, compiling.
+[2014.11.17-03.48.28:119][424]LogMaterial: 0.133427 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.17-03.48.29:232][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Level" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Materials/Level.uasset" SILENT=true
+[2014.11.17-03.48.29:317][424]LogSavePackage: Save=71.442833ms
+[2014.11.17-03.48.29:317][424]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Level0C6FF75E43799AFC6774F08720E8C930.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Materials/Level.uasset'
+[2014.11.17-03.48.33:288][664]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-03.48.37:778][947]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.11.17-03.48.39:970][ 90]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.11.17-03.48.47:925][560]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (StoneRight_Sprite_138)
+[2014.11.17-03.58.21:583][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.17-03.58.21:583][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.17-03.58.22:676][173]LogSavePackage: Save=906.116699ms
+[2014.11.17-03.58.22:676][173]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox_Auto79ACA490E480BD7AAFF9DAD84B296B9CE.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/Autosaves/Game/Maps/greybox_Auto7.umap'
+[2014.11.17-03.58.22:687][173]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/greybox' took 1.104
+[2014.11.17-03.58.22:687][173]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.104
+[2014.11.17-04.19.40:040][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.17-04.19.41:024][297]LogSavePackage: Save=883.128357ms
+[2014.11.17-04.19.41:024][297]LogSavePackage: Moving '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Saved/greybox1A5E478245E83E80C6496CBD4D53CA79.tmp' to '../../../../../../Users/aharris35/Documents/Claudia/Claudia/Content/Maps/greybox.umap'
+[2014.11.17-04.20.05:512][288]Cmd: QUIT_EDITOR
+[2014.11.17-04.20.05:896][288]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.17-04.20.05:970][288]LogExit: Preparing to exit.
+[2014.11.17-04.20.07:172][288]LogExit: Editor shut down
+[2014.11.17-04.20.07:173][288]LogExit: Transaction tracking system shut down
+[2014.11.17-04.20.07:179][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D717CE0
+[2014.11.17-04.20.07:183][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CD4D9E0
+[2014.11.17-04.20.07:183][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001193E700
+[2014.11.17-04.20.07:186][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035F28900
+[2014.11.17-04.20.08:135][288]LogExit: Object subsystem successfully closed.
+[2014.11.17-04.20.08:639][288]LogModuleManager: Shutting down and abandoning module MaterialEditor (163)
+[2014.11.17-04.20.08:639][288]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
+[2014.11.17-04.20.08:665][288]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.11.17-04.20.08:679][288]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
+[2014.11.17-04.20.08:679][288]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
+[2014.11.17-04.20.08:700][288]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
+[2014.11.17-04.20.08:700][288]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
+[2014.11.17-04.20.08:700][288]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
+[2014.11.17-04.20.08:708][288]LogModuleManager: Shutting down and abandoning module StatsViewer (155)
+[2014.11.17-04.20.08:715][288]LogModuleManager: Shutting down and abandoning module FoliageEdit (154)
+[2014.11.17-04.20.08:715][288]LogModuleManager: Shutting down and abandoning module LandscapeEditor (153)
+[2014.11.17-04.20.08:728][288]LogModuleManager: Shutting down and abandoning module MeshPaint (152)
+[2014.11.17-04.20.08:728][288]LogModuleManager: Shutting down and abandoning module ActorPickerMode (151)
+[2014.11.17-04.20.08:728][288]LogModuleManager: Shutting down and abandoning module GeometryMode (150)
+[2014.11.17-04.20.08:728][288]LogModuleManager: Shutting down and abandoning module TextureAlignMode (149)
+[2014.11.17-04.20.08:728][288]LogModuleManager: Shutting down and abandoning module BspMode (148)
+[2014.11.17-04.20.08:728][288]LogModuleManager: Shutting down and abandoning module PlacementMode (147)
+[2014.11.17-04.20.08:728][288]LogModuleManager: Shutting down and abandoning module AutomationWorker (146)
+[2014.11.17-04.20.08:728][288]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (145)
+[2014.11.17-04.20.08:737][288]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (144)
+[2014.11.17-04.20.08:768][288]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (143)
+[2014.11.17-04.20.08:768][288]LogModuleManager: Shutting down and abandoning module UndoHistory (142)
+[2014.11.17-04.20.08:768][288]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (141)
+[2014.11.17-04.20.08:768][288]LogModuleManager: Shutting down and abandoning module UserFeedback (140)
+[2014.11.17-04.20.08:768][288]LogModuleManager: Shutting down and abandoning module XmlParser (139)
+[2014.11.17-04.20.08:781][288]LogModuleManager: Shutting down and abandoning module Blutility (138)
+[2014.11.17-04.20.08:790][288]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (137)
+[2014.11.17-04.20.08:790][288]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (136)
+[2014.11.17-04.20.08:791][288]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (135)
+[2014.11.17-04.20.08:791][288]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (134)
+[2014.11.17-04.20.08:791][288]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (133)
+[2014.11.17-04.20.08:797][288]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (132)
+[2014.11.17-04.20.08:797][288]LogModuleManager: Shutting down and abandoning module InputBindingEditor (131)
+[2014.11.17-04.20.08:811][288]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (130)
+[2014.11.17-04.20.08:811][288]LogModuleManager: Shutting down and abandoning module SettingsEditor (129)
+[2014.11.17-04.20.08:822][288]LogModuleManager: Shutting down and abandoning module SessionLauncher (128)
+[2014.11.17-04.20.08:836][288]LogModuleManager: Shutting down and abandoning module SessionFrontend (127)
+[2014.11.17-04.20.08:847][288]LogModuleManager: Shutting down and abandoning module ProfilerClient (126)
+[2014.11.17-04.20.08:856][288]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (125)
+[2014.11.17-04.20.08:857][288]LogModuleManager: Shutting down and abandoning module DeviceManager (124)
+[2014.11.17-04.20.08:857][288]LogModuleManager: Shutting down and abandoning module AutomationController (123)
+[2014.11.17-04.20.08:867][288]LogModuleManager: Shutting down and abandoning module AutomationWindow (122)
+[2014.11.17-04.20.08:909][288]LogModuleManager: Shutting down and abandoning module Layers (121)
+[2014.11.17-04.20.08:909][288]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (120)
+[2014.11.17-04.20.08:909][288]LogModuleManager: Shutting down and abandoning module DetailCustomizations (119)
+[2014.11.17-04.20.08:923][288]LogModuleManager: Shutting down and abandoning module PackagesDialog (118)
+[2014.11.17-04.20.08:923][288]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (117)
+[2014.11.17-04.20.08:924][288]LogModuleManager: Shutting down and abandoning module AssetRegistry (116)
+[2014.11.17-04.20.09:023][288]LogModuleManager: Shutting down and abandoning module Persona (115)
+[2014.11.17-04.20.09:134][288]LogModuleManager: Shutting down and abandoning module GraphEditor (114)
+[2014.11.17-04.20.09:134][288]LogModuleManager: Shutting down and abandoning module ClassViewer (113)
+[2014.11.17-04.20.09:161][288]LogModuleManager: Shutting down and abandoning module Toolbox (112)
+[2014.11.17-04.20.09:161][288]LogModuleManager: Shutting down and abandoning module ModuleUI (111)
+[2014.11.17-04.20.09:170][288]LogModuleManager: Shutting down and abandoning module Sequencer (110)
+[2014.11.17-04.20.09:182][288]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.11.17-04.20.09:217][288]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.11.17-04.20.09:217][288]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.11.17-04.20.09:255][288]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.11.17-04.20.09:255][288]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (105)
+[2014.11.17-04.20.09:255][288]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2014.11.17-04.20.09:279][288]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
+[2014.11.17-04.20.09:303][288]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
+[2014.11.17-04.20.09:303][288]LogModuleManager: Shutting down and abandoning module Analytics (101)
+[2014.11.17-04.20.09:303][288]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
+[2014.11.17-04.20.09:303][288]LogModuleManager: Shutting down and abandoning module AIModule (99)
+[2014.11.17-04.20.09:320][288]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
+[2014.11.17-04.20.09:543][288]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
+[2014.11.17-04.20.09:559][288]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
+[2014.11.17-04.20.09:560][288]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
+[2014.11.17-04.20.09:560][288]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
+[2014.11.17-04.20.09:560][288]LogModuleManager: Shutting down and abandoning module CableComponent (93)
+[2014.11.17-04.20.09:560][288]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
+[2014.11.17-04.20.09:595][288]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
+[2014.11.17-04.20.09:595][288]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
+[2014.11.17-04.20.09:595][288]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
+[2014.11.17-04.20.09:595][288]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
+[2014.11.17-04.20.09:595][288]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
+[2014.11.17-04.20.09:595][288]LogModuleManager: Shutting down and abandoning module Matinee (86)
+[2014.11.17-04.20.09:604][288]LogModuleManager: Shutting down and abandoning module Kismet (85)
+[2014.11.17-04.20.09:610][288]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
+[2014.11.17-04.20.09:623][288]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2014.11.17-04.20.09:648][288]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
+[2014.11.17-04.20.09:736][288]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
+[2014.11.17-04.20.09:736][288]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2014.11.17-04.20.09:766][288]LogModuleManager: Shutting down and abandoning module AssetTools (79)
+[2014.11.17-04.20.09:854][288]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2014.11.17-04.20.09:901][288]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (77)
+[2014.11.17-04.20.09:901][288]LogModuleManager: Shutting down and abandoning module PluginsEditor (76)
+[2014.11.17-04.20.09:949][288]LogModuleManager: Shutting down and abandoning module MainFrame (75)
+[2014.11.17-04.20.09:949][288]LogModuleManager: Shutting down and abandoning module EpicSurvey (74)
+[2014.11.17-04.20.09:990][288]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (73)
+[2014.11.17-04.20.10:031][288]LogModuleManager: Shutting down and abandoning module UObjectPlugin (72)
+[2014.11.17-04.20.10:031][288]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (71)
+[2014.11.17-04.20.10:074][288]LogModuleManager: Shutting down and abandoning module SourceControl (70)
+[2014.11.17-04.20.10:110][288]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (69)
+[2014.11.17-04.20.10:236][288]LogModuleManager: Shutting down and abandoning module BlankPlugin (68)
+[2014.11.17-04.20.10:236][288]LogModuleManager: Shutting down and abandoning module Claudia (67)
+[2014.11.17-04.20.10:236][288]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.11.17-04.20.10:251][288]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.11.17-04.20.10:351][288]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.11.17-04.20.10:351][288]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.11.17-04.20.10:511][288]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.11.17-04.20.10:511][288]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.11.17-04.20.10:511][288]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.11.17-04.20.10:525][288]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.11.17-04.20.10:592][288]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.11.17-04.20.10:592][288]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.11.17-04.20.10:592][288]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.11.17-04.20.10:674][288]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.11.17-04.20.10:711][288]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.11.17-04.20.10:711][288]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.11.17-04.20.10:781][288]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.11.17-04.20.10:850][288]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.11.17-04.20.10:874][288]LogDerivedDataCache: Shutdown
+[2014.11.17-04.20.10:874][288]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.11.17-04.20.10:896][288]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.11.17-04.20.10:921][288]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.11.17-04.20.10:930][288]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.11.17-04.20.10:930][288]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.11.17-04.20.10:930][288]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.11.17-04.20.10:949][288]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.11.17-04.20.10:949][288]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.17-04.20.10:968][288]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.17-04.20.10:985][288]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.17-04.20.11:006][288]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.17-04.20.11:007][288]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.17-04.20.11:007][288]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.17-04.20.11:007][288]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.17-04.20.11:007][288]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.17-04.20.11:007][288]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.17-04.20.11:007][288]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.17-04.20.11:007][288]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.17-04.20.11:029][288]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.17-04.20.11:050][288]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.17-04.20.11:067][288]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.17-04.20.11:102][288]LogExit: Exiting.
+[2014.11.17-04.20.11:120][288]Log file closed, 11/17/14 15:20:11
