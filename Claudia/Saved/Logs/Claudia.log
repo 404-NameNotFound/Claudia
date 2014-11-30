@@ -1,341 +1,732 @@
-﻿Log file open, 11/25/14 13:49:39
+﻿Log file open, 11/30/14 12:32:24
 LogInit:Display: Running engine for game: Claudia
-LogModuleManager:Warning: Found module file ../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Binaries/Win64/UE4Editor-Claudia-Win64-DebugGame.dll (API version 2255576), but it was incompatible with the current engine API version (2326478). This is likely a stale module that must be recompiled.
-LogInit:Warning: Incompatible or missing module: UE4Editor-Claudia-Win64-DebugGame.dll
-Running C:/Program Files/Unreal Engine/4.5/Engine/Binaries/DotNET/UnrealBuildTool.exe Claudia DebugGame Win64 -project="C:/Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Claudia.uproject" -rocket -editorrecompile -progress
-Parsing headers for ClaudiaEditor
-Reflection code generated for ClaudiaEditor
-Performing 9 actions (4 in parallel)
-[2/9] Resource ModuleVersionResource.rc.inl
-[3/9] Resource Claudia.rc
-PCH.Claudia.Claudia.h.cpp
-Claudia.generated.cpp
-Trap.cpp
-ClaudiaCharacter.cpp
-ClaudiaGameMode.cpp
-Claudia.cpp
-[9/9] Link UE4Editor-Claudia-Win64-DebugGame.dll
-   Creating library C:\Users\eroberts6\Desktop\C-to-the-L-to-the-AUDIA\Claudia\Intermediate\Build\Win64\ClaudiaEditor\DebugGame\UE4Editor-Claudia-Win64-DebugGame.lib and object C:\Users\eroberts6\Desktop\C-to-the-L-to-the-AUDIA\Claudia\Intermediate\Build\Win64\ClaudiaEditor\DebugGame\UE4Editor-Claudia-Win64-DebugGame.exp
--------- End Detailed Actions Stats -----------------------------------------------------------
-Cumulative action seconds (8 processors): 0.00 building projects, 34.47 compiling, 0.00 creating app bundles, 0.00 generating debug info, 5.50 linking, 0.00 other
-UBT execution time: 67.10 seconds
-LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
-LogInit: API Version: 2326478
-LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
-LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Version: 4.5.1-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Nov 22 2014 20:50:18
+LogInit: Compiled with Visual C++: 18.00.30723.00
 LogInit: Build Configuration: DebugGame
-LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Branch Name: UE4
 LogInit: Command line:  -debug
-LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
-LogInit: Rocket: 1
-[2014.11.25-02.50.55:316][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.11.25-02.50.55:484][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.11.25-02.50.57:351][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.11.25-02.50.58:433][  0]LogInit: Object subsystem initialized
-[2014.11.25-02.50.59:244][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2014.11.25-02.50.59:245][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.11.25-02.50.59:245][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)'
-[2014.11.25-02.50.59:246][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.11.25-02.50.59:488][  0]LogInit: Selected Device Profile: [Windows]
-[2014.11.25-02.50.59:489][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.11.25-02.51.00:074][  0]LogInit: Computer: SAE-SYD80503W
-[2014.11.25-02.51.00:157][  0]LogInit: User: eroberts6
-[2014.11.25-02.51.00:158][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.11.25-02.51.00:159][  0]LogInit: High frequency timer resolution =3.312841 MHz
-[2014.11.25-02.51.00:198][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
-[2014.11.25-02.51.00:239][  0]LogMemory: Platform Memory Stats for Windows
-[2014.11.25-02.51.00:240][  0]LogMemory: Process Physical Memory: 65.88 MB used, 65.88 MB peak
-[2014.11.25-02.51.00:241][  0]LogMemory: Process Virtual Memory: 38.78 MB used, 38.78 MB peak
-[2014.11.25-02.51.00:241][  0]LogMemory: Physical Memory: 2873.80 MB used, 4071.74 MB total
-[2014.11.25-02.51.00:242][  0]LogMemory: Virtual Memory: 281.15 MB used, 8388608.00 MB total
-[2014.11.25-02.51.02:937][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6970M (Feature Level 11_0)
-[2014.11.25-02.51.02:937][  0]LogD3D11RHI: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
-[2014.11.25-02.51.02:938][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.11.25-02.51.02:943][  0]LogRHI: Texture pool is 708 MB (70% of 1012 MB)
-[2014.11.25-02.51.02:960][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.11.25-02.51.07:983][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
-[2014.11.25-02.51.09:454][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.11.25-02.51.26:171][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.25-02.51.27:219][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.25-02.51.27:345][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.11.25-02.51.27:346][  0]LogDerivedDataCache:Warning: Could not find memory cache C:/Users/eroberts6/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.11.25-02.51.27:346][  0]LogDerivedDataCache:Warning: Could not load Boot cache: C:/Users/eroberts6/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
-[2014.11.25-02.51.27:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.25-02.51.27:347][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.11.25-02.51.27:489][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.11.25-02.51.27:502][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eroberts6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2014.11.25-02.51.36:614][  0]LogCollisionProfile:Warning: Profile (EnemyDetection) - Custom Channel Name = 'grapplewalltrace' hasn't been found
-[2014.11.25-02.51.37:625][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.11.25-02.51.37:625][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.11.25-02.51.42:644][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.51.42:806][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.51.48:171][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.11.25-02.52.16:604][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.11.25-02.52.20:015][  0]SourceControl: Info Source control is disabled
-[2014.11.25-02.52.20:016][  0]SourceControl: Info Source control is disabled
-[2014.11.25-02.52.20:023][  0]SourceControl: Info Source control is disabled
-[2014.11.25-02.52.20:953][  0]LogObj: 22931 objects as part of root set at end of initial load.
-[2014.11.25-02.52.20:954][  0]LogUObjectAllocator: 4815072 out of 0 bytes used by permanent object pool.
-[2014.11.25-02.52.21:765][  0]LogEngine: Initializing Engine...
-[2014.11.25-02.52.23:172][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2014.11.25-02.52.23:929][  0]LogInit: FAudioDevice initialized.
-[2014.11.25-02.52.24:539][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.11.25-02.52.24:630][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/eroberts6/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.11.25-02.52.24:651][  0]LogInit: Texture streaming: Enabled
-[2014.11.25-02.52.24:839][  0]LogInit: Transaction tracking system initialized
-[2014.11.25-02.52.25:354][  0]BlueprintLog: New page: Editor Load
-[2014.11.25-02.52.25:535][  0]LogAssetRegistry: FAssetRegistry took 0.0339 seconds to start up
-[2014.11.25-02.52.25:536][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2014.11.25-02.52.31:265][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.25-02.52.32:545][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.25-02.52.34:446][  0]LogConsoleResponse:Display: 
-[2014.11.25-02.52.38:346][  0]SourceControl: Info Source control is disabled
-[2014.11.25-02.52.38:451][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.11.25-02.52.38:502][  0]LightingResults: New page: Lighting Build
-[2014.11.25-02.52.38:793][  0]MapCheck: New page: Map Check
-[2014.11.25-02.52.38:794][  0]LightingResults: New page: Lighting Build
-[2014.11.25-02.52.39:009][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017D9E0C0
-[2014.11.25-02.52.39:112][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Maps/greybox.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.39:281][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Officer_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.39:325][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Claudia_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.40:115][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/HUD/HUDState.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.43:099][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Thug_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.43:146][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Flipbooks/Thug_Character/Thug_Idle_Flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.43:193][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Sprites/Thug_Character/Idle/Thug_Idle_Sprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.43:366][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Pickup_Health_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.43:402][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Sprites/Officer_Character/bullet_Sprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.43:428][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Textures/Officer_Character/Bullet.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.43:487][  0]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/HUD/HUD_Bars.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-02.52.48:346][  0]LogTexture:Display: Building textures: Claudia_Grapple_1 (AutoDXT)
-[2014.11.25-02.52.48:605][  0]LogTexture:Display: Building textures: Claudia_Grapple_2 (AutoDXT)
-[2014.11.25-02.52.48:826][  0]LogTexture:Display: Building textures: Claudia_Idle (AutoDXT)
-[2014.11.25-02.52.49:077][  0]LogTexture:Display: Building textures: Claudia_Jump (AutoDXT)
-[2014.11.25-02.52.49:301][  0]LogTexture:Display: Building textures: Claudia_HalfKick (AutoDXT)
-[2014.11.25-02.52.49:490][  0]LogTexture:Display: Building textures: Claudia_Kick (AutoDXT)
-[2014.11.25-02.52.49:874][  0]LogTexture:Display: Building textures: Claudia_Run (AutoDXT)
-[2014.11.25-02.52.52:122][  0]LogTexture:Display: Building textures: Claudia_WallJump (AutoDXT)
-[2014.11.25-02.52.52:529][  0]LogTexture:Display: Building textures: Officer_Idle (AutoDXT)
-[2014.11.25-02.52.52:845][  0]LogTexture:Display: Building textures: Thug_Idle (AutoDXT)
-[2014.11.25-02.52.53:191][  0]LogTexture:Display: Building textures: Bullet (AutoDXT)
-[2014.11.25-02.52.53:653][  0]LogTexture:Display: Building textures: Chain (AutoDXT)
-[2014.11.25-02.52.53:932][  0]LogTexture:Display: Building textures: Fan (AutoDXT)
-[2014.11.25-02.52.54:061][  0]LogTexture:Display: Building textures: Gauge (BGRA8)
-[2014.11.25-02.52.54:074][  0]LogTexture:Display: Building textures: Gear (AutoDXT)
-[2014.11.25-02.52.54:183][  0]LogTexture:Display: Building textures: PipeCurve (AutoDXT)
-[2014.11.25-02.52.54:224][  0]LogTexture:Display: Building textures: PipeEnd (BGRA8)
-[2014.11.25-02.52.54:228][  0]LogTexture:Display: Building textures: PipeLong (BGRA8)
-[2014.11.25-02.52.54:236][  0]LogTexture:Display: Building textures: PipeT (BGRA8)
-[2014.11.25-02.52.54:498][  0]LogTexture:Display: Building textures: Rail (AutoDXT)
-[2014.11.25-02.52.55:354][  0]LogTexture:Display: Building textures: Scaffolding (AutoDXT)
-[2014.11.25-02.52.56:116][  0]LogTexture:Display: Building textures: ScaffoldingLeft (AutoDXT)
-[2014.11.25-02.52.56:575][  0]LogTexture:Display: Building textures: ScaffoldingRight (AutoDXT)
-[2014.11.25-02.52.57:252][  0]LogTexture:Display: Building textures: SideLeft (AutoDXT)
-[2014.11.25-02.52.58:236][  0]LogTexture:Display: Building textures: SideRight (AutoDXT)
-[2014.11.25-02.52.59:123][  0]LogTexture:Display: Building textures: StoneBottom (BGRA8)
-[2014.11.25-02.52.59:380][  0]LogTexture:Display: Building textures: StoneCorner2 (AutoDXT)
-[2014.11.25-02.53.00:333][  0]LogTexture:Display: Building textures: StoneCorner (AutoDXT)
-[2014.11.25-02.53.01:226][  0]LogTexture:Display: Building textures: StoneLeft (BGRA8)
-[2014.11.25-02.53.01:502][  0]LogTexture:Display: Building textures: StoneLeftBottom (BGRA8)
-[2014.11.25-02.53.02:170][  0]LogTexture:Display: Building textures: StoneRight (BGRA8)
-[2014.11.25-02.53.02:590][  0]LogTexture:Display: Building textures: StoneRightBottom (BGRA8)
-[2014.11.25-02.53.02:851][  0]LogTexture:Display: Building textures: StoneTop (BGRA8)
-[2014.11.25-02.53.03:063][  0]LogTexture:Display: Building textures: StoneTopLeft (BGRA8)
-[2014.11.25-02.53.03:454][  0]LogTexture:Display: Building textures: StoneTopRight (BGRA8)
-[2014.11.25-02.53.04:354][  0]LogTexture:Display: Building textures: Tiling_Stone (AutoDXT)
-[2014.11.25-02.53.04:579][  0]LogTexture:Display: Building textures: Wheel (BGRA8)
-[2014.11.25-02.53.04:706][  0]LogTexture:Display: Building textures: WindowOff (AutoDXT)
-[2014.11.25-02.53.04:985][  0]LogTexture:Display: Building textures: Background_for_Claudia (AutoDXT)
-[2014.11.25-02.53.05:723][  0]LogTexture:Display: Building textures: Window (AutoDXT)
-[2014.11.25-02.53.08:392][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.25-02.53.08:601][  0]LogAIModule: Creating AISystem for world greybox
-[2014.11.25-02.53.08:705][  0]Cmd: MAP CHECKDEP
-[2014.11.25-02.53.08:954][  0]MapCheck: New page: greybox - 26 Nov 2014 12:53:08 am
-[2014.11.25-02.53.10:131][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,424.989ms to complete.
-[2014.11.25-02.53.10:132][  0]LogFileHelpers: Loading map 'greybox' took 31.716
-[2014.11.25-02.53.14:361][  0]LogCollectionManager: Loaded 0 collections in 0.000973 seconds
-[2014.11.25-02.53.16:213][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.11.25-02.53.16:765][  0]LogLoad: Full Startup: 230.92 seconds (BP compile: 1.63 seconds)
-[2014.11.25-02.53.16:979][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.11.25-02.53.18:052][  0]LogRenderer:Warning: Reallocating scene render targets to support 2016x1264.
-[2014.11.25-02.53.20:190][  3]LogAssetRegistry: Asset discovery search completed in 54.6879 seconds
-[2014.11.25-02.53.42:940][511]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
-[2014.11.25-02.53.42:940][511]LogSynthBenchmark:Display: ===============
-[2014.11.25-02.53.42:941][511]LogSynthBenchmark:Display: Main Processor:
-[2014.11.25-02.53.42:982][511]LogSynthBenchmark:Display:          ... 0.019661 s/Run 'RayIntersect'
-[2014.11.25-02.53.42:983][511]LogSynthBenchmark:Display:          ... 0.021362 s/Run 'Fractal'
-[2014.11.25-02.53.42:983][511]LogSynthBenchmark:Display: 
-[2014.11.25-02.53.42:983][511]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
-[2014.11.25-02.53.42:984][511]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
-[2014.11.25-02.53.42:984][511]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
-[2014.11.25-02.53.42:985][511]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
-[2014.11.25-02.53.42:985][511]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 4
-[2014.11.25-02.53.42:985][511]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
-[2014.11.25-02.53.42:986][511]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
-[2014.11.25-02.53.42:986][511]LogSynthBenchmark:Display:   CPU Perf Index 0: 130.3
-[2014.11.25-02.53.42:987][511]LogSynthBenchmark:Display:   CPU Perf Index 1: 133.9
-[2014.11.25-02.53.42:987][511]LogSynthBenchmark:Display:  
-[2014.11.25-02.53.42:987][511]LogSynthBenchmark:Display: Graphics:
-[2014.11.25-02.53.42:988][511]LogSynthBenchmark:Display:   Adapter Name: 'AMD Radeon HD 6970M'
-[2014.11.25-02.53.42:988][511]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
-[2014.11.25-02.53.42:988][511]LogSynthBenchmark:Display:   Vendor Id: 0x1002
-[2014.11.25-02.53.42:989][511]LogSynthBenchmark:Display:   GPU Memory: 1013/0/1780 MB
-[2014.11.25-02.53.42:989][511]LogSynthBenchmark:Display:   CPUIndex: 130.3
-[2014.11.25-02.53.42:989][511]LogSynthBenchmark:Display:   GPUIndex: -1.$
-[2014.11.25-02.53.42:989][511]LogSynthBenchmark:Display: 
-[2014.11.25-02.53.42:990][511]LogSynthBenchmark:Display:          ... Total Time: 0.049813 sec
-[2014.11.25-02.53.43:285][511]LogWindows:Warning: FWindowsPlatformSurvey::TickSurveyHardware() WinSAT assessment unavailable. Unable to examine some hardware metrics. Run the Windows Experience Index Assessment.
-[2014.11.25-03.06.09:295][337]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.25-03.06.10:516][337]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_for_Claudia_Sprite)
-[2014.11.25-03.07.00:487][534]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Scaffolding_Sprite42)
-[2014.11.25-03.07.10:497][ 41]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.25-03.07.10:498][ 41]LogPlayLevel: [PIE] Compiling greybox before PIE...
-[2014.11.25-03.07.11:569][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.11.25-03.07.11:578][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.11.25-03.07.11:579][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2014.11.25-03.07.12:457][ 41]LogPlayLevel: PIE:  Blueprint regeneration took 1976 ms (1 blueprints)
-[2014.11.25-03.07.12:517][ 41]PIE: New page: PIE session: greybox (26 Nov 2014 1:07:12 am)
-[2014.11.25-03.07.12:761][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.243126s)
-[2014.11.25-03.07.12:762][ 41]LogPlayLevel: PIE: World Init took: (0.000675s)
-[2014.11.25-03.07.12:764][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.246082s)
-[2014.11.25-03.07.13:113][ 41]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/ClaudiaGameMode_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-03.07.13:157][ 41]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Claudia_HUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-03.07.13:183][ 41]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/HUD/HUD_Health_Texture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-03.07.13:190][ 41]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/HUD/HUD_Momentum_Texture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-03.07.13:199][ 41]LogLinker:Warning: Asset '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Textures/crosshair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.25-03.07.13:296][ 41]LogTexture:Display: Building textures: HUD_Health_Texture (AutoDXT)
-[2014.11.25-03.07.13:673][ 41]LogTexture:Display: Building textures: HUD_Momentum_Texture (AutoDXT)
-[2014.11.25-03.07.13:917][ 41]LogTexture:Display: Building textures: crosshair (AutoDXT)
-[2014.11.25-03.07.13:941][ 41]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.25-03.07.14:695][ 41]LogAIModule: Creating AISystem for world greybox
-[2014.11.25-03.07.14:813][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.25-14.07.14
-[2014.11.25-03.07.15:414][ 41]LogWorld: Bringing up level for play took: 0.718430
-[2014.11.25-03.07.15:988][ 41]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 5.013
-[2014.11.25-03.07.49:989][455]LogBlueprintUserMessages: Yum
-[2014.11.25-03.07.51:600][525]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.07.51:612][526]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.07.51:634][528]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.07.51:656][529]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.07.51:678][530]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.07.51:700][531]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.07.51:723][532]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.07.51:745][533]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.08.02:256][  2]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.08.44:139][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A0BEC00
-[2014.11.25-03.08.49:282][ 38]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2014.11.25-03.09.09:326][766]BlueprintLog: New page: Compile Claudia_Blueprint
-[2014.11.25-03.09.09:515][766]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2014.11.25-03.09.09:516][766]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2014.11.25-03.09.09:516][766]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2014.11.25-03.09.09:651][766]BlueprintEditorCompileResults: Info [1183.60] Compile of Claudia_Blueprint successful! [in 85 ms]
-[2014.11.25-03.09.40:140][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Claudia_Blueprint" FILE="../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Claudia_Blueprint.uasset" SILENT=true
-[2014.11.25-03.09.40:812][940]LogSavePackage: Save=512.887878ms
-[2014.11.25-03.09.40:812][940]LogSavePackage: Moving '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Saved/Claudia_BlueprintC3DEDE2141B2D1AB7ABDD89350EFF47B.tmp' to '../../../../../../Users/eroberts6/Desktop/C-to-the-L-to-the-AUDIA/Claudia/Content/Blueprints/Claudia_Blueprint.uasset'
-[2014.11.25-03.10.09:804][772]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.25-03.10.09:805][772]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
-[2014.11.25-03.10.09:859][772]LogPlayLevel: [PIE] Compiling greybox before PIE...
-[2014.11.25-03.10.09:914][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2014.11.25-03.10.09:971][772]LogPlayLevel: PIE:  Blueprint regeneration took 167 ms (2 blueprints)
-[2014.11.25-03.10.09:972][772]PIE: New page: PIE session: greybox (26 Nov 2014 1:10:09 am)
-[2014.11.25-03.10.10:112][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139440s)
-[2014.11.25-03.10.10:114][772]LogPlayLevel: PIE: World Init took: (0.000571s)
-[2014.11.25-03.10.10:115][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.142054s)
-[2014.11.25-03.10.10:145][772]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
-[2014.11.25-03.10.10:147][772]LogAIModule: Creating AISystem for world greybox
-[2014.11.25-03.10.10:265][772]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.25-14.10.10
-[2014.11.25-03.10.10:293][772]LogWorld: Bringing up level for play took: 0.145578
-[2014.11.25-03.10.10:306][772]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 1.328
-[2014.11.25-03.10.27:617][253]LogBlueprintUserMessages: Yum
-[2014.11.25-03.10.31:766][432]LogBlueprintUserMessages: Ouch
-[2014.11.25-03.10.43:674][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004639F1A0
-[2014.11.25-03.11.07:544][415]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD'
-[2014.11.25-03.12.12:377][257]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.11.25-03.12.16:055][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:056][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:149][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:150][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:150][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:151][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:151][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:152][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:152][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:153][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:153][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:154][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:154][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:155][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:155][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:156][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:156][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:156][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-03.12.16:157][398]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.25-04.08.49:414][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2014.11.25-04.08.49:415][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2014.11.25-04.08.49:415][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2014.11.25-04.08.49:489][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012A5C860
-[2014.11.25-04.08.49:490][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030429940
-[2014.11.25-04.08.49:491][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020282700
-[2014.11.25-04.08.49:492][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FED3C40
-[2014.11.25-04.08.49:493][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F70AE0
-[2014.11.25-04.08.51:713][172]Cmd: QUIT_EDITOR
-[2014.11.25-04.08.52:292][172]LogExit: Preparing to exit.
-[2014.11.25-04.08.54:074][172]LogExit: Editor shut down
-[2014.11.25-04.08.54:075][172]LogExit: Transaction tracking system shut down
-[2014.11.25-04.08.54:082][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017C079C0
-[2014.11.25-04.08.54:086][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000202ECCC0
-[2014.11.25-04.08.57:048][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017BCC400
-[2014.11.25-04.08.57:049][172]LogExit: Object subsystem successfully closed.
-[2014.11.25-04.08.57:594][172]LogModuleManager: Shutting down and abandoning module SequencerWidgets (169)
-[2014.11.25-04.08.57:595][172]LogModuleManager: Shutting down and abandoning module SynthBenchmark (168)
-[2014.11.25-04.08.57:595][172]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
-[2014.11.25-04.08.57:596][172]LogModuleManager: Shutting down and abandoning module CrashTracker (166)
-[2014.11.25-04.08.57:596][172]LogModuleManager: Shutting down and abandoning module SuperSearch (165)
-[2014.11.25-04.08.57:596][172]LogModuleManager: Shutting down and abandoning module SceneOutliner (164)
-[2014.11.25-04.08.57:597][172]LogModuleManager: Shutting down and abandoning module EditorWidgets (163)
-[2014.11.25-04.08.57:597][172]LogModuleManager: Shutting down and abandoning module CollectionManager (162)
-[2014.11.25-04.08.57:606][172]LogModuleManager: Shutting down and abandoning module StatsViewer (161)
-[2014.11.25-04.08.57:625][172]LogModuleManager: Shutting down and abandoning module FoliageEdit (160)
-[2014.11.25-04.08.57:641][172]LogModuleManager: Shutting down and abandoning module LandscapeEditor (159)
-[2014.11.25-04.08.57:642][172]LogModuleManager: Shutting down and abandoning module MeshPaint (158)
-[2014.11.25-04.08.57:654][172]LogModuleManager: Shutting down and abandoning module ActorPickerMode (157)
-[2014.11.25-04.08.57:654][172]LogModuleManager: Shutting down and abandoning module GeometryMode (156)
-[2014.11.25-04.08.57:655][172]LogModuleManager: Shutting down and abandoning module TextureAlignMode (155)
-[2014.11.25-04.08.57:655][172]LogModuleManager: Shutting down and abandoning module BspMode (154)
-[2014.11.25-04.08.57:655][172]LogModuleManager: Shutting down and abandoning module PlacementMode (153)
-[2014.11.25-04.08.57:656][172]LogModuleManager: Shutting down and abandoning module AutomationWorker (152)
-[2014.11.25-04.08.57:656][172]LogModuleManager: Shutting down and abandoning module CharacterAI (151)
-[2014.11.25-04.08.57:657][172]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (150)
-[2014.11.25-04.08.57:700][172]LogModuleManager: Shutting down and abandoning module IntroTutorials (149)
-[2014.11.25-04.08.57:722][172]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (148)
-[2014.11.25-04.08.57:723][172]LogModuleManager: Shutting down and abandoning module HardwareTargeting (147)
-[2014.11.25-04.08.57:723][172]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
-[2014.11.25-04.08.57:768][172]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
-[2014.11.25-04.08.57:786][172]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
-[2014.11.25-04.08.57:786][172]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
-[2014.11.25-04.08.57:819][172]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
-[2014.11.25-04.08.57:820][172]LogModuleManager: Shutting down and abandoning module XmlParser (141)
-[2014.11.25-04.08.57:831][172]LogModuleManager: Shutting down and abandoning module Blutility (140)
-[2014.11.25-04.08.57:846][172]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (139)
-[2014.11.25-04.08.57:846][172]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (138)
-[2014.11.25-04.08.57:847][172]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
-[2014.11.25-04.08.57:847][172]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
-[2014.11.25-04.08.57:848][172]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (135)
-[2014.11.25-04.08.57:848][172]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (134)
-[2014.11.25-04.08.57:849][172]LogModuleManager: Shutting down and abandoning module InputBindingEditor (133)
-[2014.11.25-04.08.57:877][172]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (132)
-[2014.11.25-04.08.57:878][172]LogModuleManager: Shutting down and abandoning module SettingsEditor (131)
-[2014.11.25-04.08.57:915][172]LogModuleManager: Shutting down and abandoning module ProjectLauncher (130)
-[2014.11.25-04.08.57:933][172]LogModuleManager: Shutting down and abandoning module SessionFrontend (129)
-[2014.11.25-04.08.57:951][172]LogModuleManager: Shutting down and abandoning module ProfilerClient (128)
-[2014.11.25-04.08.57:970][172]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (127)
-[2014.11.25-04.08.57:970][172]LogModuleManager: Shutting down and abandoning module DeviceManager (126)
-[2014.11.25-04.08.57:984][172]LogModuleManager: Shutting down and abandoning module AutomationController (125)
-[2014.11.25-04.08.58:021][172]LogModuleManager: Shutting down and abandoning module AutomationWindow (124)
-[2014.11.25-04.08.58:040][172]LogModuleManager: Shutting down and abandoning module Layers (123)
-[2014.11.25-04.08.58:068][172]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (122)
-[2014.11.25-04.08.58:069][172]LogModuleManager: Shutting down and abandoning module DetailCustomizations (121)
-[2014.11.25-04.08.58:083][172]LogModuleManager: Shutting down and abandoning module PackagesDialog (120)
-[2014.11.25-04.08.58:098][172]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
-[2014.11.25-04.08.58:175][172]LogModuleManager: Shutting down and abandoning module Persona (118)
-[2014.11.25-04.08.58:212][172]LogModuleManager: Shutting down and abandoning module Kismet (117)
-[2014.11.25-04.08.58:225][172]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
-[2014.11.25-04.08.58:226][172]LogModuleMan
+LogInit: Base directory: E:/Unreal Engine 4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.11.30-01.32.24:285][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.30-01.32.24:348][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.30-01.32.24:744][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.30-01.32.24:852][  0]LogInit: Object subsystem initialized
+[2014.11.30-01.32.24:917][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.30-01.32.24:917][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Claudia/Claudia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.30-01.32.24:918][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)'
+[2014.11.30-01.32.24:918][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Claudia/Claudia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.30-01.32.24:934][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.30-01.32.24:940][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.30-01.32.25:022][  0]LogInit: Computer: ETHAN-PC
+[2014.11.30-01.32.25:023][  0]LogInit: User: Ethan
+[2014.11.30-01.32.25:024][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.30-01.32.25:024][  0]LogInit: High frequency timer resolution =3.905175 MHz
+[2014.11.30-01.32.25:025][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=8192.0GB
+[2014.11.30-01.32.25:025][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.30-01.32.25:025][  0]LogMemory: Process Physical Memory: 65.84 MB used, 65.84 MB peak
+[2014.11.30-01.32.25:026][  0]LogMemory: Process Virtual Memory: 42.51 MB used, 42.51 MB peak
+[2014.11.30-01.32.25:026][  0]LogMemory: Physical Memory: 4115.12 MB used, 16334.66 MB total
+[2014.11.30-01.32.25:026][  0]LogMemory: Virtual Memory: 272.77 MB used, 8388608.00 MB total
+[2014.11.30-01.32.25:123][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 570 (Feature Level 11_0)
+[2014.11.30-01.32.25:123][  0]LogD3D11RHI: Adapter has 1232MB of dedicated video memory, 0MB of dedicated system memory, and 2815MB of shared system memory, 1 output[s]
+[2014.11.30-01.32.25:123][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.30-01.32.25:127][  0]LogRHI: Texture pool is 862 MB (70% of 1232 MB)
+[2014.11.30-01.32.25:139][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.30-01.32.26:106][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.30-01.32.26:260][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.30-01.32.32:029][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.30-01.32.33:258][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.30-01.32.33:398][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.30-01.32.33:770][  0]LogDerivedDataCache: Loaded boot cache 0.37s 39MB ../../../../Claudia/Claudia/DerivedDataCache/Boot.ddc.
+[2014.11.30-01.32.33:771][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../Claudia/Claudia/DerivedDataCache/Boot.ddc
+[2014.11.30-01.32.33:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Claudia/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.30-01.32.33:771][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.30-01.32.33:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.30-01.32.33:811][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.30-01.32.33:822][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.30-01.32.33:822][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.30-01.32.33:823][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.30-01.32.37:213][  0]LogCollisionProfile:Warning: Profile (EnemyDetection) - Custom Channel Name = 'grapplewalltrace' hasn't been found
+[2014.11.30-01.32.37:635][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.30-01.32.37:635][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.30-01.32.41:613][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.30-01.32.51:202][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.30-01.32.53:448][  0]SourceControl: Info Source control is disabled
+[2014.11.30-01.32.53:448][  0]SourceControl: Info Source control is disabled
+[2014.11.30-01.32.53:453][  0]SourceControl: Info Source control is disabled
+[2014.11.30-01.32.54:413][  0]LogObj: 22935 objects as part of root set at end of initial load.
+[2014.11.30-01.32.54:413][  0]LogUObjectAllocator: 4813032 out of 0 bytes used by permanent object pool.
+[2014.11.30-01.32.54:773][  0]LogEngine: Initializing Engine...
+[2014.11.30-01.32.55:345][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.30-01.32.55:361][  0]LogInit: FAudioDevice initialized.
+[2014.11.30-01.32.55:688][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.30-01.32.55:774][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB ../../../../Claudia/Claudia/DerivedDataCache/Boot.ddc.
+[2014.11.30-01.32.55:777][  0]LogInit: Texture streaming: Enabled
+[2014.11.30-01.32.55:993][  0]LogInit: Transaction tracking system initialized
+[2014.11.30-01.32.56:511][  0]BlueprintLog: New page: Editor Load
+[2014.11.30-01.32.56:853][  0]LogAssetRegistry: FAssetRegistry took 0.0160 seconds to start up
+[2014.11.30-01.32.56:854][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.30-01.32.59:804][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.30-01.33.00:385][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.30-01.33.00:432][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'E:/Unreal Engine 4.5/Engine/Binaries/Win64/' was not found.
+[2014.11.30-01.33.00:438][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'E:/Unreal Engine 4.5/Engine/Binaries/Win64/' was not found.
+[2014.11.30-01.33.01:700][  0]LogConsoleResponse:Display: 
+[2014.11.30-01.33.03:668][  0]SourceControl: Info Source control is disabled
+[2014.11.30-01.33.03:685][  0]Cmd: MAP LOAD FILE="../../../../Claudia/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.30-01.33.03:692][  0]LightingResults: New page: Lighting Build
+[2014.11.30-01.33.03:754][  0]MapCheck: New page: Map Check
+[2014.11.30-01.33.03:755][  0]LightingResults: New page: Lighting Build
+[2014.11.30-01.33.03:842][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016CC7EC0
+[2014.11.30-01.33.07:010][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.30-01.33.07:027][  0]LogAIModule: Creating AISystem for world greybox
+[2014.11.30-01.33.07:058][  0]Cmd: MAP CHECKDEP
+[2014.11.30-01.33.07:074][  0]MapCheck: New page: greybox - Nov 30, 2014, 11:33:07 PM
+[2014.11.30-01.33.07:185][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.348ms to complete.
+[2014.11.30-01.33.07:186][  0]LogFileHelpers: Loading map 'greybox' took 3.501
+[2014.11.30-01.33.07:956][  0]LogCollectionManager: Loaded 0 collections in 0.000954 seconds
+[2014.11.30-01.33.08:629][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.30-01.33.08:795][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.30-01.33.08:848][  0]LogLoad: Full Startup: 50.13 seconds (BP compile: 0.32 seconds)
+[2014.11.30-01.33.08:876][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2014.11.30-01.33.09:570][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x728.
+[2014.11.30-01.33.10:411][  2]LogAssetRegistry: Asset discovery search completed in 13.5729 seconds
+[2014.11.30-02.17.28:934][381]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.30-02.17.28:934][381]LogPlayLevel: [PIE] Compiling greybox before PIE...
+[2014.11.30-02.17.29:104][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.30-02.17.29:105][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.30-02.17.29:105][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.30-02.17.29:194][381]LogPlayLevel: PIE:  Blueprint regeneration took 260 ms (1 blueprints)
+[2014.11.30-02.17.29:195][381]PIE: New page: PIE session: greybox (Dec 1, 2014, 12:17:29 AM)
+[2014.11.30-02.17.29:294][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084894s)
+[2014.11.30-02.17.29:295][381]LogPlayLevel: PIE: World Init took: (0.000395s)
+[2014.11.30-02.17.29:296][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.091017s)
+[2014.11.30-02.17.29:472][381]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.30-02.17.29:517][381]LogAIModule: Creating AISystem for world greybox
+[2014.11.30-02.17.29:563][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.30-13.17.29
+[2014.11.30-02.17.29:681][381]LogWorld: Bringing up level for play took: 0.163832
+[2014.11.30-02.17.29:794][381]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.112
+[2014.11.30-02.17.45:756][205]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.17.47:234][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DDBDE40
+[2014.11.30-02.17.48:017][443]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD'
+[2014.11.30-02.17.48:412][468]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2014.11.30-02.17.49:649][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Thug_Character'
+[2014.11.30-02.17.52:445][886]LogTexture:Display: Building textures: Thug_PipeHit (AutoDXT)
+[2014.11.30-02.18.08:369][243]LogTexture:Display: Building textures: Thug_Walk (AutoDXT)
+[2014.11.30-02.18.22:717][733]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Officer_Character'
+[2014.11.30-02.18.23:946][860]LogTexture:Display: Building textures: Officer_Aim (AutoDXT)
+[2014.11.30-02.18.30:215][405]LogTexture:Display: Building textures: Officer_Melee (AutoDXT)
+[2014.11.30-02.18.45:998][990]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Thug_Character'
+[2014.11.30-02.18.47:160][129]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks/Claudia_Character'
+[2014.11.30-02.18.50:695][547]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.30-02.18.50:695][547]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.30-02.18.50:731][547]LogPlayLevel: [PIE] Compiling greybox before PIE...
+[2014.11.30-02.18.50:790][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001329D6C0
+[2014.11.30-02.18.50:791][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EE07560
+[2014.11.30-02.18.50:792][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016EB8220
+[2014.11.30-02.18.50:792][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EE05DA0
+[2014.11.30-02.18.50:793][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DCBD3A0
+[2014.11.30-02.18.50:795][547]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (2 blueprints)
+[2014.11.30-02.18.50:796][547]PIE: New page: PIE session: greybox (Dec 1, 2014, 12:18:50 AM)
+[2014.11.30-02.18.50:881][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085336s)
+[2014.11.30-02.18.50:883][547]LogPlayLevel: PIE: World Init took: (0.000440s)
+[2014.11.30-02.18.50:884][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.087529s)
+[2014.11.30-02.18.50:911][547]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.30-02.18.50:913][547]LogAIModule: Creating AISystem for world greybox
+[2014.11.30-02.18.50:961][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.30-13.18.50
+[2014.11.30-02.18.50:981][547]LogWorld: Bringing up level for play took: 0.067248
+[2014.11.30-02.18.50:988][547]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.696
+[2014.11.30-02.19.00:542][656]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.19.56:614][377]LogBlueprintUserMessages: Level Complete
+[2014.11.30-02.19.57:831][523]LogBlueprintUserMessages: Level Complete
+[2014.11.30-02.19.58:707][617]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DDBD580
+[2014.11.30-02.59.17:641][887]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.30-02.59.17:642][887]LogPlayLevel: [PIE] Compiling greybox before PIE...
+[2014.11.30-02.59.17:703][887]LogPlayLevel: PIE:  Blueprint regeneration took 61 ms (1 blueprints)
+[2014.11.30-02.59.17:703][887]PIE: New page: PIE session: greybox (Dec 1, 2014, 12:59:17 AM)
+[2014.11.30-02.59.17:790][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086640s)
+[2014.11.30-02.59.17:791][887]LogPlayLevel: PIE: World Init took: (0.000393s)
+[2014.11.30-02.59.17:792][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.088746s)
+[2014.11.30-02.59.17:820][887]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.30-02.59.17:822][887]LogAIModule: Creating AISystem for world greybox
+[2014.11.30-02.59.17:870][887]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.30-13.59.17
+[2014.11.30-02.59.17:890][887]LogWorld: Bringing up level for play took: 0.067573
+[2014.11.30-02.59.17:896][887]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.176
+[2014.11.30-02.59.28:974][195]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.28:982][196]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.28:999][198]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:007][199]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:016][200]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:024][201]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:032][202]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:041][203]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:049][204]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:057][205]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:066][206]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:074][207]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:082][208]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:091][209]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:099][210]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:107][211]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:566][266]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:574][267]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:582][268]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:591][269]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:599][270]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:607][271]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:616][272]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:624][273]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:632][274]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:641][275]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:649][276]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:657][277]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:666][278]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:674][279]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:682][280]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:691][281]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:699][282]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:707][283]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:716][284]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:724][285]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:732][286]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:741][287]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:749][288]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:757][289]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:766][290]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:774][291]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:782][292]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:791][293]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:799][294]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:808][295]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:816][296]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:824][297]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:833][298]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:841][299]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:849][300]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:858][301]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:866][302]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:874][303]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:883][304]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:891][305]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:899][306]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:908][307]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:916][308]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:924][309]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:933][310]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:941][311]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:949][312]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:958][313]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:966][314]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:974][315]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:983][316]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:991][317]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.29:999][318]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:008][319]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:016][320]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:024][321]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:033][322]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:041][323]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:049][324]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:058][325]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:066][326]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:074][327]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:083][328]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:091][329]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:099][330]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:108][331]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:116][332]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:124][333]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:133][334]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:141][335]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:149][336]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:158][337]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:166][338]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:174][339]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:183][340]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:191][341]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:199][342]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:208][343]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:216][344]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:224][345]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:233][346]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:241][347]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:249][348]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:258][349]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:266][350]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:274][351]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:283][352]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:291][353]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:299][354]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:308][355]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:316][356]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:324][357]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:333][358]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:341][359]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:349][360]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:358][361]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:366][362]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:374][363]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:383][364]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:391][365]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:399][366]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:408][367]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:416][368]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:425][369]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:433][370]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:441][371]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:449][372]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:458][373]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:466][374]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:474][375]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:483][376]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:491][377]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:499][378]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:508][379]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:516][380]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:524][381]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:533][382]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:541][383]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:549][384]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:558][385]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:566][386]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:574][387]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:583][388]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:591][389]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:599][390]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:608][391]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:616][392]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:624][393]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:633][394]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:641][395]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:649][396]LogBlueprintUserMessages: Ouch
+[2014.11.30-02.59.30:658][397]LogBlueprintUserMessages: Ouch
+[2014.11.30-03.00.10:874][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.10:882][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.10:916][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.10:959][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.10:981][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.10:996][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:027][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:058][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:076][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:092][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:122][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:166][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:187][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:201][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:217][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:232][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:252][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:272][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:288][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:304][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:326][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:342][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:361][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:376][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:394][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:408][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:424][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:440][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:455][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:469][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:484][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:498][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:518][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:537][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:553][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:571][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:587][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:602][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:615][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:630][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:645][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:660][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:674][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:689][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:704][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:719][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:734][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:749][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:762][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:778][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:794][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:809][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:823][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:838][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:852][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:866][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:880][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:894][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:909][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:924][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:939][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:952][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:966][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:980][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.11:995][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:010][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:025][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:040][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:054][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:068][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:082][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:096][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:110][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:126][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:140][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.11.30-03.00.12:245][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001329D9E0
+[2014.11.30-03.00.15:152][466]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2014.11.30-03.00.17:614][761]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD'
+[2014.11.30-03.00.21:744][242]LogMaterial: Missing cached shader map for material HUD_Health_Material, compiling.
+[2014.11.30-03.00.21:763][242]LogMaterial: Missing cached shader map for material HUD_Momentum_Material, compiling.
+[2014.11.30-03.00.49:865][ 42]BlueprintLog: New page: Compile Claudia_HUD
+[2014.11.30-03.00.49:960][ 42]BlueprintEditorCompileResults: Info [5311.08] Compile of Claudia_HUD successful! [in 2 ms]
+[2014.11.30-03.00.50:437][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Claudia_HUD" FILE="../../../../Claudia/Claudia/Content/Blueprints/Claudia_HUD.uasset" SILENT=true
+[2014.11.30-03.00.50:511][ 84]LogSavePackage: Save=34.046360ms
+[2014.11.30-03.00.50:512][ 84]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Claudia_HUD6D86C14E4BE856F4352A3589F1DCDB6B.tmp' to '../../../../Claudia/Claudia/Content/Blueprints/Claudia_HUD.uasset'
+[2014.11.30-03.01.06:857][547]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD'
+[2014.11.30-03.01.09:277][814]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.01.09:278][814]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.01.11:573][ 65]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD'
+[2014.11.30-03.01.13:051][241]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.01.13:051][241]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.01.14:315][393]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Health'
+[2014.11.30-03.01.21:080][559]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Health/Health1.png)
+[2014.11.30-03.01.21:083][559]0.000009 seconds to analyze Texture2D /Game/HUD/Health/Health1.Health1
+
+[2014.11.30-03.01.21:090][559]LogTexture:Display: Building textures: Health1 (AutoDXT)
+[2014.11.30-03.01.21:128][559]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.30-03.01.21:129][559]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Health'
+[2014.11.30-03.01.23:587][703]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Health/Health2.png)
+[2014.11.30-03.01.23:589][703]0.000008 seconds to analyze Texture2D /Game/HUD/Health/Health2.Health2
+
+[2014.11.30-03.01.23:606][703]LogTexture:Display: Building textures: Health2 (AutoDXT)
+[2014.11.30-03.01.23:643][703]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.30-03.01.23:643][703]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Health'
+[2014.11.30-03.01.27:701][857]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Health/Health3.png)
+[2014.11.30-03.01.27:703][857]0.000008 seconds to analyze Texture2D /Game/HUD/Health/Health3.Health3
+
+[2014.11.30-03.01.27:722][857]LogTexture:Display: Building textures: Health3 (AutoDXT)
+[2014.11.30-03.01.27:756][857]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Health/Health4.png)
+[2014.11.30-03.01.27:759][857]0.000007 seconds to analyze Texture2D /Game/HUD/Health/Health4.Health4
+
+[2014.11.30-03.01.27:760][857]LogTexture:Display: Building textures: Health4 (AutoDXT)
+[2014.11.30-03.01.27:794][857]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.30-03.01.27:795][857]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Health'
+[2014.11.30-03.01.27:796][857]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Health'
+[2014.11.30-03.01.29:473][ 57]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:513][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum1.png)
+[2014.11.30-03.01.42:516][277]0.000011 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum1.Momentum1
+
+[2014.11.30-03.01.42:522][277]LogTexture:Display: Building textures: Momentum1 (AutoDXT)
+[2014.11.30-03.01.42:555][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum2.png)
+[2014.11.30-03.01.42:558][277]0.000008 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum2.Momentum2
+
+[2014.11.30-03.01.42:559][277]LogTexture:Display: Building textures: Momentum2 (AutoDXT)
+[2014.11.30-03.01.42:598][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum3.png)
+[2014.11.30-03.01.42:600][277]0.000007 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum3.Momentum3
+
+[2014.11.30-03.01.42:601][277]LogTexture:Display: Building textures: Momentum3 (AutoDXT)
+[2014.11.30-03.01.42:642][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum4.png)
+[2014.11.30-03.01.42:645][277]0.000024 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum4.Momentum4
+
+[2014.11.30-03.01.42:646][277]LogTexture:Display: Building textures: Momentum4 (AutoDXT)
+[2014.11.30-03.01.42:685][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum5.png)
+[2014.11.30-03.01.42:687][277]0.000008 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum5.Momentum5
+
+[2014.11.30-03.01.42:689][277]LogTexture:Display: Building textures: Momentum5 (AutoDXT)
+[2014.11.30-03.01.42:727][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum6.png)
+[2014.11.30-03.01.42:729][277]0.000008 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum6.Momentum6
+
+[2014.11.30-03.01.42:731][277]LogTexture:Display: Building textures: Momentum6 (AutoDXT)
+[2014.11.30-03.01.42:768][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum7.png)
+[2014.11.30-03.01.42:770][277]0.000008 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum7.Momentum7
+
+[2014.11.30-03.01.42:772][277]LogTexture:Display: Building textures: Momentum7 (AutoDXT)
+[2014.11.30-03.01.42:807][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum8.png)
+[2014.11.30-03.01.42:810][277]0.000008 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum8.Momentum8
+
+[2014.11.30-03.01.42:812][277]LogTexture:Display: Building textures: Momentum8 (AutoDXT)
+[2014.11.30-03.01.42:848][277]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Ethan/Desktop/Momentum/Momentum9.png)
+[2014.11.30-03.01.42:851][277]0.000008 seconds to analyze Texture2D /Game/HUD/Momentum/Momentum9.Momentum9
+
+[2014.11.30-03.01.42:852][277]LogTexture:Display: Building textures: Momentum9 (AutoDXT)
+[2014.11.30-03.01.42:887][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.30-03.01.42:888][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:888][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:889][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:889][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:889][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:890][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:890][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:891][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.42:891][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.46:351][656]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Health'
+[2014.11.30-03.01.49:807][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.30-03.01.49:808][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.30-03.01.49:808][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.30-03.01.49:872][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Health/Health3" FILE="../../../../Claudia/Claudia/Content/HUD/Health/Health3.uasset" SILENT=true
+[2014.11.30-03.01.49:943][ 43]LogSavePackage: Save=69.680618ms
+[2014.11.30-03.01.49:944][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Health352D21A964A92F8B8629A408C77E28D55.tmp' to '../../../../Claudia/Claudia/Content/HUD/Health/Health3.uasset'
+[2014.11.30-03.01.49:954][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Health/Health4" FILE="../../../../Claudia/Claudia/Content/HUD/Health/Health4.uasset" SILENT=true
+[2014.11.30-03.01.50:014][ 43]LogSavePackage: Save=58.676243ms
+[2014.11.30-03.01.50:014][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Health447D23A4E47F789350E8933AAC18BAA9A.tmp' to '../../../../Claudia/Claudia/Content/HUD/Health/Health4.uasset'
+[2014.11.30-03.01.50:024][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Health/Health1" FILE="../../../../Claudia/Claudia/Content/HUD/Health/Health1.uasset" SILENT=true
+[2014.11.30-03.01.50:083][ 43]LogSavePackage: Save=57.739025ms
+[2014.11.30-03.01.50:084][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Health1F10E0461437E47E7929FEDB3963A5A13.tmp' to '../../../../Claudia/Claudia/Content/HUD/Health/Health1.uasset'
+[2014.11.30-03.01.50:094][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Health/Health2" FILE="../../../../Claudia/Claudia/Content/HUD/Health/Health2.uasset" SILENT=true
+[2014.11.30-03.01.50:155][ 43]LogSavePackage: Save=60.136356ms
+[2014.11.30-03.01.50:156][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Health2BEADE8F14DE8BA5CB1CC8C92727DFB96.tmp' to '../../../../Claudia/Claudia/Content/HUD/Health/Health2.uasset'
+[2014.11.30-03.01.50:165][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum1" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum1.uasset" SILENT=true
+[2014.11.30-03.01.50:232][ 43]LogSavePackage: Save=65.107964ms
+[2014.11.30-03.01.50:232][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum16C4D9E354FEB0F625949268FA7E3AF63.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum1.uasset'
+[2014.11.30-03.01.50:243][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum2" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum2.uasset" SILENT=true
+[2014.11.30-03.01.50:304][ 43]LogSavePackage: Save=59.330761ms
+[2014.11.30-03.01.50:304][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum20EECBE704DD03F7DA6EBC4BC0534D4B7.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum2.uasset'
+[2014.11.30-03.01.50:314][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum3" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum3.uasset" SILENT=true
+[2014.11.30-03.01.50:375][ 43]LogSavePackage: Save=59.817551ms
+[2014.11.30-03.01.50:376][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum33321C721409802A9FD7A02B39A3C3E5E.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum3.uasset'
+[2014.11.30-03.01.50:386][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum4" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum4.uasset" SILENT=true
+[2014.11.30-03.01.50:447][ 43]LogSavePackage: Save=60.641327ms
+[2014.11.30-03.01.50:448][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum4F3E985E7473F6C40D887EBBB25A71FBB.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum4.uasset'
+[2014.11.30-03.01.50:458][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum5" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum5.uasset" SILENT=true
+[2014.11.30-03.01.50:517][ 43]LogSavePackage: Save=58.437073ms
+[2014.11.30-03.01.50:518][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum50BD2831B4D490D7E636CC688A1EA8E99.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum5.uasset'
+[2014.11.30-03.01.50:528][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum6" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum6.uasset" SILENT=true
+[2014.11.30-03.01.50:587][ 43]LogSavePackage: Save=58.151810ms
+[2014.11.30-03.01.50:588][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum629013C364C99A75499EB3D9BB913DFA8.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum6.uasset'
+[2014.11.30-03.01.50:597][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum7" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum7.uasset" SILENT=true
+[2014.11.30-03.01.50:657][ 43]LogSavePackage: Save=58.386116ms
+[2014.11.30-03.01.50:658][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum7AAF067A54526F3537D876899E01CFBEC.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum7.uasset'
+[2014.11.30-03.01.50:668][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum8" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum8.uasset" SILENT=true
+[2014.11.30-03.01.50:726][ 43]LogSavePackage: Save=57.072220ms
+[2014.11.30-03.01.50:726][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum898E8798942E46A3BD0ECC2BDCF38509A.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum8.uasset'
+[2014.11.30-03.01.50:736][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Momentum/Momentum9" FILE="../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum9.uasset" SILENT=true
+[2014.11.30-03.01.50:798][ 43]LogSavePackage: Save=60.492039ms
+[2014.11.30-03.01.50:799][ 43]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/Momentum9AC059273472E66C9E57BFBB5C7429899.tmp' to '../../../../Claudia/Claudia/Content/HUD/Momentum/Momentum9.uasset'
+[2014.11.30-03.01.52:163][206]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Momentum'
+[2014.11.30-03.01.52:722][271]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD/Health'
+[2014.11.30-03.01.53:016][305]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD'
+[2014.11.30-03.03.20:368][564]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.03.20:369][564]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.03.40:203][266]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.03.40:204][266]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.03.53:384][421]BlueprintLog: New page: Compile HUD_Bars
+[2014.11.30-03.03.53:470][421]BlueprintEditorCompileResults: Info [5494.59] Compile of HUD_Bars successful! [in 1 ms]
+[2014.11.30-03.03.54:128][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD_Bars" FILE="../../../../Claudia/Claudia/Content/HUD/HUD_Bars.uasset" SILENT=true
+[2014.11.30-03.03.54:140][484]LogSavePackage: Save=7.748436ms
+[2014.11.30-03.03.54:140][484]LogSavePackage: Moving '../../../../Claudia/Claudia/Saved/HUD_Bars129EDBAC473E4141700E52B6360AABAE.tmp' to '../../../../Claudia/Claudia/Content/HUD/HUD_Bars.uasset'
+[2014.11.30-03.04.03:761][445]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.30-03.04.03:762][445]LogPlayLevel: [PIE] Compiling greybox before PIE...
+[2014.11.30-03.04.03:823][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B390AE0
+[2014.11.30-03.04.03:827][445]LogPlayLevel: PIE:  Blueprint regeneration took 65 ms (1 blueprints)
+[2014.11.30-03.04.03:827][445]PIE: New page: PIE session: greybox (Dec 1, 2014, 1:04:03 AM)
+[2014.11.30-03.04.03:913][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085689s)
+[2014.11.30-03.04.03:914][445]LogPlayLevel: PIE: World Init took: (0.000406s)
+[2014.11.30-03.04.03:915][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.087690s)
+[2014.11.30-03.04.03:944][445]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.30-03.04.03:945][445]LogAIModule: Creating AISystem for world greybox
+[2014.11.30-03.04.04:001][445]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.30-14.04.04
+[2014.11.30-03.04.04:021][445]LogWorld: Bringing up level for play took: 0.075546
+[2014.11.30-03.04.04:028][445]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.305
+[2014.11.30-03.04.10:676][219]LogBlueprintUserMessages: Ouch
+[2014.11.30-03.04.10:684][220]LogBlueprintUserMessages: Ouch
+[2014.11.30-03.04.14:710][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000AFC0720
+[2014.11.30-03.06.06:957][941]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.30-03.06.06:958][941]LogPlayLevel: [PIE] Compiling greybox before PIE...
+[2014.11.30-03.06.07:017][941]LogPlayLevel: PIE:  Blueprint regeneration took 60 ms (1 blueprints)
+[2014.11.30-03.06.07:018][941]PIE: New page: PIE session: greybox (Dec 1, 2014, 1:06:07 AM)
+[2014.11.30-03.06.07:105][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086261s)
+[2014.11.30-03.06.07:106][941]LogPlayLevel: PIE: World Init took: (0.000435s)
+[2014.11.30-03.06.07:107][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.088463s)
+[2014.11.30-03.06.07:136][941]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.11.30-03.06.07:138][941]LogAIModule: Creating AISystem for world greybox
+[2014.11.30-03.06.07:187][941]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 0) at 2014.11.30-14.06.07
+[2014.11.30-03.06.07:207][941]LogWorld: Bringing up level for play took: 0.068663
+[2014.11.30-03.06.07:214][941]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox -0.512
+[2014.11.30-03.06.13:815][667]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F258360
+[2014.11.30-03.07.49:626][906]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.07.49:627][906]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.30-03.07.49:770][923]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.30-03.07.51:340][ 44]LogRenderer:Warning: Reallocating scene render targets to support 1224x728.
+[2014.11.30-03.08.10:504][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.30-03.08.10:504][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.30-03.08.10:504][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.30-03.08.10:529][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DD80F40
+[2014.11.30-03.08.12:296][329]Cmd: QUIT_EDITOR
+[2014.11.30-03.08.12:558][329]LogExit: Preparing to exit.
+[2014.11.30-03.08.13:042][329]LogExit: Editor shut down
+[2014.11.30-03.08.13:043][329]LogExit: Transaction tracking system shut down
+[2014.11.30-03.08.13:043][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DC4B560
+[2014.11.30-03.08.13:044][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EE04D60
+[2014.11.30-03.08.13:046][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DE1E840
+[2014.11.30-03.08.13:049][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B3B2CA0
+[2014.11.30-03.08.13:134][329]LogExit: Object subsystem successfully closed.
+[2014.11.30-03.08.13:232][329]LogModuleManager: Shutting down and abandoning module SequencerWidgets (168)
+[2014.11.30-03.08.13:233][329]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
+[2014.11.30-03.08.13:233][329]LogModuleManager: Shutting down and abandoning module CrashTracker (166)
+[2014.11.30-03.08.13:234][329]LogModuleManager: Shutting down and abandoning module SuperSearch (165)
+[2014.11.30-03.08.13:234][329]LogModuleManager: Shutting down and abandoning module SceneOutliner (164)
+[2014.11.30-03.08.13:234][329]LogModuleManager: Shutting down and abandoning module EditorWidgets (163)
+[2014.11.30-03.08.13:234][329]LogModuleManager: Shutting down and abandoning module CollectionManager (162)
+[2014.11.30-03.08.13:240][329]LogModuleManager: Shutting down and abandoning module StatsViewer (161)
+[2014.11.30-03.08.13:241][329]LogModuleManager: Shutting down and abandoning module FoliageEdit (160)
+[2014.11.30-03.08.13:241][329]LogModuleManager: Shutting down and abandoning module LandscapeEditor (159)
+[2014.11.30-03.08.13:256][329]LogModuleManager: Shutting down and abandoning module MeshPaint (158)
+[2014.11.30-03.08.13:256][329]LogModuleManager: Shutting down and abandoning module ActorPickerMode (157)
+[2014.11.30-03.08.13:256][329]LogModuleManager: Shutting down and abandoning module GeometryMode (156)
+[2014.11.30-03.08.13:257][329]LogModuleManager: Shutting down and abandoning module TextureAlignMode (155)
+[2014.11.30-03.08.13:257][329]LogModuleManager: Shutting down and abandoning module BspMode (154)
+[2014.11.30-03.08.13:257][329]LogModuleManager: Shutting down and abandoning module PlacementMode (153)
+[2014.11.30-03.08.13:257][329]LogModuleManager: Shutting down and abandoning module AutomationWorker (152)
+[2014.11.30-03.08.13:258][329]LogModuleManager: Shutting down and abandoning module CharacterAI (151)
+[2014.11.30-03.08.13:258][329]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (150)
+[2014.11.30-03.08.13:258][329]LogModuleManager: Shutting down and abandoning module IntroTutorials (149)
+[2014.11.30-03.08.13:258][329]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (148)
+[2014.11.30-03.08.13:258][329]LogModuleManager: Shutting down and abandoning module HardwareTargeting (147)
+[2014.11.30-03.08.13:259][329]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
+[2014.11.30-03.08.13:269][329]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.11.30-03.08.13:269][329]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.11.30-03.08.13:269][329]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.11.30-03.08.13:279][329]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.11.30-03.08.13:279][329]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.11.30-03.08.13:280][329]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.11.30-03.08.13:280][329]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (139)
+[2014.11.30-03.08.13:280][329]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (138)
+[2014.11.30-03.08.13:280][329]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (135)
+[2014.11.30-03.08.13:281][329]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (134)
+[2014.11.30-03.08.13:281][329]LogModuleManager: Shutting down and abandoning module InputBindingEditor (133)
+[2014.11.30-03.08.13:281][329]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (132)
+[2014.11.30-03.08.13:281][329]LogModuleManager: Shutting down and abandoning module SettingsEditor (131)
+[2014.11.30-03.08.13:293][329]LogModuleManager: Shutting down and abandoning module ProjectLauncher (130)
+[2014.11.30-03.08.13:293][329]LogModuleManager: Shutting down and abandoning module SessionFrontend (129)
+[2014.11.30-03.08.13:294][329]LogModuleManager: Shutting down and abandoning module ProfilerClient (128)
+[2014.11.30-03.08.13:302][329]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (127)
+[2014.11.30-03.08.13:303][329]LogModuleManager: Shutting down and abandoning module DeviceManager (126)
+[2014.11.30-03.08.13:303][329]LogModuleManager: Shutting down and abandoning module AutomationController (125)
+[2014.11.30-03.08.13:303][329]LogModuleManager: Shutting down and abandoning module AutomationWindow (124)
+[2014.11.30-03.08.13:309][329]LogModuleManager: Shutting down and abandoning module Layers (123)
+[2014.11.30-03.08.13:315][329]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (122)
+[2014.11.30-03.08.13:316][329]LogModuleManager: Shutting down and abandoning module DetailCustomizations (121)
+[2014.11.30-03.08.13:316][329]LogModuleManager: Shutting down and abandoning module PackagesDialog (120)
+[2014.11.30-03.08.13:317][329]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.11.30-03.08.13:419][329]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.11.30-03.08.13:431][329]LogModuleManager: Shutting down and abandoning module Kismet (117)
+[2014.11.30-03.08.13:432][329]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.11.30-03.08.13:432][329]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.11.30-03.08.13:432][329]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.11.30-03.08.13:433][329]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.11.30-03.08.13:441][329]LogModuleManager: Shutting down and abandoning module MovieSceneTools (112)
+[2014.11.30-03.08.13:442][329]LogModuleManager: Shutting down and abandoning module OutputLog (111)
+[2014.11.30-03.08.13:442][329]LogModuleManager: Shutting down and abandoning module GammaUI (110)
+[2014.11.30-03.08.13:451][329]LogModuleManager: Shutting down and abandoning module Documentation (109)
+[2014.11.30-03.08.13:452][329]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2014.11.30-03.08.13:452][329]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2014.11.30-03.08.13:452][329]LogModuleManager: Shutting down and abandoning module HTTP (106)
+[2014.11.30-03.08.13:453][329]LogModuleManager: Shutting down and abandoning module AnalyticsET (105)
+[2014.11.30-03.08.13:453][329]LogModuleManager: Shutting down and abandoning module Analytics (104)
+[2014.11.30-03.08.13:454][329]LogModuleManager: Shutting down and abandoning module GameplayDebugger (103)
+[2014.11.30-03.08.13:454][329]LogModuleManager: Shutting down and abandoning module AIModule (102)
+[2014.11.30-03.08.13:454][329]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2014.11.30-03.08.13:571][329]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2014.11.30-03.08.13:582][329]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2014.11.30-03.08.13:582][329]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (98)
+[2014.11.30-03.08.13:582][329]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2014.11.30-03.08.13:583][329]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2014.11.30-03.08.13:583][329]LogModuleManager: Shutting down and abandoning module MessagingDebugger (95)
+[2014.11.30-03.08.13:593][329]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (94)
+[2014.11.30-03.08.13:593][329]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (93)
+[2014.11.30-03.08.13:593][329]LogModuleManager: Shutting down and abandoning module PluginsEditor (92)
+[2014.11.30-03.08.13:594][329]LogModuleManager: Shutting down and abandoning module EpicSurvey (91)
+[2014.11.30-03.08.13:594][329]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2014.11.30-03.08.13:594][329]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (89)
+[2014.11.30-03.08.13:594][329]LogModuleManager: Shutting down and abandoning module UObjectPlugin (88)
+[2014.11.30-03.08.13:594][329]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (87)
+[2014.11.30-03.08.13:594][329]LogModuleManager: Shutting down and abandoning module SourceControl (86)
+[2014.11.30-03.08.13:595][329]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (85)
+[2014.11.30-03.08.13:595][329]LogModuleManager: Shutting down and abandoning module BlankPlugin (84)
+[2014.11.30-03.08.13:595][329]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.11.30-03.08.13:595][329]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2014.11.30-03.08.13:595][329]LogModuleManager: Shutting down and abandoning module HotReload (81)
+[2014.11.30-03.08.13:595][329]LogModuleManager: Shutting down and abandoning module MainFrame (80)
+[2014.11.30-03.08.13:596][329]LogModuleManager: Shutting down and abandoning module LevelEditor (79)
+[2014.11.30-03.08.13:597][329]LogModuleManager: Shutting down and abandoning module ViewportSnapping (78)
+[2014.11.30-03.08.13:597][329]LogModuleManager: Shutting down and abandoning module SmartSnapping (77)
+[2014.11.30-03.08.13:597][329]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (76)
+[2014.11.30-03.08.13:597][329]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (75)
+[2014.11.30-03.08.13:597][329]LogModuleManager: Shutting down and abandoning module ContentBrowser (74)
+[2014.11.30-03.08.13:597][329]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2014.11.30-03.08.13:597][329]LogModuleManager: Shutting down and abandoning module Paper2DEditor (72)
+[2014.11.30-03.08.13:606][329]LogModuleManager: Shutting down and abandoning module Claudia (71)
+[2014.11.30-03.08.13:606][329]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.11.30-03.08.13:614][329]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.11.30-03.08.13:714][329]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.11.30-03.08.13:714][329]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.11.30-03.08.13:717][329]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.11.30-03.08.13:717][329]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.11.30-03.08.13:719][329]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.11.30-03.08.13:720][329]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.11.30-03.08.13:731][329]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.11.30-03.08.13:741][329]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.11.30-03.08.13:741][329]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.11.30-03.08.13:742][329]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.11.30-03.08.13:742][329]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.11.30-03.08.13:742][329]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.11.30-03.08.13:743][329]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.11.30-03.08.13:743][329]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.11.30-03.08.13:743][329]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.11.30-03.08.13:744][329]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.11.30-03.08.13:744][329]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.11.30-03.08.13:744][329]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.11.30-03.08.13:744][329]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.11.30-03.08.13:745][329]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.11.30-03.08.13:745][329]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.11.30-03.08.13:745][329]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.11.30-03.08.13:745][329]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.11.30-03.08.13:745][329]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.11.30-03.08.13:750][329]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.11.30-03.08.13:802][329]LogDerivedDataCache: Shutdown
+[2014.11.30-03.08.13:803][329]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.11.30-03.08.13:811][329]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.11.30-03.08.13:812][329]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.11.30-03.08.13:812][329]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.11.30-03.08.13:812][329]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.11.30-03.08.13:813][329]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.11.30-03.08.13:813][329]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
+[2014.11.30-03.08.13:813][329]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
+[2014.11.30-03.08.13:813][329]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
+[2014.11.30-03.08.13:813][329]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2014.11.30-03.08.13:813][329]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2014.11.30-03.08.13:814][329]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (31)
+[2014.11.30-03.08.13:814][329]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.11.30-03.08.13:814][329]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.11.30-03.08.13:814][329]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.11.30-03.08.13:814][329]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.11.30-03.08.13:814][329]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.11.30-03.08.13:814][329]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.11.30-03.08.13:815][329]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.11.30-03.08.13:815][329]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.11.30-03.08.13:815][329]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.11.30-03.08.13:815][329]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.11.30-03.08.13:815][329]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.11.30-03.08.13:815][329]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.11.30-03.08.13:815][329]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.11.30-03.08.13:816][329]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.11.30-03.08.13:816][329]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.11.30-03.08.13:816][329]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.11.30-03.08.13:816][329]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.30-03.08.13:816][329]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.30-03.08.13:816][329]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.11.30-03.08.13:817][329]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.11.30-03.08.13:817][329]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.11.30-03.08.13:818][329]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.30-03.08.13:818][329]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.30-03.08.13:818][329]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.30-03.08.13:818][329]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.30-03.08.13:818][329]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.30-03.08.13:818][329]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.30-03.08.13:818][329]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.30-03.08.13:836][329]LogExit: Exiting.
+[2014.11.30-03.08.13:859][329]Log file closed, 11/30/14 14:08:13
