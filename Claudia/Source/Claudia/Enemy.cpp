@@ -12,6 +12,7 @@ AEnemy::AEnemy(const class FPostConstructInitializeProperties& PCIP)
 	ColliderCapsule->InitCapsuleSize(42.f, 42.f);
 
 	RootComponent = ColliderCapsule;
+
 }
 
 
