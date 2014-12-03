@@ -15,5 +15,18 @@ class CLAUDIA_API AEnemy : public AActor
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Pickups)
 	TSubobjectPtr<UCapsuleComponent> ColliderCapsule;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = CharacterStats)
+	float characterCurrentHealth;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = CharacterStats)
+	float characterMaxHealth;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = CharacterStats)
+	float attackDamage;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = CharacterStats)
+	float attackRange;
+	
 	
 };

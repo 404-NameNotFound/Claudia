@@ -15,5 +15,7 @@ class CLAUDIA_API ATrap : public AActor
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Trap)
 	TSubobjectPtr<UBoxComponent> BoxCollider;
+
+
 	
 };

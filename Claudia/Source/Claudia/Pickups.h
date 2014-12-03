@@ -19,6 +19,6 @@ class CLAUDIA_API APickups : public AActor
 	UPROPERTY(VisibleDefaultsOnly, Category = Pickups)
 	float RotationRate;
 	
-	virtual void Tick(float DeltaTime) OVERRIDE;
+	virtual void Tick(float DeltaTime) override;
 
 };
