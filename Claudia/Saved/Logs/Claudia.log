@@ -1,8 +1,12 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 ﻿Log file open, 12/08/14 10:48:08
 =======
 ﻿Log file open, 12/08/14 11:50:22
 >>>>>>> 36c5cc7612ed3933072d008a4e5a1b4bcb8df2f9
+=======
+﻿Log file open, 12/08/14 14:09:44
+>>>>>>> Stashed changes
 LogInit:Display: Running engine for game: Claudia
 LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
 LogInit: API Version: 2326478
@@ -13,6 +17,7 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.5
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
 LogInit: Rocket: 1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 [2014.12.07-23.48.08:416][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
 [2014.12.07-23.48.08:444][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
@@ -1303,3 +1308,2145 @@ LogInit: Rocket: 1
 [2014.12.08-00.53.24:722][428]LogExit: Exiting.
 [2014.12.08-00.53.24:727][428]Log file closed, 12/08/14 11:53:24
 >>>>>>> 36c5cc7612ed3933072d008a4e5a1b4bcb8df2f9
+=======
+[2014.12.08-03.09.44:920][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.08-03.09.44:957][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.08-03.09.44:996][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.08-03.09.45:008][  0]LogInit: Object subsystem initialized
+[2014.12.08-03.09.45:012][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.08-03.09.45:012][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/GIT/404/Claudia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.08-03.09.45:012][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)'
+[2014.12.08-03.09.45:012][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/GIT/404/Claudia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.08-03.09.45:012][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.08-03.09.45:012][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.08-03.09.45:028][  0]LogInit: Computer: VAIOTANI
+[2014.12.08-03.09.45:028][  0]LogInit: User: tawnknee
+[2014.12.08-03.09.45:029][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.08-03.09.45:029][  0]LogInit: High frequency timer resolution =2.435874 MHz
+[2014.12.08-03.09.45:029][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=131072.0GB
+[2014.12.08-03.09.45:030][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.08-03.09.45:030][  0]LogMemory: Process Physical Memory: 66.77 MB used, 66.92 MB peak
+[2014.12.08-03.09.45:030][  0]LogMemory: Process Virtual Memory: 42.38 MB used, 42.53 MB peak
+[2014.12.08-03.09.45:030][  0]LogMemory: Physical Memory: 1825.55 MB used, 3974.80 MB total
+[2014.12.08-03.09.45:030][  0]LogMemory: Virtual Memory: 282.38 MB used, 134217728.00 MB total
+[2014.12.08-03.09.45:441][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.12.08-03.09.45:441][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2014.12.08-03.09.45:669][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M (Feature Level 11_0)
+[2014.12.08-03.09.45:669][  0]LogD3D11RHI: Adapter has 950MB of dedicated video memory, 0MB of dedicated system memory, and 1987MB of shared system memory, 0 output[s]
+[2014.12.08-03.09.45:679][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.08-03.09.45:679][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.08-03.09.45:679][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.08-03.09.45:782][  0]LogRHI: Texture pool is 1361 MB (70% of 1944 MB)
+[2014.12.08-03.09.45:820][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.08-03.09.46:876][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.08-03.09.47:155][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.08-03.09.58:565][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.08-03.09.59:851][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.08-03.09.59:950][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.08-03.10.00:951][  0]LogDerivedDataCache: Loaded boot cache 1.00s 39MB C:/Users/tawnknee/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.08-03.10.00:951][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tawnknee/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.08-03.10.00:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GIT/404/Claudia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.08-03.10.00:951][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.08-03.10.01:069][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.08-03.10.01:087][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tawnknee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.08-03.10.06:762][  0]LogCollisionProfile:Warning: Profile (EnemyDetection) - Custom Channel Name = 'grapplewalltrace' hasn't been found
+[2014.12.08-03.10.06:942][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.08-03.10.06:942][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.08-03.10.08:132][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.08:195][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.09:448][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.08-03.10.23:254][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.08-03.10.24:047][  0]SourceControl: Info Source control is disabled
+[2014.12.08-03.10.24:048][  0]SourceControl: Info Source control is disabled
+[2014.12.08-03.10.24:058][  0]SourceControl: Info Source control is disabled
+[2014.12.08-03.10.24:552][  0]LogObj: 22931 objects as part of root set at end of initial load.
+[2014.12.08-03.10.24:552][  0]LogUObjectAllocator: 4815080 out of 0 bytes used by permanent object pool.
+[2014.12.08-03.10.24:624][  0]LogEngine: Initializing Engine...
+[2014.12.08-03.10.24:848][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.08-03.10.24:874][  0]LogInit: FAudioDevice initialized.
+[2014.12.08-03.10.24:903][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.08-03.10.24:969][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/tawnknee/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.08-03.10.24:973][  0]LogInit: Texture streaming: Enabled
+[2014.12.08-03.10.25:089][  0]LogInit: Transaction tracking system initialized
+[2014.12.08-03.10.25:249][  0]BlueprintLog: New page: Editor Load
+[2014.12.08-03.10.25:348][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2014.12.08-03.10.25:348][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.08-03.10.26:823][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.08-03.10.27:610][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.08-03.10.28:086][  0]LogConsoleResponse:Display: 
+[2014.12.08-03.10.29:064][  0]SourceControl: Info Source control is disabled
+[2014.12.08-03.10.29:065][  0]Cmd: MAP LOAD FILE="../../../../../../GIT/404/Claudia/Content/Maps/greybox.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.08-03.10.29:067][  0]LightingResults: New page: Lighting Build
+[2014.12.08-03.10.29:083][  0]MapCheck: New page: Map Check
+[2014.12.08-03.10.29:084][  0]LightingResults: New page: Lighting Build
+[2014.12.08-03.10.29:112][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003239211EE0
+[2014.12.08-03.10.29:147][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Flipbooks/Thug_Character/Thug_Idle_Flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.29:148][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Sprites/Thug_Character/Idle/Thug_Idle_Sprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.29:218][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Blueprints/Officer_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.29:284][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/HUD/HUDState.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.29:469][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Sounds/ClaudiaSounds/claudia-scream.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.29:800][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Blueprints/Thug_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.29:883][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Blueprints/LevelTrigger.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.30:056][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/HUD/HUD_Bars.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.30:060][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/HUD/Health/Health4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.30:233][  0]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/HUD/Momentum/Momentum1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.10.31:342][  0]LogMaterial: Missing cached shader map for material Claudia2D_Atlas_Mat, compiling.
+[2014.12.08-03.10.31:342][  0]LogMaterial:Warning: Failed to compile Material /Game/Textures/Environment_Textures/Claudia2D_Atlas_Mat.Claudia2D_Atlas_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2014.12.08-03.10.31:342][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.12.08-03.10.33:838][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2014.12.08-03.10.33:839][  0]LogAIModule: Creating AISystem for world greybox
+[2014.12.08-03.10.33:842][  0]Cmd: MAP CHECKDEP
+[2014.12.08-03.10.33:842][  0]MapCheck: New page: greybox - 9 Dec 2014 1:10:33 am
+[2014.12.08-03.10.35:420][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,578.059ms to complete.
+[2014.12.08-03.10.35:420][  0]LogFileHelpers: Loading map 'greybox' took 6.356
+[2014.12.08-03.10.35:655][  0]LogCollectionManager: Loaded 0 collections in 0.002012 seconds
+[2014.12.08-03.10.36:046][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.08-03.10.36:138][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.08-03.10.36:200][  0]LogLoad: Full Startup: 55.51 seconds (BP compile: 0.28 seconds)
+[2014.12.08-03.10.36:549][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.08-03.10.37:332][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x592.
+[2014.12.08-03.10.39:223][  4]LogAssetRegistry: Asset discovery search completed in 13.8857 seconds
+[2014.12.08-03.10.58:328][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.08-03.10.58:328][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.08-03.10.58:328][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.08-03.10.58:328][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.08-03.11.35:202][436]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.08-03.11.35:202][436]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.08-03.11.35:281][436]LogPlayLevel: [PIE] Compiling greybox before PIE...
+[2014.12.08-03.11.35:429][436]LogPlayLevel: PIE:  Blueprint regeneration took 227 ms (2 blueprints)
+[2014.12.08-03.11.35:429][436]PIE: New page: PIE session: greybox (9 Dec 2014 1:11:35 am)
+[2014.12.08-03.11.35:581][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152193s)
+[2014.12.08-03.11.35:582][436]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2014.12.08-03.11.35:583][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.154494s)
+[2014.12.08-03.11.35:632][436]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Blueprints/ClaudiaGameMode_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.11.35:634][436]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Blueprints/Claudia_HUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.11.35:638][436]LogLinker:Warning: Asset '../../../../../../GIT/404/Claudia/Content/Textures/crosshair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-03.11.35:683][436]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.12.08-03.11.35:684][436]LogAIModule: Creating AISystem for world greybox
+[2014.12.08-03.11.35:825][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 60) at 2014.12.08-14.11.35
+[2014.12.08-03.11.35:871][436]LogWorld: Bringing up level for play took: 0.186569
+[2014.12.08-03.11.35:887][436]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 0.491
+[2014.12.08-03.11.35:906][436]LogBlueprintUserMessages: 590.032349
+[2014.12.08-03.11.36:046][437]LogBlueprintUserMessages: 202.557068
+[2014.12.08-03.11.36:082][438]LogBlueprintUserMessages: 214.04631
+[2014.12.08-03.11.36:130][439]LogBlueprintUserMessages: 229.016998
+[2014.12.08-03.11.36:154][440]LogBlueprintUserMessages: 237.383347
+[2014.12.08-03.11.36:177][441]LogBlueprintUserMessages: 244.493393
+[2014.12.08-03.11.36:199][442]LogBlueprintUserMessages: 252.172592
+[2014.12.08-03.11.36:224][443]LogBlueprintUserMessages: 259.928467
+[2014.12.08-03.11.36:257][444]LogBlueprintUserMessages: 271.384003
+[2014.12.08-03.11.36:276][445]LogBlueprintUserMessages: 277.16217
+[2014.12.08-03.11.36:299][446]LogBlueprintUserMessages: 284.962036
+[2014.12.08-03.11.36:324][447]LogBlueprintUserMessages: 292.932587
+[2014.12.08-03.11.36:346][448]LogBlueprintUserMessages: 300.863556
+[2014.12.08-03.11.36:374][449]LogBlueprintUserMessages: 309.694977
+[2014.12.08-03.11.36:398][450]LogBlueprintUserMessages: 317.69693
+[2014.12.08-03.11.36:422][451]LogBlueprintUserMessages: 325.504486
+[2014.12.08-03.11.36:447][452]LogBlueprintUserMessages: 333.811981
+[2014.12.08-03.11.36:469][453]LogBlueprintUserMessages: 341.091156
+[2014.12.08-03.11.36:497][454]LogBlueprintUserMessages: 350.0755
+[2014.12.08-03.11.36:523][455]LogBlueprintUserMessages: 358.880066
+[2014.12.08-03.11.36:546][456]LogBlueprintUserMessages: 366.437103
+[2014.12.08-03.11.36:570][457]LogBlueprintUserMessages: 374.018707
+[2014.12.08-03.11.36:594][458]LogBlueprintUserMessages: 381.837158
+[2014.12.08-03.11.36:619][459]LogBlueprintUserMessages: 389.638245
+[2014.12.08-03.11.36:643][460]LogBlueprintUserMessages: 397.906525
+[2014.12.08-03.11.36:666][461]LogBlueprintUserMessages: 405.590302
+[2014.12.08-03.11.36:690][462]LogBlueprintUserMessages: 413.61731
+[2014.12.08-03.11.36:715][463]LogBlueprintUserMessages: 421.520508
+[2014.12.08-03.11.36:738][464]LogBlueprintUserMessages: 429.128052
+[2014.12.08-03.11.36:761][465]LogBlueprintUserMessages: 436.779663
+[2014.12.08-03.11.36:782][466]LogBlueprintUserMessages: 443.767548
+[2014.12.08-03.11.36:805][467]LogBlueprintUserMessages: 451.583832
+[2014.12.08-03.11.36:828][468]LogBlueprintUserMessages: 459.204498
+[2014.12.08-03.11.36:853][469]LogBlueprintUserMessages: 467.049774
+[2014.12.08-03.11.36:877][470]LogBlueprintUserMessages: 474.925903
+[2014.12.08-03.11.36:900][471]LogBlueprintUserMessages: 482.767975
+[2014.12.08-03.11.36:924][472]LogBlueprintUserMessages: 490.499786
+[2014.12.08-03.11.36:947][473]LogBlueprintUserMessages: 498.136505
+[2014.12.08-03.11.36:969][474]LogBlueprintUserMessages: 505.463318
+[2014.12.08-03.11.36:994][475]LogBlueprintUserMessages: 513.713806
+[2014.12.08-03.11.37:016][476]LogBlueprintUserMessages: 520.997803
+[2014.12.08-03.11.37:041][477]LogBlueprintUserMessages: 529.473389
+[2014.12.08-03.11.37:065][478]LogBlueprintUserMessages: 537.190552
+[2014.12.08-03.11.37:094][479]LogBlueprintUserMessages: 544.897949
+[2014.12.08-03.11.37:112][480]LogBlueprintUserMessages: 552.507751
+[2014.12.08-03.11.37:135][481]LogBlueprintUserMessages: 560.196228
+[2014.12.08-03.11.37:159][482]LogBlueprintUserMessages: 568.02832
+[2014.12.08-03.11.37:182][483]LogBlueprintUserMessages: 575.654907
+[2014.12.08-03.11.37:204][484]LogBlueprintUserMessages: 583.115601
+[2014.12.08-03.11.37:228][485]LogBlueprintUserMessages: 590.757874
+[2014.12.08-03.11.37:251][486]LogBlueprintUserMessages: 598.480286
+[2014.12.08-03.11.37:278][487]LogBlueprintUserMessages: 607.167419
+[2014.12.08-03.11.37:299][488]LogBlueprintUserMessages: 614.145874
+[2014.12.08-03.11.37:323][489]LogBlueprintUserMessages: 621.841614
+[2014.12.08-03.11.37:349][490]LogBlueprintUserMessages: 630.525879
+[2014.12.08-03.11.37:374][491]LogBlueprintUserMessages: 638.47699
+[2014.12.08-03.11.37:395][492]LogBlueprintUserMessages: 645.858398
+[2014.12.08-03.11.37:417][493]LogBlueprintUserMessages: 650.457642
+[2014.12.08-03.11.37:441][494]LogBlueprintUserMessages: 653.067505
+[2014.12.08-03.11.37:462][495]LogBlueprintUserMessages: 653.041138
+[2014.12.08-03.11.37:484][496]LogBlueprintUserMessages: 650.738342
+[2014.12.08-03.11.37:506][497]LogBlueprintUserMessages: 645.60553
+[2014.12.08-03.11.37:529][498]LogBlueprintUserMessages: 638.057617
+[2014.12.08-03.11.37:551][499]LogBlueprintUserMessages: 628.711304
+[2014.12.08-03.11.37:570][500]LogBlueprintUserMessages: 618.031311
+[2014.12.08-03.11.37:595][501]LogBlueprintUserMessages: 602.227539
+[2014.12.08-03.11.37:619][502]LogBlueprintUserMessages: 584.606445
+[2014.12.08-03.11.37:639][503]LogBlueprintUserMessages: 565.408325
+[2014.12.08-03.11.37:662][504]LogBlueprintUserMessages: 542.345886
+[2014.12.08-03.11.37:682][505]LogBlueprintUserMessages: 520.389038
+[2014.12.08-03.11.37:704][506]LogBlueprintUserMessages: 494.521423
+[2014.12.08-03.11.37:728][507]LogBlueprintUserMessages: 462.23999
+[2014.12.08-03.11.37:748][508]LogBlueprintUserMessages: 433.609589
+[2014.12.08-03.11.37:768][509]LogBlueprintUserMessages: 401.290131
+[2014.12.08-03.11.37:788][510]LogBlueprintUserMessages: 369.095215
+[2014.12.08-03.11.37:814][511]LogBlueprintUserMessages: 336.663025
+[2014.12.08-03.11.37:837][512]LogBlueprintUserMessages: 313.138977
+[2014.12.08-03.11.37:860][513]LogBlueprintUserMessages: 295.060547
+[2014.12.08-03.11.37:880][514]LogBlueprintUserMessages: 283.158142
+[2014.12.08-03.11.37:902][515]LogBlueprintUserMessages: 273.644806
+[2014.12.08-03.11.37:925][516]LogBlueprintUserMessages: 267.300049
+[2014.12.08-03.11.37:947][517]LogBlueprintUserMessages: 263.783447
+[2014.12.08-03.11.37:968][518]LogBlueprintUserMessages: 262.641663
+[2014.12.08-03.11.37:988][519]LogBlueprintUserMessages: 263.318146
+[2014.12.08-03.11.38:012][520]LogBlueprintUserMessages: 266.209442
+[2014.12.08-03.11.38:038][521]LogBlueprintUserMessages: 271.815186
+[2014.12.08-03.11.38:060][522]LogBlueprintUserMessages: 277.627014
+[2014.12.08-03.11.38:080][523]LogBlueprintUserMessages: 284.618622
+[2014.12.08-03.11.38:100][524]LogBlueprintUserMessages: 291.102234
+[2014.12.08-03.11.38:121][525]LogBlueprintUserMessages: 298.133514
+[2014.12.08-03.11.38:144][526]LogBlueprintUserMessages: 305.756348
+[2014.12.08-03.11.38:164][527]LogBlueprintUserMessages: 312.31543
+[2014.12.08-03.11.38:191][528]LogBlueprintUserMessages: 321.003967
+[2014.12.08-03.11.38:212][529]LogBlueprintUserMessages: 327.983124
+[2014.12.08-03.11.38:234][530]LogBlueprintUserMessages: 335.570038
+[2014.12.08-03.11.38:255][531]LogBlueprintUserMessages: 342.533051
+[2014.12.08-03.11.38:277][532]LogBlueprintUserMessages: 349.595825
+[2014.12.08-03.11.38:299][533]LogBlueprintUserMessages: 356.582642
+[2014.12.08-03.11.38:321][534]LogBlueprintUserMessages: 363.274384
+[2014.12.08-03.11.38:342][535]LogBlueprintUserMessages: 370.624634
+[2014.12.08-03.11.38:365][536]LogBlueprintUserMessages: 378.031128
+[2014.12.08-03.11.38:386][537]LogBlueprintUserMessages: 384.837036
+[2014.12.08-03.11.38:407][538]LogBlueprintUserMessages: 391.894897
+[2014.12.08-03.11.38:430][539]LogBlueprintUserMessages: 398.946533
+[2014.12.08-03.11.38:451][540]LogBlueprintUserMessages: 406.547852
+[2014.12.08-03.11.38:473][541]LogBlueprintUserMessages: 413.634399
+[2014.12.08-03.11.38:494][542]LogBlueprintUserMessages: 420.88504
+[2014.12.08-03.11.38:515][543]LogBlueprintUserMessages: 427.900574
+[2014.12.08-03.11.38:535][544]LogBlueprintUserMessages: 434.467621
+[2014.12.08-03.11.38:558][545]LogBlueprintUserMessages: 441.603394
+[2014.12.08-03.11.38:582][546]LogBlueprintUserMessages: 449.17804
+[2014.12.08-03.11.38:602][547]LogBlueprintUserMessages: 456.455048
+[2014.12.08-03.11.38:623][548]LogBlueprintUserMessages: 460.711182
+[2014.12.08-03.11.38:648][549]LogBlueprintUserMessages: 462.668335
+[2014.12.08-03.11.38:670][550]LogBlueprintUserMessages: 461.655029
+[2014.12.08-03.11.38:693][551]LogBlueprintUserMessages: 457.890961
+[2014.12.08-03.11.38:714][552]LogBlueprintUserMessages: 457.031433
+[2014.12.08-03.11.38:737][553]LogBlueprintUserMessages: 458.266815
+[2014.12.08-03.11.38:757][554]LogBlueprintUserMessages: 460.881561
+[2014.12.08-03.11.38:782][555]LogBlueprintUserMessages: 465.621033
+[2014.12.08-03.11.38:802][556]LogBlueprintUserMessages: 471.386078
+[2014.12.08-03.11.38:824][557]LogBlueprintUserMessages: 477.858917
+[2014.12.08-03.11.38:847][558]LogBlueprintUserMessages: 485.896271
+[2014.12.08-03.11.38:868][559]LogBlueprintUserMessages: 492.527405
+[2014.12.08-03.11.38:890][560]LogBlueprintUserMessages: 499.611084
+[2014.12.08-03.11.38:912][561]LogBlueprintUserMessages: 507.246399
+[2014.12.08-03.11.38:933][562]LogBlueprintUserMessages: 514.036865
+[2014.12.08-03.11.38:955][563]LogBlueprintUserMessages: 521.136841
+[2014.12.08-03.11.38:975][564]LogBlueprintUserMessages: 527.882996
+[2014.12.08-03.11.38:998][565]LogBlueprintUserMessages: 535.449707
+[2014.12.08-03.11.39:020][566]LogBlueprintUserMessages: 542.561096
+[2014.12.08-03.11.39:041][567]LogBlueprintUserMessages: 549.788208
+[2014.12.08-03.11.39:064][568]LogBlueprintUserMessages: 557.320923
+[2014.12.08-03.11.39:084][569]LogBlueprintUserMessages: 563.822266
+[2014.12.08-03.11.39:106][570]LogBlueprintUserMessages: 570.898682
+[2014.12.08-03.11.39:128][571]LogBlueprintUserMessages: 578.162048
+[2014.12.08-03.11.39:149][572]LogBlueprintUserMessages: 585.359619
+[2014.12.08-03.11.39:171][573]LogBlueprintUserMessages: 592.468384
+[2014.12.08-03.11.39:191][574]LogBlueprintUserMessages: 599.043579
+[2014.12.08-03.11.39:215][575]LogBlueprintUserMessages: 607.128296
+[2014.12.08-03.11.39:238][576]LogBlueprintUserMessages: 614.4646
+[2014.12.08-03.11.39:259][577]LogBlueprintUserMessages: 621.363647
+[2014.12.08-03.11.39:282][578]LogBlueprintUserMessages: 628.924133
+[2014.12.08-03.11.39:301][579]LogBlueprintUserMessages: 635.429688
+[2014.12.08-03.11.39:323][580]LogBlueprintUserMessages: 642.558655
+[2014.12.08-03.11.39:347][581]LogBlueprintUserMessages: 650.076782
+[2014.12.08-03.11.39:367][582]LogBlueprintUserMessages: 656.93689
+[2014.12.08-03.11.39:389][583]LogBlueprintUserMessages: 664.047913
+[2014.12.08-03.11.39:408][584]LogBlueprintUserMessages: 670.615112
+[2014.12.08-03.11.39:432][585]LogBlueprintUserMessages: 678.221252
+[2014.12.08-03.11.39:455][586]LogBlueprintUserMessages: 686.174011
+[2014.12.08-03.11.39:476][587]LogBlueprintUserMessages: 692.822327
+[2014.12.08-03.11.39:498][588]LogBlueprintUserMessages: 700.320618
+[2014.12.08-03.11.39:518][589]LogBlueprintUserMessages: 706.882568
+[2014.12.08-03.11.39:539][590]LogBlueprintUserMessages: 713.859009
+[2014.12.08-03.11.39:561][591]LogBlueprintUserMessages: 721.090332
+[2014.12.08-03.11.39:583][592]LogBlueprintUserMessages: 728.069763
+[2014.12.08-03.11.39:603][593]LogBlueprintUserMessages: 735.007202
+[2014.12.08-03.11.39:625][594]LogBlueprintUserMessages: 741.861694
+[2014.12.08-03.11.39:649][595]LogBlueprintUserMessages: 750.105652
+[2014.12.08-03.11.39:670][596]LogBlueprintUserMessages: 756.960205
+[2014.12.08-03.11.39:690][597]LogBlueprintUserMessages: 763.689758
+[2014.12.08-03.11.39:713][598]LogBlueprintUserMessages: 771.076477
+[2014.12.08-03.11.39:733][599]LogBlueprintUserMessages: 777.80896
+[2014.12.08-03.11.39:755][600]LogBlueprintUserMessages: 784.763184
+[2014.12.08-03.11.39:776][601]LogBlueprintUserMessages: 791.86969
+[2014.12.08-03.11.39:798][602]LogBlueprintUserMessages: 798.950867
+[2014.12.08-03.11.39:820][603]LogBlueprintUserMessages: 805.938293
+[2014.12.08-03.11.39:840][604]LogBlueprintUserMessages: 812.761719
+[2014.12.08-03.11.39:862][605]LogBlueprintUserMessages: 820.042053
+[2014.12.08-03.11.39:884][606]LogBlueprintUserMessages: 827.31958
+[2014.12.08-03.11.39:904][607]LogBlueprintUserMessages: 833.970154
+[2014.12.08-03.11.39:925][608]LogBlueprintUserMessages: 840.851257
+[2014.12.08-03.11.39:946][609]LogBlueprintUserMessages: 847.887573
+[2014.12.08-03.11.39:968][610]LogBlueprintUserMessages: 855.231506
+[2014.12.08-03.11.39:991][611]LogBlueprintUserMessages: 859.997131
+[2014.12.08-03.11.40:010][612]LogBlueprintUserMessages: 862.433411
+[2014.12.08-03.11.40:034][613]LogBlueprintUserMessages: 862.461731
+[2014.12.08-03.11.40:054][614]LogBlueprintUserMessages: 860.502441
+[2014.12.08-03.11.40:076][615]LogBlueprintUserMessages: 856.094727
+[2014.12.08-03.11.40:099][616]LogBlueprintUserMessages: 848.899231
+[2014.12.08-03.11.40:119][617]LogBlueprintUserMessages: 840.30249
+[2014.12.08-03.11.40:141][618]LogBlueprintUserMessages: 829.064026
+[2014.12.08-03.11.40:161][619]LogBlueprintUserMessages: 816.598633
+[2014.12.08-03.11.40:184][620]LogBlueprintUserMessages: 799.415161
+[2014.12.08-03.11.40:205][621]LogBlueprintUserMessages: 781.203552
+[2014.12.08-03.11.40:227][622]LogBlueprintUserMessages: 761.690002
+[2014.12.08-03.11.40:250][623]LogBlueprintUserMessages: 735.610657
+[2014.12.08-03.11.40:269][624]LogBlueprintUserMessages: 711.744629
+[2014.12.08-03.11.40:292][625]LogBlueprintUserMessages: 683.780823
+[2014.12.08-03.11.40:313][626]LogBlueprintUserMessages: 653.134338
+[2014.12.08-03.11.40:335][627]LogBlueprintUserMessages: 620.68457
+[2014.12.08-03.11.40:356][628]LogBlueprintUserMessages: 585.393311
+[2014.12.08-03.11.40:377][629]LogBlueprintUserMessages: 551.806702
+[2014.12.08-03.11.40:402][630]LogBlueprintUserMessages: 512.952698
+[2014.12.08-03.11.40:424][631]LogBlueprintUserMessages: 476.448273
+[2014.12.08-03.11.40:446][632]LogBlueprintUserMessages: 446.103485
+[2014.12.08-03.11.40:469][633]LogBlueprintUserMessages: 420.67807
+[2014.12.08-03.11.40:490][634]LogBlueprintUserMessages: 403.296417
+[2014.12.08-03.11.40:511][635]LogBlueprintUserMessages: 389.161865
+[2014.12.08-03.11.40:535][636]LogBlueprintUserMessages: 378.016418
+[2014.12.08-03.11.40:557][637]LogBlueprintUserMessages: 371.124268
+[2014.12.08-03.11.40:579][638]LogBlueprintUserMessages: 366.974792
+[2014.12.08-03.11.40:599][639]LogBlueprintUserMessages: End
+[2014.12.08-03.11.40:600][639]LogBlueprintUserMessages: 365.294159
+[2014.12.08-03.11.40:621][640]LogBlueprintUserMessages: End
+[2014.12.08-03.11.40:622][640]LogBlueprintUserMessages: 365.816284
+[2014.12.08-03.11.40:644][641]LogBlueprintUserMessages: End
+[2014.12.08-03.11.40:646][641]LogBlueprintUserMessages: 368.53299
+[2014.12.08-03.11.40:666][642]LogBlueprintUserMessages: End
+[2014.12.08-03.11.40:667][642]LogBlueprintUserMessages: 359.23233
+[2014.12.08-03.11.40:688][643]LogBlueprintUserMessages: End
+[2014.12.08-03.11.40:690][643]LogBlueprintUserMessages: 350.178864
+[2014.12.08-03.11.40:710][644]LogBlueprintUserMessages: 343.034607
+[2014.12.08-03.11.40:735][645]LogBlueprintUserMessages: 335.365997
+[2014.12.08-03.11.40:755][646]LogBlueprintUserMessages: 328.112366
+[2014.12.08-03.11.40:775][647]LogBlueprintUserMessages: 319.671204
+[2014.12.08-03.11.40:798][648]LogBlueprintUserMessages: 308.545502
+[2014.12.08-03.11.40:822][649]LogBlueprintUserMessages: 296.649231
+[2014.12.08-03.11.40:845][650]LogBlueprintUserMessages: 285.819366
+[2014.12.08-03.11.40:868][651]LogBlueprintUserMessages: 276.860474
+[2014.12.08-03.11.40:888][652]LogBlueprintUserMessages: 270.041443
+[2014.12.08-03.11.40:910][653]LogBlueprintUserMessages: 262.808197
+[2014.12.08-03.11.40:934][654]LogBlueprintUserMessages: 254.972626
+[2014.12.08-03.11.40:957][655]LogBlueprintUserMessages: 247.697464
+[2014.12.08-03.11.40:978][656]LogBlueprintUserMessages: 240.467712
+[2014.12.08-03.11.41:000][657]LogBlueprintUserMessages: 231.595261
+[2014.12.08-03.11.41:023][658]LogBlueprintUserMessages: 220.578949
+[2014.12.08-03.11.41:045][659]LogBlueprintUserMessages: 208.911453
+[2014.12.08-03.11.41:070][660]LogBlueprintUserMessages: 197.71199
+[2014.12.08-03.11.41:091][661]LogBlueprintUserMessages: 196.60289
+[2014.12.08-03.11.41:112][662]LogBlueprintUserMessages: 196.60289
+[2014.12.08-03.11.41:135][663]LogBlueprintUserMessages: 196.60289
+[2014.12.08-03.11.41:158][664]LogBlueprintUserMessages: 196.60289
+[2014.12.08-03.11.41:181][665]LogBlueprintUserMessages: 196.60289
+[2014.12.08-03.11.41:204][666]LogBlueprintUserMessages: 194.683197
+[2014.12.08-03.11.41:226][667]LogBlueprintUserMessages: 191.242508
+[2014.12.08-03.11.41:253][668]LogBlueprintUserMessages: 186.385651
+[2014.12.08-03.11.41:275][669]LogBlueprintUserMessages: 184.150513
+[2014.12.08-03.11.41:298][670]LogBlueprintUserMessages: 183.332108
+[2014.12.08-03.11.41:323][671]LogBlueprintUserMessages: 185.602264
+[2014.12.08-03.11.41:348][672]LogBlueprintUserMessages: 190.902069
+[2014.12.08-03.11.41:370][673]LogBlueprintUserMessages: 198.153641
+[2014.12.08-03.11.41:392][674]LogBlueprintUserMessages: 207.939713
+[2014.12.08-03.11.41:416][675]LogBlueprintUserMessages: 206.001846
+[2014.12.08-03.11.41:439][676]LogBlueprintUserMessages: 214.037369
+[2014.12.08-03.11.41:461][677]LogBlueprintUserMessages: 224.074677
+[2014.12.08-03.11.41:481][678]LogBlueprintUserMessages: 235.786804
+[2014.12.08-03.11.41:505][679]LogBlueprintUserMessages: 251.371689
+[2014.12.08-03.11.41:526][680]LogBlueprintUserMessages: 267.67157
+[2014.12.08-03.11.41:554][681]LogBlueprintUserMessages: 293.73056
+[2014.12.08-03.11.41:578][682]LogBlueprintUserMessages: 318.899963
+[2014.12.08-03.11.41:603][683]LogBlueprintUserMessages: 349.578644
+[2014.12.08-03.11.41:626][684]LogBlueprintUserMessages: 376.315674
+[2014.12.08-03.11.41:652][685]LogBlueprintUserMessages: 413.716797
+[2014.12.08-03.11.41:677][686]LogBlueprintUserMessages: 450.901398
+[2014.12.08-03.11.41:700][687]LogBlueprintUserMessages: 489.74411
+[2014.12.08-03.11.41:722][688]LogBlueprintUserMessages: 519.459595
+[2014.12.08-03.11.41:744][689]LogBlueprintUserMessages: 551.672424
+[2014.12.08-03.11.41:765][690]LogBlueprintUserMessages: 583.768616
+[2014.12.08-03.11.41:788][691]LogBlueprintUserMessages: 623.112915
+[2014.12.08-03.11.41:810][692]LogBlueprintUserMessages: 661.547852
+[2014.12.08-03.11.41:831][693]LogBlueprintUserMessages: 699.14563
+[2014.12.08-03.11.41:855][694]LogBlueprintUserMessages: 744.384827
+[2014.12.08-03.11.41:876][695]LogBlueprintUserMessages: 783.107727
+[2014.12.08-03.11.41:899][696]LogBlueprintUserMessages: 823.950317
+[2014.12.08-03.11.41:922][697]LogBlueprintUserMessages: 866.883362
+[2014.12.08-03.11.41:943][698]LogBlueprintUserMessages: 906.767151
+[2014.12.08-03.11.41:965][699]LogBlueprintUserMessages: 947.987488
+[2014.12.08-03.11.41:986][700]LogBlueprintUserMessages: 973.209229
+[2014.12.08-03.11.42:007][701]LogBlueprintUserMessages: 998.161072
+[2014.12.08-03.11.42:028][702]LogBlueprintUserMessages: 1020.919373
+[2014.12.08-03.11.42:050][703]LogBlueprintUserMessages: 1042.212891
+[2014.12.08-03.11.42:073][704]LogBlueprintUserMessages: 1062.28125
+[2014.12.08-03.11.42:092][705]LogBlueprintUserMessages: 1078.132813
+[2014.12.08-03.11.42:113][706]LogBlueprintUserMessages: 1093.277466
+[2014.12.08-03.11.42:136][707]LogBlueprintUserMessages: 1107.555542
+[2014.12.08-03.11.42:157][708]LogBlueprintUserMessages: 1118.495361
+[2014.12.08-03.11.42:178][709]LogBlueprintUserMessages: 1127.700806
+[2014.12.08-03.11.42:197][710]LogBlueprintUserMessages: 1134.751221
+[2014.12.08-03.11.42:218][711]LogBlueprintUserMessages: 1140.570557
+[2014.12.08-03.11.42:241][712]LogBlueprintUserMessages: 1144.755859
+[2014.12.08-03.11.42:260][713]LogBlueprintUserMessages: 1146.703613
+[2014.12.08-03.11.42:281][714]LogBlueprintUserMessages: 1147.050049
+[2014.12.08-03.11.42:301][715]LogBlueprintUserMessages: 1145.639038
+[2014.12.08-03.11.42:323][716]LogBlueprintUserMessages: 1142.307617
+[2014.12.08-03.11.42:344][717]LogBlueprintUserMessages: 1137.150391
+[2014.12.08-03.11.42:364][718]LogBlueprintUserMessages: 1130.824585
+[2014.12.08-03.11.42:386][719]LogBlueprintUserMessages: 1121.743774
+[2014.12.08-03.11.42:407][720]LogBlueprintUserMessages: 1111.57312
+[2014.12.08-03.11.42:428][721]LogBlueprintUserMessages: 1099.15686
+[2014.12.08-03.11.42:450][722]LogBlueprintUserMessages: 1084.585327
+[2014.12.08-03.11.42:471][723]LogBlueprintUserMessages: 1069.090576
+[2014.12.08-03.11.42:492][724]LogBlueprintUserMessages: 1051.284912
+[2014.12.08-03.11.42:511][725]LogBlueprintUserMessages: 1033.992065
+[2014.12.08-03.11.42:532][726]LogBlueprintUserMessages: 1013.930725
+[2014.12.08-03.11.42:554][727]LogBlueprintUserMessages: 991.772461
+[2014.12.08-03.11.42:574][728]LogBlueprintUserMessages: 968.420288
+[2014.12.08-03.11.42:594][729]LogBlueprintUserMessages: 944.351013
+[2014.12.08-03.11.42:614][730]LogBlueprintUserMessages: 920.636597
+[2014.12.08-03.11.42:636][731]LogBlueprintUserMessages: 894.065979
+[2014.12.08-03.11.42:658][732]LogBlueprintUserMessages: 867.670715
+[2014.12.08-03.11.42:677][733]LogBlueprintUserMessages: 848.812866
+[2014.12.08-03.11.42:698][734]LogBlueprintUserMessages: 831.241577
+[2014.12.08-03.11.42:720][735]LogBlueprintUserMessages: 815.167236
+[2014.12.08-03.11.42:741][736]LogBlueprintUserMessages: 801.418396
+[2014.12.08-03.11.42:762][737]LogBlueprintUserMessages: 789.922241
+[2014.12.08-03.11.42:784][738]LogBlueprintUserMessages: 780.26825
+[2014.12.08-03.11.42:804][739]LogBlueprintUserMessages: 771.267395
+[2014.12.08-03.11.42:824][740]LogBlueprintUserMessages: 759.67865
+[2014.12.08-03.11.42:846][741]LogBlueprintUserMessages: 744.684998
+[2014.12.08-03.11.42:869][742]LogBlueprintUserMessages: 727.845276
+[2014.12.08-03.11.42:893][743]LogBlueprintUserMessages: 712.714233
+[2014.12.08-03.11.42:915][744]LogBlueprintUserMessages: 700.415344
+[2014.12.08-03.11.42:937][745]LogBlueprintUserMessages: 690.288574
+[2014.12.08-03.11.42:959][746]LogBlueprintUserMessages: 681.286194
+[2014.12.08-03.11.42:981][747]LogBlueprintUserMessages: 673.498474
+[2014.12.08-03.11.43:002][748]LogBlueprintUserMessages: 666.60022
+[2014.12.08-03.11.43:025][749]LogBlueprintUserMessages: 658.957031
+[2014.12.08-03.11.43:046][750]LogBlueprintUserMessages: 651.907532
+[2014.12.08-03.11.43:069][751]LogBlueprintUserMessages: 644.4021
+[2014.12.08-03.11.43:092][752]LogBlueprintUserMessages: 636.920166
+[2014.12.08-03.11.43:112][753]LogBlueprintUserMessages: 630.309631
+[2014.12.08-03.11.43:134][754]LogBlueprintUserMessages: 623.24707
+[2014.12.08-03.11.43:155][755]LogBlueprintUserMessages: 616.256775
+[2014.12.08-03.11.43:176][756]LogBlueprintUserMessages: 609.196777
+[2014.12.08-03.11.43:198][757]LogBlueprintUserMessages: 602.080566
+[2014.12.08-03.11.43:227][758]LogBlueprintUserMessages: 592.337097
+[2014.12.08-03.11.43:247][759]LogBlueprintUserMessages: 585.228882
+[2014.12.08-03.11.43:268][760]LogBlueprintUserMessages: 578.501892
+[2014.12.08-03.11.43:289][761]LogBlueprintUserMessages: 571.917542
+[2014.12.08-03.11.43:311][762]LogBlueprintUserMessages: 564.807434
+[2014.12.08-03.11.43:332][763]LogBlueprintUserMessages: 557.928284
+[2014.12.08-03.11.43:355][764]LogBlueprintUserMessages: 548.134399
+[2014.12.08-03.11.43:376][765]LogBlueprintUserMessages: 535.901306
+[2014.12.08-03.11.43:399][766]LogBlueprintUserMessages: 521.453735
+[2014.12.08-03.11.43:422][767]LogBlueprintUserMessages: 504.072662
+[2014.12.08-03.11.43:444][768]LogBlueprintUserMessages: 484.185974
+[2014.12.08-03.11.43:467][769]LogBlueprintUserMessages: 461.552765
+[2014.12.08-03.11.43:489][770]LogBlueprintUserMessages: 437.5401
+[2014.12.08-03.11.43:511][771]LogBlueprintUserMessages: 410.368835
+[2014.12.08-03.11.43:532][772]LogBlueprintUserMessages: 381.903564
+[2014.12.08-03.11.43:553][773]LogBlueprintUserMessages: 352.022034
+[2014.12.08-03.11.43:577][774]LogBlueprintUserMessages: 322.726318
+[2014.12.08-03.11.43:597][775]LogBlueprintUserMessages: 300.93576
+[2014.12.08-03.11.43:619][776]LogBlueprintUserMessages: 280.906982
+[2014.12.08-03.11.43:643][777]LogBlueprintUserMessages: 262.054962
+[2014.12.08-03.11.43:664][778]LogBlueprintUserMessages: 246.930191
+[2014.12.08-03.11.43:686][779]LogBlueprintUserMessages: 233.972672
+[2014.12.08-03.11.43:707][780]LogBlueprintUserMessages: 222.822937
+[2014.12.08-03.11.43:729][781]LogBlueprintUserMessages: 213.0271
+[2014.12.08-03.11.43:750][782]LogBlueprintUserMessages: 204.626678
+[2014.12.08-03.11.43:771][783]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:793][784]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:813][785]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:835][786]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:860][787]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:879][788]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:901][789]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:919][790]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:942][791]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:963][792]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.43:983][793]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:003][794]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:025][795]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:047][796]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:067][797]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:087][798]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:110][799]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:129][800]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:151][801]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:173][802]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:194][803]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:214][804]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:233][805]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:257][806]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:278][807]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:298][808]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:319][809]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:339][810]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:361][811]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:382][812]LogBlueprintUserMessages: 197.592468
+[2014.12.08-03.11.44:403][813]LogBlueprintUserMessages: 195.639893
+[2014.12.08-03.11.44:424][814]LogBlueprintUserMessages: 191.305237
+[2014.12.08-03.11.44:446][815]LogBlueprintUserMessages: 184.596512
+[2014.12.08-03.11.44:470][816]LogBlueprintUserMessages: 173.855194
+[2014.12.08-03.11.44:492][817]LogBlueprintUserMessages: 165.168991
+[2014.12.08-03.11.44:511][818]LogBlueprintUserMessages: 165.131989
+[2014.12.08-03.11.44:533][819]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:553][820]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:575][821]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:595][822]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:616][823]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:637][824]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:660][825]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:680][826]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:702][827]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:724][828]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:745][829]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:765][830]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:786][831]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:807][832]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:828][833]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:850][834]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:870][835]LogBlueprintUserMessages: 164.390488
+[2014.12.08-03.11.44:895][836]LogBlueprintUserMessages: 167.012375
+[2014.12.08-03.11.44:916][837]LogBlueprintUserMessages: 171.80249
+[2014.12.08-03.11.44:936][838]LogBlueprintUserMessages: 178.193329
+[2014.12.08-03.11.44:958][839]LogBlueprintUserMessages: 187.911758
+[2014.12.08-03.11.44:980][840]LogBlueprintUserMessages: 199.62262
+[2014.12.08-03.11.45:001][841]LogBlueprintUserMessages: 213.386337
+[2014.12.08-03.11.45:023][842]LogBlueprintUserMessages: 215.475067
+[2014.12.08-03.11.45:045][843]LogBlueprintUserMessages: 227.262833
+[2014.12.08-03.11.45:068][844]LogBlueprintUserMessages: 242.471664
+[2014.12.08-03.11.45:088][845]LogBlueprintUserMessages: 257.6026
+[2014.12.08-03.11.45:112][846]LogBlueprintUserMessages: 279.976593
+[2014.12.08-03.11.45:133][847]LogBlueprintUserMessages: 306.240326
+[2014.12.08-03.11.45:153][848]LogBlueprintUserMessages: 334.493317
+[2014.12.08-03.11.45:176][849]LogBlueprintUserMessages: 367.792511
+[2014.12.08-03.11.45:197][850]LogBlueprintUserMessages: 401.814362
+[2014.12.08-03.11.45:219][851]LogBlueprintUserMessages: 436.416748
+[2014.12.08-03.11.45:241][852]LogBlueprintUserMessages: 471.882904
+[2014.12.08-03.11.45:264][853]LogBlueprintUserMessages: 510.731049
+[2014.12.08-03.11.45:286][854]LogBlueprintUserMessages: 544.814636
+[2014.12.08-03.11.45:306][855]LogBlueprintUserMessages: 577.241028
+[2014.12.08-03.11.45:328][856]LogBlueprintUserMessages: 611.989929
+[2014.12.08-03.11.45:349][857]LogBlueprintUserMessages: 623.144775
+[2014.12.08-03.11.45:369][858]LogBlueprintUserMessages: 632.003174
+[2014.12.08-03.11.45:391][859]LogBlueprintUserMessages: 639.75946
+[2014.12.08-03.11.45:412][860]LogBlueprintUserMessages: 645.556152
+[2014.12.08-03.11.45:434][861]LogBlueprintUserMessages: 649.493713
+[2014.12.08-03.11.45:457][862]LogBlueprintUserMessages: 651.703064
+[2014.12.08-03.11.45:478][863]LogBlueprintUserMessages: 651.731995
+[2014.12.08-03.11.45:499][864]LogBlueprintUserMessages: 649.935364
+[2014.12.08-03.11.45:518][865]LogBlueprintUserMessages: 646.56134
+[2014.12.08-03.11.45:539][866]LogBlueprintUserMessages: 641.139526
+[2014.12.08-03.11.45:562][867]LogBlueprintUserMessages: 633.193604
+[2014.12.08-03.11.45:582][868]LogBlueprintUserMessages: 624.232422
+[2014.12.08-03.11.45:603][869]LogBlueprintUserMessages: 613.140198
+[2014.12.08-03.11.45:623][870]LogBlueprintUserMessages: 600.743469
+[2014.12.08-03.11.45:646][871]LogBlueprintUserMessages: 584.255005
+[2014.12.08-03.11.45:668][872]LogBlueprintUserMessages: 565.644653
+[2014.12.08-03.11.45:688][873]LogBlueprintUserMessages: 547.269653
+[2014.12.08-03.11.45:710][874]LogBlueprintUserMessages: 525.040649
+[2014.12.08-03.11.45:732][875]LogBlueprintUserMessages: 501.398438
+[2014.12.08-03.11.45:752][876]LogBlueprintUserMessages: 476.404907
+[2014.12.08-03.11.45:774][877]LogBlueprintUserMessages: 449.014435
+[2014.12.08-03.11.45:796][878]LogBlueprintUserMessages: 418.184723
+[2014.12.08-03.11.45:816][879]LogBlueprintUserMessages: 387.886169
+[2014.12.08-03.11.45:836][880]LogBlueprintUserMessages: 358.607483
+[2014.12.08-03.11.45:857][881]LogBlueprintUserMessages: 321.631714
+[2014.12.08-03.11.45:878][882]LogBlueprintUserMessages: 283.548523
+[2014.12.08-03.11.45:900][883]LogBlueprintUserMessages: 246.859741
+[2014.12.08-03.11.45:919][884]LogBlueprintUserMessages: 208.805939
+[2014.12.08-03.11.45:940][885]LogBlueprintUserMessages: 187.766891
+[2014.12.08-03.11.45:962][886]LogBlueprintUserMessages: 176.423477
+[2014.12.08-03.11.45:984][887]LogBlueprintUserMessages: 168.667282
+[2014.12.08-03.11.46:004][888]LogBlueprintUserMessages: 164.875229
+[2014.12.08-03.11.46:025][889]LogBlueprintUserMessages: 164.260071
+[2014.12.08-03.11.46:046][890]LogBlueprintUserMessages: 164.250824
+[2014.12.08-03.11.46:071][891]LogBlueprintUserMessages: 164.239136
+[2014.12.08-03.11.46:092][892]LogBlueprintUserMessages: 164.230865
+[2014.12.08-03.11.46:113][893]LogBlueprintUserMessages: 164.222092
+[2014.12.08-03.11.46:135][894]LogBlueprintUserMessages: 170.912903
+[2014.12.08-03.11.46:152][895]LogBlueprintUserMessages: 185.038696
+[2014.12.08-03.11.46:173][896]LogBlueprintUserMessages: 205.989471
+[2014.12.08-03.11.46:196][897]LogBlueprintUserMessages: 238.79808
+[2014.12.08-03.11.46:217][898]LogBlueprintUserMessages: 260.791107
+[2014.12.08-03.11.46:238][899]LogBlueprintUserMessages: 293.140167
+[2014.12.08-03.11.46:259][900]LogBlueprintUserMessages: 309.319244
+[2014.12.08-03.11.46:280][901]LogBlueprintUserMessages: 334.799744
+[2014.12.08-03.11.46:301][902]LogBlueprintUserMessages: 363.031708
+[2014.12.08-03.11.46:321][903]LogBlueprintUserMessages: 390.437042
+[2014.12.08-03.11.46:342][904]LogBlueprintUserMessages: 419.075592
+[2014.12.08-03.11.46:363][905]LogBlueprintUserMessages: 436.152344
+[2014.12.08-03.11.46:384][906]LogBlueprintUserMessages: 433.98822
+[2014.12.08-03.11.46:405][907]LogBlueprintUserMessages: 431.585236
+[2014.12.08-03.11.46:425][908]LogBlueprintUserMessages: 429.24707
+[2014.12.08-03.11.46:448][909]LogBlueprintUserMessages: 426.835602
+[2014.12.08-03.11.46:468][910]LogBlueprintUserMessages: 425.161407
+[2014.12.08-03.11.46:488][911]LogBlueprintUserMessages: 424.303894
+[2014.12.08-03.11.46:509][912]LogBlueprintUserMessages: 424.593475
+[2014.12.08-03.11.46:530][913]LogBlueprintUserMessages: 426.427948
+[2014.12.08-03.11.46:551][914]LogBlueprintUserMessages: 430.269379
+[2014.12.08-03.11.46:570][915]LogBlueprintUserMessages: 435.861115
+[2014.12.08-03.11.46:592][916]LogBlueprintUserMessages: 444.206146
+[2014.12.08-03.11.46:613][917]LogBlueprintUserMessages: 456.097229
+[2014.12.08-03.11.46:634][918]LogBlueprintUserMessages: 470.911835
+[2014.12.08-03.11.46:656][919]LogBlueprintUserMessages: 490.5336
+[2014.12.08-03.11.46:677][920]LogBlueprintUserMessages: 511.360046
+[2014.12.08-03.11.46:699][921]LogBlueprintUserMessages: 538.789551
+[2014.12.08-03.11.46:720][922]LogBlueprintUserMessages: 567.621826
+[2014.12.08-03.11.46:740][923]LogBlueprintUserMessages: 598.514038
+[2014.12.08-03.11.46:761][924]LogBlueprintUserMessages: 633.703003
+[2014.12.08-03.11.46:782][925]LogBlueprintUserMessages: 670.901489
+[2014.12.08-03.11.46:803][926]LogBlueprintUserMessages: 709.853882
+[2014.12.08-03.11.46:824][927]LogBlueprintUserMessages: 751.648865
+[2014.12.08-03.11.46:846][928]LogBlueprintUserMessages: 792.560181
+[2014.12.08-03.11.46:871][929]LogBlueprintUserMessages: 843.165527
+[2014.12.08-03.11.46:891][930]LogBlueprintUserMessages: 883.234985
+[2014.12.08-03.11.46:913][931]LogBlueprintUserMessages: 925.483582
+[2014.12.08-03.11.46:935][932]LogBlueprintUserMessages: 966.315063
+[2014.12.08-03.11.46:957][933]LogBlueprintUserMessages: 1004.886108
+[2014.12.08-03.11.46:979][934]LogBlueprintUserMessages: 1046.773315
+[2014.12.08-03.11.47:001][935]LogBlueprintUserMessages: 1089.953613
+[2014.12.08-03.11.47:023][936]LogBlueprintUserMessages: 1135.730591
+[2014.12.08-03.11.47:046][937]LogBlueprintUserMessages: 1187.216675
+[2014.12.08-03.11.47:069][938]LogBlueprintUserMessages: 1242.385132
+[2014.12.08-03.11.47:091][939]LogBlueprintUserMessages: 1293.828369
+[2014.12.08-03.11.47:112][940]LogBlueprintUserMessages: 1341.667114
+[2014.12.08-03.11.47:135][941]LogBlueprintUserMessages: 1395.775269
+[2014.12.08-03.11.47:157][942]LogBlueprintUserMessages: 1447.318115
+[2014.12.08-03.11.47:177][943]LogBlueprintUserMessages: 1494.567871
+[2014.12.08-03.11.47:200][944]LogBlueprintUserMessages: 1548.340454
+[2014.12.08-03.11.47:220][945]LogBlueprintUserMessages: 1595.876099
+[2014.12.08-03.11.47:243][946]LogBlueprintUserMessages: 1647.228638
+[2014.12.08-03.11.47:268][947]LogBlueprintUserMessages: 1705.810913
+[2014.12.08-03.11.47:290][948]LogBlueprintUserMessages: 1756.861328
+[2014.12.08-03.11.47:312][949]LogBlueprintUserMessages: 1809.220459
+[2014.12.08-03.11.47:334][950]LogBlueprintUserMessages: 1861.231934
+[2014.12.08-03.11.47:356][951]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:357][951]LogBlueprintUserMessages: 1875.812134
+[2014.12.08-03.11.47:377][952]LogBlueprintUserMessages: End
+[2014.12.08-03.11.47:377][952]LogBlueprintUserMessages: End
+[2014.12.08-03.11.47:378][952]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:378][952]LogBlueprintUserMessages: 1877.086548
+[2014.12.08-03.11.47:400][953]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:400][953]LogBlueprintUserMessages: 1870.625244
+[2014.12.08-03.11.47:421][954]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:422][954]LogBlueprintUserMessages: 1863.46228
+[2014.12.08-03.11.47:443][955]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:444][955]LogBlueprintUserMessages: 1856.78772
+[2014.12.08-03.11.47:467][956]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:467][956]LogBlueprintUserMessages: 1848.70874
+[2014.12.08-03.11.47:489][957]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:489][957]LogBlueprintUserMessages: 1841.58252
+[2014.12.08-03.11.47:508][958]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:509][958]LogBlueprintUserMessages: 1834.903931
+[2014.12.08-03.11.47:532][959]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:532][959]LogBlueprintUserMessages: 1827.520264
+[2014.12.08-03.11.47:553][960]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:553][960]LogBlueprintUserMessages: 1820.408081
+[2014.12.08-03.11.47:575][961]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.47:575][961]LogBlueprintUserMessages: 1813.201782
+[2014.12.08-03.11.47:598][962]LogBlueprintUserMessages: 1805.828369
+[2014.12.08-03.11.47:619][963]LogBlueprintUserMessages: 1796.354004
+[2014.12.08-03.11.47:641][964]LogBlueprintUserMessages: 1784.466675
+[2014.12.08-03.11.47:662][965]LogBlueprintUserMessages: 1770.50415
+[2014.12.08-03.11.47:685][966]LogBlueprintUserMessages: 1752.750122
+[2014.12.08-03.11.47:707][967]LogBlueprintUserMessages: 1733.370728
+[2014.12.08-03.11.47:727][968]LogBlueprintUserMessages: 1712.693604
+[2014.12.08-03.11.47:750][969]LogBlueprintUserMessages: 1688.011597
+[2014.12.08-03.11.47:770][970]LogBlueprintUserMessages: 1663.84729
+[2014.12.08-03.11.47:792][971]LogBlueprintUserMessages: 1635.810425
+[2014.12.08-03.11.47:815][972]LogBlueprintUserMessages: 1610.425537
+[2014.12.08-03.11.47:835][973]LogBlueprintUserMessages: 1590.361084
+[2014.12.08-03.11.47:858][974]LogBlueprintUserMessages: 1569.875488
+[2014.12.08-03.11.47:879][975]LogBlueprintUserMessages: 1555.268433
+[2014.12.08-03.11.47:901][976]LogBlueprintUserMessages: 1541.013672
+[2014.12.08-03.11.47:923][977]LogBlueprintUserMessages: 1528.999878
+[2014.12.08-03.11.47:944][978]LogBlueprintUserMessages: 1519.079224
+[2014.12.08-03.11.47:967][979]LogBlueprintUserMessages: 1505.410767
+[2014.12.08-03.11.47:988][980]LogBlueprintUserMessages: 1494.292114
+[2014.12.08-03.11.48:009][981]LogBlueprintUserMessages: 1484.772339
+[2014.12.08-03.11.48:030][982]LogBlueprintUserMessages: 1476.253052
+[2014.12.08-03.11.48:052][983]LogBlueprintUserMessages: 1468.845215
+[2014.12.08-03.11.48:074][984]LogBlueprintUserMessages: 1461.688232
+[2014.12.08-03.11.48:093][985]LogBlueprintUserMessages: 1455.256348
+[2014.12.08-03.11.48:115][986]LogBlueprintUserMessages: 1450.539673
+[2014.12.08-03.11.48:138][987]LogBlueprintUserMessages: 1448.032471
+[2014.12.08-03.11.48:157][988]LogBlueprintUserMessages: 1447.849854
+[2014.12.08-03.11.48:179][989]LogBlueprintUserMessages: 1449.932739
+[2014.12.08-03.11.48:199][990]LogBlueprintUserMessages: 1453.907715
+[2014.12.08-03.11.48:221][991]LogBlueprintUserMessages: 1461.009033
+[2014.12.08-03.11.48:243][992]LogBlueprintUserMessages: 1470.065796
+[2014.12.08-03.11.48:264][993]LogBlueprintUserMessages: 1481.235352
+[2014.12.08-03.11.48:287][994]LogBlueprintUserMessages: 1495.982422
+[2014.12.08-03.11.48:308][995]LogBlueprintUserMessages: 1511.022949
+[2014.12.08-03.11.48:330][996]LogBlueprintUserMessages: 1529.952881
+[2014.12.08-03.11.48:352][997]LogBlueprintUserMessages: 1551.876099
+[2014.12.08-03.11.48:373][998]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:373][998]LogBlueprintUserMessages: 1549.726196
+[2014.12.08-03.11.48:394][999]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:395][999]LogBlueprintUserMessages: 1542.809448
+[2014.12.08-03.11.48:414][  0]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:414][  0]LogBlueprintUserMessages: 1536.883911
+[2014.12.08-03.11.48:437][  1]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:437][  1]LogBlueprintUserMessages: 1529.539917
+[2014.12.08-03.11.48:461][  2]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:461][  2]LogBlueprintUserMessages: 1521.506958
+[2014.12.08-03.11.48:481][  3]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:481][  3]LogBlueprintUserMessages: 1515.048584
+[2014.12.08-03.11.48:503][  4]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:504][  4]LogBlueprintUserMessages: 1507.555664
+[2014.12.08-03.11.48:523][  5]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:524][  5]LogBlueprintUserMessages: 1501.010132
+[2014.12.08-03.11.48:545][  6]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:545][  6]LogBlueprintUserMessages: 1494.015137
+[2014.12.08-03.11.48:566][  7]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:566][  7]LogBlueprintUserMessages: 1486.931519
+[2014.12.08-03.11.48:587][  8]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:587][  8]LogBlueprintUserMessages: 1479.915649
+[2014.12.08-03.11.48:609][  9]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:609][  9]LogBlueprintUserMessages: 1472.849976
+[2014.12.08-03.11.48:628][ 10]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:628][ 10]LogBlueprintUserMessages: 1466.55127
+[2014.12.08-03.11.48:650][ 11]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:650][ 11]LogBlueprintUserMessages: 1459.615479
+[2014.12.08-03.11.48:674][ 12]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:674][ 12]LogBlueprintUserMessages: 1451.609985
+[2014.12.08-03.11.48:694][ 13]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:694][ 13]LogBlueprintUserMessages: 1444.844116
+[2014.12.08-03.11.48:715][ 14]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:715][ 14]LogBlueprintUserMessages: 1437.899048
+[2014.12.08-03.11.48:737][ 15]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:737][ 15]LogBlueprintUserMessages: 1430.880249
+[2014.12.08-03.11.48:758][ 16]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:758][ 16]LogBlueprintUserMessages: 1423.681885
+[2014.12.08-03.11.48:781][ 17]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:781][ 17]LogBlueprintUserMessages: 1416.362305
+[2014.12.08-03.11.48:802][ 18]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:802][ 18]LogBlueprintUserMessages: 1409.245361
+[2014.12.08-03.11.48:824][ 19]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:824][ 19]LogBlueprintUserMessages: 1401.996216
+[2014.12.08-03.11.48:845][ 20]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:845][ 20]LogBlueprintUserMessages: 1395.396362
+[2014.12.08-03.11.48:868][ 21]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:868][ 21]LogBlueprintUserMessages: 1387.541626
+[2014.12.08-03.11.48:891][ 22]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:891][ 22]LogBlueprintUserMessages: 1380.119629
+[2014.12.08-03.11.48:911][ 23]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:911][ 23]LogBlueprintUserMessages: 1373.436279
+[2014.12.08-03.11.48:932][ 24]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:933][ 24]LogBlueprintUserMessages: 1366.247192
+[2014.12.08-03.11.48:954][ 25]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:954][ 25]LogBlueprintUserMessages: 1359.201538
+[2014.12.08-03.11.48:976][ 26]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:976][ 26]LogBlueprintUserMessages: 1352.066162
+[2014.12.08-03.11.48:997][ 27]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.48:998][ 27]LogBlueprintUserMessages: 1344.899414
+[2014.12.08-03.11.49:019][ 28]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:019][ 28]LogBlueprintUserMessages: 1337.75708
+[2014.12.08-03.11.49:042][ 29]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:042][ 29]LogBlueprintUserMessages: 1330.485474
+[2014.12.08-03.11.49:063][ 30]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:063][ 30]LogBlueprintUserMessages: 1323.32373
+[2014.12.08-03.11.49:085][ 31]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:085][ 31]LogBlueprintUserMessages: 1316.008057
+[2014.12.08-03.11.49:108][ 32]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:108][ 32]LogBlueprintUserMessages: 1308.614868
+[2014.12.08-03.11.49:128][ 33]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:128][ 33]LogBlueprintUserMessages: 1301.852905
+[2014.12.08-03.11.49:150][ 34]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:150][ 34]LogBlueprintUserMessages: 1294.790283
+[2014.12.08-03.11.49:171][ 35]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:171][ 35]LogBlueprintUserMessages: 1287.658325
+[2014.12.08-03.11.49:193][ 36]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:193][ 36]LogBlueprintUserMessages: 1280.540039
+[2014.12.08-03.11.49:215][ 37]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:215][ 37]LogBlueprintUserMessages: 1273.37439
+[2014.12.08-03.11.49:237][ 38]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:237][ 38]LogBlueprintUserMessages: 1266.296021
+[2014.12.08-03.11.49:259][ 39]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:260][ 39]LogBlueprintUserMessages: 1258.585571
+[2014.12.08-03.11.49:279][ 40]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:279][ 40]LogBlueprintUserMessages: 1251.944702
+[2014.12.08-03.11.49:302][ 41]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:302][ 41]LogBlueprintUserMessages: 1244.560303
+[2014.12.08-03.11.49:325][ 42]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:325][ 42]LogBlueprintUserMessages: 1237.130005
+[2014.12.08-03.11.49:345][ 43]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:345][ 43]LogBlueprintUserMessages: 1230.422852
+[2014.12.08-03.11.49:366][ 44]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:367][ 44]LogBlueprintUserMessages: 1223.352417
+[2014.12.08-03.11.49:389][ 45]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:389][ 45]LogBlueprintUserMessages: 1216.198486
+[2014.12.08-03.11.49:411][ 46]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:411][ 46]LogBlueprintUserMessages: 1209.089966
+[2014.12.08-03.11.49:432][ 47]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:432][ 47]LogBlueprintUserMessages: 1201.894653
+[2014.12.08-03.11.49:456][ 48]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:456][ 48]LogBlueprintUserMessages: 1194.33252
+[2014.12.08-03.11.49:478][ 49]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:478][ 49]LogBlueprintUserMessages: 1186.901245
+[2014.12.08-03.11.49:498][ 50]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:498][ 50]LogBlueprintUserMessages: 1180.248779
+[2014.12.08-03.11.49:521][ 51]LogBlueprintUserMessages: 1172.880127
+[2014.12.08-03.11.49:542][ 52]LogBlueprintUserMessages: 1165.55481
+[2014.12.08-03.11.49:563][ 53]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:564][ 53]LogBlueprintUserMessages: 1158.798828
+[2014.12.08-03.11.49:584][ 54]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:585][ 54]LogBlueprintUserMessages: 1151.69873
+[2014.12.08-03.11.49:606][ 55]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:606][ 55]LogBlueprintUserMessages: 1144.649292
+[2014.12.08-03.11.49:628][ 56]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:628][ 56]LogBlueprintUserMessages: 1137.445679
+[2014.12.08-03.11.49:650][ 57]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:651][ 57]LogBlueprintUserMessages: 1130.175537
+[2014.12.08-03.11.49:673][ 58]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:673][ 58]LogBlueprintUserMessages: 1122.860107
+[2014.12.08-03.11.49:693][ 59]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:693][ 59]LogBlueprintUserMessages: 1115.710083
+[2014.12.08-03.11.49:713][ 60]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:713][ 60]LogBlueprintUserMessages: 1109.311646
+[2014.12.08-03.11.49:734][ 61]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:734][ 61]LogBlueprintUserMessages: 1102.377075
+[2014.12.08-03.11.49:757][ 62]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:757][ 62]LogBlueprintUserMessages: 1095.030273
+[2014.12.08-03.11.49:776][ 63]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:776][ 63]LogBlueprintUserMessages: 1088.265625
+[2014.12.08-03.11.49:798][ 64]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:798][ 64]LogBlueprintUserMessages: 1081.323242
+[2014.12.08-03.11.49:817][ 65]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:818][ 65]LogBlueprintUserMessages: 1074.946655
+[2014.12.08-03.11.49:840][ 66]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:840][ 66]LogBlueprintUserMessages: 1067.603394
+[2014.12.08-03.11.49:863][ 67]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:863][ 67]LogBlueprintUserMessages: 1059.85791
+[2014.12.08-03.11.49:882][ 68]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:883][ 68]LogBlueprintUserMessages: 1053.407715
+[2014.12.08-03.11.49:905][ 69]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:905][ 69]LogBlueprintUserMessages: 1046.141602
+[2014.12.08-03.11.49:926][ 70]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:926][ 70]LogBlueprintUserMessages: 1039.174805
+[2014.12.08-03.11.49:948][ 71]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:948][ 71]LogBlueprintUserMessages: 1031.836426
+[2014.12.08-03.11.49:969][ 72]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:970][ 72]LogBlueprintUserMessages: 1024.757935
+[2014.12.08-03.11.49:991][ 73]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.49:992][ 73]LogBlueprintUserMessages: 1017.667114
+[2014.12.08-03.11.50:012][ 74]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.50:012][ 74]LogBlueprintUserMessages: 1010.744751
+[2014.12.08-03.11.50:032][ 75]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.50:032][ 75]LogBlueprintUserMessages: 1004.382446
+[2014.12.08-03.11.50:053][ 76]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.50:054][ 76]LogBlueprintUserMessages: 997.269714
+[2014.12.08-03.11.50:076][ 77]LogBlueprintUserMessages: 989.678528
+[2014.12.08-03.11.50:095][ 78]LogBlueprintUserMessages: 983.1073
+[2014.12.08-03.11.50:118][ 79]LogBlueprintUserMessages: 973.866333
+[2014.12.08-03.11.50:139][ 80]LogBlueprintUserMessages: 962.588989
+[2014.12.08-03.11.50:160][ 81]LogBlueprintUserMessages: 948.197632
+[2014.12.08-03.11.50:181][ 82]LogBlueprintUserMessages: 932.365051
+[2014.12.08-03.11.50:201][ 83]LogBlueprintUserMessages: 915.156616
+[2014.12.08-03.11.50:224][ 84]LogBlueprintUserMessages: 893.060181
+[2014.12.08-03.11.50:244][ 85]LogBlueprintUserMessages: 871.944092
+[2014.12.08-03.11.50:266][ 86]LogBlueprintUserMessages: 844.992859
+[2014.12.08-03.11.50:289][ 87]LogBlueprintUserMessages: 816.651794
+[2014.12.08-03.11.50:310][ 88]LogBlueprintUserMessages: 786.127197
+[2014.12.08-03.11.50:332][ 89]LogBlueprintUserMessages: 752.576965
+[2014.12.08-03.11.50:352][ 90]LogBlueprintUserMessages: 721.023926
+[2014.12.08-03.11.50:375][ 91]LogBlueprintUserMessages: 681.383728
+[2014.12.08-03.11.50:397][ 92]LogBlueprintUserMessages: 639.716858
+[2014.12.08-03.11.50:417][ 93]LogBlueprintUserMessages: 601.169067
+[2014.12.08-03.11.50:439][ 94]LogBlueprintUserMessages: 565.074829
+[2014.12.08-03.11.50:460][ 95]LogBlueprintUserMessages: 533.96228
+[2014.12.08-03.11.50:481][ 96]LogBlueprintUserMessages: 506.652771
+[2014.12.08-03.11.50:503][ 97]LogBlueprintUserMessages: 482.429565
+[2014.12.08-03.11.50:525][ 98]LogBlueprintUserMessages: 460.976654
+[2014.12.08-03.11.50:546][ 99]LogBlueprintUserMessages: 443.033813
+[2014.12.08-03.11.50:566][100]LogBlueprintUserMessages: 428.520264
+[2014.12.08-03.11.50:588][101]LogBlueprintUserMessages: 414.818756
+[2014.12.08-03.11.50:610][102]LogBlueprintUserMessages: 402.259216
+[2014.12.08-03.11.50:630][103]LogBlueprintUserMessages: 392.653137
+[2014.12.08-03.11.50:652][104]LogBlueprintUserMessages: 383.687073
+[2014.12.08-03.11.50:675][105]LogBlueprintUserMessages: 375.207306
+[2014.12.08-03.11.50:697][106]LogBlueprintUserMessages: 367.92041
+[2014.12.08-03.11.50:719][107]LogBlueprintUserMessages: 360.72644
+[2014.12.08-03.11.50:741][108]LogBlueprintUserMessages: 353.626282
+[2014.12.08-03.11.50:762][109]LogBlueprintUserMessages: 346.505829
+[2014.12.08-03.11.50:783][110]LogBlueprintUserMessages: 339.938904
+[2014.12.08-03.11.50:805][111]LogBlueprintUserMessages: 332.666595
+[2014.12.08-03.11.50:829][112]LogBlueprintUserMessages: 325.012939
+[2014.12.08-03.11.50:849][113]LogBlueprintUserMessages: 318.143158
+[2014.12.08-03.11.50:871][114]LogBlueprintUserMessages: 310.988647
+[2014.12.08-03.11.50:893][115]LogBlueprintUserMessages: 303.881256
+[2014.12.08-03.11.50:914][116]LogBlueprintUserMessages: 296.798523
+[2014.12.08-03.11.50:936][117]LogBlueprintUserMessages: 289.644409
+[2014.12.08-03.11.50:958][118]LogBlueprintUserMessages: 282.438385
+[2014.12.08-03.11.50:980][119]LogBlueprintUserMessages: 275.168854
+[2014.12.08-03.11.51:000][120]LogBlueprintUserMessages: 268.483063
+[2014.12.08-03.11.51:022][121]LogBlueprintUserMessages: 261.222626
+[2014.12.08-03.11.51:046][122]LogBlueprintUserMessages: 253.448105
+[2014.12.08-03.11.51:066][123]LogBlueprintUserMessages: 246.834808
+[2014.12.08-03.11.51:087][124]LogBlueprintUserMessages: 239.773346
+[2014.12.08-03.11.51:108][125]LogBlueprintUserMessages: 232.875305
+[2014.12.08-03.11.51:130][126]LogBlueprintUserMessages: 225.792587
+[2014.12.08-03.11.51:152][127]LogBlueprintUserMessages: 218.430756
+[2014.12.08-03.11.51:173][128]LogBlueprintUserMessages: 211.467453
+[2014.12.08-03.11.51:196][129]LogBlueprintUserMessages: 204.02005
+[2014.12.08-03.11.51:216][130]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:238][131]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:262][132]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:283][133]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:305][134]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:327][135]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:348][136]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:370][137]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:391][138]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:413][139]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:434][140]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:456][141]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:480][142]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:500][143]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:522][144]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:543][145]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:565][146]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:587][147]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:607][148]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:629][149]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:649][150]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:673][151]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:695][152]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:715][153]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:736][154]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:755][155]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:777][156]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:798][157]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:817][158]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:839][159]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:860][160]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:881][161]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:902][162]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:923][163]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:945][164]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:964][165]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.51:986][166]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.52:010][167]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.52:030][168]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.52:054][169]LogBlueprintUserMessages: 197.521942
+[2014.12.08-03.11.52:077][170]LogBlueprintUserMessages: 195.097183
+[2014.12.08-03.11.52:097][171]LogBlueprintUserMessages: 190.501404
+[2014.12.08-03.11.52:119][172]LogBlueprintUserMessages: 183.652496
+[2014.12.08-03.11.52:140][173]LogBlueprintUserMessages: 174.855621
+[2014.12.08-03.11.52:161][174]LogBlueprintUserMessages: 165.171967
+[2014.12.08-03.11.52:181][175]LogBlueprintUserMessages: 165.133011
+[2014.12.08-03.11.52:202][176]LogBlueprintUserMessages: 164.400757
+[2014.12.08-03.11.52:225][177]LogBlueprintUserMessages: 164.389069
+[2014.12.08-03.11.52:248][178]LogBlueprintUserMessages: 164.38031
+[2014.12.08-03.11.52:271][179]LogBlueprintUserMessages: 164.370575
+[2014.12.08-03.11.52:290][180]LogBlueprintUserMessages: 164.358887
+[2014.12.08-03.11.52:314][181]LogBlueprintUserMessages: 164.349152
+[2014.12.08-03.11.52:335][182]LogBlueprintUserMessages: 164.349152
+[2014.12.08-03.11.52:355][183]LogBlueprintUserMessages: 170.725571
+[2014.12.08-03.11.52:376][184]LogBlueprintUserMessages: 186.79541
+[2014.12.08-03.11.52:397][185]LogBlueprintUserMessages: 207.971634
+[2014.12.08-03.11.52:419][186]LogBlueprintUserMessages: 221.482559
+[2014.12.08-03.11.52:440][187]LogBlueprintUserMessages: 262.434723
+[2014.12.08-03.11.52:463][188]LogBlueprintUserMessages: 298.923981
+[2014.12.08-03.11.52:486][189]LogBlueprintUserMessages: 312.093933
+[2014.12.08-03.11.52:505][190]LogBlueprintUserMessages: 340.346558
+[2014.12.08-03.11.52:527][191]LogBlueprintUserMessages: 372.160828
+[2014.12.08-03.11.52:549][192]LogBlueprintUserMessages: 405.617615
+[2014.12.08-03.11.52:569][193]LogBlueprintUserMessages: 433.404968
+[2014.12.08-03.11.52:590][194]LogBlueprintUserMessages: 441.030701
+[2014.12.08-03.11.52:612][195]LogBlueprintUserMessages: 439.091797
+[2014.12.08-03.11.52:634][196]LogBlueprintUserMessages: 436.392456
+[2014.12.08-03.11.52:657][197]LogBlueprintUserMessages: 432.656921
+[2014.12.08-03.11.52:678][198]LogBlueprintUserMessages: 428.308075
+[2014.12.08-03.11.52:700][199]LogBlueprintUserMessages: 423.120178
+[2014.12.08-03.11.52:720][200]LogBlueprintUserMessages: 417.641693
+[2014.12.08-03.11.52:741][201]LogBlueprintUserMessages: 411.080536
+[2014.12.08-03.11.52:764][202]LogBlueprintUserMessages: 403.080139
+[2014.12.08-03.11.52:784][203]LogBlueprintUserMessages: 395.043365
+[2014.12.08-03.11.52:805][204]LogBlueprintUserMessages: 385.890686
+[2014.12.08-03.11.52:825][205]LogBlueprintUserMessages: 376.844208
+[2014.12.08-03.11.52:848][206]LogBlueprintUserMessages: 366.417358
+[2014.12.08-03.11.52:871][207]LogBlueprintUserMessages: 355.61319
+[2014.12.08-03.11.52:891][208]LogBlueprintUserMessages: 346.378876
+[2014.12.08-03.11.52:915][209]LogBlueprintUserMessages: 336.966187
+[2014.12.08-03.11.52:935][210]LogBlueprintUserMessages: 330.004395
+[2014.12.08-03.11.52:957][211]LogBlueprintUserMessages: 324.453674
+[2014.12.08-03.11.52:979][212]LogBlueprintUserMessages: 321.594543
+[2014.12.08-03.11.53:000][213]LogBlueprintUserMessages: 322.248108
+[2014.12.08-03.11.53:022][214]LogBlueprintUserMessages: 327.013092
+[2014.12.08-03.11.53:043][215]LogBlueprintUserMessages: 335.543518
+[2014.12.08-03.11.53:068][216]LogBlueprintUserMessages: 351.997284
+[2014.12.08-03.11.53:089][217]LogBlueprintUserMessages: 371.711639
+[2014.12.08-03.11.53:110][218]LogBlueprintUserMessages: 394.98761
+[2014.12.08-03.11.53:133][219]LogBlueprintUserMessages: 426.126434
+[2014.12.08-03.11.53:154][220]LogBlueprintUserMessages: 458.130554
+[2014.12.08-03.11.53:176][221]LogBlueprintUserMessages: 497.16214
+[2014.12.08-03.11.53:201][222]LogBlueprintUserMessages: 544.518677
+[2014.12.08-03.11.53:221][223]LogBlueprintUserMessages: 588.287109
+[2014.12.08-03.11.53:245][224]LogBlueprintUserMessages: 639.5802
+[2014.12.08-03.11.53:268][225]LogBlueprintUserMessages: 694.323059
+[2014.12.08-03.11.53:290][226]LogBlueprintUserMessages: 745.532593
+[2014.12.08-03.11.53:312][227]LogBlueprintUserMessages: 798.360596
+[2014.12.08-03.11.53:334][228]LogBlueprintUserMessages: 849.285889
+[2014.12.08-03.11.53:357][229]LogBlueprintUserMessages: 893.658264
+[2014.12.08-03.11.53:376][230]LogBlueprintUserMessages: 929.476257
+[2014.12.08-03.11.53:401][231]LogBlueprintUserMessages: 963.848206
+[2014.12.08-03.11.53:422][232]LogBlueprintUserMessages: 990.011597
+[2014.12.08-03.11.53:443][233]LogBlueprintUserMessages: 1010.332764
+[2014.12.08-03.11.53:468][234]LogBlueprintUserMessages: 1029.122925
+[2014.12.08-03.11.53:486][235]LogBlueprintUserMessages: End
+[2014.12.08-03.11.53:488][235]LogBlueprintUserMessages: 1041.425659
+[2014.12.08-03.11.53:508][236]LogBlueprintUserMessages: End
+[2014.12.08-03.11.53:509][236]LogBlueprintUserMessages: 1051.496216
+[2014.12.08-03.11.53:530][237]LogBlueprintUserMessages: End
+[2014.12.08-03.11.53:532][237]LogBlueprintUserMessages: 1058.109497
+[2014.12.08-03.11.53:550][238]LogBlueprintUserMessages: End
+[2014.12.08-03.11.53:552][238]LogBlueprintUserMessages: 1049.349487
+[2014.12.08-03.11.53:572][239]LogBlueprintUserMessages: End
+[2014.12.08-03.11.53:573][239]LogBlueprintUserMessages: 1037.92981
+[2014.12.08-03.11.53:592][240]LogBlueprintUserMessages: 1025.873535
+[2014.12.08-03.11.53:615][241]LogBlueprintUserMessages: 1009.347473
+[2014.12.08-03.11.53:636][242]LogBlueprintUserMessages: 991.729248
+[2014.12.08-03.11.53:658][243]LogBlueprintUserMessages: 971.319275
+[2014.12.08-03.11.53:679][244]LogBlueprintUserMessages: 948.909058
+[2014.12.08-03.11.53:700][245]LogBlueprintUserMessages: 924.128052
+[2014.12.08-03.11.53:721][246]LogBlueprintUserMessages: 897.033936
+[2014.12.08-03.11.53:743][247]LogBlueprintUserMessages: 867.536926
+[2014.12.08-03.11.53:763][248]LogBlueprintUserMessages: 837.740295
+[2014.12.08-03.11.53:786][249]LogBlueprintUserMessages: 800.823181
+[2014.12.08-03.11.53:807][250]LogBlueprintUserMessages: 767.046265
+[2014.12.08-03.11.53:828][251]LogBlueprintUserMessages: 727.751953
+[2014.12.08-03.11.53:852][252]LogBlueprintUserMessages: 683.141785
+[2014.12.08-03.11.53:874][253]LogBlueprintUserMessages: 638.916809
+[2014.12.08-03.11.53:896][254]LogBlueprintUserMessages: 590.408325
+[2014.12.08-03.11.53:918][255]LogBlueprintUserMessages: 541.461304
+[2014.12.08-03.11.53:939][256]LogBlueprintUserMessages: 490.615417
+[2014.12.08-03.11.53:960][257]LogBlueprintUserMessages: 439.613403
+[2014.12.08-03.11.53:983][258]LogBlueprintUserMessages: 389.620148
+[2014.12.08-03.11.54:005][259]LogBlueprintUserMessages: 338.941193
+[2014.12.08-03.11.54:025][260]LogBlueprintUserMessages: 291.305115
+[2014.12.08-03.11.54:047][261]LogBlueprintUserMessages: 246.320129
+[2014.12.08-03.11.54:071][262]LogBlueprintUserMessages: 207.864029
+[2014.12.08-03.11.54:091][263]LogBlueprintUserMessages: 213.560287
+[2014.12.08-03.11.54:113][264]LogBlueprintUserMessages: 241.953323
+[2014.12.08-03.11.54:136][265]LogBlueprintUserMessages: 279.130005
+[2014.12.08-03.11.54:157][266]LogBlueprintUserMessages: 299.611023
+[2014.12.08-03.11.54:178][267]LogBlueprintUserMessages: 320.401306
+[2014.12.08-03.11.54:200][268]LogBlueprintUserMessages: 348.984955
+[2014.12.08-03.11.54:220][269]LogBlueprintUserMessages: 377.585846
+[2014.12.08-03.11.54:241][270]LogBlueprintUserMessages: 404.362427
+[2014.12.08-03.11.54:263][271]LogBlueprintUserMessages: 435.431488
+[2014.12.08-03.11.54:286][272]LogBlueprintUserMessages: 435.510803
+[2014.12.08-03.11.54:305][273]LogBlueprintUserMessages: 433.301178
+[2014.12.08-03.11.54:326][274]LogBlueprintUserMessages: 430.454315
+[2014.12.08-03.11.54:346][275]LogBlueprintUserMessages: 427.596466
+[2014.12.08-03.11.54:368][276]LogBlueprintUserMessages: 424.321289
+[2014.12.08-03.11.54:389][277]LogBlueprintUserMessages: 421.451569
+[2014.12.08-03.11.54:408][278]LogBlueprintUserMessages: 419.3013
+[2014.12.08-03.11.54:429][279]LogBlueprintUserMessages: 417.83017
+[2014.12.08-03.11.54:451][280]LogBlueprintUserMessages: 417.573151
+[2014.12.08-03.11.54:473][281]LogBlueprintUserMessages: 419.193604
+[2014.12.08-03.11.54:495][282]LogBlueprintUserMessages: 422.774048
+[2014.12.08-03.11.54:516][283]LogBlueprintUserMessages: 428.770569
+[2014.12.08-03.11.54:538][284]LogBlueprintUserMessages: 438.128448
+[2014.12.08-03.11.54:559][285]LogBlueprintUserMessages: 448.748657
+[2014.12.08-03.11.54:580][286]LogBlueprintUserMessages: 460.789063
+[2014.12.08-03.11.54:602][287]LogBlueprintUserMessages: 473.7659
+[2014.12.08-03.11.54:622][288]LogBlueprintUserMessages: 485.718689
+[2014.12.08-03.11.54:644][289]LogBlueprintUserMessages: 498.268188
+[2014.12.08-03.11.54:667][290]LogBlueprintUserMessages: 511.23822
+[2014.12.08-03.11.54:689][291]LogBlueprintUserMessages: 522.855835
+[2014.12.08-03.11.54:711][292]LogBlueprintUserMessages: 533.783875
+[2014.12.08-03.11.54:733][293]LogBlueprintUserMessages: 544.148438
+[2014.12.08-03.11.54:755][294]LogBlueprintUserMessages: 553.463806
+[2014.12.08-03.11.54:776][295]LogBlueprintUserMessages: 561.251038
+[2014.12.08-03.11.54:798][296]LogBlueprintUserMessages: 568.590637
+[2014.12.08-03.11.54:821][297]LogBlueprintUserMessages: 575.412109
+[2014.12.08-03.11.54:842][298]LogBlueprintUserMessages: 580.351929
+[2014.12.08-03.11.54:866][299]LogBlueprintUserMessages: 585.242615
+[2014.12.08-03.11.54:888][300]LogBlueprintUserMessages: 588.65271
+[2014.12.08-03.11.54:910][301]LogBlueprintUserMessages: 591.254333
+[2014.12.08-03.11.54:933][302]LogBlueprintUserMessages: 593.177673
+[2014.12.08-03.11.54:955][303]LogBlueprintUserMessages: 593.100586
+[2014.12.08-03.11.54:977][304]LogBlueprintUserMessages: 589.727295
+[2014.12.08-03.11.54:998][305]LogBlueprintUserMessages: 584.529785
+[2014.12.08-03.11.55:021][306]LogBlueprintUserMessages: 575.966797
+[2014.12.08-03.11.55:044][307]LogBlueprintUserMessages: 565.192078
+[2014.12.08-03.11.55:066][308]LogBlueprintUserMessages: 551.952209
+[2014.12.08-03.11.55:089][309]LogBlueprintUserMessages: 535.261841
+[2014.12.08-03.11.55:110][310]LogBlueprintUserMessages: 518.716675
+[2014.12.08-03.11.55:133][311]LogBlueprintUserMessages: 498.600189
+[2014.12.08-03.11.55:157][312]LogBlueprintUserMessages: 473.717804
+[2014.12.08-03.11.55:177][313]LogBlueprintUserMessages: 450.204956
+[2014.12.08-03.11.55:199][314]LogBlueprintUserMessages: 422.350189
+[2014.12.08-03.11.55:221][315]LogBlueprintUserMessages: 392.523468
+[2014.12.08-03.11.55:244][316]LogBlueprintUserMessages: 360.238586
+[2014.12.08-03.11.55:267][317]LogBlueprintUserMessages: 322.986298
+[2014.12.08-03.11.55:289][318]LogBlueprintUserMessages: 285.578583
+[2014.12.08-03.11.55:312][319]LogBlueprintUserMessages: 247.930786
+[2014.12.08-03.11.55:332][320]LogBlueprintUserMessages: 213.380386
+[2014.12.08-03.11.55:355][321]LogBlueprintUserMessages: 174.724899
+[2014.12.08-03.11.55:377][322]LogBlueprintUserMessages: 165.084152
+[2014.12.08-03.11.55:398][323]LogBlueprintUserMessages: 171.35141
+[2014.12.08-03.11.55:420][324]LogBlueprintUserMessages: 188.306976
+[2014.12.08-03.11.55:441][325]LogBlueprintUserMessages: 209.633621
+[2014.12.08-03.11.55:463][326]LogBlueprintUserMessages: 247.581757
+[2014.12.08-03.11.55:485][327]LogBlueprintUserMessages: 278.941772
+[2014.12.08-03.11.55:506][328]LogBlueprintUserMessages: 309.612549
+[2014.12.08-03.11.55:528][329]LogBlueprintUserMessages: 341.275604
+[2014.12.08-03.11.55:548][330]LogBlueprintUserMessages: 369.513855
+[2014.12.08-03.11.55:571][331]LogBlueprintUserMessages: 400.784149
+[2014.12.08-03.11.55:592][332]LogBlueprintUserMessages: 429.037018
+[2014.12.08-03.11.55:613][333]LogBlueprintUserMessages: 457.571228
+[2014.12.08-03.11.55:636][334]LogBlueprintUserMessages: 465.464081
+[2014.12.08-03.11.55:657][335]LogBlueprintUserMessages: 462.543671
+[2014.12.08-03.11.55:677][336]LogBlueprintUserMessages: 458.505402
+[2014.12.08-03.11.55:699][337]LogBlueprintUserMessages: 453.246307
+[2014.12.08-03.11.55:721][338]LogBlueprintUserMessages: 446.64267
+[2014.12.08-03.11.55:741][339]LogBlueprintUserMessages: 439.166687
+[2014.12.08-03.11.55:760][340]LogBlueprintUserMessages: 431.514252
+[2014.12.08-03.11.55:782][341]LogBlueprintUserMessages: 422.357941
+[2014.12.08-03.11.55:805][342]LogBlueprintUserMessages: 411.864105
+[2014.12.08-03.11.55:825][343]LogBlueprintUserMessages: 402.294189
+[2014.12.08-03.11.55:848][344]LogBlueprintUserMessages: 392.528473
+[2014.12.08-03.11.55:870][345]LogBlueprintUserMessages: 382.46463
+[2014.12.08-03.11.55:891][346]LogBlueprintUserMessages: 373.973755
+[2014.12.08-03.11.55:913][347]LogBlueprintUserMessages: 367.171967
+[2014.12.08-03.11.55:932][348]LogBlueprintUserMessages: 362.855377
+[2014.12.08-03.11.55:956][349]LogBlueprintUserMessages: 360.813324
+[2014.12.08-03.11.55:976][350]LogBlueprintUserMessages: 362.356079
+[2014.12.08-03.11.55:997][351]LogBlueprintUserMessages: 367.545197
+[2014.12.08-03.11.56:021][352]LogBlueprintUserMessages: 376.348206
+[2014.12.08-03.11.56:042][353]LogBlueprintUserMessages: 388.059082
+[2014.12.08-03.11.56:064][354]LogBlueprintUserMessages: 404.025238
+[2014.12.08-03.11.56:084][355]LogBlueprintUserMessages: 420.445465
+[2014.12.08-03.11.56:107][356]LogBlueprintUserMessages: 442.055634
+[2014.12.08-03.11.56:128][357]LogBlueprintUserMessages: 464.322723
+[2014.12.08-03.11.56:148][358]LogBlueprintUserMessages: 486.975464
+[2014.12.08-03.11.56:170][359]LogBlueprintUserMessages: 513.457214
+[2014.12.08-03.11.56:192][360]LogBlueprintUserMessages: 541.477173
+[2014.12.08-03.11.56:212][361]LogBlueprintUserMessages: 569.813538
+[2014.12.08-03.11.56:233][362]LogBlueprintUserMessages: 597.887512
+[2014.12.08-03.11.56:255][363]LogBlueprintUserMessages: 626.189209
+[2014.12.08-03.11.56:277][364]LogBlueprintUserMessages: 655.249817
+[2014.12.08-03.11.56:297][365]LogBlueprintUserMessages: 679.346863
+[2014.12.08-03.11.56:318][366]LogBlueprintUserMessages: 697.905884
+[2014.12.08-03.11.56:341][367]LogBlueprintUserMessages: 711.467712
+[2014.12.08-03.11.56:361][368]LogBlueprintUserMessages: 719.232178
+[2014.12.08-03.11.56:381][369]LogBlueprintUserMessages: 723.104614
+[2014.12.08-03.11.56:401][370]LogBlueprintUserMessages: 723.736877
+[2014.12.08-03.11.56:424][371]LogBlueprintUserMessages: 720.852051
+[2014.12.08-03.11.56:445][372]LogBlueprintUserMessages: 715.435364
+[2014.12.08-03.11.56:466][373]LogBlueprintUserMessages: 707.200317
+[2014.12.08-03.11.56:489][374]LogBlueprintUserMessages: 696.275269
+[2014.12.08-03.11.56:509][375]LogBlueprintUserMessages: 684.08783
+[2014.12.08-03.11.56:531][376]LogBlueprintUserMessages: 669.135803
+[2014.12.08-03.11.56:552][377]LogBlueprintUserMessages: 652.215027
+[2014.12.08-03.11.56:576][378]LogBlueprintUserMessages: 628.070679
+[2014.12.08-03.11.56:600][379]LogBlueprintUserMessages: 604.165955
+[2014.12.08-03.11.56:620][380]LogBlueprintUserMessages: 581.284302
+[2014.12.08-03.11.56:640][381]LogBlueprintUserMessages: 558.272278
+[2014.12.08-03.11.56:663][382]LogBlueprintUserMessages: 526.754761
+[2014.12.08-03.11.56:684][383]LogBlueprintUserMessages: 496.739838
+[2014.12.08-03.11.56:706][384]LogBlueprintUserMessages: 461.580933
+[2014.12.08-03.11.56:728][385]LogBlueprintUserMessages: 428.927979
+[2014.12.08-03.11.56:749][386]LogBlueprintUserMessages: 400.463257
+[2014.12.08-03.11.56:772][387]LogBlueprintUserMessages: 374.78299
+[2014.12.08-03.11.56:793][388]LogBlueprintUserMessages: 354.97049
+[2014.12.08-03.11.56:815][389]LogBlueprintUserMessages: 341.724701
+[2014.12.08-03.11.56:835][390]LogBlueprintUserMessages: 336.162292
+[2014.12.08-03.11.56:860][391]LogBlueprintUserMessages: 339.378662
+[2014.12.08-03.11.56:881][392]LogBlueprintUserMessages: 351.189575
+[2014.12.08-03.11.56:902][393]LogBlueprintUserMessages: 369.937317
+[2014.12.08-03.11.56:924][394]LogBlueprintUserMessages: 398.414856
+[2014.12.08-03.11.56:945][395]LogBlueprintUserMessages: 429.635742
+[2014.12.08-03.11.56:966][396]LogBlueprintUserMessages: 442.709351
+[2014.12.08-03.11.56:989][397]LogBlueprintUserMessages: 453.625732
+[2014.12.08-03.11.57:011][398]LogBlueprintUserMessages: 469.101044
+[2014.12.08-03.11.57:032][399]LogBlueprintUserMessages: 487.965363
+[2014.12.08-03.11.57:052][400]LogBlueprintUserMessages: 509.38382
+[2014.12.08-03.11.57:075][401]LogBlueprintUserMessages: 536.26001
+[2014.12.08-03.11.57:096][402]LogBlueprintUserMessages: 564.448425
+[2014.12.08-03.11.57:117][403]LogBlueprintUserMessages: 593.554749
+[2014.12.08-03.11.57:140][404]LogBlueprintUserMessages: 627.133057
+[2014.12.08-03.11.57:161][405]LogBlueprintUserMessages: 662.494995
+[2014.12.08-03.11.57:184][406]LogBlueprintUserMessages: 698.392761
+[2014.12.08-03.11.57:205][407]LogBlueprintUserMessages: 735.446899
+[2014.12.08-03.11.57:230][408]LogBlueprintUserMessages: 779.964905
+[2014.12.08-03.11.57:252][409]LogBlueprintUserMessages: 819.779785
+[2014.12.08-03.11.57:276][410]LogBlueprintUserMessages: 864.35968
+[2014.12.08-03.11.57:297][411]LogBlueprintUserMessages: 905.391846
+[2014.12.08-03.11.57:318][412]LogBlueprintUserMessages: 946.567627
+[2014.12.08-03.11.57:341][413]LogBlueprintUserMessages: 991.277344
+[2014.12.08-03.11.57:363][414]LogBlueprintUserMessages: 1035.614868
+[2014.12.08-03.11.57:382][415]LogBlueprintUserMessages: 1076.262329
+[2014.12.08-03.11.57:404][416]LogBlueprintUserMessages: 1121.195679
+[2014.12.08-03.11.57:427][417]LogBlueprintUserMessages: 1169.626953
+[2014.12.08-03.11.57:448][418]LogBlueprintUserMessages: 1212.359619
+[2014.12.08-03.11.57:469][419]LogBlueprintUserMessages: 1259.945923
+[2014.12.08-03.11.57:491][420]LogBlueprintUserMessages: 1305.645874
+[2014.12.08-03.11.57:512][421]LogBlueprintUserMessages: 1353.224487
+[2014.12.08-03.11.57:534][422]LogBlueprintUserMessages: 1400.196045
+[2014.12.08-03.11.57:554][423]LogBlueprintUserMessages: 1445.701172
+[2014.12.08-03.11.57:577][424]LogBlueprintUserMessages: 1496.982666
+[2014.12.08-03.11.57:596][425]LogBlueprintUserMessages: 1540.408203
+[2014.12.08-03.11.57:618][426]LogBlueprintUserMessages: Ouch
+[2014.12.08-03.11.57:618][426]LogBlueprintUserMessages: 1558.220703
+[2014.12.08-03.11.57:640][427]LogBlueprintUserMessages: 1562.799927
+[2014.12.08-03.11.57:664][428]LogBlueprintUserMessages: 1563.838501
+[2014.12.08-03.11.57:685][429]LogBlueprintUserMessages: 1562.465942
+[2014.12.08-03.11.57:709][430]LogBlueprintUserMessages: 1558.359253
+[2014.12.08-03.11.57:730][431]LogBlueprintUserMessages: 1552.12207
+[2014.12.08-03.11.57:751][432]LogBlueprintUserMessages: 1543.961182
+[2014.12.08-03.11.57:771][433]LogBlueprintUserMessages: 1534.290161
+[2014.12.08-03.11.57:793][434]LogBlueprintUserMessages: 1520.588989
+[2014.12.08-03.11.57:813][435]LogBlueprintUserMessages: 1506.493286
+[2014.12.08-03.11.57:834][436]LogBlueprintUserMessages: 1489.409912
+[2014.12.08-03.11.57:858][437]LogBlueprintUserMessages: 1475.239014
+[2014.12.08-03.11.57:879][438]LogBlueprintUserMessages: 1465.866333
+[2014.12.08-03.11.57:901][439]LogBlueprintUserMessages: 1459.567261
+[2014.12.08-03.11.57:921][440]LogBlueprintUserMessages: 1456.057617
+[2014.12.08-03.11.57:944][441]LogBlueprintUserMessages: 1454.668457
+[2014.12.08-03.11.57:966][442]LogBlueprintUserMessages: 1455.463379
+[2014.12.08-03.11.57:986][443]LogBlueprintUserMessages: 1457.744019
+[2014.12.08-03.11.58:007][444]LogBlueprintUserMessages: 1461.741455
+[2014.12.08-03.11.58:028][445]LogBlueprintUserMessages: 1467.006348
+[2014.12.08-03.11.58:050][446]LogBlueprintUserMessages: 1473.449585
+[2014.12.08-03.11.58:072][447]LogBlueprintUserMessages: 1480.919434
+[2014.12.08-03.11.58:094][448]LogBlueprintUserMessages: 1487.906982
+[2014.12.08-03.11.58:115][449]LogBlueprintUserMessages: 1494.963867
+[2014.12.08-03.11.58:135][450]LogBlueprintUserMessages: 1501.290405
+[2014.12.08-03.11.58:157][451]LogBlueprintUserMessages: 1508.580078
+[2014.12.08-03.11.58:180][452]LogBlueprintUserMessages: 1516.001709
+[2014.12.08-03.11.58:200][453]LogBlueprintUserMessages: 1522.489868
+[2014.12.08-03.11.58:221][454]LogBlueprintUserMessages: 1529.333374
+[2014.12.08-03.11.58:241][455]LogBlueprintUserMessages: 1535.852173
+[2014.12.08-03.11.58:264][456]LogBlueprintUserMessages: 1543.773315
+[2014.12.08-03.11.58:285][457]LogBlueprintUserMessages: 1550.697876
+[2014.12.08-03.11.58:305][458]LogBlueprintUserMessages: 1557.318726
+[2014.12.08-03.11.58:328][459]LogBlueprintUserMessages: 1564.885864
+[2014.12.08-03.11.58:348][460]LogBlueprintUserMessages: 1571.446289
+[2014.12.08-03.11.58:370][461]LogBlueprintUserMessages: 1578.588013
+[2014.12.08-03.11.58:391][462]LogBlueprintUserMessages: 1585.782715
+[2014.12.08-03.11.58:412][463]LogBlueprintUserMessages: 1592.831299
+[2014.12.08-03.11.58:434][464]LogBlueprintUserMessages: 1599.700684
+[2014.12.08-03.11.58:455][465]LogBlueprintUserMessages: 1606.786987
+[2014.12.08-03.11.58:480][466]LogBlueprintUserMessages: 1614.668945
+[2014.12.08-03.11.58:501][467]LogBlueprintUserMessages: 1621.522827
+[2014.12.08-03.11.58:520][468]LogBlueprintUserMessages: 1628.176392
+[2014.12.08-03.11.58:542][469]LogBlueprintUserMessages: 1635.501831
+[2014.12.08-03.11.58:954][471]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003230EA4900
+[2014.12.08-03.14.16:022][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3DLevel_Blueprints/Thug_Patrol_Blueprint" FILE="../../../../../../GIT/404/Claudia/Content/3DLevel_Blueprints/Thug_Patrol_Blueprint.uasset" SILENT=true
+[2014.12.08-03.14.16:452][864]LogSavePackage: Save=392.865967ms
+[2014.12.08-03.14.16:452][864]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/Thug_Patrol_Blueprint7319E7E8495B7E4FD56BA0B2816FFCD3.tmp' to '../../../../../../GIT/404/Claudia/Content/3DLevel_Blueprints/Thug_Patrol_Blueprint.uasset'
+[2014.12.08-03.15.28:002][174]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.08-03.15.28:002][174]LogPlayLevel: [PIE] Compiling greybox before PIE...
+[2014.12.08-03.15.28:084][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.08-03.15.28:084][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.08-03.15.28:153][174]LogPlayLevel: PIE:  Blueprint regeneration took 151 ms (1 blueprints)
+[2014.12.08-03.15.28:154][174]PIE: New page: PIE session: greybox (9 Dec 2014 1:15:28 am)
+[2014.12.08-03.15.28:310][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155802s)
+[2014.12.08-03.15.28:310][174]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2014.12.08-03.15.28:311][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/greybox.greybox to /Game/Maps/UEDPIE_0_greybox.greybox (0.157511s)
+[2014.12.08-03.15.28:347][174]LogWorld: Game class is 'ClaudiaGameMode_Blueprint_C'
+[2014.12.08-03.15.28:348][174]LogAIModule: Creating AISystem for world greybox
+[2014.12.08-03.15.28:498][174]LogWorld: Bringing World /Game/Maps/UEDPIE_0_greybox.greybox up for play (max tick rate 60) at 2014.12.08-14.15.28
+[2014.12.08-03.15.28:548][174]LogWorld: Bringing up level for play took: 0.199904
+[2014.12.08-03.15.28:562][174]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_greybox 1.167
+[2014.12.08-03.15.28:584][174]LogBlueprintUserMessages: 590.03302
+[2014.12.08-03.15.28:706][175]LogBlueprintUserMessages: 202.561081
+[2014.12.08-03.15.28:749][176]LogBlueprintUserMessages: 216.353439
+[2014.12.08-03.15.28:782][177]LogBlueprintUserMessages: 227.029755
+[2014.12.08-03.15.28:814][178]LogBlueprintUserMessages: 237.414078
+[2014.12.08-03.15.28:840][179]LogBlueprintUserMessages: 245.554504
+[2014.12.08-03.15.28:865][180]LogBlueprintUserMessages: 254.353027
+[2014.12.08-03.15.28:892][181]LogBlueprintUserMessages: 262.736755
+[2014.12.08-03.15.28:920][182]LogBlueprintUserMessages: 271.92395
+[2014.12.08-03.15.28:947][183]LogBlueprintUserMessages: 280.855713
+[2014.12.08-03.15.28:973][184]LogBlueprintUserMessages: 289.488037
+[2014.12.08-03.15.28:995][185]LogBlueprintUserMessages: 296.979248
+[2014.12.08-03.15.29:021][186]LogBlueprintUserMessages: 305.19043
+[2014.12.08-03.15.29:044][187]LogBlueprintUserMessages: 313.161438
+[2014.12.08-03.15.29:070][188]LogBlueprintUserMessages: 321.723145
+[2014.12.08-03.15.29:096][189]LogBlueprintUserMessages: 330.030975
+[2014.12.08-03.15.29:125][190]LogBlueprintUserMessages: 339.273041
+[2014.12.08-03.15.29:152][191]LogBlueprintUserMessages: 348.509125
+[2014.12.08-03.15.29:176][192]LogBlueprintUserMessages: 356.819794
+[2014.12.08-03.15.29:211][193]LogBlueprintUserMessages: 365.550903
+[2014.12.08-03.15.29:234][194]LogBlueprintUserMessages: 375.540314
+[2014.12.08-03.15.29:260][195]LogBlueprintUserMessages: 384.439789
+[2014.12.08-03.15.29:289][196]LogBlueprintUserMessages: 393.335083
+[2014.12.08-03.15.29:312][197]LogBlueprintUserMessages: 401.463379
+[2014.12.08-03.15.29:336][198]LogBlueprintUserMessages: 409.534729
+[2014.12.08-03.15.29:361][199]LogBlueprintUserMessages: 417.650146
+[2014.12.08-03.15.29:385][200]LogBlueprintUserMessages: 425.547089
+[2014.12.08-03.15.29:418][201]LogBlueprintUserMessages: 430.957855
+[2014.12.08-03.15.29:444][202]LogBlueprintUserMessages: 432.007202
+[2014.12.08-03.15.29:468][203]LogBlueprintUserMessages: 430.293091
+[2014.12.08-03.15.29:500][204]LogBlueprintUserMessages: 422.88028
+[2014.12.08-03.15.29:532][205]LogBlueprintUserMessages: 409.316071
+[2014.12.08-03.15.29:552][206]LogBlueprintUserMessages: 399.297943
+[2014.12.08-03.15.29:575][207]LogBlueprintUserMessages: 386.264984
+[2014.12.08-03.15.29:598][208]LogBlueprintUserMessages: 376.219147
+[2014.12.08-03.15.29:624][209]LogBlueprintUserMessages: 369.489014
+[2014.12.08-03.15.29:660][210]LogBlueprintUserMessages: 367.127594
+[2014.12.08-03.15.29:681][211]LogBlueprintUserMessages: 367.761993
+[2014.12.08-03.15.29:705][212]LogBlueprintUserMessages: 370.69342
+[2014.12.08-03.15.29:729][213]LogBlueprintUserMessages: 375.380737
+[2014.12.08-03.15.29:758][214]LogBlueprintUserMessages: 382.096771
+[2014.12.08-03.15.29:795][215]LogBlueprintUserMessages: 396.043671
+[2014.12.08-03.15.29:814][216]LogBlueprintUserMessages: 400.464355
+[2014.12.08-03.15.29:838][217]LogBlueprintUserMessages: 403.217407
+[2014.12.08-03.15.29:862][218]LogBlueprintUserMessages: 403.216919
+[2014.12.08-03.15.29:887][219]LogBlueprintUserMessages: 400.044617
+[2014.12.08-03.15.29:912][220]LogBlueprintUserMessages: 393.891449
+[2014.12.08-03.15.29:935][221]LogBlueprintUserMessages: 385.203552
+[2014.12.08-03.15.29:958][222]LogBlueprintUserMessages: 374.458893
+[2014.12.08-03.15.29:982][223]LogBlueprintUserMessages: 360.110779
+[2014.12.08-03.15.30:005][224]LogBlueprintUserMessages: 343.12738
+[2014.12.08-03.15.30:029][225]LogBlueprintUserMessages: 323.346924
+[2014.12.08-03.15.30:054][226]LogBlueprintUserMessages: 300.105408
+[2014.12.08-03.15.30:077][227]LogBlueprintUserMessages: 275.416901
+[2014.12.08-03.15.30:104][228]LogBlueprintUserMessages: 241.213562
+[2014.12.08-03.15.30:130][229]LogBlueprintUserMessages: 218.019135
+[2014.12.08-03.15.30:153][230]LogBlueprintUserMessages: 201.239532
+[2014.12.08-03.15.30:179][231]LogBlueprintUserMessages: 188.895874
+[2014.12.08-03.15.30:200][232]LogBlueprintUserMessages: 174.116684
+[2014.12.08-03.15.30:224][233]LogBlueprintUserMessages: 165.168457
+[2014.12.08-03.15.30:261][234]LogBlueprintUserMessages: 165.003891
+[2014.12.08-03.15.30:281][235]LogBlueprintUserMessages: 164.390427
+[2014.12.08-03.15.30:315][236]LogBlueprintUserMessages: 164.364624
+[2014.12.08-03.15.30:378][237]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:406][238]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:426][239]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:448][240]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:490][241]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:523][242]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:541][243]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:564][244]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:586][245]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:608][246]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:641][247]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:662][248]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:681][249]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:703][250]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:730][251]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:759][252]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:784][253]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:807][254]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:831][255]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:852][256]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:874][257]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:897][258]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:918][259]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:940][260]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:961][261]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.30:992][262]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:010][263]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:030][264]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:052][265]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:074][266]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:100][267]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:121][268]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:141][269]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:164][270]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:184][271]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:221][272]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:240][273]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:266][274]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:288][275]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:310][276]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:333][277]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:354][278]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:376][279]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:400][280]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:420][281]LogBlueprintUserMessages: 164.328598
+[2014.12.08-03.15.31:443][282]LogBlueprintUserMessages: 164.319839
+[2014.12.08-03.15.31:465][283]LogBlueprintUserMessages: 164.310104
+[2014.12.08-03.15.31:487][284]LogBlueprintUserMessages: 164.301819
+[2014.12.08-03.15.31:513][285]LogBlueprintUserMessages: 164.289169
+[2014.12.08-03.15.31:535][286]LogBlueprintUserMessages: 164.280396
+[2014.12.08-03.15.31:556][287]LogBlueprintUserMessages: 164.27066
+[2014.12.08-03.15.31:579][288]LogBlueprintUserMessages: 164.261414
+[2014.12.08-03.15.31:601][289]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:623][290]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:643][291]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:666][292]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:687][293]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:718][294]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:740][295]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:761][296]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:790][297]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:812][298]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:831][299]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:852][300]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:872][301]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:911][302]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:930][303]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:955][304]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.31:977][305]LogBlueprintUserMessages: 164.252655
+[2014.12.08-03.15.32:001][306]LogBlueprintUserMessages: 164.243881
+[2014.12.08-03.15.32:045][307]LogBlueprintUserMessages: 164.205429
+[2014.12.08-03.15.32:066][308]LogBlueprintUserMessages: 164.19812
+[2014.12.08-03.15.32:085][309]LogBlueprintUserMessages: 164.190826
+[2014.12.08-03.15.32:109][310]LogBlueprintUserMessages: 164.181564
+[2014.12.08-03.15.32:130][311]LogBlueprintUserMessages: 164.27066
+[2014.12.08-03.15.32:167][312]LogBlueprintUserMessages: 164.252701
+[2014.12.08-03.15.32:186][313]LogBlueprintUserMessages: 164.216492
+[2014.12.08-03.15.32:214][314]LogBlueprintUserMessages: 164.221085
+[2014.12.08-03.15.32:238][315]LogBlueprintUserMessages: 164.168732
+[2014.12.08-03.15.32:259][316]LogBlueprintUserMessages: 164.19136
+[2014.12.08-03.15.32:282][317]LogBlueprintUserMessages: 164.180649
+[2014.12.08-03.15.32:305][318]LogBlueprintUserMessages: 164.270233
+[2014.12.08-03.15.32:326][319]LogBlueprintUserMessages: 164.261963
+[2014.12.08-03.15.32:350][320]LogBlueprintUserMessages: 164.25174
+[2014.12.08-03.15.32:372][321]LogBlueprintUserMessages: 164.243454
+[2014.12.08-03.15.32:394][322]LogBlueprintUserMessages: 164.234207
+[2014.12.08-03.15.32:417][323]LogBlueprintUserMessages: 164.224472
+[2014.12.08-03.15.32:439][324]LogBlueprintUserMessages: 164.216202
+[2014.12.08-03.15.32:468][325]LogBlueprintUserMessages: 164.198669
+[2014.12.08-03.15.32:489][326]LogBlueprintUserMessages: 164.190872
+[2014.12.08-03.15.32:511][327]LogBlueprintUserMessages: 164.181625
+[2014.12.08-03.15.32:535][328]LogBlueprintUserMessages: 164.270721
+[2014.12.08-03.15.32:557][329]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:579][330]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:599][331]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:620][332]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:644][333]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:662][334]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:684][335]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:718][336]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:739][337]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:761][338]LogBlueprintUserMessages: 164.262451
+[2014.12.08-03.15.32:782][339]LogBlueprintUserMessages: 171.208069
+[2014.12.08-03.15.32:805][340]LogBlueprintUserMessages: 188.77562
+[2014.12.08-03.15.32:825][341]LogBlueprintUserMessages: 211.343033
+[2014.12.08-03.15.32:849][342]LogBlueprintUserMessages: 250.48967
+[2014.12.08-03.15.32:871][343]LogBlueprintUserMessages: 285.568909
+[2014.12.08-03.15.32:892][344]LogBlueprintUserMessages: 319.141388
+[2014.12.08-03.15.32:918][345]LogBlueprintUserMessages: 354.136017
+[2014.12.08-03.15.32:935][346]LogBlueprintUserMessages: 386.650146
+[2014.12.08-03.15.32:957][347]LogBlueprintUserMessages: 420.332855
+[2014.12.08-03.15.32:978][348]LogBlueprintUserMessages: 451.300568
+[2014.12.08-03.15.33:000][349]LogBlueprintUserMessages: 481.526428
+[2014.12.08-03.15.33:023][350]LogBlueprintUserMessages: 480.218811
+[2014.12.08-03.15.33:043][351]LogBlueprintUserMessages: 477.109161
+[2014.12.08-03.15.33:066][352]LogBlueprintUserMessages: 471.996124
+[2014.12.08-03.15.33:092][353]LogBlueprintUserMessages: 465.901398
+[2014.12.08-03.15.33:111][354]LogBlueprintUserMessages: 458.418488
+[2014.12.08-03.15.33:131][355]LogBlueprintUserMessages: 452.177826
+[2014.12.08-03.15.33:154][356]LogBlueprintUserMessages: 443.893585
+[2014.12.08-03.15.33:176][357]LogBlueprintUserMessages: 434.655945
+[2014.12.08-03.15.33:204][358]LogBlueprintUserMessages: 420.93924
+[2014.12.08-03.15.33:224][359]LogBlueprintUserMessages: 409.691711
+[2014.12.08-03.15.33:245][360]LogBlueprintUserMessages: 396.729004
+[2014.12.08-03.15.33:266][361]LogBlueprintUserMessages: 383.520508
+[2014.12.08-03.15.33:288][362]LogBlueprintUserMessages: 369.130432
+[2014.12.08-03.15.33:309][363]LogBlueprintUserMessages: 354.91629
+[2014.12.08-03.15.33:330][364]LogBlueprintUserMessages: 341.118439
+[2014.12.08-03.15.33:354][365]LogBlueprintUserMessages: 326.544464
+[2014.12.08-03.15.33:375][366]LogBlueprintUserMessages: 315.221313
+[2014.12.08-03.15.33:396][367]LogBlueprintUserMessages: 305.559814
+[2014.12.08-03.15.33:418][368]LogBlueprintUserMessages: 299.157196
+[2014.12.08-03.15.33:443][369]LogBlueprintUserMessages: 297.164429
+[2014.12.08-03.15.33:465][370]LogBlueprintUserMessages: 300.802155
+[2014.12.08-03.15.33:487][371]LogBlueprintUserMessages: 309.594818
+[2014.12.08-03.15.33:508][372]LogBlueprintUserMessages: 322.799286
+[2014.12.08-03.15.33:530][373]LogBlueprintUserMessages: 340.217133
+[2014.12.08-03.15.33:552][374]LogBlueprintUserMessages: 360.888763
+[2014.12.08-03.15.33:573][375]LogBlueprintUserMessages: 384.94397
+[2014.12.08-03.15.33:593][376]LogBlueprintUserMessages: 409.749786
+[2014.12.08-03.15.33:615][377]LogBlueprintUserMessages: 439.596375
+[2014.12.08-03.15.33:640][378]LogBlueprintUserMessages: 473.88205
+[2014.12.08-03.15.33:661][379]LogBlueprintUserMessages: 505.655487
+[2014.12.08-03.15.33:682][380]LogBlueprintUserMessages: 541.20575
+[2014.12.08-03.15.33:704][381]LogBlueprintUserMessages: 576.987549
+[2014.12.08-03.15.33:728][382]LogBlueprintUserMessages: 615.706055
+[2014.12.08-03.15.33:750][383]LogBlueprintUserMessages: 652.441589
+[2014.12.08-03.15.33:771][384]LogBlueprintUserMessages: 681.634216
+[2014.12.08-03.15.33:793][385]LogBlueprintUserMessages: 705.9823
+[2014.12.08-03.15.33:813][386]LogBlueprintUserMessages: 723.797974
+[2014.12.08-03.15.33:835][387]LogBlueprintUserMessages: 738.914368
+[2014.12.08-03.15.33:858][388]LogBlueprintUserMessages: 750.198425
+[2014.12.08-03.15.33:878][389]LogBlueprintUserMessages: 757.377625
+[2014.12.08-03.15.33:900][390]LogBlueprintUserMessages: 762.138184
+[2014.12.08-03.15.33:921][391]LogBlueprintUserMessages: 764.331299
+[2014.12.08-03.15.33:945][392]LogBlueprintUserMessages: 764.106689
+[2014.12.08-03.15.33:967][393]LogBlueprintUserMessages: 762.136719
+[2014.12.08-03.15.33:987][394]LogBlueprintUserMessages: 758.687988
+[2014.12.08-03.15.34:009][395]LogBlueprintUserMessages: 753.826294
+[2014.12.08-03.15.34:029][396]LogBlueprintUserMessages: 748.095215
+[2014.12.08-03.15.34:051][397]LogBlueprintUserMessages: 740.824219
+[2014.12.08-03.15.34:073][398]LogBlueprintUserMessages: 733.603149
+[2014.12.08-03.15.34:092][399]LogBlueprintUserMessages: 726.972717
+[2014.12.08-03.15.34:115][400]LogBlueprintUserMessages: 719.902527
+[2014.12.08-03.15.34:136][401]LogBlueprintUserMessages: 712.979797
+[2014.12.08-03.15.34:157][402]LogBlueprintUserMessages: 705.833923
+[2014.12.08-03.15.34:178][403]LogBlueprintUserMessages: 698.9776
+[2014.12.08-03.15.34:198][404]LogBlueprintUserMessages: 692.312134
+[2014.12.08-03.15.34:221][405]LogBlueprintUserMessages: 684.859741
+[2014.12.08-03.15.34:241][406]LogBlueprintUserMessages: 678.180725
+[2014.12.08-03.15.34:263][407]LogBlueprintUserMessages: 671.008118
+[2014.12.08-03.15.34:285][408]LogBlueprintUserMessages: 663.783813
+[2014.12.08-03.15.34:306][409]LogBlueprintUserMessages: 656.82019
+[2014.12.08-03.15.34:328][410]LogBlueprintUserMessages: 649.639404
+[2014.12.08-03.15.34:348][411]LogBlueprintUserMessages: 643.072266
+[2014.12.08-03.15.34:370][412]LogBlueprintUserMessages: 635.667419
+[2014.12.08-03.15.34:392][413]LogBlueprintUserMessages: 628.275818
+[2014.12.08-03.15.34:413][414]LogBlueprintUserMessages: 621.623352
+[2014.12.08-03.15.34:434][415]LogBlueprintUserMessages: 614.387512
+[2014.12.08-03.15.34:457][416]LogBlueprintUserMessages: 606.893982
+[2014.12.08-03.15.34:480][417]LogBlueprintUserMessages: 599.634766
+[2014.12.08-03.15.34:502][418]LogBlueprintUserMessages: 592.204773
+[2014.12.08-03.15.34:524][419]LogBlueprintUserMessages: 585.277649
+[2014.12.08-03.15.34:545][420]LogBlueprintUserMessages: 578.143555
+[2014.12.08-03.15.34:565][421]LogBlueprintUserMessages: 571.502991
+[2014.12.08-03.15.34:587][422]LogBlueprintUserMessages: 564.076111
+[2014.12.08-03.15.34:610][423]LogBlueprintUserMessages: 556.803467
+[2014.12.08-03.15.34:630][424]LogBlueprintUserMessages: 550.150879
+[2014.12.08-03.15.34:652][425]LogBlueprintUserMessages: 542.930603
+[2014.12.08-03.15.34:673][426]LogBlueprintUserMessages: 536.031616
+[2014.12.08-03.15.34:699][427]LogBlueprintUserMessages: 527.149292
+[2014.12.08-03.15.34:722][428]LogBlueprintUserMessages: 519.703186
+[2014.12.08-03.15.34:743][429]LogBlueprintUserMessages: 513.002991
+[2014.12.08-03.15.34:764][430]LogBlueprintUserMessages: 505.866943
+[2014.12.08-03.15.34:784][431]LogBlueprintUserMessages: 499.277679
+[2014.12.08-03.15.34:808][432]LogBlueprintUserMessages: 489.341919
+[2014.12.08-03.15.34:828][433]LogBlueprintUserMessages: 477.383514
+[2014.12.08-03.15.34:848][434]LogBlueprintUserMessages: 464.333435
+[2014.12.08-03.15.34:872][435]LogBlueprintUserMessages: 446.60379
+[2014.12.08-03.15.34:892][436]LogBlueprintUserMessages: 428.837585
+[2014.12.08-03.15.34:914][437]LogBlueprintUserMessages: 407.39505
+[2014.12.08-03.15.34:937][438]LogBlueprintUserMessages: 382.672089
+[2014.12.08-03.15.34:958][439]LogBlueprintUserMessages: 356.898773
+[2014.12.08-03.15.34:981][440]LogBlueprintUserMessages: 327.450714
+[2014.12.08-03.15.35:002][441]LogBlueprintUserMessages: 298.61734
+[2014.12.08-03.15.35:026][442]LogBlueprintUserMessages: 261.765594
+[2014.12.08-03.15.35:049][443]LogBlueprintUserMessages: 225.057556
+[2014.12.08-03.15.35:068][444]LogBlueprintUserMessages: 189.102295
+[2014.12.08-03.15.35:093][445]LogBlueprintUserMessages: 165.159515
+[2014.12.08-03.15.35:113][446]LogBlueprintUserMessages: 165.070908
+[2014.12.08-03.15.35:134][447]LogBlueprintUserMessages: 164.41655
+[2014.12.08-03.15.35:157][448]LogBlueprintUserMessages: 164.404861
+[2014.12.08-03.15.35:177][449]LogBlueprintUserMessages: 164.368835
+[2014.12.08-03.15.35:201][450]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:222][451]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:243][452]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:263][453]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:283][454]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:305][455]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:326][456]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:346][457]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:368][458]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:389][459]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:410][460]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:430][461]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:452][462]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:475][463]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:495][464]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:516][465]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:537][466]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:558][467]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:579][468]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:599][469]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:620][470]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:642][471]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:663][472]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:683][473]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:703][474]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:728][475]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:748][476]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:769][477]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:791][478]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:810][479]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:832][480]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:851][481]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:873][482]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:894][483]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:914][484]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:935][485]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:955][486]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:977][487]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.35:999][488]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:018][489]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:039][490]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:060][491]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:080][492]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:101][493]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:121][494]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:143][495]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:163][496]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:183][497]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:206][498]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:226][499]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:248][500]LogBlueprintUserMessages: 164.358124
+[2014.12.08-03.15.36:269][501]LogBlueprintUserMessages: 166.38649
+[2014.12.08-03.15.36:290][502]LogBlueprintUserMessages: 170.924744
+[2014.12.08-03.15.36:312][503]LogBlueprintUserMessages: 178.161942
+[2014.12.08-03.15.36:333][504]LogBlueprintUserMessages: 186.964447
+[2014.12.08-03.15.36:355][505]LogBlueprintUserMessages: 198.504532
+[2014.12.08-03.15.36:376][506]LogBlueprintUserMessages: 212.080811
+[2014.12.08-03.15.36:399][507]LogBlueprintUserMessages: 214.198257
+[2014.12.08-03.15.36:421][508]LogBlueprintUserMessages: 226.209106
+[2014.12.08-03.15.36:446][509]LogBlueprintUserMessages: 234.48497
+[2014.12.08-03.15.36:492][510]LogBlueprintUserMessages: 241.8927
+[2014.12.08-03.15.36:510][511]LogBlueprintUserMessages: 244.404953
+[2014.12.08-03.15.36:531][512]LogBlueprintUserMessages: 248.924179
+[2014.12.08-03.15.36:557][513]LogBlueprintUserMessages: 254.548325
+[2014.12.08-03.15.36:576][514]LogBlueprintUserMessages: 256.399597
+[2014.12.08-03.15.36:606][515]LogBlueprintUserMessages: 268.341797
+[2014.12.08-03.15.36:625][516]LogBlueprintUserMessages: 284.414246
+[2014.12.08-03.15.36:648][517]LogBlueprintUserMessages: 310.316193
+[2014.12.08-03.15.36:671][518]LogBlueprintUserMessages: 340.06311
+[2014.12.08-03.15.36:695][519]LogBlueprintUserMessages: 372.178955
+[2014.12.08-03.15.36:716][520]LogBlueprintUserMessages: 404.500122
+[2014.12.08-03.15.36:737][521]LogBlueprintUserMessages: 435.630371
+[2014.12.08-03.15.36:761][522]LogBlueprintUserMessages: 471.728119
+[2014.12.08-03.15.36:783][523]LogBlueprintUserMessages: 506.100403
+[2014.12.08-03.15.36:804][524]LogBlueprintUserMessages: 537.540283
+[2014.12.08-03.15.36:828][525]LogBlueprintUserMessages: 571.699829
+[2014.12.08-03.15.36:847][526]LogBlueprintUserMessages: 601.149963
+[2014.12.08-03.15.36:870][527]LogBlueprintUserMessages: 632.310303
+[2014.12.08-03.15.36:892][528]LogBlueprintUserMessages: 662.712402
+[2014.12.08-03.15.36:914][529]LogBlueprintUserMessages: 689.383545
+[2014.12.08-03.15.36:935][530]LogBlueprintUserMessages: 715.541443
+[2014.12.08-03.15.36:956][531]LogBlueprintUserMessages: 737.978271
+[2014.12.08-03.15.36:979][532]LogBlueprintUserMessages: 762.557312
+[2014.12.08-03.15.37:001][533]LogBlueprintUserMessages: 783.953491
+[2014.12.08-03.15.37:021][534]LogBlueprintUserMessages: 802.431763
+[2014.12.08-03.15.37:044][535]LogBlueprintUserMessages: 821.547913
+[2014.12.08-03.15.37:065][536]LogBlueprintUserMessages: 837.624634
+[2014.12.08-03.15.37:086][537]LogBlueprintUserMessages: 853.16748
+[2014.12.08-03.15.37:109][538]LogBlueprintUserMessages: 868.296631
+[2014.12.08-03.15.37:130][539]LogBlueprintUserMessages: 881.126282
+[2014.12.08-03.15.37:151][540]LogBlueprintUserMessages: 893.373474
+[2014.12.08-03.15.37:170][541]LogBlueprintUserMessages: End
+[2014.12.08-03.15.37:172][541]LogBlueprintUserMessages: 903.709167
+[2014.12.08-03.15.37:194][542]LogBlueprintUserMessages: End
+[2014.12.08-03.15.37:195][542]LogBlueprintUserMessages: 914.93927
+[2014.12.08-03.15.37:216][543]LogBlueprintUserMessages: End
+[2014.12.08-03.15.37:217][543]LogBlueprintUserMessages: 924.734375
+[2014.12.08-03.15.37:236][544]LogBlueprintUserMessages: End
+[2014.12.08-03.15.37:237][544]LogBlueprintUserMessages: 935.812256
+[2014.12.08-03.15.37:257][545]LogBlueprintUserMessages: End
+[2014.12.08-03.15.37:258][545]LogBlueprintUserMessages: 947.03186
+[2014.12.08-03.15.37:278][546]LogBlueprintUserMessages: 956.806641
+[2014.12.08-03.15.37:299][547]LogBlueprintUserMessages: 965.968933
+[2014.12.08-03.15.37:321][548]LogBlueprintUserMessages: 974.119629
+[2014.12.08-03.15.37:340][549]LogBlueprintUserMessages: 981.159912
+[2014.12.08-03.15.37:363][550]LogBlueprintUserMessages: 988.78302
+[2014.12.08-03.15.37:382][551]LogBlueprintUserMessages: 997.641907
+[2014.12.08-03.15.37:403][552]LogBlueprintUserMessages: 1006.484863
+[2014.12.08-03.15.37:424][553]LogBlueprintUserMessages: 1014.389038
+[2014.12.08-03.15.37:445][554]LogBlueprintUserMessages: 1021.712219
+[2014.12.08-03.15.37:466][555]LogBlueprintUserMessages: 1028.044434
+[2014.12.08-03.15.37:485][556]LogBlueprintUserMessages: 1033.094482
+[2014.12.08-03.15.37:507][557]LogBlueprintUserMessages: 1038.117188
+[2014.12.08-03.15.37:529][558]LogBlueprintUserMessages: 1042.293457
+[2014.12.08-03.15.37:549][559]LogBlueprintUserMessages: 1045.210571
+[2014.12.08-03.15.37:571][560]LogBlueprintUserMessages: 1047.617065
+[2014.12.08-03.15.37:591][561]LogBlueprintUserMessages: 1049.055786
+[2014.12.08-03.15.37:613][562]LogBlueprintUserMessages: 1049.890991
+[2014.12.08-03.15.37:635][563]LogBlueprintUserMessages: 1049.815186
+[2014.12.08-03.15.37:654][564]LogBlueprintUserMessages: 1049.020508
+[2014.12.08-03.15.37:676][565]LogBlueprintUserMessages: 1047.382446
+[2014.12.08-03.15.37:696][566]LogBlueprintUserMessages: 1045.040283
+[2014.12.08-03.15.37:718][567]LogBlueprintUserMessages: 1041.753174
+[2014.12.08-03.15.37:740][568]LogBlueprintUserMessages: 1037.786621
+[2014.12.08-03.15.37:760][569]LogBlueprintUserMessages: 1033.314209
+[2014.12.08-03.15.37:782][570]LogBlueprintUserMessages: 1027.559814
+[2014.12.08-03.15.37:802][571]LogBlueprintUserMessages: 1021.690857
+[2014.12.08-03.15.37:824][572]LogBlueprintUserMessages: 1014.435181
+[2014.12.08-03.15.37:846][573]LogBlueprintUserMessages: 1006.196167
+[2014.12.08-03.15.37:866][574]LogBlueprintUserMessages: 998.353088
+[2014.12.08-03.15.37:888][575]LogBlueprintUserMessages: 989.059082
+[2014.12.08-03.15.37:907][576]LogBlueprintUserMessages: 980.100586
+[2014.12.08-03.15.37:929][577]LogBlueprintUserMessages: 969.340637
+[2014.12.08-03.15.37:950][578]LogBlueprintUserMessages: 958.100281
+[2014.12.08-03.15.37:970][579]LogBlueprintUserMessages: 947.249146
+[2014.12.08-03.15.37:991][580]LogBlueprintUserMessages: 934.516357
+[2014.12.08-03.15.38:013][581]LogBlueprintUserMessages: 921.727661
+[2014.12.08-03.15.38:035][582]LogBlueprintUserMessages: 907.371948
+[2014.12.08-03.15.38:057][583]LogBlueprintUserMessages: 892.2995
+[2014.12.08-03.15.38:079][584]LogBlueprintUserMessages: 877.276611
+[2014.12.08-03.15.38:101][585]LogBlueprintUserMessages: 861.828491
+[2014.12.08-03.15.38:122][586]LogBlueprintUserMessages: 846.552246
+[2014.12.08-03.15.38:145][587]LogBlueprintUserMessages: 829.306458
+[2014.12.08-03.15.38:168][588]LogBlueprintUserMessages: 812.063293
+[2014.12.08-03.15.38:188][589]LogBlueprintUserMessages: 796.216309
+[2014.12.08-03.15.38:214][590]LogBlueprintUserMessages: 776.281311
+[2014.12.08-03.15.38:234][591]LogBlueprintUserMessages: 759.514282
+[2014.12.08-03.15.38:258][592]LogBlueprintUserMessages: 740.880737
+[2014.12.08-03.15.38:278][593]LogBlueprintUserMessages: 720.799255
+[2014.12.08-03.15.38:299][594]LogBlueprintUserMessages: 701.176147
+[2014.12.08-03.15.38:321][595]LogBlueprintUserMessages: 678.578735
+[2014.12.08-03.15.38:342][596]LogBlueprintUserMessages: 656.823914
+[2014.12.08-03.15.38:364][597]LogBlueprintUserMessages: 631.092346
+[2014.12.08-03.15.38:386][598]LogBlueprintUserMessages: 605.733826
+[2014.12.08-03.15.38:406][599]LogBlueprintUserMessages: 580.330322
+[2014.12.08-03.15.38:427][600]LogBlueprintUserMessages: 552.716309
+[2014.12.08-03.15.38:449][601]LogBlueprintUserMessages: 524.068359
+[2014.12.08-03.15.38:470][602]LogBlueprintUserMessages: 494.628937
+[2014.12.08-03.15.38:491][603]LogBlueprintUserMessages: 464.327332
+[2014.12.08-03.15.38:515][604]LogBlueprintUserMessages: 429.152679
+[2014.12.08-03.15.38:536][605]LogBlueprintUserMessages: 400.640869
+[2014.12.08-03.15.38:557][606]LogBlueprintUserMessages: 372.477264
+[2014.12.08-03.15.38:579][607]LogBlueprintUserMessages: 342.733887
+[2014.12.08-03.15.38:602][608]LogBlueprintUserMessages: 314.851135
+[2014.12.08-03.15.38:623][609]LogBlueprintUserMessages: 288.234467
+[2014.12.08-03.15.38:645][610]LogBlueprintUserMessages: 257.254486
+[2014.12.08-03.15.38:665][611]LogBlueprintUserMessages: 225.729675
+[2014.12.08-03.15.38:696][612]LogBlueprintUserMessages: 175.094864
+[2014.12.08-03.15.38:719][613]LogBlueprintUserMessages: 165.083969
+[2014.12.08-03.15.38:740][614]LogBlueprintUserMessages: 165.043076
+[2014.12.08-03.15.38:761][615]LogBlueprintUserMessages: 172.474304
+[2014.12.08-03.15.38:782][616]LogBlueprintUserMessages: 188.517899
+[2014.12.08-03.15.38:804][617]LogBlueprintUserMessages: 211.881363
+[2014.12.08-03.15.38:826][618]LogBlueprintUserMessages: 248.400589
+[2014.12.08-03.15.38:846][619]LogBlueprintUserMessages: 278.296143
+[2014.12.08-03.15.38:869][620]LogBlueprintUserMessages: 311.356781
+[2014.12.08-03.15.38:890][621]LogBlueprintUserMessages: 341.308929
+[2014.12.08-03.15.38:912][622]LogBlueprintUserMessages: 372.517242
+[2014.12.08-03.15.38:942][623]LogBlueprintUserMessages: 412.058777
+[2014.12.08-03.15.38:962][624]LogBlueprintUserMessages: 439.709045
+[2014.12.08-03.15.38:985][625]LogBlueprintUserMessages: 461.955078
+[2014.12.08-03.15.39:005][626]LogBlueprintUserMessages: 459.855225
+[2014.12.08-03.15.39:027][627]LogBlueprintUserMessages: 456.145081
+[2014.12.08-03.15.39:050][628]LogBlueprintUserMessages: 451.101563
+[2014.12.08-03.15.39:069][629]LogBlueprintUserMessages: 445.324799
+[2014.12.08-03.15.39:090][630]LogBlueprintUserMessages: 438.320038
+[2014.12.08-03.15.39:110][631]LogBlueprintUserMessages: 430.989136
+[2014.12.08-03.15.39:133][632]LogBlueprintUserMessages: 421.9375
+[2014.12.08-03.15.39:155][633]LogBlueprintUserMessages: 412.740021
+[2014.12.08-03.15.39:176][634]LogBlueprintUserMessages: 403.482422
+[2014.12.08-03.15.39:203][635]LogBlueprintUserMessages: 391.88504
+[2014.12.08-03.15.39:223][636]LogBlueprintUserMessages: 383.670441
+[2014.12.08-03.15.39:244][637]LogBlueprintUserMessages: 375.910217
+[2014.12.08-03.15.39:267][638]LogBlueprintUserMessages: 369.521027
+[2014.12.08-03.15.39:289][639]LogBlueprintUserMessages: 365.833038
+[2014.12.08-03.15.39:311][640]LogBlueprintUserMessages: 365.065826
+[2014.12.08-03.15.39:332][641]LogBlueprintUserMessages: 367.991425
+[2014.12.08-03.15.39:355][642]LogBlueprintUserMessages: 374.927307
+[2014.12.08-03.15.39:378][643]LogBlueprintUserMessages: 385.267914
+[2014.12.08-03.15.39:406][644]LogBlueprintUserMessages: 402.459808
+[2014.12.08-03.15.39:434][645]LogBlueprintUserMessages: 426.133484
+[2014.12.08-03.15.39:453][646]LogBlueprintUserMessages: 443.530304
+[2014.12.08-03.15.39:473][647]LogBlueprintUserMessages: 462.678925
+[2014.12.08-03.15.39:495][648]LogBlueprintUserMessages: 487.472107
+[2014.12.08-03.15.39:518][649]LogBlueprintUserMessages: 514.0672
+[2014.12.08-03.15.39:541][650]LogBlueprintUserMessages: 543.291748
+[2014.12.08-03.15.39:562][651]LogBlueprintUserMessages: 572.066223
+[2014.12.08-03.15.39:585][652]LogBlueprintUserMessages: 604.995483
+[2014.12.08-03.15.39:608][653]LogBlueprintUserMessages: 638.917175
+[2014.12.08-03.15.39:634][654]LogBlueprintUserMessages: 678.321716
+[2014.12.08-03.15.39:656][655]LogBlueprintUserMessages: 713.638306
+[2014.12.08-03.15.39:677][656]LogBlueprintUserMessages: 740.841858
+[2014.12.08-03.15.39:701][657]LogBlueprintUserMessages: 761.470337
+[2014.12.08-03.15.39:722][658]LogBlueprintUserMessages: 775.331238
+[2014.12.08-03.15.39:742][659]LogBlueprintUserMessages: 783.366882
+[2014.12.08-03.15.39:762][660]LogBlueprintUserMessages: 787.680786
+[2014.12.08-03.15.39:784][661]LogBlueprintUserMessages: 788.373108
+[2014.12.08-03.15.39:805][662]LogBlueprintUserMessages: 785.951965
+[2014.12.08-03.15.39:827][663]LogBlueprintUserMessages: 780.424866
+[2014.12.08-03.15.39:847][664]LogBlueprintUserMessages: 773.163574
+[2014.12.08-03.15.39:868][665]LogBlueprintUserMessages: 763.06781
+[2014.12.08-03.15.39:888][666]LogBlueprintUserMessages: 751.814453
+[2014.12.08-03.15.39:909][667]LogBlueprintUserMessages: 737.682617
+[2014.12.08-03.15.39:930][668]LogBlueprintUserMessages: 721.191895
+[2014.12.08-03.15.39:951][669]LogBlueprintUserMessages: 702.263672
+[2014.12.08-03.15.39:974][670]LogBlueprintUserMessages: 680.155945
+[2014.12.08-03.15.39:995][671]LogBlueprintUserMessages: 662.259644
+[2014.12.08-03.15.40:016][672]LogBlueprintUserMessages: 645.340393
+[2014.12.08-03.15.40:039][673]LogBlueprintUserMessages: 630.999878
+[2014.12.08-03.15.40:059][674]LogBlueprintUserMessages: 619.215149
+[2014.12.08-03.15.40:080][675]LogBlueprintUserMessages: 608.816406
+[2014.12.08-03.15.40:099][676]LogBlueprintUserMessages: 600.159546
+[2014.12.08-03.15.40:121][677]LogBlueprintUserMessages: 592.117859
+[2014.12.08-03.15.40:141][678]LogBlueprintUserMessages: 585.150208
+[2014.12.08-03.15.40:161][679]LogBlueprintUserMessages: 578.738586
+[2014.12.08-03.15.40:182][680]LogBlueprintUserMessages: 571.695862
+[2014.12.08-03.15.40:203][681]LogBlueprintUserMessages: 565.301392
+[2014.12.08-03.15.40:225][682]LogBlueprintUserMessages: 557.671448
+[2014.12.08-03.15.40:246][683]LogBlueprintUserMessages: 550.883606
+[2014.12.08-03.15.40:267][684]LogBlueprintUserMessages: 544.078735
+[2014.12.08-03.15.40:290][685]LogBlueprintUserMessages: 534.437317
+[2014.12.08-03.15.40:310][686]LogBlueprintUserMessages: 523.069397
+[2014.12.08-03.15.40:332][687]LogBlueprintUserMessages: 508.576569
+[2014.12.08-03.15.40:354][688]LogBlueprintUserMessages: 491.632629
+[2014.12.08-03.15.40:374][689]LogBlueprintUserMessages: 473.774384
+[2014.12.08-03.15.40:396][690]LogBlueprintUserMessages: 453.006073
+[2014.12.08-03.15.40:416][691]LogBlueprintUserMessages: 430.928497
+[2014.12.08-03.15.40:439][692]LogBlueprintUserMessages: 403.973816
+[2014.12.08-03.15.40:461][693]LogBlueprintUserMessages: 374.587616
+[2014.12.08-03.15.40:483][694]LogBlueprintUserMessages: 344.715118
+[2014.12.08-03.15.40:505][695]LogBlueprintUserMessages: 310.577454
+[2014.12.08-03.15.40:526][696]LogBlueprintUserMessages: 277.246429
+[2014.12.08-03.15.40:547][697]LogBlueprintUserMessages: 239.539917
+[2014.12.08-03.15.40:569][698]LogBlueprintUserMessages: 199.839767
+[2014.12.08-03.15.40:589][699]LogBlueprintUserMessages: 167.042816
+[2014.12.08-03.15.40:610][700]LogBlueprintUserMessages: 165.076736
+[2014.12.08-03.15.40:630][701]LogBlueprintUserMessages: 164.527054
+[2014.12.08-03.15.40:650][702]LogBlueprintUserMessages: 164.452072
+[2014.12.08-03.15.40:673][703]LogBlueprintUserMessages: 164.39949
+[2014.12.08-03.15.40:693][704]LogBlueprintUserMessages: 164.390732
+[2014.12.08-03.15.40:715][705]LogBlueprintUserMessages: 164.381973
+[2014.12.08-03.15.40:736][706]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:757][707]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:778][708]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:798][709]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:821][710]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:841][711]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:864][712]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:887][713]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:908][714]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:930][715]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:951][716]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:974][717]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.40:996][718]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:016][719]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:039][720]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:059][721]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:080][722]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:109][723]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:129][724]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:151][725]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:173][726]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:195][727]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:217][728]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:238][729]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:260][730]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:280][731]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:302][732]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:325][733]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:344][734]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:366][735]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:386][736]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:408][737]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:429][738]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:449][739]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:471][740]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:492][741]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:512][742]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:534][743]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:554][744]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:576][745]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:595][746]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:617][747]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:639][748]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:659][749]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:681][750]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:700][751]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:722][752]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:742][753]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:761][754]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:783][755]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:802][756]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:823][757]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:844][758]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:864][759]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:886][760]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:904][761]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:926][762]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:946][763]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:966][764]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.41:987][765]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:006][766]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:029][767]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:049][768]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:069][769]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:090][770]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:109][771]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:130][772]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:151][773]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:172][774]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:194][775]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:214][776]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:235][777]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:256][778]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:277][779]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:298][780]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:316][781]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:339][782]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:361][783]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:382][784]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:402][785]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:421][786]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:443][787]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:465][788]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:485][789]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:508][790]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:526][791]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:548][792]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:570][793]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:590][794]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:611][795]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:631][796]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:652][797]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:673][798]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:692][799]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:714][800]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:734][801]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:756][802]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:778][803]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:798][804]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:819][805]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:840][806]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:862][807]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:883][808]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:903][809]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:925][810]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:945][811]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:966][812]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.42:987][813]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:008][814]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:029][815]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:049][816]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:069][817]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:092][818]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:112][819]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:134][820]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:154][821]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:177][822]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:198][823]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:218][824]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:240][825]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:259][826]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:282][827]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:303][828]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:324][829]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:346][830]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:365][831]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:387][832]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:409][833]LogBlueprintUserMessages: 164.374176
+[2014.12.08-03.15.43:747][835]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003230EA5B20
+[2014.12.08-03.16.27:468][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:468][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:525][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:526][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:527][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:527][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.27:527][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.34:737][ 25]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.34:737][ 25]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.08-03.16.50:365][641]BlueprintLog: New page: Compile Thug_Patrol_Blueprint
+[2014.12.08-03.16.50:718][641]BlueprintEditorCompileResults: Info [0429.78] Compile of Thug_Patrol_Blueprint successful! [in 75 ms]
+[2014.12.08-03.16.54:644][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.08-03.16.55:833][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/greybox" FILE="../../../../../../GIT/404/Claudia/Content/Maps/greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.08-03.16.57:879][814]LogSavePackage: Save=1948.108154ms
+[2014.12.08-03.16.57:879][814]LogSavePackage: Moving '../../../../../../GIT/404/Claudia/Saved/greybox04406CF74F958249419CA880491C06F7.tmp' to '../../../../../../GIT/404/Claudia/Content/Maps/greybox.umap'
+[2014.12.08-03.16.58:084][814]LogFileHelpers: Saving map 'greybox' took 3.325
+[2014.12.08-03.17.02:867][828]Cmd: QUIT_EDITOR
+[2014.12.08-03.17.03:491][828]LogExit: Preparing to exit.
+[2014.12.08-03.17.05:509][828]LogExit: Editor shut down
+[2014.12.08-03.17.05:510][828]LogExit: Transaction tracking system shut down
+[2014.12.08-03.17.05:518][828]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003238D89300
+[2014.12.08-03.17.05:523][828]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003245897BA0
+[2014.12.08-03.17.05:523][828]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000323CDA0C20
+[2014.12.08-03.17.05:523][828]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000032487E8C20
+[2014.12.08-03.17.09:126][828]LogExit: Object subsystem successfully closed.
+[2014.12.08-03.17.09:776][828]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
+[2014.12.08-03.17.09:776][828]LogModuleManager: Shutting down and abandoning module CrashTracker (166)
+[2014.12.08-03.17.09:777][828]LogModuleManager: Shutting down and abandoning module SuperSearch (165)
+[2014.12.08-03.17.09:777][828]LogModuleManager: Shutting down and abandoning module SceneOutliner (164)
+[2014.12.08-03.17.09:777][828]LogModuleManager: Shutting down and abandoning module EditorWidgets (163)
+[2014.12.08-03.17.09:777][828]LogModuleManager: Shutting down and abandoning module CollectionManager (162)
+[2014.12.08-03.17.09:791][828]LogModuleManager: Shutting down and abandoning module StatsViewer (161)
+[2014.12.08-03.17.09:809][828]LogModuleManager: Shutting down and abandoning module FoliageEdit (160)
+[2014.12.08-03.17.09:827][828]LogModuleManager: Shutting down and abandoning module LandscapeEditor (159)
+[2014.12.08-03.17.09:854][828]LogModuleManager: Shutting down and abandoning module MeshPaint (158)
+[2014.12.08-03.17.09:879][828]LogModuleManager: Shutting down and abandoning module ActorPickerMode (157)
+[2014.12.08-03.17.09:880][828]LogModuleManager: Shutting down and abandoning module GeometryMode (156)
+[2014.12.08-03.17.09:880][828]LogModuleManager: Shutting down and abandoning module TextureAlignMode (155)
+[2014.12.08-03.17.09:880][828]LogModuleManager: Shutting down and abandoning module BspMode (154)
+[2014.12.08-03.17.09:880][828]LogModuleManager: Shutting down and abandoning module PlacementMode (153)
+[2014.12.08-03.17.09:880][828]LogModuleManager: Shutting down and abandoning module AutomationWorker (152)
+[2014.12.08-03.17.09:880][828]LogModuleManager: Shutting down and abandoning module CharacterAI (151)
+[2014.12.08-03.17.09:880][828]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (150)
+[2014.12.08-03.17.09:912][828]LogModuleManager: Shutting down and abandoning module IntroTutorials (149)
+[2014.12.08-03.17.09:955][828]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (148)
+[2014.12.08-03.17.09:955][828]LogModuleManager: Shutting down and abandoning module HardwareTargeting (147)
+[2014.12.08-03.17.09:955][828]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
+[2014.12.08-03.17.09:989][828]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.12.08-03.17.09:998][828]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.12.08-03.17.09:998][828]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.12.08-03.17.10:027][828]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.12.08-03.17.10:027][828]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.12.08-03.17.10:027][828]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.12.08-03.17.10:037][828]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (139)
+[2014.12.08-03.17.10:037][828]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (138)
+[2014.12.08-03.17.10:037][828]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.12.08-03.17.10:037][828]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.12.08-03.17.10:037][828]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (135)
+[2014.12.08-03.17.10:037][828]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (134)
+[2014.12.08-03.17.10:037][828]LogModuleManager: Shutting down and abandoning module InputBindingEditor (133)
+[2014.12.08-03.17.10:058][828]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (132)
+[2014.12.08-03.17.10:058][828]LogModuleManager: Shutting down and abandoning module SettingsEditor (131)
+[2014.12.08-03.17.10:080][828]LogModuleManager: Shutting down and abandoning module ProjectLauncher (130)
+[2014.12.08-03.17.10:092][828]LogModuleManager: Shutting down and abandoning module SessionFrontend (129)
+[2014.12.08-03.17.10:105][828]LogModuleManager: Shutting down and abandoning module ProfilerClient (128)
+[2014.12.08-03.17.10:128][828]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (127)
+[2014.12.08-03.17.10:128][828]LogModuleManager: Shutting down and abandoning module DeviceManager (126)
+[2014.12.08-03.17.10:144][828]LogModuleManager: Shutting down and abandoning module AutomationController (125)
+[2014.12.08-03.17.10:162][828]LogModuleManager: Shutting down and abandoning module AutomationWindow (124)
+[2014.12.08-03.17.10:186][828]LogModuleManager: Shutting down and abandoning module Layers (123)
+[2014.12.08-03.17.10:255][828]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (122)
+[2014.12.08-03.17.10:255][828]LogModuleManager: Shutting down and abandoning module DetailCustomizations (121)
+[2014.12.08-03.17.10:276][828]LogModuleManager: Shutting down and abandoning module PackagesDialog (120)
+[2014.12.08-03.17.10:293][828]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.12.08-03.17.10:341][828]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.12.08-03.17.10:380][828]LogModuleManager: Shutting down and abandoning module Kismet (117)
+[2014.12.08-03.17.10:393][828]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.12.08-03.17.10:393][828]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.12.08-03.17.10:393][828]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.12.08-03.17.10:393][828]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.12.08-03.17.10:407][828]LogModuleManager: Shutting down and abandoning module MovieSceneTools (112)
+[2014.12.08-03.17.10:540][828]LogModuleManager: Shutting down and abandoning module OutputLog (111)
+[2014.12.08-03.17.10:540][828]LogModuleManager: Shutting down and abandoning module GammaUI (110)
+[2014.12.08-03.17.10:557][828]LogModuleManager: Shutting down and abandoning module Documentation (109)
+[2014.12.08-03.17.10:557][828]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2014.12.08-03.17.10:565][828]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2014.12.08-03.17.10:565][828]LogModuleManager: Shutting down and abandoning module HTTP (106)
+[2014.12.08-03.17.10:565][828]LogModuleManager: Shutting down and abandoning module AnalyticsET (105)
+[2014.12.08-03.17.10:565][828]LogModuleManager: Shutting down and abandoning module Analytics (104)
+[2014.12.08-03.17.10:565][828]LogModuleManager: Shutting down and abandoning module GameplayDebugger (103)
+[2014.12.08-03.17.10:586][828]LogModuleManager: Shutting down and abandoning module AIModule (102)
+[2014.12.08-03.17.10:609][828]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2014.12.08-03.17.10:834][828]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2014.12.08-03.17.10:857][828]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2014.12.08-03.17.10:857][828]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (98)
+[2014.12.08-03.17.10:857][828]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2014.12.08-03.17.10:857][828]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2014.12.08-03.17.10:857][828]LogModuleManager: Shutting down and abandoning module MessagingDebugger (95)
+[2014.12.08-03.17.10:879][828]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (94)
+[2014.12.08-03.17.10:893][828]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (93)
+[2014.12.08-03.17.10:893][828]LogModuleManager: Shutting down and abandoning module PluginsEditor (92)
+[2014.12.08-03.17.10:911][828]LogModuleManager: Shutting down and abandoning module EpicSurvey (91)
+[2014.12.08-03.17.10:911][828]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2014.12.08-03.17.10:923][828]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (89)
+[2014.12.08-03.17.10:924][828]LogModuleManager: Shutting down and abandoning module UObjectPlugin (88)
+[2014.12.08-03.17.10:924][828]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (87)
+[2014.12.08-03.17.10:947][828]LogModuleManager: Shutting down and abandoning module SourceControl (86)
+[2014.12.08-03.17.10:947][828]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (85)
+[2014.12.08-03.17.10:973][828]LogModuleManager: Shutting down and abandoning module BlankPlugin (84)
+[2014.12.08-03.17.10:973][828]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.12.08-03.17.11:003][828]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2014.12.08-03.17.11:003][828]LogModuleManager: Shutting down and abandoning module HotReload (81)
+[2014.12.08-03.17.11:022][828]LogModuleManager: Shutting down and abandoning module MainFrame (80)
+[2014.12.08-03.17.11:022][828]LogModuleManager: Shutting down and abandoning module LevelEditor (79)
+[2014.12.08-03.17.11:023][828]LogModuleManager: Shutting down and abandoning module ViewportSnapping (78)
+[2014.12.08-03.17.11:023][828]LogModuleManager: Shutting down and abandoning module SmartSnapping (77)
+[2014.12.08-03.17.11:023][828]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (76)
+[2014.12.08-03.17.11:023][828]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (75)
+[2014.12.08-03.17.11:023][828]LogModuleManager: Shutting down and abandoning module ContentBrowser (74)
+[2014.12.08-03.17.11:023][828]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2014.12.08-03.17.11:023][828]LogModuleManager: Shutting down and abandoning module Paper2DEditor (72)
+[2014.12.08-03.17.11:051][828]LogModuleManager: Shutting down and abandoning module Claudia (71)
+[2014.12.08-03.17.11:051][828]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.08-03.17.11:064][828]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.08-03.17.11:165][828]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.08-03.17.11:165][828]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.08-03.17.11:168][828]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.08-03.17.11:168][828]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.08-03.17.11:168][828]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.08-03.17.11:168][828]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.08-03.17.11:168][828]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.08-03.17.11:187][828]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.08-03.17.11:187][828]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.08-03.17.11:187][828]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.08-03.17.11:222][828]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.08-03.17.11:292][828]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.08-03.17.11:314][828]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.08-03.17.11:314][828]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.08-03.17.11:314][828]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.08-03.17.11:316][828]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.08-03.17.11:337][828]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.08-03.17.11:418][828]LogDerivedDataCache: Shutdown
+[2014.12.08-03.17.11:418][828]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.08-03.17.11:428][828]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.08-03.17.11:428][828]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.08-03.17.11:442][828]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.08-03.17.11:464][828]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.08-03.17.11:464][828]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.08-03.17.11:464][828]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.08-03.17.11:464][828]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.08-03.17.11:493][828]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.08-03.17.11:493][828]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.08-03.17.11:493][828]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.08-03.17.11:493][828]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.08-03.17.11:493][828]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.08-03.17.11:493][828]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.08-03.17.11:511][828]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.08-03.17.11:511][828]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.08-03.17.11:527][828]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.08-03.17.11:543][828]LogExit: Exiting.
+[2014.12.08-03.17.11:549][828]Log file closed, 12/08/14 14:17:11
+>>>>>>> Stashed changes
